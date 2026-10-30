@@ -1,4 +1,4 @@
-# 사이비 호텔 — 공통 용어
+# Dread-to-Dead: Fears Go Round — 공통 용어
 
 > v0.3 · 2026-10-30 · 용어 기준. 판정은 [rules.md](rules.md), 표현은 [arts.md](arts.md), 능력 검토는 [ability_checklist.md](ability_checklist.md)를 따른다.
 

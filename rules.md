@@ -1,4 +1,4 @@
-# 사이비 호텔 — 핵심 규칙
+# Dread-to-Dead: Fears Go Round — 핵심 규칙
 
 > 2026-10-30 압축본. **확정 판정의 기준 문서**이며, §8은 설계·검증 방향이다. 미확정 수치·운영안은 [undecided.md](undecided.md)에만 기록한다. 용어는 [terms.md](terms.md), 표현은 [arts.md](arts.md), 능력 검토는 [ability_checklist.md](ability_checklist.md)를 따른다.
 

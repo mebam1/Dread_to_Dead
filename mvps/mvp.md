@@ -1,4 +1,4 @@
-# 사이비 호텔 — MVP 제작·검증 계획
+# Dread-to-Dead: Fears Go Round — MVP 제작·검증 계획
 
 > 2026-10-30 압축본. 규칙은 [rules.md](../rules.md), 시험 절차는 [설정 9](mvp-config-9.md)를 따른다. 범위·수치·콘텐츠 제안은 [undecided.md](../undecided.md#u-mvp)에 모았다. 아래 설정 8 기록은 **옛 규칙의 시연**이다.
 

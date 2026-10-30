@@ -1,4 +1,4 @@
-# 사이비 호텔 — 아트 및 표현 원칙
+# Dread-to-Dead: Fears Go Round — 아트 및 표현 원칙
 
 > v0.3 · 2026-10-30 · **설계 방향**을 정리한 문서. 화풍·제작 사양의 확정을 뜻하지 않는다. 판정은 [rules.md](rules.md), 용어는 [terms.md](terms.md), 능력 검토는 [ability_checklist.md](ability_checklist.md)를 따른다.
 
