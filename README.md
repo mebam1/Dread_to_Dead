@@ -1,6 +1,6 @@
 # Dread-to-Dead: Fears Go Round
 
-직원을 융합한 괴이로 원형 호텔을 설계하고, 반복 방문하는 손님·보스를 공포로 처치하는 경영 게임. 빠른 처치로 호텔을 지킬지, 더 큰 초과 공포로 투자 재화를 벌지 선택한다.
+직원을 융합한 괴이로 원형 호텔을 설계하는 경영 게임. 괴이가 상태를 공급·수확해 손님을 처치하고, 직원은 괴이를 보호한다. 처치 고정 보상으로 투자하며 손님별 공격 패턴에 대응한다.
 
 | 문서 | 역할 |
 |---|---|
@@ -9,7 +9,11 @@
 | [arts.md](arts.md) | 표현·정보 전달 원칙 |
 | [ability_checklist.md](ability_checklist.md) | 능력 설계·검토 기준 |
 | [mvps/mvp.md](mvps/mvp.md) | 제작·검증 절차와 과거 시연 기록 |
-| [mvps/mvp-config-9.md](mvps/mvp-config-9.md) | 설정 9 실행·기록 안내 |
+| [mvps/mvp-config-9.md](mvps/mvp-config-9.md) | 설정 9의 과거 실행·기록 안내 |
+| [mvps/mvp-config-10.md](mvps/mvp-config-10.md) | 설정 10의 과거 config·관찰 절차 |
+| [mvps/mvp-config-11.md](mvps/mvp-config-11.md) | 현행 규칙의 공격 연결·직원 지원 실험 config |
+| [mvps/legacy-specs-9-10.md](mvps/legacy-specs-9-10.md) | 설정 9·10의 과거 시험 명세 |
+| [competing_products/slay_the_spire.md](competing_products/slay_the_spire.md) | 카드·메커니즘 레퍼런스와 적용 아이디어 |
 | [undecided.md](undecided.md) | 미확정 규칙·시험값·콘텐츠 후보의 단일 보관처 |
 | [CHANGELOG.md](CHANGELOG.md) | 주요 개정 이력 |
 
