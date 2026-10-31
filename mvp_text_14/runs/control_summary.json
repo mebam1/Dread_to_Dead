@@ -1,0 +1,409 @@
+{
+  "policy": {
+    "version": "public-one-turn-control14-v2",
+    "revision": "Terminal escape gives no credit for unearned fear. Earlier v1 pilot is excluded; normal manual campaigns unaffected.",
+    "horizon": "one revealed turn plus explicit asset/resource values",
+    "weights": {
+      "fear_progress": 12,
+      "kill": 1200,
+      "immediate_kill_bonus": 80,
+      "anxiety_first_three": 10,
+      "anxiety_remaining": 4,
+      "current_C": 1,
+      "G_reserve": 35,
+      "B_reserve": 45,
+      "turn_cost": 8,
+      "escape_guest_nominal_fear": 12,
+      "escape_skipped_next_guest": 200
+    },
+    "P_loss_destroy_weights": {
+      "U": [
+        80,
+        240
+      ],
+      "Q": [
+        50,
+        120
+      ],
+      "B": [
+        60,
+        120
+      ],
+      "G": [
+        45,
+        100
+      ]
+    },
+    "random_penalty": "Expected direct C/P cost across visible living targets; no actual target queried",
+    "guard_plans": "All useful incoming-hit allocations, plus one no-hit shield to expose legal activity reset",
+    "limits": "A heuristic control policy, not a full-run optimizer or evidence of human preference. Fixed before control runs."
+  },
+  "rng_version": "sha256-seed-stream-service-guest-turn-kind:python-random-v2",
+  "c14": [
+    {
+      "file": "control_C14_14001_service0.json",
+      "seed": 14001,
+      "service": 0,
+      "turns": 8,
+      "skipped": [],
+      "mismatch": null,
+      "normal_fear": 44,
+      "control_fear": 44,
+      "normal_P": {
+        "U01": 2,
+        "G01": 1,
+        "Q01": 1,
+        "Q02": 2,
+        "B01": 1
+      },
+      "control_P": {
+        "U01": 2,
+        "G01": 1,
+        "Q01": 1,
+        "Q02": 2,
+        "B01": 1
+      }
+    },
+    {
+      "file": "control_C14_14001_service1.json",
+      "seed": 14001,
+      "service": 1,
+      "turns": 8,
+      "skipped": [
+        {
+          "guest": "V4",
+          "turn": 2,
+          "actions": [
+            {
+              "owner": "G01",
+              "target": "B01",
+              "reason": "No charges"
+            }
+          ]
+        },
+        {
+          "guest": "V4",
+          "turn": 4,
+          "actions": [
+            {
+              "owner": "B01",
+              "target": null,
+              "reason": "Owner must be alive, deployed, in active phase"
+            }
+          ]
+        }
+      ],
+      "mismatch": {
+        "reason": "first_guest_or_service_end_mismatch",
+        "guest": "V4",
+        "turn": 4,
+        "normal_phase": "visitor_end",
+        "control_phase": "turn_ready"
+      },
+      "normal_fear": 60,
+      "control_fear": 54,
+      "normal_P": {
+        "U01": 2,
+        "G01": 2,
+        "Q01": 2,
+        "Q02": 2,
+        "B01": 1
+      },
+      "control_P": {
+        "U01": 1,
+        "G01": 2,
+        "Q01": 1,
+        "Q02": 2,
+        "B01": 0
+      }
+    },
+    {
+      "file": "control_C14_14002_service0.json",
+      "seed": 14002,
+      "service": 0,
+      "turns": 7,
+      "skipped": [
+        {
+          "guest": "V2",
+          "turn": 5,
+          "actions": [
+            {
+              "owner": "G01",
+              "target": "Q01",
+              "reason": "No charges"
+            }
+          ]
+        }
+      ],
+      "mismatch": null,
+      "normal_fear": 54,
+      "control_fear": 54,
+      "normal_P": {
+        "U01": 2,
+        "G01": 2,
+        "Q01": 2,
+        "Q02": 2,
+        "B01": 1
+      },
+      "control_P": {
+        "U01": 2,
+        "G01": 2,
+        "Q01": 1,
+        "Q02": 2,
+        "B01": 1
+      }
+    },
+    {
+      "file": "control_C14_14002_service1.json",
+      "seed": 14002,
+      "service": 1,
+      "turns": 7,
+      "skipped": [],
+      "mismatch": null,
+      "normal_fear": 56,
+      "control_fear": 56,
+      "normal_P": {
+        "U01": 1,
+        "G01": 2,
+        "Q01": 1,
+        "Q02": 2,
+        "B01": 1
+      },
+      "control_P": {
+        "U01": 1,
+        "G01": 2,
+        "Q01": 1,
+        "Q02": 2,
+        "B01": 1
+      }
+    },
+    {
+      "file": "control_C14_14003_service0.json",
+      "seed": 14003,
+      "service": 0,
+      "turns": 5,
+      "skipped": [],
+      "mismatch": null,
+      "normal_fear": 52,
+      "control_fear": 52,
+      "normal_P": {
+        "U01": 2,
+        "G01": 1,
+        "Q01": 1,
+        "Q02": 1,
+        "B01": 1
+      },
+      "control_P": {
+        "U01": 2,
+        "G01": 1,
+        "Q01": 1,
+        "Q02": 1,
+        "B01": 1
+      }
+    },
+    {
+      "file": "control_C14_14003_service1.json",
+      "seed": 14003,
+      "service": 1,
+      "turns": 10,
+      "skipped": [],
+      "mismatch": null,
+      "normal_fear": 68,
+      "control_fear": 68,
+      "normal_P": {
+        "U01": 1,
+        "G01": 1,
+        "Q01": 1,
+        "Q02": 1,
+        "B01": 1
+      },
+      "control_P": {
+        "U01": 1,
+        "G01": 1,
+        "Q01": 1,
+        "Q02": 1,
+        "B01": 1
+      }
+    }
+  ],
+  "observed": {
+    "D3_kill_or_charge": {
+      "status": "observed",
+      "source": "normal_14003_M14.json",
+      "note": "Policy-selected recharge may spend a charge defending G first. Separate bank branch forces net reserve increase when legal, without changing policy weights.",
+      "branches": [
+        {
+          "file": "control_D3_immediate_kill.json",
+          "turns": 9,
+          "final_phase": "complete",
+          "kills": 2,
+          "fear": 58,
+          "final_P": {
+            "U01": 1,
+            "G01": 1,
+            "Q01": 2,
+            "Q02": 1,
+            "B01": 1
+          },
+          "final_G": 0,
+          "source_guest": "V3",
+          "source_turn": 2
+        },
+        {
+          "file": "control_D3_charge_first.json",
+          "turns": 10,
+          "final_phase": "complete",
+          "kills": 2,
+          "fear": 58,
+          "final_P": {
+            "U01": 1,
+            "G01": 1,
+            "Q01": 2,
+            "Q02": 1,
+            "B01": 1
+          },
+          "final_G": 0,
+          "source_guest": "V3",
+          "source_turn": 2
+        },
+        {
+          "file": "control_D3_charge_bank.json",
+          "turns": 9,
+          "final_phase": "complete",
+          "kills": 2,
+          "fear": 48,
+          "final_P": {
+            "U01": 2,
+            "G01": 0,
+            "Q01": 2,
+            "Q02": 1,
+            "B01": 1
+          },
+          "final_G": 0,
+          "source_guest": "V3",
+          "source_turn": 2
+        }
+      ]
+    },
+    "D3_near_penalty": {
+      "status": "not_observed"
+    },
+    "D4_escape": {
+      "status": "observed",
+      "source": "normal_14001_M14.json",
+      "trigger_text": "현재 눈은 빈4층 또는 불안 없는 Q02뿐이다. Q에서 공포 없이 C6을 받기보다 빈층으로 이동한다. 비활동은 첫1턴이라 허용하고 벨을 카운터 초기화만 하려고 낭비하지 않는다. 아직 공급과 두 수확자가 살아 있어 탈출하지 않는다. F14이므로 벨 도착2만으로 첫 H를 넘기고 액티브1회를 남기고 싶다. A0 수확은 무의미하고, 남긴 벨6은 마지막 H에서 공급과 수확을 보충할 수 있다.",
+      "trigger": "first explicit exit mention; not proof exit was needed",
+      "branches": [
+        {
+          "file": "control_D4_continue.json",
+          "turns": 4,
+          "final_phase": "management",
+          "kills": 1,
+          "fear": 18,
+          "final_P": {
+            "U01": 2,
+            "G01": 1,
+            "Q01": 2,
+            "Q02": 2,
+            "B01": 1
+          },
+          "final_G": 0,
+          "source_guest": "V2",
+          "source_turn": 3
+        },
+        {
+          "file": "control_D4_open_exit.json",
+          "turns": 1,
+          "final_phase": "management",
+          "kills": 0,
+          "fear": 0,
+          "final_P": {
+            "U01": 2,
+            "G01": 2,
+            "Q01": 2,
+            "Q02": 2,
+            "B01": 1
+          },
+          "final_G": 2,
+          "source_guest": "V2",
+          "source_turn": 3
+        }
+      ]
+    },
+    "B_early_spend_alternative": {
+      "status": "observed",
+      "source": "normal_14001_M14.json",
+      "guest": "V4",
+      "turn": 2,
+      "interpretation": "Exploratory M14 same-state early-B sacrifice alternative plus matched C14 state; fixed public policy thereafter, not optimality proof.",
+      "branches": [
+        {
+          "file": "control_B_rescue_then_policy.json",
+          "turns": 3,
+          "final_phase": "complete",
+          "kills": 1,
+          "fear": 36,
+          "final_P": {
+            "U01": 2,
+            "G01": 2,
+            "Q01": 2,
+            "Q02": 2,
+            "B01": 1
+          },
+          "final_G": 1,
+          "source_guest": "V4",
+          "source_turn": 2
+        },
+        {
+          "file": "control_B_early_spend_M14_then_policy.json",
+          "turns": 4,
+          "final_phase": "complete",
+          "kills": 1,
+          "fear": 44,
+          "final_P": {
+            "U01": 2,
+            "G01": 2,
+            "Q01": 2,
+            "Q02": 2,
+            "B01": 0
+          },
+          "final_G": 0,
+          "source_guest": "V4",
+          "source_turn": 2
+        },
+        {
+          "file": "control_B_early_spend_C14_then_policy.json",
+          "turns": 6,
+          "final_phase": "complete",
+          "kills": 1,
+          "fear": 44,
+          "final_P": {
+            "U01": 1,
+            "G01": 2,
+            "Q01": 2,
+            "Q02": 2,
+            "B01": 0
+          },
+          "final_G": 0,
+          "source_guest": "V4",
+          "source_turn": 2
+        }
+      ]
+    }
+  },
+  "space": {
+    "file": "control_D4_space.json",
+    "empty_exit": true,
+    "full_exit": false,
+    "full_observed_turns": 24,
+    "full_empty_target_penalties": 11,
+    "full_unchanged_FHA": true
+  },
+  "source_hashes": {
+    "mvp_text_14/engine.py": "08e7c4492baaa9272f56253a8b2e0013cdb2fca6538a523a897cfb6a840200da",
+    "mvp_text_14/planner.py": "fa8346de70bc34a79bf244ff8281be9a2eec3c3f634c12a813ba977da3fbc006",
+    "mvp_text_14/controls.py": "061390d83664ae9d54c217a5f2e55effdf3821461d1ecf63f76acc4bd99a58f0",
+    "mvps/mvp-config-14.md": "0968a48f82b1384e4c51bd729f39006d04e1dfdb6a800a67e29ff45b8ff13238",
+    "undecided.md": "b76003e6932093e6b5203987982f058e79ecd9b5ef251bb63d128dcccce94a1b"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dread-to-dead-user-prototype-1",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dread-to-Dead 사용자 설정 1 기반 웹 게임 프로토타입",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test engine.test.js app-view.test.js"
+  }
+}

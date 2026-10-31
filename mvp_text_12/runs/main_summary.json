@@ -1,0 +1,29 @@
+{
+  "mode": "normal_manual_assistant",
+  "seed": 20261031,
+  "turns": 14,
+  "kills": 4,
+  "breaks": 7,
+  "destroyed": 1,
+  "actives": {
+    "B": 4,
+    "G": 3
+  },
+  "visitor_turns": {
+    "V1": 1,
+    "V2": 6,
+    "V3": 3,
+    "V4": 4
+  },
+  "cash": 4,
+  "grant": 4,
+  "earned": 8,
+  "spent": 8,
+  "final_phase": "complete",
+  "forced_rolls": 0,
+  "replay_verified": true,
+  "independent_unit_tests": 30,
+  "diagnostic_branches": 18,
+  "diagnostic_turns": 84,
+  "fixed_diagnostic_checks": 26
+}
