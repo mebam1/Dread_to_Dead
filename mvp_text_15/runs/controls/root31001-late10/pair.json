@@ -1,0 +1,26 @@
+{
+  "classification": "control-branch-preparation",
+  "source": "C:\\Users\\mebam\\Sol\\Dread_to_Dead\\mvp_text_15\\runs\\checkpoints\\normal_31001-a3-tenth-floor-before.json",
+  "sourceSHA256": "010df66ca6fc25e5abafbbd1e1c1351c1c4e04a3a14fa8d02e9b667c6fa86427",
+  "nodeId": "a3-d6-c0",
+  "seed": 31001,
+  "act": 3,
+  "cost": 10,
+  "beforeFloor": 9,
+  "afterFloor": 10,
+  "souls": {
+    "before": 36,
+    "paid": 26,
+    "skip": 36
+  },
+  "pairedControls": [
+    "same seed",
+    "same inventory/initial placement/durability/equipment",
+    "same expansion-node visit",
+    "same legal next-node choices"
+  ],
+  "requiredContinuation": "Continue both branches to the same public-information policy and planned route. Permit legal branch-specific placements and purchases; record them. Do not inspect one branch future before deciding the other.",
+  "opportunityLimit": "This pair conditions on having visited the expansion node. It includes the soul fee and future spending differences, but excludes the alternative node that was not visited.",
+  "classificationInheritedFromSource": "control-source",
+  "normalPlayEvidence": false
+}

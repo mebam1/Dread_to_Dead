@@ -1,0 +1,82 @@
+{
+  "classification": "direct-AI-play-and-adapted-control",
+  "normalFinal": {
+    "phase": "won",
+    "stats": {
+      "kills": 22,
+      "escaped": 0,
+      "skipped": 0,
+      "earned": 70,
+      "spent": 45,
+      "destroyed": 1,
+      "visits": 24,
+      "combats": 10,
+      "expansions": 4,
+      "expansionSpent": 28,
+      "eventRemoved": 0
+    },
+    "money": 29,
+    "floors": 10,
+    "turns": 99
+  },
+  "pairedSource": "runs/checkpoints/normal_31002-a1-second-expansion.json",
+  "paidObservation": "runs/normal_31002.json history for a1-d7-c1 and a1-d8-c1; generated paid.json not continued",
+  "skipObservation": "runs/control31002/a1-paid-skip/skip.json",
+  "nodes": {
+    "a1-d7-c1": {
+      "normalPaid": {
+        "turns": 4,
+        "kills": 3,
+        "tokenLoss": 0,
+        "destroyed": 0,
+        "fear": 36
+      },
+      "adaptedSkip": {
+        "turns": 4,
+        "kills": 3,
+        "tokenLoss": 0,
+        "destroyed": 0,
+        "fear": 36
+      }
+    },
+    "a1-d8-c1": {
+      "normalPaid": {
+        "turns": 6,
+        "kills": 1,
+        "tokenLoss": 2,
+        "destroyed": 1,
+        "fear": 48
+      },
+      "adaptedSkip": {
+        "turns": 5,
+        "kills": 1,
+        "tokenLoss": 1,
+        "destroyed": 0,
+        "fear": 45
+      }
+    }
+  },
+  "confounders": [
+    "same inventory, equipment, next route and node-keyed face indices; placements differ by legal free substitution",
+    "skip restored existing Bell instead of second supplier; this is a practical alternative layout comparison, not pure empty-floor geometry",
+    "control was played after normal campaign; it is retrospective and cannot revise original choice"
+  ],
+  "skipActEnd": {
+    "phase": "map",
+    "act": 2,
+    "money": 21,
+    "stats": {
+      "kills": 10,
+      "escaped": 0,
+      "skipped": 0,
+      "earned": 24,
+      "spent": 7,
+      "destroyed": 0,
+      "visits": 8,
+      "combats": 4,
+      "expansions": 0,
+      "expansionSpent": 0,
+      "eventRemoved": 0
+    }
+  }
+}

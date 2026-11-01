@@ -1,0 +1,5292 @@
+{
+  "kind": "dread-to-dead-text-15",
+  "schemaVersion": 1,
+  "protocol": "user-3 / expansion-value / config-15",
+  "classification": "control-branch",
+  "createdAt": "2026-11-01T08:58:42.454Z",
+  "state": {
+    "seed": 31002,
+    "round": 17,
+    "guestIndex": 0,
+    "phase": "map",
+    "entities": [
+      {
+        "id": "e1",
+        "type": "U",
+        "floor": 1,
+        "c": 0,
+        "p": 2,
+        "uses": 0,
+        "shield": 0
+      },
+      {
+        "id": "e2",
+        "type": "Q",
+        "floor": 3,
+        "c": 0,
+        "p": 1,
+        "uses": 0,
+        "shield": 0
+      },
+      {
+        "id": "e3",
+        "type": "Q",
+        "floor": 5,
+        "c": 0,
+        "p": 2,
+        "uses": 0,
+        "shield": 0
+      },
+      {
+        "id": "e4",
+        "type": "B",
+        "floor": null,
+        "c": 0,
+        "p": 1,
+        "uses": 0,
+        "shield": 0
+      },
+      {
+        "id": "e5",
+        "type": "E",
+        "floor": 2,
+        "c": 0,
+        "p": 1,
+        "uses": 0,
+        "shield": 0
+      },
+      {
+        "id": "e6",
+        "type": "G",
+        "floor": 4,
+        "c": 0,
+        "p": 2,
+        "uses": 2,
+        "shield": 0
+      },
+      {
+        "id": "e7",
+        "type": "U",
+        "floor": 6,
+        "c": 0,
+        "p": 2,
+        "uses": 0,
+        "shield": 0
+      },
+      {
+        "id": "e8",
+        "type": "Q",
+        "floor": null,
+        "c": 0,
+        "p": 2,
+        "uses": 0,
+        "shield": 0
+      }
+    ],
+    "nextId": 9,
+    "money": 5,
+    "floorCount": 7,
+    "equipped": [
+      "even",
+      "normal",
+      "normal"
+    ],
+    "dice": [],
+    "chosen": null,
+    "chosenSlot": null,
+    "choiceEffect": null,
+    "visitor": null,
+    "escape": null,
+    "inactive": 0,
+    "inactiveLimit": 3,
+    "activity": false,
+    "stats": {
+      "kills": 6,
+      "escaped": 0,
+      "skipped": 0,
+      "earned": 12,
+      "spent": 11,
+      "destroyed": 0,
+      "visits": 6,
+      "combats": 2,
+      "expansions": 1,
+      "expansionSpent": 4,
+      "eventRemoved": 0
+    },
+    "logs": [
+      "새 모험 · 1막 · 6층 · 영혼 4 · 일반 주사위 3개",
+      "1막 1번째 · normal 방문",
+      "전투 준비 최초 진입 · 생존 괴이의 공략도·파훼 토큰·직접 사용 잔량 복구",
+      "영업 시작 · 준비에서 완료한 복구를 반복하지 않습니다.",
+      "성급한 투숙객 입장 · 공포 한계 12 · 심장 1",
+      "주사위 공개",
+      "2번 일반 주사위 · 2칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "1층 통과",
+      "1층 문틈의 속삭임 통과 · 불안 0 → 2",
+      "2층 도착",
+      "2층 빈층으로 공격 빗나감",
+      "2층 빈층으로 공격 빗나감",
+      "주사위 공개",
+      "3번 일반 주사위 · 6칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "3층 통과",
+      "4층 통과",
+      "5층 통과",
+      "6층 통과",
+      "1층 통과",
+      "1층 문틈의 속삭임 통과 · 불안 2 → 4",
+      "2층 도착",
+      "2층 빈층으로 공격 빗나감",
+      "2층 빈층으로 공격 빗나감",
+      "주사위 공개",
+      "1번 일반 주사위 · 1칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "3층 도착",
+      "3층 불안 3 소비",
+      "이름을 부르는 객실 도착 · 공포 0 → 12",
+      "심장마비 · 남은 심장 0",
+      "성급한 투숙객 처치 · 영혼 +2",
+      "성급한 투숙객 입장 · 공포 한계 12 · 심장 1",
+      "주사위 공개",
+      "1번 일반 주사위 · 4칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "1층 통과",
+      "1층 문틈의 속삭임 통과 · 불안 0 → 2",
+      "2층 통과",
+      "3층 통과",
+      "4층 도착",
+      "4층 빈층으로 공격 빗나감",
+      "4층 빈층으로 공격 빗나감",
+      "주사위 공개",
+      "2번 일반 주사위 · 5칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "5층 통과",
+      "6층 통과",
+      "1층 통과",
+      "1층 문틈의 속삭임 통과 · 불안 2 → 4",
+      "2층 통과",
+      "3층 도착",
+      "3층 불안 3 소비",
+      "이름을 부르는 객실 도착 · 공포 0 → 12",
+      "심장마비 · 남은 심장 0",
+      "성급한 투숙객 처치 · 영혼 +2",
+      "복도 점검원 입장 · 공포 한계 12 · 심장 1",
+      "주사위 공개",
+      "1번 일반 주사위 · 4칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "6층 빈 프런트의 호출벨 직접 사용 · 남은 1회",
+      "빈 프런트의 호출벨 · 공포 0 → 3",
+      "6층 빈 프런트의 호출벨 직접 사용 · 남은 0회",
+      "빈 프런트의 호출벨 · 공포 3 → 6",
+      "1층 통과",
+      "1층 문틈의 속삭임 통과 · 불안 0 → 2",
+      "2층 통과",
+      "3층 통과",
+      "4층 도착",
+      "1층 문틈의 속삭임 · 공략도 0 → 4 · 파훼 토큰 2 → 2",
+      "2층 빈층으로 공격 빗나감",
+      "3층 이름을 부르는 객실 · 공략도 0 → 4 · 파훼 토큰 2 → 2",
+      "4층 빈층으로 공격 빗나감",
+      "주사위 공개",
+      "3번 일반 주사위 · 5칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "5층 통과",
+      "6층 통과",
+      "1층 통과",
+      "1층 문틈의 속삭임 통과 · 불안 2 → 4",
+      "2층 통과",
+      "3층 도착",
+      "3층 불안 3 소비",
+      "이름을 부르는 객실 도착 · 공포 6 → 18",
+      "심장마비 · 남은 심장 0",
+      "복도 점검원 처치 · 영혼 +2",
+      "normal 전투 clear",
+      "괴이 3개 중 1개 무료 선택",
+      "따라오는 발자국 무료 획득 · 새 개체 보관함 추가",
+      "1막 1/8 완료 · clear",
+      "2층에 따라오는 발자국 배치",
+      "1막 2번째 · discovery 방문",
+      "discovery 제시물 공개",
+      "1번 일반 주사위 → 짝수 주사위 · 영혼 증감 없음",
+      "1막 2/8 완료 · die",
+      "1막 3번째 · expansion 방문",
+      "expansion 제시물 공개",
+      "1막 3/8 완료 · leave",
+      "1막 4번째 · normal 방문",
+      "전투 준비 최초 진입 · 생존 괴이의 공략도·파훼 토큰·직접 사용 잔량 복구",
+      "영업 시작 · 준비에서 완료한 복구를 반복하지 않습니다.",
+      "복도 점검원 입장 · 공포 한계 12 · 심장 1",
+      "주사위 공개",
+      "2번 일반 주사위 · 2칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "1층 통과",
+      "1층 문틈의 속삭임 통과 · 불안 0 → 2",
+      "2층 도착",
+      "2층 따라오는 발자국 도착 · 불안 2 → 3",
+      "1층 문틈의 속삭임 · 공략도 0 → 4 · 파훼 토큰 2 → 2",
+      "2층 따라오는 발자국 · 공략도 0 → 4 · 파훼 토큰 1 → 1",
+      "주사위 공개",
+      "1번 짝수 주사위 · 2칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "3층 통과",
+      "4층 도착",
+      "3층 이름을 부르는 객실 · 공략도 0 → 4 · 파훼 토큰 2 → 2",
+      "4층 빈층으로 공격 빗나감",
+      "비활동 1턴 · 기준 3",
+      "주사위 공개",
+      "2번 일반 주사위 · 4칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "5층 통과",
+      "6층 통과",
+      "1층 통과",
+      "1층 문틈의 속삭임 통과 · 불안 3 → 5",
+      "2층 도착",
+      "2층 따라오는 발자국 도착 · 불안 5 → 6",
+      "5층 이름을 부르는 객실 · 공략도 0 → 4 · 파훼 토큰 2 → 2",
+      "6층 빈 프런트의 호출벨 · 공략도 0 → 4 · 파훼 토큰 1 → 1",
+      "1층 문틈의 속삭임 · 공략도 4 → 8 · 파훼 토큰 2 → 2",
+      "2층 따라오는 발자국 · 공략도 4 → 8 · 파훼 토큰 1 → 1",
+      "주사위 공개",
+      "2번 일반 주사위 · 1칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "3층 도착",
+      "3층 불안 3 소비",
+      "이름을 부르는 객실 도착 · 공포 0 → 12",
+      "심장마비 · 남은 심장 0",
+      "복도 점검원 처치 · 영혼 +2",
+      "옆방을 확인하는 손님 입장 · 공포 한계 16 · 심장 1",
+      "주사위 공개",
+      "3번 일반 주사위 · 5칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "6층 빈 프런트의 호출벨 직접 사용 · 남은 1회",
+      "빈 프런트의 호출벨 · 공포 0 → 3",
+      "6층 빈 프런트의 호출벨 직접 사용 · 남은 0회",
+      "빈 프런트의 호출벨 · 공포 3 → 6",
+      "1층 통과",
+      "1층 문틈의 속삭임 통과 · 불안 0 → 2",
+      "2층 통과",
+      "2층 따라오는 발자국 통과 · 불안 2 → 4",
+      "3층 통과",
+      "4층 통과",
+      "5층 도착",
+      "5층 불안 3 소비",
+      "이름을 부르는 객실 도착 · 공포 6 → 18",
+      "심장마비 · 남은 심장 0",
+      "옆방을 확인하는 손님 처치 · 영혼 +2",
+      "두 번 확인하는 손님 입장 · 공포 한계 12 · 심장 2",
+      "주사위 공개",
+      "2번 일반 주사위 · 3칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "1층 통과",
+      "1층 문틈의 속삭임 통과 · 불안 0 → 2",
+      "2층 통과",
+      "2층 따라오는 발자국 통과 · 불안 2 → 4",
+      "3층 도착",
+      "3층 불안 3 소비",
+      "이름을 부르는 객실 도착 · 공포 0 → 12",
+      "심장마비 · 남은 심장 1",
+      "3층 이름을 부르는 객실 · 공략도 0 → 6 · 파훼 토큰 2 → 2",
+      "3층 이름을 부르는 객실 · 공략도 6 → 0 · 파훼 토큰 2 → 1",
+      "주사위 공개",
+      "3번 일반 주사위 · 1칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "4층 도착",
+      "4층 빈층으로 공격 빗나감",
+      "4층 빈층으로 공격 빗나감",
+      "비활동 1턴 · 기준 3",
+      "주사위 공개",
+      "2번 일반 주사위 · 5칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+      "5층 통과",
+      "6층 통과",
+      "1층 통과",
+      "1층 문틈의 속삭임 통과 · 불안 1 → 3",
+      "2층 통과",
+      "2층 따라오는 발자국 통과 · 불안 3 → 6",
+      "3층 도착",
+      "3층 불안 3 소비",
+      "이름을 부르는 객실 도착 · 공포 0 → 12",
+      "심장마비 · 남은 심장 0",
+      "두 번 확인하는 손님 처치 · 영혼 +2",
+      "normal 전투 clear",
+      "괴이 3개 중 1개 무료 선택",
+      "닫히지 않는 방화문 무료 획득 · 새 개체 보관함 추가",
+      "1막 4/8 완료 · clear",
+      "4층에 닫히지 않는 방화문 배치",
+      "1막 5번째 · shop 방문",
+      "shop 제시물 공개",
+      "문틈의 속삭임 구매 · 영혼 3 사용 · 보관함 추가",
+      "이름을 부르는 객실 구매 · 영혼 4 사용 · 보관함 추가",
+      "6층에 문틈의 속삭임 배치 · 기존 괴이는 보관함으로 이동",
+      "1막 5/8 완료 · leave",
+      "1막 6번째 · expansion 방문",
+      "expansion 제시물 공개",
+      "6층 → 7층 · 영혼 4 사용",
+      "1막 6/8 완료 · leave"
+    ],
+    "history": [
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "start",
+        "text": "새 모험 · 1막 · 6층 · 영혼 4 · 일반 주사위 3개",
+        "act": 1,
+        "nodeId": null
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "visit",
+        "text": "1막 1번째 · normal 방문",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "kindName": "normal",
+        "depth": 1,
+        "column": 0
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "restore",
+        "text": "전투 준비 최초 진입 · 생존 괴이의 공략도·파훼 토큰·직접 사용 잔량 복구",
+        "act": 1,
+        "nodeId": "a1-d1-c0"
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "service_start",
+        "text": "영업 시작 · 준비에서 완료한 복구를 반복하지 않습니다.",
+        "act": 1,
+        "nodeId": "a1-d1-c0"
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "guest_start",
+        "text": "성급한 투숙객 입장 · 공포 한계 12 · 심장 1",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "guest": {
+          "name": "성급한 투숙객",
+          "t": 12,
+          "h": 1,
+          "reward": 2,
+          "pattern": "double",
+          "attackText": "도착층에 공략도 6씩 두 번",
+          "id": "N1",
+          "attackBonus": 0
+        }
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "normal",
+            "face": 2,
+            "value": 3,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 1,
+            "value": 2,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 5,
+            "value": 6,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "choose",
+        "text": "2번 일반 주사위 · 2칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "slot": 1,
+        "type": "normal",
+        "face": 1,
+        "value": 2,
+        "bonus": 0,
+        "name": "일반 주사위"
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "move",
+        "text": "1층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 1,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "anxiety",
+        "text": "1층 문틈의 속삭임 통과 · 불안 0 → 2",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 1,
+        "source": "문틈의 속삭임 통과",
+        "before": 0,
+        "after": 2,
+        "requested": 2,
+        "amount": 2,
+        "wasted": 0
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "move",
+        "text": "2층 도착",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 2,
+        "arrival": true
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "miss",
+        "text": "2층 빈층으로 공격 빗나감",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 2,
+        "power": 6
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "miss",
+        "text": "2층 빈층으로 공격 빗나감",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 2,
+        "power": 6
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "normal",
+            "face": 3,
+            "value": 4,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 1,
+            "value": 2,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 5,
+            "value": 6,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "choose",
+        "text": "3번 일반 주사위 · 6칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "slot": 2,
+        "type": "normal",
+        "face": 5,
+        "value": 6,
+        "bonus": 0,
+        "name": "일반 주사위"
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "move",
+        "text": "3층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "move",
+        "text": "4층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 4,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "move",
+        "text": "5층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 5,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "move",
+        "text": "6층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 6,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "move",
+        "text": "1층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 1,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "anxiety",
+        "text": "1층 문틈의 속삭임 통과 · 불안 2 → 4",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 1,
+        "source": "문틈의 속삭임 통과",
+        "before": 2,
+        "after": 4,
+        "requested": 2,
+        "amount": 2,
+        "wasted": 0
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "move",
+        "text": "2층 도착",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 2,
+        "arrival": true
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "miss",
+        "text": "2층 빈층으로 공격 빗나감",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 2,
+        "power": 6
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "miss",
+        "text": "2층 빈층으로 공격 빗나감",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 2,
+        "power": 6
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "normal",
+            "face": 0,
+            "value": 1,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 3,
+            "value": 4,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 2,
+            "value": 3,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "choose",
+        "text": "1번 일반 주사위 · 1칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "slot": 0,
+        "type": "normal",
+        "face": 0,
+        "value": 1,
+        "bonus": 0,
+        "name": "일반 주사위"
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "move",
+        "text": "3층 도착",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "arrival": true
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "harvest",
+        "text": "3층 불안 3 소비",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "source": "이름을 부르는 객실",
+        "amount": 3,
+        "before": 4,
+        "after": 1
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "fear",
+        "text": "이름을 부르는 객실 도착 · 공포 0 → 12",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "source": "이름을 부르는 객실 도착",
+        "before": 0,
+        "after": 12,
+        "amount": 12
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "heart",
+        "text": "심장마비 · 남은 심장 0",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "before": 1,
+        "after": 0,
+        "amount": 1
+      },
+      {
+        "round": 0,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "kill",
+        "text": "성급한 투숙객 처치 · 영혼 +2",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "reward": 2
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "guest_start",
+        "text": "성급한 투숙객 입장 · 공포 한계 12 · 심장 1",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "guest": {
+          "name": "성급한 투숙객",
+          "t": 12,
+          "h": 1,
+          "reward": 2,
+          "pattern": "double",
+          "attackText": "도착층에 공략도 6씩 두 번",
+          "id": "N1",
+          "attackBonus": 0
+        }
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "normal",
+            "face": 3,
+            "value": 4,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 4,
+            "value": 5,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 2,
+            "value": 3,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "choose",
+        "text": "1번 일반 주사위 · 4칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "slot": 0,
+        "type": "normal",
+        "face": 3,
+        "value": 4,
+        "bonus": 0,
+        "name": "일반 주사위"
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "move",
+        "text": "1층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 1,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "anxiety",
+        "text": "1층 문틈의 속삭임 통과 · 불안 0 → 2",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 1,
+        "source": "문틈의 속삭임 통과",
+        "before": 0,
+        "after": 2,
+        "requested": 2,
+        "amount": 2,
+        "wasted": 0
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "move",
+        "text": "2층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 2,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "move",
+        "text": "3층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "move",
+        "text": "4층 도착",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 4,
+        "arrival": true
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "miss",
+        "text": "4층 빈층으로 공격 빗나감",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 4,
+        "power": 6
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "miss",
+        "text": "4층 빈층으로 공격 빗나감",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 4,
+        "power": 6
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 2,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "normal",
+            "face": 2,
+            "value": 3,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 4,
+            "value": 5,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 2,
+            "value": 3,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 2,
+        "kind": "choose",
+        "text": "2번 일반 주사위 · 5칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "slot": 1,
+        "type": "normal",
+        "face": 4,
+        "value": 5,
+        "bonus": 0,
+        "name": "일반 주사위"
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 2,
+        "kind": "move",
+        "text": "5층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 5,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 2,
+        "kind": "move",
+        "text": "6층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 6,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 2,
+        "kind": "move",
+        "text": "1층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 1,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 2,
+        "kind": "anxiety",
+        "text": "1층 문틈의 속삭임 통과 · 불안 2 → 4",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 1,
+        "source": "문틈의 속삭임 통과",
+        "before": 2,
+        "after": 4,
+        "requested": 2,
+        "amount": 2,
+        "wasted": 0
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 2,
+        "kind": "move",
+        "text": "2층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 2,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 2,
+        "kind": "move",
+        "text": "3층 도착",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "arrival": true
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 2,
+        "kind": "harvest",
+        "text": "3층 불안 3 소비",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "source": "이름을 부르는 객실",
+        "amount": 3,
+        "before": 4,
+        "after": 1
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 2,
+        "kind": "fear",
+        "text": "이름을 부르는 객실 도착 · 공포 0 → 12",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "source": "이름을 부르는 객실 도착",
+        "before": 0,
+        "after": 12,
+        "amount": 12
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 2,
+        "kind": "heart",
+        "text": "심장마비 · 남은 심장 0",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "before": 1,
+        "after": 0,
+        "amount": 1
+      },
+      {
+        "round": 0,
+        "guestIndex": 1,
+        "turn": 2,
+        "kind": "kill",
+        "text": "성급한 투숙객 처치 · 영혼 +2",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "reward": 2
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "guest_start",
+        "text": "복도 점검원 입장 · 공포 한계 12 · 심장 1",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "guest": {
+          "name": "복도 점검원",
+          "t": 12,
+          "h": 1,
+          "reward": 2,
+          "pattern": "route",
+          "attackText": "이동한 모든 층에 순서대로 공략도 4",
+          "id": "N2",
+          "attackBonus": 0
+        }
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "normal",
+            "face": 3,
+            "value": 4,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 5,
+            "value": 6,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 3,
+            "value": 4,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "choose",
+        "text": "1번 일반 주사위 · 4칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "slot": 0,
+        "type": "normal",
+        "face": 3,
+        "value": 4,
+        "bonus": 0,
+        "name": "일반 주사위"
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "active",
+        "text": "6층 빈 프런트의 호출벨 직접 사용 · 남은 1회",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 6,
+        "entityId": "e4",
+        "beforeUses": 2,
+        "afterUses": 1
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "fear",
+        "text": "빈 프런트의 호출벨 · 공포 0 → 3",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 6,
+        "source": "빈 프런트의 호출벨",
+        "before": 0,
+        "after": 3,
+        "amount": 3
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "active",
+        "text": "6층 빈 프런트의 호출벨 직접 사용 · 남은 0회",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 6,
+        "entityId": "e4",
+        "beforeUses": 1,
+        "afterUses": 0
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "fear",
+        "text": "빈 프런트의 호출벨 · 공포 3 → 6",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 6,
+        "source": "빈 프런트의 호출벨",
+        "before": 3,
+        "after": 6,
+        "amount": 3
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "move",
+        "text": "1층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 1,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "anxiety",
+        "text": "1층 문틈의 속삭임 통과 · 불안 0 → 2",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 1,
+        "source": "문틈의 속삭임 통과",
+        "before": 0,
+        "after": 2,
+        "requested": 2,
+        "amount": 2,
+        "wasted": 0
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "move",
+        "text": "2층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 2,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "move",
+        "text": "3층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "move",
+        "text": "4층 도착",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 4,
+        "arrival": true
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "hit",
+        "text": "1층 문틈의 속삭임 · 공략도 0 → 4 · 파훼 토큰 2 → 2",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 1,
+        "power": 4,
+        "absorbed": 0,
+        "entityId": "e1",
+        "name": "문틈의 속삭임",
+        "beforeC": 0,
+        "afterC": 4,
+        "beforeP": 2,
+        "afterP": 2,
+        "tokenLoss": 0,
+        "damage": 4
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "miss",
+        "text": "2층 빈층으로 공격 빗나감",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 2,
+        "power": 4
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "hit",
+        "text": "3층 이름을 부르는 객실 · 공략도 0 → 4 · 파훼 토큰 2 → 2",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "power": 4,
+        "absorbed": 0,
+        "entityId": "e2",
+        "name": "이름을 부르는 객실",
+        "beforeC": 0,
+        "afterC": 4,
+        "beforeP": 2,
+        "afterP": 2,
+        "tokenLoss": 0,
+        "damage": 4
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "miss",
+        "text": "4층 빈층으로 공격 빗나감",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 4,
+        "power": 4
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "normal",
+            "face": 2,
+            "value": 3,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 3,
+            "value": 4,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 4,
+            "value": 5,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "choose",
+        "text": "3번 일반 주사위 · 5칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "slot": 2,
+        "type": "normal",
+        "face": 4,
+        "value": 5,
+        "bonus": 0,
+        "name": "일반 주사위"
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "move",
+        "text": "5층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 5,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "move",
+        "text": "6층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 6,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "move",
+        "text": "1층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 1,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "anxiety",
+        "text": "1층 문틈의 속삭임 통과 · 불안 2 → 4",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 1,
+        "source": "문틈의 속삭임 통과",
+        "before": 2,
+        "after": 4,
+        "requested": 2,
+        "amount": 2,
+        "wasted": 0
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "move",
+        "text": "2층 통과",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 2,
+        "arrival": false
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "move",
+        "text": "3층 도착",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "arrival": true
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "harvest",
+        "text": "3층 불안 3 소비",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "source": "이름을 부르는 객실",
+        "amount": 3,
+        "before": 4,
+        "after": 1
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "fear",
+        "text": "이름을 부르는 객실 도착 · 공포 6 → 18",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "source": "이름을 부르는 객실 도착",
+        "before": 6,
+        "after": 18,
+        "amount": 12
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "heart",
+        "text": "심장마비 · 남은 심장 0",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "before": 1,
+        "after": 0,
+        "amount": 1
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "kill",
+        "text": "복도 점검원 처치 · 영혼 +2",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "floor": 3,
+        "reward": 2
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "service_end",
+        "text": "normal 전투 clear",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "outcome": "clear"
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "creature_offer",
+        "text": "괴이 3개 중 1개 무료 선택",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "candidates": [
+          "E",
+          "Q",
+          "R"
+        ]
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "creature_reward",
+        "text": "따라오는 발자국 무료 획득 · 새 개체 보관함 추가",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "candidates": [
+          "E",
+          "Q",
+          "R"
+        ],
+        "index": 0,
+        "type": "E",
+        "entityId": "e5"
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "node_complete",
+        "text": "1막 1/8 완료 · clear",
+        "act": 1,
+        "nodeId": "a1-d1-c0",
+        "outcome": "clear",
+        "depth": 1
+      },
+      {
+        "round": 0,
+        "guestIndex": 2,
+        "turn": null,
+        "kind": "place",
+        "text": "2층에 따라오는 발자국 배치",
+        "act": 1,
+        "nodeId": null,
+        "floor": 2,
+        "entityId": "e5"
+      },
+      {
+        "round": 3,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "visit",
+        "text": "1막 2번째 · discovery 방문",
+        "act": 1,
+        "nodeId": "a1-d2-c0",
+        "kindName": "discovery",
+        "depth": 2,
+        "column": 0
+      },
+      {
+        "round": 3,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "node_open",
+        "text": "discovery 제시물 공개",
+        "act": 1,
+        "nodeId": "a1-d2-c0",
+        "contents": {
+          "die": "even"
+        }
+      },
+      {
+        "round": 3,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "die_reward",
+        "text": "1번 일반 주사위 → 짝수 주사위 · 영혼 증감 없음",
+        "act": 1,
+        "nodeId": "a1-d2-c0",
+        "slot": 0,
+        "oldType": "normal",
+        "type": "even",
+        "equipped": [
+          "even",
+          "normal",
+          "normal"
+        ]
+      },
+      {
+        "round": 3,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "node_complete",
+        "text": "1막 2/8 완료 · die",
+        "act": 1,
+        "nodeId": "a1-d2-c0",
+        "outcome": "die",
+        "depth": 2
+      },
+      {
+        "round": 6,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "visit",
+        "text": "1막 3번째 · expansion 방문",
+        "act": 1,
+        "nodeId": "a1-d3-c0",
+        "kindName": "expansion",
+        "depth": 3,
+        "column": 0
+      },
+      {
+        "round": 6,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "node_open",
+        "text": "expansion 제시물 공개",
+        "act": 1,
+        "nodeId": "a1-d3-c0",
+        "contents": {}
+      },
+      {
+        "round": 6,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "node_complete",
+        "text": "1막 3/8 완료 · leave",
+        "act": 1,
+        "nodeId": "a1-d3-c0",
+        "outcome": "leave",
+        "depth": 3
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "visit",
+        "text": "1막 4번째 · normal 방문",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "kindName": "normal",
+        "depth": 4,
+        "column": 1
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "restore",
+        "text": "전투 준비 최초 진입 · 생존 괴이의 공략도·파훼 토큰·직접 사용 잔량 복구",
+        "act": 1,
+        "nodeId": "a1-d4-c1"
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "service_start",
+        "text": "영업 시작 · 준비에서 완료한 복구를 반복하지 않습니다.",
+        "act": 1,
+        "nodeId": "a1-d4-c1"
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "guest_start",
+        "text": "복도 점검원 입장 · 공포 한계 12 · 심장 1",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "guest": {
+          "name": "복도 점검원",
+          "t": 12,
+          "h": 1,
+          "reward": 2,
+          "pattern": "route",
+          "attackText": "이동한 모든 층에 순서대로 공략도 4",
+          "id": "N2",
+          "attackBonus": 0
+        }
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "even",
+            "face": 5,
+            "value": 6,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 1,
+            "value": 2,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 3,
+            "value": 4,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "choose",
+        "text": "2번 일반 주사위 · 2칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "slot": 1,
+        "type": "normal",
+        "face": 1,
+        "value": 2,
+        "bonus": 0,
+        "name": "일반 주사위"
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "move",
+        "text": "1층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 1,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "anxiety",
+        "text": "1층 문틈의 속삭임 통과 · 불안 0 → 2",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 1,
+        "source": "문틈의 속삭임 통과",
+        "before": 0,
+        "after": 2,
+        "requested": 2,
+        "amount": 2,
+        "wasted": 0
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "move",
+        "text": "2층 도착",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 2,
+        "arrival": true
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "anxiety",
+        "text": "2층 따라오는 발자국 도착 · 불안 2 → 3",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 2,
+        "source": "따라오는 발자국 도착",
+        "before": 2,
+        "after": 3,
+        "requested": 1,
+        "amount": 1,
+        "wasted": 0
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "hit",
+        "text": "1층 문틈의 속삭임 · 공략도 0 → 4 · 파훼 토큰 2 → 2",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 1,
+        "power": 4,
+        "absorbed": 0,
+        "entityId": "e1",
+        "name": "문틈의 속삭임",
+        "beforeC": 0,
+        "afterC": 4,
+        "beforeP": 2,
+        "afterP": 2,
+        "tokenLoss": 0,
+        "damage": 4
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 1,
+        "kind": "hit",
+        "text": "2층 따라오는 발자국 · 공략도 0 → 4 · 파훼 토큰 1 → 1",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 2,
+        "power": 4,
+        "absorbed": 0,
+        "entityId": "e5",
+        "name": "따라오는 발자국",
+        "beforeC": 0,
+        "afterC": 4,
+        "beforeP": 1,
+        "afterP": 1,
+        "tokenLoss": 0,
+        "damage": 4
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "even",
+            "face": 1,
+            "value": 2,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 3,
+            "value": 4,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 4,
+            "value": 5,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "choose",
+        "text": "1번 짝수 주사위 · 2칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "slot": 0,
+        "type": "even",
+        "face": 1,
+        "value": 2,
+        "bonus": 0,
+        "name": "짝수 주사위"
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "move",
+        "text": "3층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "move",
+        "text": "4층 도착",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 4,
+        "arrival": true
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "hit",
+        "text": "3층 이름을 부르는 객실 · 공략도 0 → 4 · 파훼 토큰 2 → 2",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "power": 4,
+        "absorbed": 0,
+        "entityId": "e2",
+        "name": "이름을 부르는 객실",
+        "beforeC": 0,
+        "afterC": 4,
+        "beforeP": 2,
+        "afterP": 2,
+        "tokenLoss": 0,
+        "damage": 4
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "miss",
+        "text": "4층 빈층으로 공격 빗나감",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 4,
+        "power": 4
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 2,
+        "kind": "inactivity",
+        "text": "비활동 1턴 · 기준 3",
+        "act": 1,
+        "nodeId": "a1-d4-c1"
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "even",
+            "face": 4,
+            "value": 6,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 3,
+            "value": 4,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 3,
+            "value": 4,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "choose",
+        "text": "2번 일반 주사위 · 4칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "slot": 1,
+        "type": "normal",
+        "face": 3,
+        "value": 4,
+        "bonus": 0,
+        "name": "일반 주사위"
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "move",
+        "text": "5층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 5,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "move",
+        "text": "6층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 6,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "move",
+        "text": "1층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 1,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "anxiety",
+        "text": "1층 문틈의 속삭임 통과 · 불안 3 → 5",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 1,
+        "source": "문틈의 속삭임 통과",
+        "before": 3,
+        "after": 5,
+        "requested": 2,
+        "amount": 2,
+        "wasted": 0
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "move",
+        "text": "2층 도착",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 2,
+        "arrival": true
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "anxiety",
+        "text": "2층 따라오는 발자국 도착 · 불안 5 → 6",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 2,
+        "source": "따라오는 발자국 도착",
+        "before": 5,
+        "after": 6,
+        "requested": 1,
+        "amount": 1,
+        "wasted": 0
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "hit",
+        "text": "5층 이름을 부르는 객실 · 공략도 0 → 4 · 파훼 토큰 2 → 2",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 5,
+        "power": 4,
+        "absorbed": 0,
+        "entityId": "e3",
+        "name": "이름을 부르는 객실",
+        "beforeC": 0,
+        "afterC": 4,
+        "beforeP": 2,
+        "afterP": 2,
+        "tokenLoss": 0,
+        "damage": 4
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "hit",
+        "text": "6층 빈 프런트의 호출벨 · 공략도 0 → 4 · 파훼 토큰 1 → 1",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 6,
+        "power": 4,
+        "absorbed": 0,
+        "entityId": "e4",
+        "name": "빈 프런트의 호출벨",
+        "beforeC": 0,
+        "afterC": 4,
+        "beforeP": 1,
+        "afterP": 1,
+        "tokenLoss": 0,
+        "damage": 4
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "hit",
+        "text": "1층 문틈의 속삭임 · 공략도 4 → 8 · 파훼 토큰 2 → 2",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 1,
+        "power": 4,
+        "absorbed": 0,
+        "entityId": "e1",
+        "name": "문틈의 속삭임",
+        "beforeC": 4,
+        "afterC": 8,
+        "beforeP": 2,
+        "afterP": 2,
+        "tokenLoss": 0,
+        "damage": 4
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 3,
+        "kind": "hit",
+        "text": "2층 따라오는 발자국 · 공략도 4 → 8 · 파훼 토큰 1 → 1",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 2,
+        "power": 4,
+        "absorbed": 0,
+        "entityId": "e5",
+        "name": "따라오는 발자국",
+        "beforeC": 4,
+        "afterC": 8,
+        "beforeP": 1,
+        "afterP": 1,
+        "tokenLoss": 0,
+        "damage": 4
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 4,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "even",
+            "face": 3,
+            "value": 4,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 0,
+            "value": 1,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 0,
+            "value": 1,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 4,
+        "kind": "choose",
+        "text": "2번 일반 주사위 · 1칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "slot": 1,
+        "type": "normal",
+        "face": 0,
+        "value": 1,
+        "bonus": 0,
+        "name": "일반 주사위"
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 4,
+        "kind": "move",
+        "text": "3층 도착",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "arrival": true
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 4,
+        "kind": "harvest",
+        "text": "3층 불안 3 소비",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "source": "이름을 부르는 객실",
+        "amount": 3,
+        "before": 6,
+        "after": 3
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 4,
+        "kind": "fear",
+        "text": "이름을 부르는 객실 도착 · 공포 0 → 12",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "source": "이름을 부르는 객실 도착",
+        "before": 0,
+        "after": 12,
+        "amount": 12
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 4,
+        "kind": "heart",
+        "text": "심장마비 · 남은 심장 0",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "before": 1,
+        "after": 0,
+        "amount": 1
+      },
+      {
+        "round": 10,
+        "guestIndex": 0,
+        "turn": 4,
+        "kind": "kill",
+        "text": "복도 점검원 처치 · 영혼 +2",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "reward": 2
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "guest_start",
+        "text": "옆방을 확인하는 손님 입장 · 공포 한계 16 · 심장 1",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "guest": {
+          "name": "옆방을 확인하는 손님",
+          "t": 16,
+          "h": 1,
+          "reward": 2,
+          "pattern": "adjacent",
+          "attackText": "도착층 바로 아래층에 공략도 6 → 도착층에 공략도 6",
+          "id": "N3",
+          "attackBonus": 0
+        }
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "even",
+            "face": 1,
+            "value": 2,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 3,
+            "value": 4,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 4,
+            "value": 5,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "choose",
+        "text": "3번 일반 주사위 · 5칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "slot": 2,
+        "type": "normal",
+        "face": 4,
+        "value": 5,
+        "bonus": 0,
+        "name": "일반 주사위"
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "active",
+        "text": "6층 빈 프런트의 호출벨 직접 사용 · 남은 1회",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 6,
+        "entityId": "e4",
+        "beforeUses": 2,
+        "afterUses": 1
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "fear",
+        "text": "빈 프런트의 호출벨 · 공포 0 → 3",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 6,
+        "source": "빈 프런트의 호출벨",
+        "before": 0,
+        "after": 3,
+        "amount": 3
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "active",
+        "text": "6층 빈 프런트의 호출벨 직접 사용 · 남은 0회",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 6,
+        "entityId": "e4",
+        "beforeUses": 1,
+        "afterUses": 0
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "fear",
+        "text": "빈 프런트의 호출벨 · 공포 3 → 6",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 6,
+        "source": "빈 프런트의 호출벨",
+        "before": 3,
+        "after": 6,
+        "amount": 3
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "move",
+        "text": "1층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 1,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "anxiety",
+        "text": "1층 문틈의 속삭임 통과 · 불안 0 → 2",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 1,
+        "source": "문틈의 속삭임 통과",
+        "before": 0,
+        "after": 2,
+        "requested": 2,
+        "amount": 2,
+        "wasted": 0
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "move",
+        "text": "2층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 2,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "anxiety",
+        "text": "2층 따라오는 발자국 통과 · 불안 2 → 4",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 2,
+        "source": "따라오는 발자국 통과",
+        "before": 2,
+        "after": 4,
+        "requested": 2,
+        "amount": 2,
+        "wasted": 0
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "move",
+        "text": "3층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "move",
+        "text": "4층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 4,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "move",
+        "text": "5층 도착",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 5,
+        "arrival": true
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "harvest",
+        "text": "5층 불안 3 소비",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 5,
+        "source": "이름을 부르는 객실",
+        "amount": 3,
+        "before": 4,
+        "after": 1
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "fear",
+        "text": "이름을 부르는 객실 도착 · 공포 6 → 18",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 5,
+        "source": "이름을 부르는 객실 도착",
+        "before": 6,
+        "after": 18,
+        "amount": 12
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "heart",
+        "text": "심장마비 · 남은 심장 0",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 5,
+        "before": 1,
+        "after": 0,
+        "amount": 1
+      },
+      {
+        "round": 10,
+        "guestIndex": 1,
+        "turn": 1,
+        "kind": "kill",
+        "text": "옆방을 확인하는 손님 처치 · 영혼 +2",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 5,
+        "reward": 2
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "guest_start",
+        "text": "두 번 확인하는 손님 입장 · 공포 한계 12 · 심장 2",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "guest": {
+          "name": "두 번 확인하는 손님",
+          "t": 12,
+          "h": 2,
+          "reward": 2,
+          "pattern": "double",
+          "attackText": "도착층에 공략도 6씩 두 번",
+          "id": "N4",
+          "attackBonus": 0
+        }
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "even",
+            "face": 3,
+            "value": 4,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 2,
+            "value": 3,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 5,
+            "value": 6,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "choose",
+        "text": "2번 일반 주사위 · 3칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "slot": 1,
+        "type": "normal",
+        "face": 2,
+        "value": 3,
+        "bonus": 0,
+        "name": "일반 주사위"
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "move",
+        "text": "1층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 1,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "anxiety",
+        "text": "1층 문틈의 속삭임 통과 · 불안 0 → 2",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 1,
+        "source": "문틈의 속삭임 통과",
+        "before": 0,
+        "after": 2,
+        "requested": 2,
+        "amount": 2,
+        "wasted": 0
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "move",
+        "text": "2층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 2,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "anxiety",
+        "text": "2층 따라오는 발자국 통과 · 불안 2 → 4",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 2,
+        "source": "따라오는 발자국 통과",
+        "before": 2,
+        "after": 4,
+        "requested": 2,
+        "amount": 2,
+        "wasted": 0
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "move",
+        "text": "3층 도착",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "arrival": true
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "harvest",
+        "text": "3층 불안 3 소비",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "source": "이름을 부르는 객실",
+        "amount": 3,
+        "before": 4,
+        "after": 1
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "fear",
+        "text": "이름을 부르는 객실 도착 · 공포 0 → 12",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "source": "이름을 부르는 객실 도착",
+        "before": 0,
+        "after": 12,
+        "amount": 12
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "heart",
+        "text": "심장마비 · 남은 심장 1",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "before": 2,
+        "after": 1,
+        "amount": 1
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "hit",
+        "text": "3층 이름을 부르는 객실 · 공략도 0 → 6 · 파훼 토큰 2 → 2",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "power": 6,
+        "absorbed": 0,
+        "entityId": "e2",
+        "name": "이름을 부르는 객실",
+        "beforeC": 0,
+        "afterC": 6,
+        "beforeP": 2,
+        "afterP": 2,
+        "tokenLoss": 0,
+        "damage": 6
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 1,
+        "kind": "hit",
+        "text": "3층 이름을 부르는 객실 · 공략도 6 → 0 · 파훼 토큰 2 → 1",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "power": 6,
+        "absorbed": 0,
+        "entityId": "e2",
+        "name": "이름을 부르는 객실",
+        "beforeC": 6,
+        "afterC": 0,
+        "beforeP": 2,
+        "afterP": 1,
+        "tokenLoss": 1,
+        "damage": 6
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "even",
+            "face": 1,
+            "value": 2,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 2,
+            "value": 3,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 0,
+            "value": 1,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "choose",
+        "text": "3번 일반 주사위 · 1칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "slot": 2,
+        "type": "normal",
+        "face": 0,
+        "value": 1,
+        "bonus": 0,
+        "name": "일반 주사위"
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "move",
+        "text": "4층 도착",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 4,
+        "arrival": true
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "miss",
+        "text": "4층 빈층으로 공격 빗나감",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 4,
+        "power": 6
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "miss",
+        "text": "4층 빈층으로 공격 빗나감",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 4,
+        "power": 6
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 2,
+        "kind": "inactivity",
+        "text": "비활동 1턴 · 기준 3",
+        "act": 1,
+        "nodeId": "a1-d4-c1"
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "roll",
+        "text": "주사위 공개",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "dice": [
+          {
+            "slot": 0,
+            "type": "even",
+            "face": 1,
+            "value": 2,
+            "bonus": 0
+          },
+          {
+            "slot": 1,
+            "type": "normal",
+            "face": 4,
+            "value": 5,
+            "bonus": 0
+          },
+          {
+            "slot": 2,
+            "type": "normal",
+            "face": 1,
+            "value": 2,
+            "bonus": 0
+          }
+        ]
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "choose",
+        "text": "2번 일반 주사위 · 5칸 이동 선택 · 이동 전에 각 층의 직접 사용 효과를 쓸 수 있습니다.",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "slot": 1,
+        "type": "normal",
+        "face": 4,
+        "value": 5,
+        "bonus": 0,
+        "name": "일반 주사위"
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "move",
+        "text": "5층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 5,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "move",
+        "text": "6층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 6,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "move",
+        "text": "1층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 1,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "anxiety",
+        "text": "1층 문틈의 속삭임 통과 · 불안 1 → 3",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 1,
+        "source": "문틈의 속삭임 통과",
+        "before": 1,
+        "after": 3,
+        "requested": 2,
+        "amount": 2,
+        "wasted": 0
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "move",
+        "text": "2층 통과",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 2,
+        "arrival": false
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "anxiety",
+        "text": "2층 따라오는 발자국 통과 · 불안 3 → 6",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 2,
+        "source": "따라오는 발자국 통과",
+        "before": 3,
+        "after": 6,
+        "requested": 3,
+        "amount": 3,
+        "wasted": 0
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "move",
+        "text": "3층 도착",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "arrival": true
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "harvest",
+        "text": "3층 불안 3 소비",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "source": "이름을 부르는 객실",
+        "amount": 3,
+        "before": 6,
+        "after": 3
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "fear",
+        "text": "이름을 부르는 객실 도착 · 공포 0 → 12",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "source": "이름을 부르는 객실 도착",
+        "before": 0,
+        "after": 12,
+        "amount": 12
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "heart",
+        "text": "심장마비 · 남은 심장 0",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "before": 1,
+        "after": 0,
+        "amount": 1
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "kill",
+        "text": "두 번 확인하는 손님 처치 · 영혼 +2",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "floor": 3,
+        "reward": 2
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "service_end",
+        "text": "normal 전투 clear",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "outcome": "clear"
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "creature_offer",
+        "text": "괴이 3개 중 1개 무료 선택",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "candidates": [
+          "R",
+          "U",
+          "G"
+        ]
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "creature_reward",
+        "text": "닫히지 않는 방화문 무료 획득 · 새 개체 보관함 추가",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "candidates": [
+          "R",
+          "U",
+          "G"
+        ],
+        "index": 2,
+        "type": "G",
+        "entityId": "e6"
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": 3,
+        "kind": "node_complete",
+        "text": "1막 4/8 완료 · clear",
+        "act": 1,
+        "nodeId": "a1-d4-c1",
+        "outcome": "clear",
+        "depth": 4
+      },
+      {
+        "round": 10,
+        "guestIndex": 2,
+        "turn": null,
+        "kind": "place",
+        "text": "4층에 닫히지 않는 방화문 배치",
+        "act": 1,
+        "nodeId": null,
+        "floor": 4,
+        "entityId": "e6"
+      },
+      {
+        "round": 14,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "visit",
+        "text": "1막 5번째 · shop 방문",
+        "act": 1,
+        "nodeId": "a1-d5-c2",
+        "kindName": "shop",
+        "depth": 5,
+        "column": 2
+      },
+      {
+        "round": 14,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "node_open",
+        "text": "shop 제시물 공개",
+        "act": 1,
+        "nodeId": "a1-d5-c2",
+        "contents": {
+          "stock": [
+            {
+              "slot": 0,
+              "type": "U",
+              "bought": false
+            },
+            {
+              "slot": 1,
+              "type": "B",
+              "bought": false
+            },
+            {
+              "slot": 2,
+              "type": "Q",
+              "bought": false
+            },
+            {
+              "slot": 3,
+              "type": "Q",
+              "bought": false
+            },
+            {
+              "slot": 4,
+              "type": "B",
+              "bought": false
+            },
+            {
+              "slot": 5,
+              "type": "U",
+              "bought": false
+            },
+            {
+              "slot": 6,
+              "type": "E",
+              "bought": false
+            },
+            {
+              "slot": 7,
+              "type": "U",
+              "bought": false
+            }
+          ]
+        }
+      },
+      {
+        "round": 14,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "purchase",
+        "text": "문틈의 속삭임 구매 · 영혼 3 사용 · 보관함 추가",
+        "act": 1,
+        "nodeId": "a1-d5-c2",
+        "slot": 0,
+        "type": "U",
+        "price": 3,
+        "entityId": "e7"
+      },
+      {
+        "round": 14,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "purchase",
+        "text": "이름을 부르는 객실 구매 · 영혼 4 사용 · 보관함 추가",
+        "act": 1,
+        "nodeId": "a1-d5-c2",
+        "slot": 2,
+        "type": "Q",
+        "price": 4,
+        "entityId": "e8"
+      },
+      {
+        "round": 14,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "place",
+        "text": "6층에 문틈의 속삭임 배치 · 기존 괴이는 보관함으로 이동",
+        "act": 1,
+        "nodeId": "a1-d5-c2",
+        "floor": 6,
+        "entityId": "e7"
+      },
+      {
+        "round": 14,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "node_complete",
+        "text": "1막 5/8 완료 · leave",
+        "act": 1,
+        "nodeId": "a1-d5-c2",
+        "outcome": "leave",
+        "depth": 5
+      },
+      {
+        "round": 17,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "visit",
+        "text": "1막 6번째 · expansion 방문",
+        "act": 1,
+        "nodeId": "a1-d6-c2",
+        "kindName": "expansion",
+        "depth": 6,
+        "column": 2
+      },
+      {
+        "round": 17,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "node_open",
+        "text": "expansion 제시물 공개",
+        "act": 1,
+        "nodeId": "a1-d6-c2",
+        "contents": {}
+      },
+      {
+        "round": 17,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "expand",
+        "text": "6층 → 7층 · 영혼 4 사용",
+        "act": 1,
+        "nodeId": "a1-d6-c2",
+        "before": 6,
+        "after": 7,
+        "cost": 4,
+        "moneyBefore": 9,
+        "moneyAfter": 5,
+        "beforeLayout": [
+          {
+            "id": "e1",
+            "type": "U",
+            "floor": 1,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0
+          },
+          {
+            "id": "e2",
+            "type": "Q",
+            "floor": 3,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0
+          },
+          {
+            "id": "e3",
+            "type": "Q",
+            "floor": 5,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0
+          },
+          {
+            "id": "e4",
+            "type": "B",
+            "floor": null,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0
+          },
+          {
+            "id": "e5",
+            "type": "E",
+            "floor": 2,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0
+          },
+          {
+            "id": "e6",
+            "type": "G",
+            "floor": 4,
+            "c": 0,
+            "p": 2,
+            "uses": 2,
+            "shield": 0
+          },
+          {
+            "id": "e7",
+            "type": "U",
+            "floor": 6,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0
+          },
+          {
+            "id": "e8",
+            "type": "Q",
+            "floor": null,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0
+          }
+        ],
+        "afterLayout": [
+          {
+            "id": "e1",
+            "type": "U",
+            "floor": 1,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0
+          },
+          {
+            "id": "e2",
+            "type": "Q",
+            "floor": 3,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0
+          },
+          {
+            "id": "e3",
+            "type": "Q",
+            "floor": 5,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0
+          },
+          {
+            "id": "e4",
+            "type": "B",
+            "floor": null,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0
+          },
+          {
+            "id": "e5",
+            "type": "E",
+            "floor": 2,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0
+          },
+          {
+            "id": "e6",
+            "type": "G",
+            "floor": 4,
+            "c": 0,
+            "p": 2,
+            "uses": 2,
+            "shield": 0
+          },
+          {
+            "id": "e7",
+            "type": "U",
+            "floor": 6,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0
+          },
+          {
+            "id": "e8",
+            "type": "Q",
+            "floor": null,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0
+          }
+        ],
+        "newEmptyFloor": 7
+      },
+      {
+        "round": 17,
+        "guestIndex": 0,
+        "turn": null,
+        "kind": "node_complete",
+        "text": "1막 6/8 완료 · leave",
+        "act": 1,
+        "nodeId": "a1-d6-c2",
+        "outcome": "leave",
+        "depth": 6
+      }
+    ],
+    "reason": "",
+    "summary": null,
+    "serviceStartStats": {
+      "kills": 3,
+      "escaped": 0,
+      "skipped": 0,
+      "earned": 6,
+      "spent": 0,
+      "destroyed": 0,
+      "visits": 3,
+      "combats": 2,
+      "expansions": 0,
+      "expansionSpent": 0,
+      "eventRemoved": 0
+    },
+    "version": 15,
+    "act": 1,
+    "maps": [
+      [
+        {
+          "id": "a1-d1-c0",
+          "act": 1,
+          "depth": 1,
+          "column": 0,
+          "kind": "normal",
+          "status": "completed",
+          "next": [
+            "a1-d2-c0",
+            "a1-d2-c1"
+          ],
+          "guests": [
+            {
+              "name": "성급한 투숙객",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N1",
+              "attackBonus": 0
+            },
+            {
+              "name": "성급한 투숙객",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N1",
+              "attackBonus": 0
+            },
+            {
+              "name": "복도 점검원",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N2",
+              "attackBonus": 0
+            }
+          ],
+          "restored": true,
+          "outcome": "clear"
+        },
+        {
+          "id": "a1-d1-c1",
+          "act": 1,
+          "depth": 1,
+          "column": 1,
+          "kind": "normal",
+          "status": "closed",
+          "next": [
+            "a1-d2-c0",
+            "a1-d2-c1",
+            "a1-d2-c2"
+          ],
+          "guests": [
+            {
+              "name": "성급한 투숙객",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N1",
+              "attackBonus": 0
+            },
+            {
+              "name": "복도 점검원",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N2",
+              "attackBonus": 0
+            },
+            {
+              "name": "옆방을 확인하는 손님",
+              "t": 16,
+              "h": 1,
+              "reward": 2,
+              "pattern": "adjacent",
+              "attackText": "도착층 바로 아래층에 공략도 6 → 도착층에 공략도 6",
+              "id": "N3",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-d1-c2",
+          "act": 1,
+          "depth": 1,
+          "column": 2,
+          "kind": "normal",
+          "status": "closed",
+          "next": [
+            "a1-d2-c1",
+            "a1-d2-c2"
+          ],
+          "guests": [
+            {
+              "name": "복도 점검원",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N2",
+              "attackBonus": 0
+            },
+            {
+              "name": "옆방을 확인하는 손님",
+              "t": 16,
+              "h": 1,
+              "reward": 2,
+              "pattern": "adjacent",
+              "attackText": "도착층 바로 아래층에 공략도 6 → 도착층에 공략도 6",
+              "id": "N3",
+              "attackBonus": 0
+            },
+            {
+              "name": "두 번 확인하는 손님",
+              "t": 12,
+              "h": 2,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N4",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-d2-c0",
+          "act": 1,
+          "depth": 2,
+          "column": 0,
+          "kind": "discovery",
+          "status": "completed",
+          "next": [
+            "a1-d3-c0",
+            "a1-d3-c1"
+          ],
+          "contents": {
+            "die": "even"
+          },
+          "outcome": "die"
+        },
+        {
+          "id": "a1-d2-c1",
+          "act": 1,
+          "depth": 2,
+          "column": 1,
+          "kind": "normal",
+          "status": "closed",
+          "next": [
+            "a1-d3-c0",
+            "a1-d3-c1",
+            "a1-d3-c2"
+          ],
+          "guests": [
+            {
+              "name": "성급한 투숙객",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N1",
+              "attackBonus": 0
+            },
+            {
+              "name": "복도 점검원",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N2",
+              "attackBonus": 0
+            },
+            {
+              "name": "옆방을 확인하는 손님",
+              "t": 16,
+              "h": 1,
+              "reward": 2,
+              "pattern": "adjacent",
+              "attackText": "도착층 바로 아래층에 공략도 6 → 도착층에 공략도 6",
+              "id": "N3",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-d2-c2",
+          "act": 1,
+          "depth": 2,
+          "column": 2,
+          "kind": "event",
+          "status": "closed",
+          "next": [
+            "a1-d3-c1",
+            "a1-d3-c2"
+          ]
+        },
+        {
+          "id": "a1-d3-c0",
+          "act": 1,
+          "depth": 3,
+          "column": 0,
+          "kind": "expansion",
+          "status": "completed",
+          "next": [
+            "a1-d4-c0",
+            "a1-d4-c1"
+          ],
+          "outcome": "leave"
+        },
+        {
+          "id": "a1-d3-c1",
+          "act": 1,
+          "depth": 3,
+          "column": 1,
+          "kind": "normal",
+          "status": "closed",
+          "next": [
+            "a1-d4-c0",
+            "a1-d4-c1",
+            "a1-d4-c2"
+          ],
+          "guests": [
+            {
+              "name": "복도 점검원",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N2",
+              "attackBonus": 0
+            },
+            {
+              "name": "옆방을 확인하는 손님",
+              "t": 16,
+              "h": 1,
+              "reward": 2,
+              "pattern": "adjacent",
+              "attackText": "도착층 바로 아래층에 공략도 6 → 도착층에 공략도 6",
+              "id": "N3",
+              "attackBonus": 0
+            },
+            {
+              "name": "두 번 확인하는 손님",
+              "t": 12,
+              "h": 2,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N4",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-d3-c2",
+          "act": 1,
+          "depth": 3,
+          "column": 2,
+          "kind": "shop",
+          "status": "closed",
+          "next": [
+            "a1-d4-c1",
+            "a1-d4-c2"
+          ]
+        },
+        {
+          "id": "a1-d4-c0",
+          "act": 1,
+          "depth": 4,
+          "column": 0,
+          "kind": "event",
+          "status": "closed",
+          "next": [
+            "a1-d5-c0",
+            "a1-d5-c1"
+          ]
+        },
+        {
+          "id": "a1-d4-c1",
+          "act": 1,
+          "depth": 4,
+          "column": 1,
+          "kind": "normal",
+          "status": "completed",
+          "next": [
+            "a1-d5-c0",
+            "a1-d5-c1",
+            "a1-d5-c2"
+          ],
+          "guests": [
+            {
+              "name": "복도 점검원",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N2",
+              "attackBonus": 0
+            },
+            {
+              "name": "옆방을 확인하는 손님",
+              "t": 16,
+              "h": 1,
+              "reward": 2,
+              "pattern": "adjacent",
+              "attackText": "도착층 바로 아래층에 공략도 6 → 도착층에 공략도 6",
+              "id": "N3",
+              "attackBonus": 0
+            },
+            {
+              "name": "두 번 확인하는 손님",
+              "t": 12,
+              "h": 2,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N4",
+              "attackBonus": 0
+            }
+          ],
+          "restored": true,
+          "outcome": "clear"
+        },
+        {
+          "id": "a1-d4-c2",
+          "act": 1,
+          "depth": 4,
+          "column": 2,
+          "kind": "elite",
+          "status": "closed",
+          "next": [
+            "a1-d5-c1",
+            "a1-d5-c2"
+          ],
+          "guests": [
+            {
+              "id": "E1",
+              "name": "정예 복도 점검원",
+              "t": 16,
+              "h": 3,
+              "reward": 6,
+              "pattern": "route",
+              "power": 4,
+              "attackText": "실제 경로 각 방문에 공략도 4"
+            }
+          ]
+        },
+        {
+          "id": "a1-d5-c0",
+          "act": 1,
+          "depth": 5,
+          "column": 0,
+          "kind": "discovery",
+          "status": "closed",
+          "next": [
+            "a1-d6-c0",
+            "a1-d6-c1"
+          ]
+        },
+        {
+          "id": "a1-d5-c1",
+          "act": 1,
+          "depth": 5,
+          "column": 1,
+          "kind": "normal",
+          "status": "closed",
+          "next": [
+            "a1-d6-c0",
+            "a1-d6-c1",
+            "a1-d6-c2"
+          ],
+          "guests": [
+            {
+              "name": "성급한 투숙객",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N1",
+              "attackBonus": 0
+            },
+            {
+              "name": "복도 점검원",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N2",
+              "attackBonus": 0
+            },
+            {
+              "name": "옆방을 확인하는 손님",
+              "t": 16,
+              "h": 1,
+              "reward": 2,
+              "pattern": "adjacent",
+              "attackText": "도착층 바로 아래층에 공략도 6 → 도착층에 공략도 6",
+              "id": "N3",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-d5-c2",
+          "act": 1,
+          "depth": 5,
+          "column": 2,
+          "kind": "shop",
+          "status": "completed",
+          "next": [
+            "a1-d6-c1",
+            "a1-d6-c2"
+          ],
+          "contents": {
+            "stock": [
+              {
+                "slot": 0,
+                "type": "U",
+                "bought": true
+              },
+              {
+                "slot": 1,
+                "type": "B",
+                "bought": false
+              },
+              {
+                "slot": 2,
+                "type": "Q",
+                "bought": true
+              },
+              {
+                "slot": 3,
+                "type": "Q",
+                "bought": false
+              },
+              {
+                "slot": 4,
+                "type": "B",
+                "bought": false
+              },
+              {
+                "slot": 5,
+                "type": "U",
+                "bought": false
+              },
+              {
+                "slot": 6,
+                "type": "E",
+                "bought": false
+              },
+              {
+                "slot": 7,
+                "type": "U",
+                "bought": false
+              }
+            ]
+          },
+          "outcome": "leave"
+        },
+        {
+          "id": "a1-d6-c0",
+          "act": 1,
+          "depth": 6,
+          "column": 0,
+          "kind": "elite",
+          "status": "closed",
+          "next": [
+            "a1-d7-c0",
+            "a1-d7-c1"
+          ],
+          "guests": [
+            {
+              "id": "E1",
+              "name": "정예 복도 점검원",
+              "t": 16,
+              "h": 3,
+              "reward": 6,
+              "pattern": "route",
+              "power": 4,
+              "attackText": "실제 경로 각 방문에 공략도 4"
+            }
+          ]
+        },
+        {
+          "id": "a1-d6-c1",
+          "act": 1,
+          "depth": 6,
+          "column": 1,
+          "kind": "normal",
+          "status": "closed",
+          "next": [
+            "a1-d7-c0",
+            "a1-d7-c1",
+            "a1-d7-c2"
+          ],
+          "guests": [
+            {
+              "name": "성급한 투숙객",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N1",
+              "attackBonus": 0
+            },
+            {
+              "name": "복도 점검원",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N2",
+              "attackBonus": 0
+            },
+            {
+              "name": "옆방을 확인하는 손님",
+              "t": 16,
+              "h": 1,
+              "reward": 2,
+              "pattern": "adjacent",
+              "attackText": "도착층 바로 아래층에 공략도 6 → 도착층에 공략도 6",
+              "id": "N3",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-d6-c2",
+          "act": 1,
+          "depth": 6,
+          "column": 2,
+          "kind": "expansion",
+          "status": "completed",
+          "next": [
+            "a1-d7-c1",
+            "a1-d7-c2"
+          ],
+          "outcome": "leave"
+        },
+        {
+          "id": "a1-d7-c0",
+          "act": 1,
+          "depth": 7,
+          "column": 0,
+          "kind": "shop",
+          "status": "unvisited",
+          "next": [
+            "a1-d8-c1"
+          ]
+        },
+        {
+          "id": "a1-d7-c1",
+          "act": 1,
+          "depth": 7,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a1-d8-c1"
+          ],
+          "guests": [
+            {
+              "name": "성급한 투숙객",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N1",
+              "attackBonus": 0
+            },
+            {
+              "name": "성급한 투숙객",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N1",
+              "attackBonus": 0
+            },
+            {
+              "name": "복도 점검원",
+              "t": 12,
+              "h": 1,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N2",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-d7-c2",
+          "act": 1,
+          "depth": 7,
+          "column": 2,
+          "kind": "event",
+          "status": "unvisited",
+          "next": [
+            "a1-d8-c1"
+          ]
+        },
+        {
+          "id": "a1-d8-c1",
+          "act": 1,
+          "depth": 8,
+          "column": 1,
+          "kind": "boss",
+          "status": "unvisited",
+          "next": [],
+          "guests": [
+            {
+              "name": "거울 감찰관",
+              "t": 16,
+              "h": 2,
+              "reward": 6,
+              "pattern": "bossMirror",
+              "attackText": "도착층에서 아래로 2층에 공략도 8 → 위로 2층에 공략도 8",
+              "id": "BOSS1"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "id": "a2-d1-c0",
+          "act": 2,
+          "depth": 1,
+          "column": 0,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a2-d2-c0",
+            "a2-d2-c1"
+          ],
+          "guests": [
+            {
+              "name": "두 번 확인하는 손님",
+              "t": 12,
+              "h": 2,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N4",
+              "attackBonus": 0
+            },
+            {
+              "name": "야간 점검원",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N5",
+              "attackBonus": 0
+            },
+            {
+              "name": "거울을 보는 손님",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착층에서 아래로 2층에 공략도 6 → 위로 2층에 공략도 6",
+              "id": "N6",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a2-d1-c1",
+          "act": 2,
+          "depth": 1,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a2-d2-c0",
+            "a2-d2-c1",
+            "a2-d2-c2"
+          ],
+          "guests": [
+            {
+              "name": "두 번 확인하는 손님",
+              "t": 12,
+              "h": 2,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N4",
+              "attackBonus": 0
+            },
+            {
+              "name": "야간 점검원",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N5",
+              "attackBonus": 0
+            },
+            {
+              "name": "거울을 보는 손님",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착층에서 아래로 2층에 공략도 6 → 위로 2층에 공략도 6",
+              "id": "N6",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a2-d1-c2",
+          "act": 2,
+          "depth": 1,
+          "column": 2,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a2-d2-c1",
+            "a2-d2-c2"
+          ],
+          "guests": [
+            {
+              "name": "두 번 확인하는 손님",
+              "t": 12,
+              "h": 2,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N4",
+              "attackBonus": 0
+            },
+            {
+              "name": "야간 점검원",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N5",
+              "attackBonus": 0
+            },
+            {
+              "name": "거울을 보는 손님",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착층에서 아래로 2층에 공략도 6 → 위로 2층에 공략도 6",
+              "id": "N6",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a2-d2-c0",
+          "act": 2,
+          "depth": 2,
+          "column": 0,
+          "kind": "discovery",
+          "status": "unvisited",
+          "next": [
+            "a2-d3-c0",
+            "a2-d3-c1"
+          ]
+        },
+        {
+          "id": "a2-d2-c1",
+          "act": 2,
+          "depth": 2,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a2-d3-c0",
+            "a2-d3-c1",
+            "a2-d3-c2"
+          ],
+          "guests": [
+            {
+              "name": "야간 점검원",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N5",
+              "attackBonus": 0
+            },
+            {
+              "name": "거울을 보는 손님",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착층에서 아래로 2층에 공략도 6 → 위로 2층에 공략도 6",
+              "id": "N6",
+              "attackBonus": 0
+            },
+            {
+              "name": "거울을 보는 손님",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착층에서 아래로 2층에 공략도 6 → 위로 2층에 공략도 6",
+              "id": "N6",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a2-d2-c2",
+          "act": 2,
+          "depth": 2,
+          "column": 2,
+          "kind": "event",
+          "status": "unvisited",
+          "next": [
+            "a2-d3-c1",
+            "a2-d3-c2"
+          ]
+        },
+        {
+          "id": "a2-d3-c0",
+          "act": 2,
+          "depth": 3,
+          "column": 0,
+          "kind": "shop",
+          "status": "unvisited",
+          "next": [
+            "a2-d4-c0",
+            "a2-d4-c1"
+          ]
+        },
+        {
+          "id": "a2-d3-c1",
+          "act": 2,
+          "depth": 3,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a2-d4-c0",
+            "a2-d4-c1",
+            "a2-d4-c2"
+          ],
+          "guests": [
+            {
+              "name": "두 번 확인하는 손님",
+              "t": 12,
+              "h": 2,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N4",
+              "attackBonus": 0
+            },
+            {
+              "name": "야간 점검원",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N5",
+              "attackBonus": 0
+            },
+            {
+              "name": "거울을 보는 손님",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착층에서 아래로 2층에 공략도 6 → 위로 2층에 공략도 6",
+              "id": "N6",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a2-d3-c2",
+          "act": 2,
+          "depth": 3,
+          "column": 2,
+          "kind": "expansion",
+          "status": "unvisited",
+          "next": [
+            "a2-d4-c1",
+            "a2-d4-c2"
+          ]
+        },
+        {
+          "id": "a2-d4-c0",
+          "act": 2,
+          "depth": 4,
+          "column": 0,
+          "kind": "elite",
+          "status": "unvisited",
+          "next": [
+            "a2-d5-c0",
+            "a2-d5-c1"
+          ],
+          "guests": [
+            {
+              "id": "E2",
+              "name": "정예 야간 점검원",
+              "t": 20,
+              "h": 3,
+              "reward": 6,
+              "pattern": "route",
+              "power": 6,
+              "attackText": "실제 경로 각 방문에 공략도 6"
+            }
+          ]
+        },
+        {
+          "id": "a2-d4-c1",
+          "act": 2,
+          "depth": 4,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a2-d5-c0",
+            "a2-d5-c1",
+            "a2-d5-c2"
+          ],
+          "guests": [
+            {
+              "name": "야간 점검원",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N5",
+              "attackBonus": 0
+            },
+            {
+              "name": "거울을 보는 손님",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착층에서 아래로 2층에 공략도 6 → 위로 2층에 공략도 6",
+              "id": "N6",
+              "attackBonus": 0
+            },
+            {
+              "name": "거울을 보는 손님",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착층에서 아래로 2층에 공략도 6 → 위로 2층에 공략도 6",
+              "id": "N6",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a2-d4-c2",
+          "act": 2,
+          "depth": 4,
+          "column": 2,
+          "kind": "event",
+          "status": "unvisited",
+          "next": [
+            "a2-d5-c1",
+            "a2-d5-c2"
+          ]
+        },
+        {
+          "id": "a2-d5-c0",
+          "act": 2,
+          "depth": 5,
+          "column": 0,
+          "kind": "discovery",
+          "status": "unvisited",
+          "next": [
+            "a2-d6-c0",
+            "a2-d6-c1"
+          ]
+        },
+        {
+          "id": "a2-d5-c1",
+          "act": 2,
+          "depth": 5,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a2-d6-c0",
+            "a2-d6-c1",
+            "a2-d6-c2"
+          ],
+          "guests": [
+            {
+              "name": "옆방을 확인하는 손님",
+              "t": 16,
+              "h": 1,
+              "reward": 2,
+              "pattern": "adjacent",
+              "attackText": "도착층 바로 아래층에 공략도 6 → 도착층에 공략도 6",
+              "id": "N3",
+              "attackBonus": 0
+            },
+            {
+              "name": "두 번 확인하는 손님",
+              "t": 12,
+              "h": 2,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층에 공략도 6씩 두 번",
+              "id": "N4",
+              "attackBonus": 0
+            },
+            {
+              "name": "야간 점검원",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N5",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a2-d5-c2",
+          "act": 2,
+          "depth": 5,
+          "column": 2,
+          "kind": "shop",
+          "status": "unvisited",
+          "next": [
+            "a2-d6-c1",
+            "a2-d6-c2"
+          ]
+        },
+        {
+          "id": "a2-d6-c0",
+          "act": 2,
+          "depth": 6,
+          "column": 0,
+          "kind": "elite",
+          "status": "unvisited",
+          "next": [
+            "a2-d7-c0",
+            "a2-d7-c1"
+          ],
+          "guests": [
+            {
+              "id": "E2",
+              "name": "정예 야간 점검원",
+              "t": 20,
+              "h": 3,
+              "reward": 6,
+              "pattern": "route",
+              "power": 6,
+              "attackText": "실제 경로 각 방문에 공략도 6"
+            }
+          ]
+        },
+        {
+          "id": "a2-d6-c1",
+          "act": 2,
+          "depth": 6,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a2-d7-c0",
+            "a2-d7-c1",
+            "a2-d7-c2"
+          ],
+          "guests": [
+            {
+              "name": "야간 점검원",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N5",
+              "attackBonus": 0
+            },
+            {
+              "name": "거울을 보는 손님",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착층에서 아래로 2층에 공략도 6 → 위로 2층에 공략도 6",
+              "id": "N6",
+              "attackBonus": 0
+            },
+            {
+              "name": "거울을 보는 손님",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착층에서 아래로 2층에 공략도 6 → 위로 2층에 공략도 6",
+              "id": "N6",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a2-d6-c2",
+          "act": 2,
+          "depth": 6,
+          "column": 2,
+          "kind": "expansion",
+          "status": "unvisited",
+          "next": [
+            "a2-d7-c1",
+            "a2-d7-c2"
+          ]
+        },
+        {
+          "id": "a2-d7-c0",
+          "act": 2,
+          "depth": 7,
+          "column": 0,
+          "kind": "discovery",
+          "status": "unvisited",
+          "next": [
+            "a2-d8-c1"
+          ]
+        },
+        {
+          "id": "a2-d7-c1",
+          "act": 2,
+          "depth": 7,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a2-d8-c1"
+          ],
+          "guests": [
+            {
+              "name": "야간 점검원",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "이동한 모든 층에 순서대로 공략도 4",
+              "id": "N5",
+              "attackBonus": 0
+            },
+            {
+              "name": "거울을 보는 손님",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착층에서 아래로 2층에 공략도 6 → 위로 2층에 공략도 6",
+              "id": "N6",
+              "attackBonus": 0
+            },
+            {
+              "name": "거울을 보는 손님",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착층에서 아래로 2층에 공략도 6 → 위로 2층에 공략도 6",
+              "id": "N6",
+              "attackBonus": 0
+            }
+          ]
+        },
+        {
+          "id": "a2-d7-c2",
+          "act": 2,
+          "depth": 7,
+          "column": 2,
+          "kind": "elite",
+          "status": "unvisited",
+          "next": [
+            "a2-d8-c1"
+          ],
+          "guests": [
+            {
+              "id": "E2",
+              "name": "정예 야간 점검원",
+              "t": 20,
+              "h": 3,
+              "reward": 6,
+              "pattern": "route",
+              "power": 6,
+              "attackText": "실제 경로 각 방문에 공략도 6"
+            }
+          ]
+        },
+        {
+          "id": "a2-d8-c1",
+          "act": 2,
+          "depth": 8,
+          "column": 1,
+          "kind": "boss",
+          "status": "unvisited",
+          "next": [],
+          "guests": [
+            {
+              "name": "호텔의 조사관",
+              "t": 20,
+              "h": 3,
+              "reward": 8,
+              "pattern": "final",
+              "attackText": "홀수 턴: 도착층에 공략도 6 두 번 / 짝수 턴: 아래로 2층, 위로 2층에 공략도 8씩",
+              "id": "BOSS2"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "id": "a3-d1-c0",
+          "act": 3,
+          "depth": 1,
+          "column": 0,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a3-d2-c0",
+            "a3-d2-c1"
+          ],
+          "guests": [
+            {
+              "name": "야간 점검원 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "실제 경로 각 방문 순서대로 공략도 6",
+              "id": "N5",
+              "attackBonus": 2
+            },
+            {
+              "name": "거울을 보는 손님 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착 아래 2층 8 → 위 2층 8",
+              "id": "N6",
+              "attackBonus": 2
+            },
+            {
+              "name": "거울을 보는 손님 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착 아래 2층 8 → 위 2층 8",
+              "id": "N6",
+              "attackBonus": 2
+            }
+          ]
+        },
+        {
+          "id": "a3-d1-c1",
+          "act": 3,
+          "depth": 1,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a3-d2-c0",
+            "a3-d2-c1",
+            "a3-d2-c2"
+          ],
+          "guests": [
+            {
+              "name": "야간 점검원 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "실제 경로 각 방문 순서대로 공략도 6",
+              "id": "N5",
+              "attackBonus": 2
+            },
+            {
+              "name": "거울을 보는 손님 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착 아래 2층 8 → 위 2층 8",
+              "id": "N6",
+              "attackBonus": 2
+            },
+            {
+              "name": "거울을 보는 손님 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착 아래 2층 8 → 위 2층 8",
+              "id": "N6",
+              "attackBonus": 2
+            }
+          ]
+        },
+        {
+          "id": "a3-d1-c2",
+          "act": 3,
+          "depth": 1,
+          "column": 2,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a3-d2-c1",
+            "a3-d2-c2"
+          ],
+          "guests": [
+            {
+              "name": "두 번 확인하는 손님 · 3막 강화",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층 공략도 8씩 두 번",
+              "id": "N4",
+              "attackBonus": 2
+            },
+            {
+              "name": "야간 점검원 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "실제 경로 각 방문 순서대로 공략도 6",
+              "id": "N5",
+              "attackBonus": 2
+            },
+            {
+              "name": "거울을 보는 손님 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착 아래 2층 8 → 위 2층 8",
+              "id": "N6",
+              "attackBonus": 2
+            }
+          ]
+        },
+        {
+          "id": "a3-d2-c0",
+          "act": 3,
+          "depth": 2,
+          "column": 0,
+          "kind": "event",
+          "status": "unvisited",
+          "next": [
+            "a3-d3-c0",
+            "a3-d3-c1"
+          ]
+        },
+        {
+          "id": "a3-d2-c1",
+          "act": 3,
+          "depth": 2,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a3-d3-c0",
+            "a3-d3-c1",
+            "a3-d3-c2"
+          ],
+          "guests": [
+            {
+              "name": "두 번 확인하는 손님 · 3막 강화",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층 공략도 8씩 두 번",
+              "id": "N4",
+              "attackBonus": 2
+            },
+            {
+              "name": "야간 점검원 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "실제 경로 각 방문 순서대로 공략도 6",
+              "id": "N5",
+              "attackBonus": 2
+            },
+            {
+              "name": "거울을 보는 손님 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착 아래 2층 8 → 위 2층 8",
+              "id": "N6",
+              "attackBonus": 2
+            }
+          ]
+        },
+        {
+          "id": "a3-d2-c2",
+          "act": 3,
+          "depth": 2,
+          "column": 2,
+          "kind": "discovery",
+          "status": "unvisited",
+          "next": [
+            "a3-d3-c1",
+            "a3-d3-c2"
+          ]
+        },
+        {
+          "id": "a3-d3-c0",
+          "act": 3,
+          "depth": 3,
+          "column": 0,
+          "kind": "shop",
+          "status": "unvisited",
+          "next": [
+            "a3-d4-c0",
+            "a3-d4-c1"
+          ]
+        },
+        {
+          "id": "a3-d3-c1",
+          "act": 3,
+          "depth": 3,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a3-d4-c0",
+            "a3-d4-c1",
+            "a3-d4-c2"
+          ],
+          "guests": [
+            {
+              "name": "두 번 확인하는 손님 · 3막 강화",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층 공략도 8씩 두 번",
+              "id": "N4",
+              "attackBonus": 2
+            },
+            {
+              "name": "야간 점검원 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "실제 경로 각 방문 순서대로 공략도 6",
+              "id": "N5",
+              "attackBonus": 2
+            },
+            {
+              "name": "거울을 보는 손님 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착 아래 2층 8 → 위 2층 8",
+              "id": "N6",
+              "attackBonus": 2
+            }
+          ]
+        },
+        {
+          "id": "a3-d3-c2",
+          "act": 3,
+          "depth": 3,
+          "column": 2,
+          "kind": "expansion",
+          "status": "unvisited",
+          "next": [
+            "a3-d4-c1",
+            "a3-d4-c2"
+          ]
+        },
+        {
+          "id": "a3-d4-c0",
+          "act": 3,
+          "depth": 4,
+          "column": 0,
+          "kind": "elite",
+          "status": "unvisited",
+          "next": [
+            "a3-d5-c0",
+            "a3-d5-c1"
+          ],
+          "guests": [
+            {
+              "id": "E3",
+              "name": "정예 거울 감찰관",
+              "t": 24,
+              "h": 3,
+              "reward": 6,
+              "pattern": "mirror",
+              "power": 10,
+              "attackText": "도착 아래 2층 10 → 위 2층 10"
+            }
+          ]
+        },
+        {
+          "id": "a3-d4-c1",
+          "act": 3,
+          "depth": 4,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a3-d5-c0",
+            "a3-d5-c1",
+            "a3-d5-c2"
+          ],
+          "guests": [
+            {
+              "name": "야간 점검원 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "실제 경로 각 방문 순서대로 공략도 6",
+              "id": "N5",
+              "attackBonus": 2
+            },
+            {
+              "name": "거울을 보는 손님 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착 아래 2층 8 → 위 2층 8",
+              "id": "N6",
+              "attackBonus": 2
+            },
+            {
+              "name": "거울을 보는 손님 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착 아래 2층 8 → 위 2층 8",
+              "id": "N6",
+              "attackBonus": 2
+            }
+          ]
+        },
+        {
+          "id": "a3-d4-c2",
+          "act": 3,
+          "depth": 4,
+          "column": 2,
+          "kind": "event",
+          "status": "unvisited",
+          "next": [
+            "a3-d5-c1",
+            "a3-d5-c2"
+          ]
+        },
+        {
+          "id": "a3-d5-c0",
+          "act": 3,
+          "depth": 5,
+          "column": 0,
+          "kind": "discovery",
+          "status": "unvisited",
+          "next": [
+            "a3-d6-c0",
+            "a3-d6-c1"
+          ]
+        },
+        {
+          "id": "a3-d5-c1",
+          "act": 3,
+          "depth": 5,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a3-d6-c0",
+            "a3-d6-c1",
+            "a3-d6-c2"
+          ],
+          "guests": [
+            {
+              "name": "야간 점검원 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "실제 경로 각 방문 순서대로 공략도 6",
+              "id": "N5",
+              "attackBonus": 2
+            },
+            {
+              "name": "거울을 보는 손님 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착 아래 2층 8 → 위 2층 8",
+              "id": "N6",
+              "attackBonus": 2
+            },
+            {
+              "name": "거울을 보는 손님 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착 아래 2층 8 → 위 2층 8",
+              "id": "N6",
+              "attackBonus": 2
+            }
+          ]
+        },
+        {
+          "id": "a3-d5-c2",
+          "act": 3,
+          "depth": 5,
+          "column": 2,
+          "kind": "shop",
+          "status": "unvisited",
+          "next": [
+            "a3-d6-c1",
+            "a3-d6-c2"
+          ]
+        },
+        {
+          "id": "a3-d6-c0",
+          "act": 3,
+          "depth": 6,
+          "column": 0,
+          "kind": "expansion",
+          "status": "unvisited",
+          "next": [
+            "a3-d7-c0",
+            "a3-d7-c1"
+          ]
+        },
+        {
+          "id": "a3-d6-c1",
+          "act": 3,
+          "depth": 6,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a3-d7-c0",
+            "a3-d7-c1",
+            "a3-d7-c2"
+          ],
+          "guests": [
+            {
+              "name": "야간 점검원 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "실제 경로 각 방문 순서대로 공략도 6",
+              "id": "N5",
+              "attackBonus": 2
+            },
+            {
+              "name": "거울을 보는 손님 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착 아래 2층 8 → 위 2층 8",
+              "id": "N6",
+              "attackBonus": 2
+            },
+            {
+              "name": "거울을 보는 손님 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착 아래 2층 8 → 위 2층 8",
+              "id": "N6",
+              "attackBonus": 2
+            }
+          ]
+        },
+        {
+          "id": "a3-d6-c2",
+          "act": 3,
+          "depth": 6,
+          "column": 2,
+          "kind": "elite",
+          "status": "unvisited",
+          "next": [
+            "a3-d7-c1",
+            "a3-d7-c2"
+          ],
+          "guests": [
+            {
+              "id": "E3",
+              "name": "정예 거울 감찰관",
+              "t": 24,
+              "h": 3,
+              "reward": 6,
+              "pattern": "mirror",
+              "power": 10,
+              "attackText": "도착 아래 2층 10 → 위 2층 10"
+            }
+          ]
+        },
+        {
+          "id": "a3-d7-c0",
+          "act": 3,
+          "depth": 7,
+          "column": 0,
+          "kind": "elite",
+          "status": "unvisited",
+          "next": [
+            "a3-d8-c1"
+          ],
+          "guests": [
+            {
+              "id": "E3",
+              "name": "정예 거울 감찰관",
+              "t": 24,
+              "h": 3,
+              "reward": 6,
+              "pattern": "mirror",
+              "power": 10,
+              "attackText": "도착 아래 2층 10 → 위 2층 10"
+            }
+          ]
+        },
+        {
+          "id": "a3-d7-c1",
+          "act": 3,
+          "depth": 7,
+          "column": 1,
+          "kind": "normal",
+          "status": "unvisited",
+          "next": [
+            "a3-d8-c1"
+          ],
+          "guests": [
+            {
+              "name": "두 번 확인하는 손님 · 3막 강화",
+              "t": 16,
+              "h": 2,
+              "reward": 2,
+              "pattern": "double",
+              "attackText": "도착층 공략도 8씩 두 번",
+              "id": "N4",
+              "attackBonus": 2
+            },
+            {
+              "name": "야간 점검원 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "route",
+              "attackText": "실제 경로 각 방문 순서대로 공략도 6",
+              "id": "N5",
+              "attackBonus": 2
+            },
+            {
+              "name": "거울을 보는 손님 · 3막 강화",
+              "t": 20,
+              "h": 2,
+              "reward": 2,
+              "pattern": "mirror",
+              "attackText": "도착 아래 2층 8 → 위 2층 8",
+              "id": "N6",
+              "attackBonus": 2
+            }
+          ]
+        },
+        {
+          "id": "a3-d7-c2",
+          "act": 3,
+          "depth": 7,
+          "column": 2,
+          "kind": "discovery",
+          "status": "unvisited",
+          "next": [
+            "a3-d8-c1"
+          ]
+        },
+        {
+          "id": "a3-d8-c1",
+          "act": 3,
+          "depth": 8,
+          "column": 1,
+          "kind": "boss",
+          "status": "unvisited",
+          "next": [],
+          "guests": [
+            {
+              "id": "BOSS3",
+              "name": "호텔의 조사관 · 최종 조사",
+              "t": 24,
+              "h": 3,
+              "reward": 10,
+              "pattern": "final",
+              "doublePower": 8,
+              "mirrorPower": 10,
+              "attackText": "홀수: 도착층 8씩 두 번 / 짝수: 아래 2층 10 → 위 2층 10"
+            }
+          ]
+        }
+      ]
+    ],
+    "currentNode": null,
+    "completed": [
+      6,
+      0,
+      0
+    ],
+    "lastNodes": [
+      "a1-d6-c2",
+      null,
+      null
+    ],
+    "reward": null,
+    "finalVictory": false
+  },
+  "journal": [
+    {
+      "at": "2026-11-01T08:58:42.454Z",
+      "command": "branch-paid",
+      "reason": "One legal floor purchased for 4 souls, then node completed.",
+      "metadata": {
+        "classification": "control-branch-preparation",
+        "source": "C:\\Users\\mebam\\Sol\\Dread_to_Dead\\mvp_text_15\\runs\\checkpoints\\normal_31002-a1-second-expansion.json",
+        "sourceSHA256": "9c8676d61e75567c6827a928912121daa30e54a1555f98f031d7cfc2aa4c8a88",
+        "nodeId": "a1-d6-c2",
+        "seed": 31002,
+        "act": 1,
+        "cost": 4,
+        "beforeFloor": 6,
+        "afterFloor": 7,
+        "souls": {
+          "before": 9,
+          "paid": 5,
+          "skip": 9
+        },
+        "pairedControls": [
+          "same seed",
+          "same inventory/initial placement/durability/equipment",
+          "same expansion-node visit",
+          "same legal next-node choices"
+        ],
+        "requiredContinuation": "Continue both branches to the same public-information policy and planned route. Permit legal branch-specific placements and purchases; record them. Do not inspect one branch future before deciding the other.",
+        "opportunityLimit": "This pair conditions on having visited the expansion node. It includes the soul fee and future spending differences, but excludes the alternative node that was not visited.",
+        "classificationInheritedFromSource": "control-source",
+        "normalPlayEvidence": false
+      }
+    }
+  ],
+  "pendingReason": null,
+  "checkpoints": [],
+  "control": {
+    "classification": "control-branch-preparation",
+    "source": "C:\\Users\\mebam\\Sol\\Dread_to_Dead\\mvp_text_15\\runs\\checkpoints\\normal_31002-a1-second-expansion.json",
+    "sourceSHA256": "9c8676d61e75567c6827a928912121daa30e54a1555f98f031d7cfc2aa4c8a88",
+    "nodeId": "a1-d6-c2",
+    "seed": 31002,
+    "act": 1,
+    "cost": 4,
+    "beforeFloor": 6,
+    "afterFloor": 7,
+    "souls": {
+      "before": 9,
+      "paid": 5,
+      "skip": 9
+    },
+    "pairedControls": [
+      "same seed",
+      "same inventory/initial placement/durability/equipment",
+      "same expansion-node visit",
+      "same legal next-node choices"
+    ],
+    "requiredContinuation": "Continue both branches to the same public-information policy and planned route. Permit legal branch-specific placements and purchases; record them. Do not inspect one branch future before deciding the other.",
+    "opportunityLimit": "This pair conditions on having visited the expansion node. It includes the soul fee and future spending differences, but excludes the alternative node that was not visited.",
+    "classificationInheritedFromSource": "control-source",
+    "normalPlayEvidence": false,
+    "branch": "paid"
+  }
+}

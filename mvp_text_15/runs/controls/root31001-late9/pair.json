@@ -1,0 +1,26 @@
+{
+  "classification": "control-branch-preparation",
+  "source": "C:\\Users\\mebam\\Sol\\Dread_to_Dead\\mvp_text_15\\runs\\checkpoints\\normal_31001-a3-expansion-before.json",
+  "sourceSHA256": "8186dd79da93dc2a207ac049cd3358f9174f79c9ce4a52f37bee09410258de54",
+  "nodeId": "a3-d3-c0",
+  "seed": 31001,
+  "act": 3,
+  "cost": 8,
+  "beforeFloor": 8,
+  "afterFloor": 9,
+  "souls": {
+    "before": 41,
+    "paid": 33,
+    "skip": 41
+  },
+  "pairedControls": [
+    "same seed",
+    "same inventory/initial placement/durability/equipment",
+    "same expansion-node visit",
+    "same legal next-node choices"
+  ],
+  "requiredContinuation": "Continue both branches to the same public-information policy and planned route. Permit legal branch-specific placements and purchases; record them. Do not inspect one branch future before deciding the other.",
+  "opportunityLimit": "This pair conditions on having visited the expansion node. It includes the soul fee and future spending differences, but excludes the alternative node that was not visited.",
+  "classificationInheritedFromSource": "control-source",
+  "normalPlayEvidence": false
+}

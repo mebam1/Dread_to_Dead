@@ -1,0 +1,2064 @@
+{
+  "status": "PREPARATION_DIAGNOSTICS_ONLY",
+  "classification": "synthetic-mechanism-diagnostics",
+  "purpose": "Prepare tools to judge the net value of expansion under user-3; these fixtures are not normal-play findings.",
+  "sourceRules": "../mvps/mvp-config-user-3.md",
+  "configuration": "../mvps/mvp-config-15.md",
+  "comparisons": [
+    {
+      "classification": "controlled-mechanism-diagnostic",
+      "metadata": {
+        "name": "empty-top-floor",
+        "classification": "synthetic",
+        "initialPositionIsInjected": true,
+        "soulCost": 4,
+        "nodeOpportunityIncluded": false,
+        "fixedStateNotReachabilityProof": true,
+        "interpretation": "The same six anomalies remain in place. The new top floor is empty; additional room capacity is not itself an effect or damage bonus."
+      },
+      "before": {
+        "classification": "synthetic-one-turn-diagnostic",
+        "algorithm": "Enumerate all 216 face-index triples; choose one revealed die with a fixed one-turn lexicographic policy.",
+        "policy": "progress",
+        "policyOrder": "avoid immediate defeat; then kill, hearts, fear progress, destruction, token loss, damage, penalty risk, lower slot",
+        "actions": [],
+        "denominator": 216,
+        "probabilityMass": 1,
+        "expected": {
+          "fear": 8.958333333333334,
+          "progress": 8.958333333333334,
+          "hearts": 0.7037037037037037,
+          "kills": 0,
+          "tokenLoss": 1,
+          "destroyed": 0.1712962962962963,
+          "damage": 12,
+          "absorbed": 0,
+          "normalAttacks": 2,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "integerTotals": {
+          "fear": 1935,
+          "progress": 1935,
+          "hearts": 152,
+          "kills": 0,
+          "tokenLoss": 216,
+          "destroyed": 37,
+          "damage": 2592,
+          "absorbed": 0,
+          "normalAttacks": 432,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "chosenDistanceCounts": {
+          "1": 37,
+          "2": 9,
+          "3": 76,
+          "4": 9,
+          "5": 76,
+          "6": 9
+        },
+        "stateSummary": {
+          "floorCount": 6,
+          "money": 10,
+          "equipped": [
+            "normal",
+            "normal",
+            "normal"
+          ],
+          "visitor": {
+            "name": "합성 진단용 기존 패턴 손님",
+            "t": 12,
+            "h": 2,
+            "reward": 2,
+            "pattern": "double",
+            "attackText": "도착층에 공략도 6씩 두 번",
+            "id": "N4",
+            "attackBonus": 0,
+            "f": 0,
+            "a": 3,
+            "pos": 5,
+            "turn": 1
+          },
+          "inventory": [
+            {
+              "id": "diagnostic-1",
+              "type": "U",
+              "floor": 1,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-2",
+              "type": "Q",
+              "floor": 2,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-3",
+              "type": "U",
+              "floor": 3,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-4",
+              "type": "Q",
+              "floor": 4,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-5",
+              "type": "G",
+              "floor": 5,
+              "c": 0,
+              "p": 2,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-6",
+              "type": "B",
+              "floor": 6,
+              "c": 0,
+              "p": 1,
+              "uses": 2
+            }
+          ],
+          "inactive": 0,
+          "inactiveLimit": 3
+        },
+        "limits": [
+          "This is a hypothetical current-turn distribution, not the seeded next roll and not normal play.",
+          "Only the current turn is optimized; no lookahead, repeated-turn policy, route choice, or shop policy is used.",
+          "No direct-use actions are assumed unless an identical explicit action script is supplied for every candidate.",
+          "Normal attack outcomes are exact; hidden inactivity penalty targets are not drawn. Pending penalty probability is separate and its possible extra token losses are excluded.",
+          "Fear is the total effect amount; progress counts heart thresholds plus surviving fear and removes discarded overflow.",
+          "No win-rate, economic payoff, or human enjoyment conclusion follows from these one-turn metrics."
+        ]
+      },
+      "after": {
+        "classification": "synthetic-one-turn-diagnostic",
+        "algorithm": "Enumerate all 216 face-index triples; choose one revealed die with a fixed one-turn lexicographic policy.",
+        "policy": "progress",
+        "policyOrder": "avoid immediate defeat; then kill, hearts, fear progress, destruction, token loss, damage, penalty risk, lower slot",
+        "actions": [],
+        "denominator": 216,
+        "probabilityMass": 1,
+        "expected": {
+          "fear": 8.958333333333334,
+          "progress": 8.958333333333334,
+          "hearts": 0.7037037037037037,
+          "kills": 0,
+          "tokenLoss": 0.9120370370370371,
+          "destroyed": 0.1712962962962963,
+          "damage": 10.944444444444445,
+          "absorbed": 0,
+          "normalAttacks": 2,
+          "emptyAttacks": 0.17592592592592593,
+          "blankContacts": 0.8287037037037037,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "integerTotals": {
+          "fear": 1935,
+          "progress": 1935,
+          "hearts": 152,
+          "kills": 0,
+          "tokenLoss": 197,
+          "destroyed": 37,
+          "damage": 2364,
+          "absorbed": 0,
+          "normalAttacks": 432,
+          "emptyAttacks": 38,
+          "blankContacts": 179,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "chosenDistanceCounts": {
+          "1": 37,
+          "2": 19,
+          "3": 4,
+          "4": 76,
+          "5": 4,
+          "6": 76
+        },
+        "stateSummary": {
+          "floorCount": 7,
+          "money": 6,
+          "equipped": [
+            "normal",
+            "normal",
+            "normal"
+          ],
+          "visitor": {
+            "name": "합성 진단용 기존 패턴 손님",
+            "t": 12,
+            "h": 2,
+            "reward": 2,
+            "pattern": "double",
+            "attackText": "도착층에 공략도 6씩 두 번",
+            "id": "N4",
+            "attackBonus": 0,
+            "f": 0,
+            "a": 3,
+            "pos": 5,
+            "turn": 1
+          },
+          "inventory": [
+            {
+              "id": "diagnostic-1",
+              "type": "U",
+              "floor": 1,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-2",
+              "type": "Q",
+              "floor": 2,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-3",
+              "type": "U",
+              "floor": 3,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-4",
+              "type": "Q",
+              "floor": 4,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-5",
+              "type": "G",
+              "floor": 5,
+              "c": 0,
+              "p": 2,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-6",
+              "type": "B",
+              "floor": 6,
+              "c": 0,
+              "p": 1,
+              "uses": 2
+            }
+          ],
+          "inactive": 0,
+          "inactiveLimit": 3
+        },
+        "limits": [
+          "This is a hypothetical current-turn distribution, not the seeded next roll and not normal play.",
+          "Only the current turn is optimized; no lookahead, repeated-turn policy, route choice, or shop policy is used.",
+          "No direct-use actions are assumed unless an identical explicit action script is supplied for every candidate.",
+          "Normal attack outcomes are exact; hidden inactivity penalty targets are not drawn. Pending penalty probability is separate and its possible extra token losses are excluded.",
+          "Fear is the total effect amount; progress counts heart thresholds plus surviving fear and removes discarded overflow.",
+          "No win-rate, economic payoff, or human enjoyment conclusion follows from these one-turn metrics."
+        ]
+      },
+      "delta": {
+        "fear": 0,
+        "progress": 0,
+        "hearts": 0,
+        "kills": 0,
+        "tokenLoss": -0.08796296296296291,
+        "destroyed": 0,
+        "damage": -1.0555555555555554,
+        "absorbed": 0,
+        "normalAttacks": 0,
+        "emptyAttacks": 0.17592592592592593,
+        "blankContacts": 0.8287037037037037,
+        "revisits": 0,
+        "penaltyPending": 0,
+        "immediateLoss": 0
+      }
+    },
+    {
+      "classification": "controlled-mechanism-diagnostic",
+      "metadata": {
+        "name": "extra-owned-harvester",
+        "classification": "synthetic",
+        "initialPositionIsInjected": true,
+        "soulCost": 4,
+        "nodeOpportunityIncluded": false,
+        "fixedStateNotReachabilityProof": true,
+        "interpretation": "Both states own the same extra harvester. The paid seventh slot deploys it without replacing an existing anomaly. This is not an optimized six-floor baseline: replacing an existing anomaly at six floors is a separate alternative."
+      },
+      "before": {
+        "classification": "synthetic-one-turn-diagnostic",
+        "algorithm": "Enumerate all 216 face-index triples; choose one revealed die with a fixed one-turn lexicographic policy.",
+        "policy": "progress",
+        "policyOrder": "avoid immediate defeat; then kill, hearts, fear progress, destruction, token loss, damage, penalty risk, lower slot",
+        "actions": [],
+        "denominator": 216,
+        "probabilityMass": 1,
+        "expected": {
+          "fear": 1.2638888888888888,
+          "progress": 1.2638888888888888,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 1,
+          "destroyed": 0.42592592592592593,
+          "damage": 12,
+          "absorbed": 0,
+          "normalAttacks": 2,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "integerTotals": {
+          "fear": 273,
+          "progress": 273,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 216,
+          "destroyed": 92,
+          "damage": 2592,
+          "absorbed": 0,
+          "normalAttacks": 432,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "chosenDistanceCounts": {
+          "1": 31,
+          "2": 91,
+          "3": 31,
+          "4": 1,
+          "5": 31,
+          "6": 31
+        },
+        "stateSummary": {
+          "floorCount": 6,
+          "money": 10,
+          "equipped": [
+            "normal",
+            "normal",
+            "normal"
+          ],
+          "visitor": {
+            "name": "합성 진단용 기존 패턴 손님",
+            "t": 12,
+            "h": 2,
+            "reward": 2,
+            "pattern": "double",
+            "attackText": "도착층에 공략도 6씩 두 번",
+            "id": "N4",
+            "attackBonus": 0,
+            "f": 0,
+            "a": 0,
+            "pos": 1,
+            "turn": 1
+          },
+          "inventory": [
+            {
+              "id": "diagnostic-1",
+              "type": "U",
+              "floor": 1,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-2",
+              "type": "U",
+              "floor": 2,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-3",
+              "type": "B",
+              "floor": 3,
+              "c": 0,
+              "p": 1,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-4",
+              "type": "G",
+              "floor": 4,
+              "c": 0,
+              "p": 2,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-5",
+              "type": "E",
+              "floor": 5,
+              "c": 0,
+              "p": 1,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-6",
+              "type": "R",
+              "floor": 6,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-7",
+              "type": "Q",
+              "floor": null,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            }
+          ],
+          "inactive": 0,
+          "inactiveLimit": 3
+        },
+        "limits": [
+          "This is a hypothetical current-turn distribution, not the seeded next roll and not normal play.",
+          "Only the current turn is optimized; no lookahead, repeated-turn policy, route choice, or shop policy is used.",
+          "No direct-use actions are assumed unless an identical explicit action script is supplied for every candidate.",
+          "Normal attack outcomes are exact; hidden inactivity penalty targets are not drawn. Pending penalty probability is separate and its possible extra token losses are excluded.",
+          "Fear is the total effect amount; progress counts heart thresholds plus surviving fear and removes discarded overflow.",
+          "No win-rate, economic payoff, or human enjoyment conclusion follows from these one-turn metrics."
+        ]
+      },
+      "after": {
+        "classification": "synthetic-one-turn-diagnostic",
+        "algorithm": "Enumerate all 216 face-index triples; choose one revealed die with a fixed one-turn lexicographic policy.",
+        "policy": "progress",
+        "policyOrder": "avoid immediate defeat; then kill, hearts, fear progress, destruction, token loss, damage, penalty risk, lower slot",
+        "actions": [],
+        "denominator": 216,
+        "probabilityMass": 1,
+        "expected": {
+          "fear": 5.902777777777778,
+          "progress": 5.902777777777778,
+          "hearts": 0.4212962962962963,
+          "kills": 0,
+          "tokenLoss": 1,
+          "destroyed": 0.28703703703703703,
+          "damage": 12,
+          "absorbed": 0,
+          "normalAttacks": 2,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "integerTotals": {
+          "fear": 1275,
+          "progress": 1275,
+          "hearts": 91,
+          "kills": 0,
+          "tokenLoss": 216,
+          "destroyed": 62,
+          "damage": 2592,
+          "absorbed": 0,
+          "normalAttacks": 432,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "chosenDistanceCounts": {
+          "1": 21,
+          "2": 61,
+          "3": 21,
+          "4": 1,
+          "5": 21,
+          "6": 91
+        },
+        "stateSummary": {
+          "floorCount": 7,
+          "money": 6,
+          "equipped": [
+            "normal",
+            "normal",
+            "normal"
+          ],
+          "visitor": {
+            "name": "합성 진단용 기존 패턴 손님",
+            "t": 12,
+            "h": 2,
+            "reward": 2,
+            "pattern": "double",
+            "attackText": "도착층에 공략도 6씩 두 번",
+            "id": "N4",
+            "attackBonus": 0,
+            "f": 0,
+            "a": 0,
+            "pos": 1,
+            "turn": 1
+          },
+          "inventory": [
+            {
+              "id": "diagnostic-1",
+              "type": "U",
+              "floor": 1,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-2",
+              "type": "U",
+              "floor": 2,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-3",
+              "type": "B",
+              "floor": 3,
+              "c": 0,
+              "p": 1,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-4",
+              "type": "G",
+              "floor": 4,
+              "c": 0,
+              "p": 2,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-5",
+              "type": "E",
+              "floor": 5,
+              "c": 0,
+              "p": 1,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-6",
+              "type": "R",
+              "floor": 6,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-7",
+              "type": "Q",
+              "floor": 7,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            }
+          ],
+          "inactive": 0,
+          "inactiveLimit": 3
+        },
+        "limits": [
+          "This is a hypothetical current-turn distribution, not the seeded next roll and not normal play.",
+          "Only the current turn is optimized; no lookahead, repeated-turn policy, route choice, or shop policy is used.",
+          "No direct-use actions are assumed unless an identical explicit action script is supplied for every candidate.",
+          "Normal attack outcomes are exact; hidden inactivity penalty targets are not drawn. Pending penalty probability is separate and its possible extra token losses are excluded.",
+          "Fear is the total effect amount; progress counts heart thresholds plus surviving fear and removes discarded overflow.",
+          "No win-rate, economic payoff, or human enjoyment conclusion follows from these one-turn metrics."
+        ]
+      },
+      "delta": {
+        "fear": 4.638888888888889,
+        "progress": 4.638888888888889,
+        "hearts": 0.4212962962962963,
+        "kills": 0,
+        "tokenLoss": 0,
+        "destroyed": -0.1388888888888889,
+        "damage": 0,
+        "absorbed": 0,
+        "normalAttacks": 0,
+        "emptyAttacks": 0,
+        "blankContacts": 0,
+        "revisits": 0,
+        "penaltyPending": 0,
+        "immediateLoss": 0
+      }
+    },
+    {
+      "classification": "controlled-mechanism-diagnostic",
+      "metadata": {
+        "name": "six-floor-replacement-alternative",
+        "classification": "synthetic",
+        "initialPositionIsInjected": true,
+        "soulCost": 4,
+        "nodeOpportunityIncluded": false,
+        "fixedStateNotReachabilityProof": true,
+        "interpretation": "Concrete alternative: at six floors replace the repair anomaly with the already-owned harvester; at seven floors keep repair on six and harvester on seven. Same inventory, no claim that either placement is globally optimal."
+      },
+      "before": {
+        "classification": "synthetic-one-turn-diagnostic",
+        "algorithm": "Enumerate all 216 face-index triples; choose one revealed die with a fixed one-turn lexicographic policy.",
+        "policy": "progress",
+        "policyOrder": "avoid immediate defeat; then kill, hearts, fear progress, destruction, token loss, damage, penalty risk, lower slot",
+        "actions": [],
+        "denominator": 216,
+        "probabilityMass": 1,
+        "expected": {
+          "fear": 5.902777777777778,
+          "progress": 5.902777777777778,
+          "hearts": 0.4212962962962963,
+          "kills": 0,
+          "tokenLoss": 1,
+          "destroyed": 0.28703703703703703,
+          "damage": 12,
+          "absorbed": 0,
+          "normalAttacks": 2,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "integerTotals": {
+          "fear": 1275,
+          "progress": 1275,
+          "hearts": 91,
+          "kills": 0,
+          "tokenLoss": 216,
+          "destroyed": 62,
+          "damage": 2592,
+          "absorbed": 0,
+          "normalAttacks": 432,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "chosenDistanceCounts": {
+          "1": 21,
+          "2": 61,
+          "3": 21,
+          "4": 1,
+          "5": 91,
+          "6": 21
+        },
+        "stateSummary": {
+          "floorCount": 6,
+          "money": 10,
+          "equipped": [
+            "normal",
+            "normal",
+            "normal"
+          ],
+          "visitor": {
+            "name": "합성 진단용 기존 패턴 손님",
+            "t": 12,
+            "h": 2,
+            "reward": 2,
+            "pattern": "double",
+            "attackText": "도착층에 공략도 6씩 두 번",
+            "id": "N4",
+            "attackBonus": 0,
+            "f": 0,
+            "a": 0,
+            "pos": 1,
+            "turn": 1
+          },
+          "inventory": [
+            {
+              "id": "diagnostic-1",
+              "type": "U",
+              "floor": 1,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-2",
+              "type": "U",
+              "floor": 2,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-3",
+              "type": "B",
+              "floor": 3,
+              "c": 0,
+              "p": 1,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-4",
+              "type": "G",
+              "floor": 4,
+              "c": 0,
+              "p": 2,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-5",
+              "type": "E",
+              "floor": 5,
+              "c": 0,
+              "p": 1,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-6",
+              "type": "R",
+              "floor": null,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-7",
+              "type": "Q",
+              "floor": 6,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            }
+          ],
+          "inactive": 0,
+          "inactiveLimit": 3
+        },
+        "limits": [
+          "This is a hypothetical current-turn distribution, not the seeded next roll and not normal play.",
+          "Only the current turn is optimized; no lookahead, repeated-turn policy, route choice, or shop policy is used.",
+          "No direct-use actions are assumed unless an identical explicit action script is supplied for every candidate.",
+          "Normal attack outcomes are exact; hidden inactivity penalty targets are not drawn. Pending penalty probability is separate and its possible extra token losses are excluded.",
+          "Fear is the total effect amount; progress counts heart thresholds plus surviving fear and removes discarded overflow.",
+          "No win-rate, economic payoff, or human enjoyment conclusion follows from these one-turn metrics."
+        ]
+      },
+      "after": {
+        "classification": "synthetic-one-turn-diagnostic",
+        "algorithm": "Enumerate all 216 face-index triples; choose one revealed die with a fixed one-turn lexicographic policy.",
+        "policy": "progress",
+        "policyOrder": "avoid immediate defeat; then kill, hearts, fear progress, destruction, token loss, damage, penalty risk, lower slot",
+        "actions": [],
+        "denominator": 216,
+        "probabilityMass": 1,
+        "expected": {
+          "fear": 5.902777777777778,
+          "progress": 5.902777777777778,
+          "hearts": 0.4212962962962963,
+          "kills": 0,
+          "tokenLoss": 1,
+          "destroyed": 0.28703703703703703,
+          "damage": 12,
+          "absorbed": 0,
+          "normalAttacks": 2,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "integerTotals": {
+          "fear": 1275,
+          "progress": 1275,
+          "hearts": 91,
+          "kills": 0,
+          "tokenLoss": 216,
+          "destroyed": 62,
+          "damage": 2592,
+          "absorbed": 0,
+          "normalAttacks": 432,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "chosenDistanceCounts": {
+          "1": 21,
+          "2": 61,
+          "3": 21,
+          "4": 1,
+          "5": 21,
+          "6": 91
+        },
+        "stateSummary": {
+          "floorCount": 7,
+          "money": 6,
+          "equipped": [
+            "normal",
+            "normal",
+            "normal"
+          ],
+          "visitor": {
+            "name": "합성 진단용 기존 패턴 손님",
+            "t": 12,
+            "h": 2,
+            "reward": 2,
+            "pattern": "double",
+            "attackText": "도착층에 공략도 6씩 두 번",
+            "id": "N4",
+            "attackBonus": 0,
+            "f": 0,
+            "a": 0,
+            "pos": 1,
+            "turn": 1
+          },
+          "inventory": [
+            {
+              "id": "diagnostic-1",
+              "type": "U",
+              "floor": 1,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-2",
+              "type": "U",
+              "floor": 2,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-3",
+              "type": "B",
+              "floor": 3,
+              "c": 0,
+              "p": 1,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-4",
+              "type": "G",
+              "floor": 4,
+              "c": 0,
+              "p": 2,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-5",
+              "type": "E",
+              "floor": 5,
+              "c": 0,
+              "p": 1,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-6",
+              "type": "R",
+              "floor": 6,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-7",
+              "type": "Q",
+              "floor": 7,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            }
+          ],
+          "inactive": 0,
+          "inactiveLimit": 3
+        },
+        "limits": [
+          "This is a hypothetical current-turn distribution, not the seeded next roll and not normal play.",
+          "Only the current turn is optimized; no lookahead, repeated-turn policy, route choice, or shop policy is used.",
+          "No direct-use actions are assumed unless an identical explicit action script is supplied for every candidate.",
+          "Normal attack outcomes are exact; hidden inactivity penalty targets are not drawn. Pending penalty probability is separate and its possible extra token losses are excluded.",
+          "Fear is the total effect amount; progress counts heart thresholds plus surviving fear and removes discarded overflow.",
+          "No win-rate, economic payoff, or human enjoyment conclusion follows from these one-turn metrics."
+        ]
+      },
+      "delta": {
+        "fear": 0,
+        "progress": 0,
+        "hearts": 0,
+        "kills": 0,
+        "tokenLoss": 0,
+        "destroyed": 0,
+        "damage": 0,
+        "absorbed": 0,
+        "normalAttacks": 0,
+        "emptyAttacks": 0,
+        "blankContacts": 0,
+        "revisits": 0,
+        "penaltyPending": 0,
+        "immediateLoss": 0
+      }
+    },
+    {
+      "classification": "controlled-mechanism-diagnostic",
+      "metadata": {
+        "name": "long-die-revisit",
+        "classification": "synthetic",
+        "initialPositionIsInjected": true,
+        "soulCost": 4,
+        "nodeOpportunityIncluded": false,
+        "fixedStateNotReachabilityProof": true,
+        "interpretation": "A distance of eight revisits different floors at six and seven floors. Count visits and attacks separately; a longer hotel need not strengthen a long die."
+      },
+      "before": {
+        "classification": "synthetic-one-turn-diagnostic",
+        "algorithm": "Enumerate all 216 face-index triples; choose one revealed die with a fixed one-turn lexicographic policy.",
+        "policy": "progress",
+        "policyOrder": "avoid immediate defeat; then kill, hearts, fear progress, destruction, token loss, damage, penalty risk, lower slot",
+        "actions": [],
+        "denominator": 216,
+        "probabilityMass": 1,
+        "expected": {
+          "fear": 5.62962962962963,
+          "progress": 5.62962962962963,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 0.8287037037037037,
+          "destroyed": 0,
+          "damage": 9.944444444444445,
+          "absorbed": 0,
+          "normalAttacks": 2,
+          "emptyAttacks": 0.3425925925925926,
+          "blankContacts": 0.5648148148148148,
+          "revisits": 0.08333333333333333,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "integerTotals": {
+          "fear": 1216,
+          "progress": 1216,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 179,
+          "destroyed": 0,
+          "damage": 2148,
+          "absorbed": 0,
+          "normalAttacks": 432,
+          "emptyAttacks": 74,
+          "blankContacts": 122,
+          "revisits": 18,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "chosenDistanceCounts": {
+          "1": 9,
+          "2": 9,
+          "3": 76,
+          "4": 37,
+          "5": 76,
+          "8": 9
+        },
+        "stateSummary": {
+          "floorCount": 6,
+          "money": 10,
+          "equipped": [
+            "long",
+            "long",
+            "long"
+          ],
+          "visitor": {
+            "name": "합성 진단용 기존 패턴 손님",
+            "t": 12,
+            "h": 2,
+            "reward": 2,
+            "pattern": "double",
+            "attackText": "도착층에 공략도 6씩 두 번",
+            "id": "N4",
+            "attackBonus": 0,
+            "f": 0,
+            "a": 0,
+            "pos": 0,
+            "turn": 1
+          },
+          "inventory": [
+            {
+              "id": "diagnostic-1",
+              "type": "U",
+              "floor": 1,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-2",
+              "type": "G",
+              "floor": 2,
+              "c": 0,
+              "p": 2,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-3",
+              "type": "Q",
+              "floor": 3,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-4",
+              "type": "Q",
+              "floor": 5,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-5",
+              "type": "B",
+              "floor": 6,
+              "c": 0,
+              "p": 1,
+              "uses": 2
+            }
+          ],
+          "inactive": 0,
+          "inactiveLimit": 3
+        },
+        "limits": [
+          "This is a hypothetical current-turn distribution, not the seeded next roll and not normal play.",
+          "Only the current turn is optimized; no lookahead, repeated-turn policy, route choice, or shop policy is used.",
+          "No direct-use actions are assumed unless an identical explicit action script is supplied for every candidate.",
+          "Normal attack outcomes are exact; hidden inactivity penalty targets are not drawn. Pending penalty probability is separate and its possible extra token losses are excluded.",
+          "Fear is the total effect amount; progress counts heart thresholds plus surviving fear and removes discarded overflow.",
+          "No win-rate, economic payoff, or human enjoyment conclusion follows from these one-turn metrics."
+        ]
+      },
+      "after": {
+        "classification": "synthetic-one-turn-diagnostic",
+        "algorithm": "Enumerate all 216 face-index triples; choose one revealed die with a fixed one-turn lexicographic policy.",
+        "policy": "progress",
+        "policyOrder": "avoid immediate defeat; then kill, hearts, fear progress, destruction, token loss, damage, penalty risk, lower slot",
+        "actions": [],
+        "denominator": 216,
+        "probabilityMass": 1,
+        "expected": {
+          "fear": 5.62962962962963,
+          "progress": 5.62962962962963,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 0.8287037037037037,
+          "destroyed": 0,
+          "damage": 9.944444444444445,
+          "absorbed": 0,
+          "normalAttacks": 2,
+          "emptyAttacks": 0.3425925925925926,
+          "blankContacts": 0.6064814814814815,
+          "revisits": 0.041666666666666664,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "integerTotals": {
+          "fear": 1216,
+          "progress": 1216,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 179,
+          "destroyed": 0,
+          "damage": 2148,
+          "absorbed": 0,
+          "normalAttacks": 432,
+          "emptyAttacks": 74,
+          "blankContacts": 131,
+          "revisits": 9,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "chosenDistanceCounts": {
+          "1": 9,
+          "2": 9,
+          "3": 76,
+          "4": 37,
+          "5": 76,
+          "8": 9
+        },
+        "stateSummary": {
+          "floorCount": 7,
+          "money": 6,
+          "equipped": [
+            "long",
+            "long",
+            "long"
+          ],
+          "visitor": {
+            "name": "합성 진단용 기존 패턴 손님",
+            "t": 12,
+            "h": 2,
+            "reward": 2,
+            "pattern": "double",
+            "attackText": "도착층에 공략도 6씩 두 번",
+            "id": "N4",
+            "attackBonus": 0,
+            "f": 0,
+            "a": 0,
+            "pos": 0,
+            "turn": 1
+          },
+          "inventory": [
+            {
+              "id": "diagnostic-1",
+              "type": "U",
+              "floor": 1,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-2",
+              "type": "G",
+              "floor": 2,
+              "c": 0,
+              "p": 2,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-3",
+              "type": "Q",
+              "floor": 3,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-4",
+              "type": "Q",
+              "floor": 5,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-5",
+              "type": "B",
+              "floor": 6,
+              "c": 0,
+              "p": 1,
+              "uses": 2
+            }
+          ],
+          "inactive": 0,
+          "inactiveLimit": 3
+        },
+        "limits": [
+          "This is a hypothetical current-turn distribution, not the seeded next roll and not normal play.",
+          "Only the current turn is optimized; no lookahead, repeated-turn policy, route choice, or shop policy is used.",
+          "No direct-use actions are assumed unless an identical explicit action script is supplied for every candidate.",
+          "Normal attack outcomes are exact; hidden inactivity penalty targets are not drawn. Pending penalty probability is separate and its possible extra token losses are excluded.",
+          "Fear is the total effect amount; progress counts heart thresholds plus surviving fear and removes discarded overflow.",
+          "No win-rate, economic payoff, or human enjoyment conclusion follows from these one-turn metrics."
+        ]
+      },
+      "delta": {
+        "fear": 0,
+        "progress": 0,
+        "hearts": 0,
+        "kills": 0,
+        "tokenLoss": 0,
+        "destroyed": 0,
+        "damage": 0,
+        "absorbed": 0,
+        "normalAttacks": 0,
+        "emptyAttacks": 0,
+        "blankContacts": 0.04166666666666674,
+        "revisits": -0.041666666666666664,
+        "penaltyPending": 0,
+        "immediateLoss": 0
+      }
+    },
+    {
+      "classification": "controlled-mechanism-diagnostic",
+      "metadata": {
+        "name": "even-die-parity",
+        "classification": "synthetic",
+        "initialPositionIsInjected": true,
+        "soulCost": 4,
+        "nodeOpportunityIncluded": false,
+        "fixedStateNotReachabilityProof": true,
+        "interpretation": "At six floors, even movements from floor five reach odd harvest/attack floors. At seven floors the wrap changes parity and all three distances miss the harvesters from this particular state."
+      },
+      "before": {
+        "classification": "synthetic-one-turn-diagnostic",
+        "algorithm": "Enumerate all 216 face-index triples; choose one revealed die with a fixed one-turn lexicographic policy.",
+        "policy": "progress",
+        "policyOrder": "avoid immediate defeat; then kill, hearts, fear progress, destruction, token loss, damage, penalty risk, lower slot",
+        "actions": [],
+        "denominator": 216,
+        "probabilityMass": 1,
+        "expected": {
+          "fear": 11.666666666666666,
+          "progress": 11.666666666666666,
+          "hearts": 0.9629629629629629,
+          "kills": 0,
+          "tokenLoss": 1,
+          "destroyed": 0.037037037037037035,
+          "damage": 12,
+          "absorbed": 0,
+          "normalAttacks": 2,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "integerTotals": {
+          "fear": 2520,
+          "progress": 2520,
+          "hearts": 208,
+          "kills": 0,
+          "tokenLoss": 216,
+          "destroyed": 8,
+          "damage": 2592,
+          "absorbed": 0,
+          "normalAttacks": 432,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "chosenDistanceCounts": {
+          "2": 8,
+          "4": 104,
+          "6": 104
+        },
+        "stateSummary": {
+          "floorCount": 6,
+          "money": 10,
+          "equipped": [
+            "even",
+            "even",
+            "even"
+          ],
+          "visitor": {
+            "name": "합성 진단용 기존 패턴 손님",
+            "t": 12,
+            "h": 2,
+            "reward": 2,
+            "pattern": "double",
+            "attackText": "도착층에 공략도 6씩 두 번",
+            "id": "N4",
+            "attackBonus": 0,
+            "f": 0,
+            "a": 3,
+            "pos": 5,
+            "turn": 1
+          },
+          "inventory": [
+            {
+              "id": "diagnostic-1",
+              "type": "B",
+              "floor": 1,
+              "c": 0,
+              "p": 1,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-2",
+              "type": "U",
+              "floor": 2,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-3",
+              "type": "Q",
+              "floor": 3,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-4",
+              "type": "U",
+              "floor": 4,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-5",
+              "type": "Q",
+              "floor": 5,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-6",
+              "type": "G",
+              "floor": 6,
+              "c": 0,
+              "p": 2,
+              "uses": 2
+            }
+          ],
+          "inactive": 0,
+          "inactiveLimit": 3
+        },
+        "limits": [
+          "This is a hypothetical current-turn distribution, not the seeded next roll and not normal play.",
+          "Only the current turn is optimized; no lookahead, repeated-turn policy, route choice, or shop policy is used.",
+          "No direct-use actions are assumed unless an identical explicit action script is supplied for every candidate.",
+          "Normal attack outcomes are exact; hidden inactivity penalty targets are not drawn. Pending penalty probability is separate and its possible extra token losses are excluded.",
+          "Fear is the total effect amount; progress counts heart thresholds plus surviving fear and removes discarded overflow.",
+          "No win-rate, economic payoff, or human enjoyment conclusion follows from these one-turn metrics."
+        ]
+      },
+      "after": {
+        "classification": "synthetic-one-turn-diagnostic",
+        "algorithm": "Enumerate all 216 face-index triples; choose one revealed die with a fixed one-turn lexicographic policy.",
+        "policy": "progress",
+        "policyOrder": "avoid immediate defeat; then kill, hearts, fear progress, destruction, token loss, damage, penalty risk, lower slot",
+        "actions": [],
+        "denominator": 216,
+        "probabilityMass": 1,
+        "expected": {
+          "fear": 0,
+          "progress": 0,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 0.2962962962962963,
+          "destroyed": 0,
+          "damage": 3.5555555555555554,
+          "absorbed": 0,
+          "normalAttacks": 2,
+          "emptyAttacks": 1.4074074074074074,
+          "blankContacts": 1,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "integerTotals": {
+          "fear": 0,
+          "progress": 0,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 64,
+          "destroyed": 0,
+          "damage": 768,
+          "absorbed": 0,
+          "normalAttacks": 432,
+          "emptyAttacks": 304,
+          "blankContacts": 216,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "chosenDistanceCounts": {
+          "2": 152,
+          "4": 32,
+          "6": 32
+        },
+        "stateSummary": {
+          "floorCount": 7,
+          "money": 6,
+          "equipped": [
+            "even",
+            "even",
+            "even"
+          ],
+          "visitor": {
+            "name": "합성 진단용 기존 패턴 손님",
+            "t": 12,
+            "h": 2,
+            "reward": 2,
+            "pattern": "double",
+            "attackText": "도착층에 공략도 6씩 두 번",
+            "id": "N4",
+            "attackBonus": 0,
+            "f": 0,
+            "a": 3,
+            "pos": 5,
+            "turn": 1
+          },
+          "inventory": [
+            {
+              "id": "diagnostic-1",
+              "type": "B",
+              "floor": 1,
+              "c": 0,
+              "p": 1,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-2",
+              "type": "U",
+              "floor": 2,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-3",
+              "type": "Q",
+              "floor": 3,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-4",
+              "type": "U",
+              "floor": 4,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-5",
+              "type": "Q",
+              "floor": 5,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-6",
+              "type": "G",
+              "floor": 6,
+              "c": 0,
+              "p": 2,
+              "uses": 2
+            }
+          ],
+          "inactive": 0,
+          "inactiveLimit": 3
+        },
+        "limits": [
+          "This is a hypothetical current-turn distribution, not the seeded next roll and not normal play.",
+          "Only the current turn is optimized; no lookahead, repeated-turn policy, route choice, or shop policy is used.",
+          "No direct-use actions are assumed unless an identical explicit action script is supplied for every candidate.",
+          "Normal attack outcomes are exact; hidden inactivity penalty targets are not drawn. Pending penalty probability is separate and its possible extra token losses are excluded.",
+          "Fear is the total effect amount; progress counts heart thresholds plus surviving fear and removes discarded overflow.",
+          "No win-rate, economic payoff, or human enjoyment conclusion follows from these one-turn metrics."
+        ]
+      },
+      "delta": {
+        "fear": -11.666666666666666,
+        "progress": -11.666666666666666,
+        "hearts": -0.9629629629629629,
+        "kills": 0,
+        "tokenLoss": -0.7037037037037037,
+        "destroyed": -0.037037037037037035,
+        "damage": -8.444444444444445,
+        "absorbed": 0,
+        "normalAttacks": 0,
+        "emptyAttacks": 1.4074074074074074,
+        "blankContacts": 1,
+        "revisits": 0,
+        "penaltyPending": 0,
+        "immediateLoss": 0
+      }
+    },
+    {
+      "classification": "controlled-mechanism-diagnostic",
+      "metadata": {
+        "name": "route-attack-empty-space",
+        "classification": "synthetic",
+        "initialPositionIsInjected": true,
+        "soulCost": 4,
+        "nodeOpportunityIncluded": false,
+        "fixedStateNotReachabilityProof": true,
+        "interpretation": "The same per-visit route attacks can strike an extra empty floor instead of an anomaly, but the total movement/attack count and lost arrivals must also be retained."
+      },
+      "before": {
+        "classification": "synthetic-one-turn-diagnostic",
+        "algorithm": "Enumerate all 216 face-index triples; choose one revealed die with a fixed one-turn lexicographic policy.",
+        "policy": "progress",
+        "policyOrder": "avoid immediate defeat; then kill, hearts, fear progress, destruction, token loss, damage, penalty risk, lower slot",
+        "actions": [],
+        "denominator": 216,
+        "probabilityMass": 1,
+        "expected": {
+          "fear": 8.958333333333334,
+          "progress": 8.958333333333334,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 0,
+          "destroyed": 0,
+          "damage": 12.722222222222221,
+          "absorbed": 0,
+          "normalAttacks": 3.1805555555555554,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "integerTotals": {
+          "fear": 1935,
+          "progress": 1935,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 0,
+          "destroyed": 0,
+          "damage": 2748,
+          "absorbed": 0,
+          "normalAttacks": 687,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "chosenDistanceCounts": {
+          "1": 37,
+          "2": 19,
+          "3": 91,
+          "4": 7,
+          "5": 61,
+          "6": 1
+        },
+        "stateSummary": {
+          "floorCount": 6,
+          "money": 10,
+          "equipped": [
+            "normal",
+            "normal",
+            "normal"
+          ],
+          "visitor": {
+            "name": "합성 진단용 기존 패턴 손님",
+            "t": 16,
+            "h": 2,
+            "reward": 2,
+            "pattern": "route",
+            "attackText": "도착층에 공략도 6씩 두 번",
+            "id": "N5",
+            "attackBonus": 0,
+            "f": 0,
+            "a": 3,
+            "pos": 5,
+            "turn": 1
+          },
+          "inventory": [
+            {
+              "id": "diagnostic-1",
+              "type": "U",
+              "floor": 1,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-2",
+              "type": "Q",
+              "floor": 2,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-3",
+              "type": "U",
+              "floor": 3,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-4",
+              "type": "Q",
+              "floor": 4,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-5",
+              "type": "G",
+              "floor": 5,
+              "c": 0,
+              "p": 2,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-6",
+              "type": "B",
+              "floor": 6,
+              "c": 0,
+              "p": 1,
+              "uses": 2
+            }
+          ],
+          "inactive": 0,
+          "inactiveLimit": 3
+        },
+        "limits": [
+          "This is a hypothetical current-turn distribution, not the seeded next roll and not normal play.",
+          "Only the current turn is optimized; no lookahead, repeated-turn policy, route choice, or shop policy is used.",
+          "No direct-use actions are assumed unless an identical explicit action script is supplied for every candidate.",
+          "Normal attack outcomes are exact; hidden inactivity penalty targets are not drawn. Pending penalty probability is separate and its possible extra token losses are excluded.",
+          "Fear is the total effect amount; progress counts heart thresholds plus surviving fear and removes discarded overflow.",
+          "No win-rate, economic payoff, or human enjoyment conclusion follows from these one-turn metrics."
+        ]
+      },
+      "after": {
+        "classification": "synthetic-one-turn-diagnostic",
+        "algorithm": "Enumerate all 216 face-index triples; choose one revealed die with a fixed one-turn lexicographic policy.",
+        "policy": "progress",
+        "policyOrder": "avoid immediate defeat; then kill, hearts, fear progress, destruction, token loss, damage, penalty risk, lower slot",
+        "actions": [],
+        "denominator": 216,
+        "probabilityMass": 1,
+        "expected": {
+          "fear": 8.958333333333334,
+          "progress": 8.958333333333334,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 0,
+          "destroyed": 0,
+          "damage": 12.074074074074074,
+          "absorbed": 0,
+          "normalAttacks": 3.8472222222222223,
+          "emptyAttacks": 0.8287037037037037,
+          "blankContacts": 0.8287037037037037,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "integerTotals": {
+          "fear": 1935,
+          "progress": 1935,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 0,
+          "destroyed": 0,
+          "damage": 2608,
+          "absorbed": 0,
+          "normalAttacks": 831,
+          "emptyAttacks": 179,
+          "blankContacts": 179,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "chosenDistanceCounts": {
+          "1": 37,
+          "2": 19,
+          "3": 7,
+          "4": 91,
+          "5": 1,
+          "6": 61
+        },
+        "stateSummary": {
+          "floorCount": 7,
+          "money": 6,
+          "equipped": [
+            "normal",
+            "normal",
+            "normal"
+          ],
+          "visitor": {
+            "name": "합성 진단용 기존 패턴 손님",
+            "t": 16,
+            "h": 2,
+            "reward": 2,
+            "pattern": "route",
+            "attackText": "도착층에 공략도 6씩 두 번",
+            "id": "N5",
+            "attackBonus": 0,
+            "f": 0,
+            "a": 3,
+            "pos": 5,
+            "turn": 1
+          },
+          "inventory": [
+            {
+              "id": "diagnostic-1",
+              "type": "U",
+              "floor": 1,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-2",
+              "type": "Q",
+              "floor": 2,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-3",
+              "type": "U",
+              "floor": 3,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-4",
+              "type": "Q",
+              "floor": 4,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-5",
+              "type": "G",
+              "floor": 5,
+              "c": 0,
+              "p": 2,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-6",
+              "type": "B",
+              "floor": 6,
+              "c": 0,
+              "p": 1,
+              "uses": 2
+            }
+          ],
+          "inactive": 0,
+          "inactiveLimit": 3
+        },
+        "limits": [
+          "This is a hypothetical current-turn distribution, not the seeded next roll and not normal play.",
+          "Only the current turn is optimized; no lookahead, repeated-turn policy, route choice, or shop policy is used.",
+          "No direct-use actions are assumed unless an identical explicit action script is supplied for every candidate.",
+          "Normal attack outcomes are exact; hidden inactivity penalty targets are not drawn. Pending penalty probability is separate and its possible extra token losses are excluded.",
+          "Fear is the total effect amount; progress counts heart thresholds plus surviving fear and removes discarded overflow.",
+          "No win-rate, economic payoff, or human enjoyment conclusion follows from these one-turn metrics."
+        ]
+      },
+      "delta": {
+        "fear": 0,
+        "progress": 0,
+        "hearts": 0,
+        "kills": 0,
+        "tokenLoss": 0,
+        "destroyed": 0,
+        "damage": -0.648148148148147,
+        "absorbed": 0,
+        "normalAttacks": 0.666666666666667,
+        "emptyAttacks": 0.8287037037037037,
+        "blankContacts": 0.8287037037037037,
+        "revisits": 0,
+        "penaltyPending": 0,
+        "immediateLoss": 0
+      }
+    },
+    {
+      "classification": "controlled-mechanism-diagnostic",
+      "metadata": {
+        "name": "remote-attack-retarget",
+        "classification": "synthetic",
+        "initialPositionIsInjected": true,
+        "soulCost": 4,
+        "nodeOpportunityIncluded": false,
+        "fixedStateNotReachabilityProof": true,
+        "interpretation": "Below/above two-floor attack targets wrap with hotel size. Empty space can absorb a target or shift it onto a valuable anomaly; it is not a universal defense bonus."
+      },
+      "before": {
+        "classification": "synthetic-one-turn-diagnostic",
+        "algorithm": "Enumerate all 216 face-index triples; choose one revealed die with a fixed one-turn lexicographic policy.",
+        "policy": "progress",
+        "policyOrder": "avoid immediate defeat; then kill, hearts, fear progress, destruction, token loss, damage, penalty risk, lower slot",
+        "actions": [],
+        "denominator": 216,
+        "probabilityMass": 1,
+        "expected": {
+          "fear": 8.958333333333334,
+          "progress": 8.958333333333334,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 0,
+          "destroyed": 0,
+          "damage": 12,
+          "absorbed": 0,
+          "normalAttacks": 2,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "integerTotals": {
+          "fear": 1935,
+          "progress": 1935,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 0,
+          "destroyed": 0,
+          "damage": 2592,
+          "absorbed": 0,
+          "normalAttacks": 432,
+          "emptyAttacks": 0,
+          "blankContacts": 0,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "chosenDistanceCounts": {
+          "1": 37,
+          "2": 9,
+          "3": 76,
+          "4": 9,
+          "5": 76,
+          "6": 9
+        },
+        "stateSummary": {
+          "floorCount": 6,
+          "money": 10,
+          "equipped": [
+            "normal",
+            "normal",
+            "normal"
+          ],
+          "visitor": {
+            "name": "합성 진단용 기존 패턴 손님",
+            "t": 16,
+            "h": 2,
+            "reward": 2,
+            "pattern": "mirror",
+            "attackText": "도착층에 공략도 6씩 두 번",
+            "id": "N6",
+            "attackBonus": 0,
+            "f": 0,
+            "a": 3,
+            "pos": 5,
+            "turn": 1
+          },
+          "inventory": [
+            {
+              "id": "diagnostic-1",
+              "type": "U",
+              "floor": 1,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-2",
+              "type": "Q",
+              "floor": 2,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-3",
+              "type": "U",
+              "floor": 3,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-4",
+              "type": "Q",
+              "floor": 4,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-5",
+              "type": "G",
+              "floor": 5,
+              "c": 0,
+              "p": 2,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-6",
+              "type": "B",
+              "floor": 6,
+              "c": 0,
+              "p": 1,
+              "uses": 2
+            }
+          ],
+          "inactive": 0,
+          "inactiveLimit": 3
+        },
+        "limits": [
+          "This is a hypothetical current-turn distribution, not the seeded next roll and not normal play.",
+          "Only the current turn is optimized; no lookahead, repeated-turn policy, route choice, or shop policy is used.",
+          "No direct-use actions are assumed unless an identical explicit action script is supplied for every candidate.",
+          "Normal attack outcomes are exact; hidden inactivity penalty targets are not drawn. Pending penalty probability is separate and its possible extra token losses are excluded.",
+          "Fear is the total effect amount; progress counts heart thresholds plus surviving fear and removes discarded overflow.",
+          "No win-rate, economic payoff, or human enjoyment conclusion follows from these one-turn metrics."
+        ]
+      },
+      "after": {
+        "classification": "synthetic-one-turn-diagnostic",
+        "algorithm": "Enumerate all 216 face-index triples; choose one revealed die with a fixed one-turn lexicographic policy.",
+        "policy": "progress",
+        "policyOrder": "avoid immediate defeat; then kill, hearts, fear progress, destruction, token loss, damage, penalty risk, lower slot",
+        "actions": [],
+        "denominator": 216,
+        "probabilityMass": 1,
+        "expected": {
+          "fear": 8.958333333333334,
+          "progress": 8.958333333333334,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 0,
+          "destroyed": 0,
+          "damage": 9.472222222222221,
+          "absorbed": 0,
+          "normalAttacks": 2,
+          "emptyAttacks": 0.4212962962962963,
+          "blankContacts": 0.8287037037037037,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "integerTotals": {
+          "fear": 1935,
+          "progress": 1935,
+          "hearts": 0,
+          "kills": 0,
+          "tokenLoss": 0,
+          "destroyed": 0,
+          "damage": 2046,
+          "absorbed": 0,
+          "normalAttacks": 432,
+          "emptyAttacks": 91,
+          "blankContacts": 179,
+          "revisits": 0,
+          "penaltyPending": 0,
+          "immediateLoss": 0
+        },
+        "chosenDistanceCounts": {
+          "1": 37,
+          "2": 9,
+          "3": 9,
+          "4": 91,
+          "5": 9,
+          "6": 61
+        },
+        "stateSummary": {
+          "floorCount": 7,
+          "money": 6,
+          "equipped": [
+            "normal",
+            "normal",
+            "normal"
+          ],
+          "visitor": {
+            "name": "합성 진단용 기존 패턴 손님",
+            "t": 16,
+            "h": 2,
+            "reward": 2,
+            "pattern": "mirror",
+            "attackText": "도착층에 공략도 6씩 두 번",
+            "id": "N6",
+            "attackBonus": 0,
+            "f": 0,
+            "a": 3,
+            "pos": 5,
+            "turn": 1
+          },
+          "inventory": [
+            {
+              "id": "diagnostic-1",
+              "type": "U",
+              "floor": 1,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-2",
+              "type": "Q",
+              "floor": 2,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-3",
+              "type": "U",
+              "floor": 3,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-4",
+              "type": "Q",
+              "floor": 4,
+              "c": 0,
+              "p": 2,
+              "uses": 0
+            },
+            {
+              "id": "diagnostic-5",
+              "type": "G",
+              "floor": 5,
+              "c": 0,
+              "p": 2,
+              "uses": 2
+            },
+            {
+              "id": "diagnostic-6",
+              "type": "B",
+              "floor": 6,
+              "c": 0,
+              "p": 1,
+              "uses": 2
+            }
+          ],
+          "inactive": 0,
+          "inactiveLimit": 3
+        },
+        "limits": [
+          "This is a hypothetical current-turn distribution, not the seeded next roll and not normal play.",
+          "Only the current turn is optimized; no lookahead, repeated-turn policy, route choice, or shop policy is used.",
+          "No direct-use actions are assumed unless an identical explicit action script is supplied for every candidate.",
+          "Normal attack outcomes are exact; hidden inactivity penalty targets are not drawn. Pending penalty probability is separate and its possible extra token losses are excluded.",
+          "Fear is the total effect amount; progress counts heart thresholds plus surviving fear and removes discarded overflow.",
+          "No win-rate, economic payoff, or human enjoyment conclusion follows from these one-turn metrics."
+        ]
+      },
+      "delta": {
+        "fear": 0,
+        "progress": 0,
+        "hearts": 0,
+        "kills": 0,
+        "tokenLoss": 0,
+        "destroyed": 0,
+        "damage": -2.5277777777777786,
+        "absorbed": 0,
+        "normalAttacks": 0,
+        "emptyAttacks": 0.4212962962962963,
+        "blankContacts": 0.8287037037037037,
+        "revisits": 0,
+        "penaltyPending": 0,
+        "immediateLoss": 0
+      }
+    }
+  ],
+  "economicLimits": "Each synthetic 6-to-7 comparison charges four souls, but a single-turn geometry statistic cannot price future shopping or the skipped alternative node. Use legal checkpoint branches and continue both to measure realized payoff."
+}

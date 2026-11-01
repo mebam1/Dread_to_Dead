@@ -1,0 +1,1017 @@
+{
+  "config": "mvp-config-user-3.md v1.1",
+  "testCounts": {
+    "engine": 50,
+    "offlineView": 35,
+    "total": 85
+  },
+  "testsScope": "Synthetic rule boundaries and offline HTML/action tests; not browser layout or real input-device verification.",
+  "normalPlay": {
+    "seeds": [
+      31001,
+      31002,
+      31003
+    ],
+    "policies": [
+      "mixed: favor equipment and optional nodes, include elite opportunities",
+      "conservative: same policy with elite priority lower than all other node types"
+    ],
+    "rules": "Current public information only, fixed across all seeds. No injected assets, forced dice, future roll lookahead, number changes or seed selection.",
+    "results": [
+      {
+        "file": "campaign-31001.json",
+        "seed": 31001,
+        "phase": "lost",
+        "reason": "배치된 괴이가 모두 파괴되어 호텔이 무너졌습니다.",
+        "act": 2,
+        "completed": [
+          8,
+          3,
+          0
+        ],
+        "turns": 68,
+        "kills": 8,
+        "escaped": 0,
+        "skipped": 0,
+        "earned": 24,
+        "spent": 15,
+        "destroyed": 9,
+        "visits": 11,
+        "combats": 5,
+        "expansions": 1,
+        "expansionSpent": 4,
+        "eventRemoved": 0,
+        "recoveries": 2,
+        "healedTokens": 4,
+        "recoveryWasted": 0,
+        "upgrades": 1,
+        "souls": 13,
+        "floorCount": 7,
+        "equipped": [
+          "long",
+          "even",
+          "anxiety"
+        ],
+        "specialChoices": 42,
+        "elapsedSeconds": 10,
+        "perAct": [
+          {
+            "act": 1,
+            "visits": 8,
+            "turns": 25,
+            "kills": 5
+          },
+          {
+            "act": 2,
+            "visits": 3,
+            "turns": 43,
+            "kills": 3
+          },
+          {
+            "act": 3,
+            "visits": 0,
+            "turns": 0,
+            "kills": 0
+          }
+        ],
+        "path": [
+          {
+            "node": "a1-d1-c2",
+            "kind": "normal",
+            "act": 1,
+            "depth": 1
+          },
+          {
+            "node": "a1-d2-c2",
+            "kind": "discovery",
+            "act": 1,
+            "depth": 2
+          },
+          {
+            "node": "a1-d3-c2",
+            "kind": "shop",
+            "act": 1,
+            "depth": 3
+          },
+          {
+            "node": "a1-d4-c2",
+            "kind": "elite",
+            "act": 1,
+            "depth": 4
+          },
+          {
+            "node": "a1-d5-c2",
+            "kind": "shop",
+            "act": 1,
+            "depth": 5
+          },
+          {
+            "node": "a1-d6-c2",
+            "kind": "recovery",
+            "act": 1,
+            "depth": 6
+          },
+          {
+            "node": "a1-d7-c1",
+            "kind": "recovery",
+            "act": 1,
+            "depth": 7
+          },
+          {
+            "node": "a1-d8-c1",
+            "kind": "boss",
+            "act": 1,
+            "depth": 8
+          },
+          {
+            "node": "a2-d1-c1",
+            "kind": "normal",
+            "act": 2,
+            "depth": 1
+          },
+          {
+            "node": "a2-d2-c2",
+            "kind": "discovery",
+            "act": 2,
+            "depth": 2
+          },
+          {
+            "node": "a2-d3-c2",
+            "kind": "recovery",
+            "act": 2,
+            "depth": 3
+          },
+          {
+            "node": "a2-d4-c2",
+            "kind": "elite",
+            "act": 2,
+            "depth": 4
+          }
+        ],
+        "finalCreatures": [
+          {
+            "name": "이름을 부르는 객실",
+            "id": "e3",
+            "tokens": 1,
+            "maxTokens": 2,
+            "floor": null,
+            "upgraded": false
+          },
+          {
+            "name": "빈 프런트의 호출벨",
+            "id": "e4",
+            "tokens": 1,
+            "maxTokens": 1,
+            "floor": null,
+            "upgraded": false
+          }
+        ]
+      },
+      {
+        "file": "campaign-31002.json",
+        "seed": 31002,
+        "phase": "lost",
+        "reason": "배치된 괴이가 모두 파괴되어 호텔이 무너졌습니다.",
+        "act": 2,
+        "completed": [
+          8,
+          3,
+          0
+        ],
+        "turns": 54,
+        "kills": 8,
+        "escaped": 0,
+        "skipped": 0,
+        "earned": 24,
+        "spent": 14,
+        "destroyed": 10,
+        "visits": 11,
+        "combats": 5,
+        "expansions": 1,
+        "expansionSpent": 4,
+        "eventRemoved": 0,
+        "recoveries": 1,
+        "healedTokens": 2,
+        "recoveryWasted": 0,
+        "upgrades": 1,
+        "souls": 14,
+        "floorCount": 7,
+        "equipped": [
+          "even",
+          "long",
+          "anxiety"
+        ],
+        "specialChoices": 48,
+        "elapsedSeconds": 4,
+        "perAct": [
+          {
+            "act": 1,
+            "visits": 8,
+            "turns": 23,
+            "kills": 5
+          },
+          {
+            "act": 2,
+            "visits": 3,
+            "turns": 31,
+            "kills": 3
+          },
+          {
+            "act": 3,
+            "visits": 0,
+            "turns": 0,
+            "kills": 0
+          }
+        ],
+        "path": [
+          {
+            "node": "a1-d1-c0",
+            "kind": "normal",
+            "act": 1,
+            "depth": 1
+          },
+          {
+            "node": "a1-d2-c0",
+            "kind": "discovery",
+            "act": 1,
+            "depth": 2
+          },
+          {
+            "node": "a1-d3-c0",
+            "kind": "recovery",
+            "act": 1,
+            "depth": 3
+          },
+          {
+            "node": "a1-d4-c0",
+            "kind": "event",
+            "act": 1,
+            "depth": 4
+          },
+          {
+            "node": "a1-d5-c0",
+            "kind": "discovery",
+            "act": 1,
+            "depth": 5
+          },
+          {
+            "node": "a1-d6-c0",
+            "kind": "elite",
+            "act": 1,
+            "depth": 6
+          },
+          {
+            "node": "a1-d7-c1",
+            "kind": "recovery",
+            "act": 1,
+            "depth": 7
+          },
+          {
+            "node": "a1-d8-c1",
+            "kind": "boss",
+            "act": 1,
+            "depth": 8
+          },
+          {
+            "node": "a2-d1-c0",
+            "kind": "normal",
+            "act": 2,
+            "depth": 1
+          },
+          {
+            "node": "a2-d2-c0",
+            "kind": "discovery",
+            "act": 2,
+            "depth": 2
+          },
+          {
+            "node": "a2-d3-c0",
+            "kind": "shop",
+            "act": 2,
+            "depth": 3
+          },
+          {
+            "node": "a2-d4-c0",
+            "kind": "elite",
+            "act": 2,
+            "depth": 4
+          }
+        ],
+        "finalCreatures": [
+          {
+            "name": "따라오는 발자국",
+            "id": "e6",
+            "tokens": 1,
+            "maxTokens": 1,
+            "floor": null,
+            "upgraded": false
+          }
+        ]
+      },
+      {
+        "file": "campaign-31003.json",
+        "seed": 31003,
+        "phase": "lost",
+        "reason": "배치된 괴이가 모두 파괴되어 호텔이 무너졌습니다.",
+        "act": 2,
+        "completed": [
+          8,
+          3,
+          0
+        ],
+        "turns": 42,
+        "kills": 8,
+        "escaped": 0,
+        "skipped": 0,
+        "earned": 24,
+        "spent": 11,
+        "destroyed": 8,
+        "visits": 11,
+        "combats": 5,
+        "expansions": 1,
+        "expansionSpent": 4,
+        "eventRemoved": 0,
+        "recoveries": 2,
+        "healedTokens": 4,
+        "recoveryWasted": 0,
+        "upgrades": 1,
+        "souls": 17,
+        "floorCount": 7,
+        "equipped": [
+          "anxiety",
+          "anxiety",
+          "even"
+        ],
+        "specialChoices": 33,
+        "elapsedSeconds": 2,
+        "perAct": [
+          {
+            "act": 1,
+            "visits": 8,
+            "turns": 18,
+            "kills": 5
+          },
+          {
+            "act": 2,
+            "visits": 3,
+            "turns": 24,
+            "kills": 3
+          },
+          {
+            "act": 3,
+            "visits": 0,
+            "turns": 0,
+            "kills": 0
+          }
+        ],
+        "path": [
+          {
+            "node": "a1-d1-c0",
+            "kind": "normal",
+            "act": 1,
+            "depth": 1
+          },
+          {
+            "node": "a1-d2-c0",
+            "kind": "discovery",
+            "act": 1,
+            "depth": 2
+          },
+          {
+            "node": "a1-d3-c0",
+            "kind": "recovery",
+            "act": 1,
+            "depth": 3
+          },
+          {
+            "node": "a1-d4-c0",
+            "kind": "elite",
+            "act": 1,
+            "depth": 4
+          },
+          {
+            "node": "a1-d5-c0",
+            "kind": "discovery",
+            "act": 1,
+            "depth": 5
+          },
+          {
+            "node": "a1-d6-c0",
+            "kind": "recovery",
+            "act": 1,
+            "depth": 6
+          },
+          {
+            "node": "a1-d7-c1",
+            "kind": "recovery",
+            "act": 1,
+            "depth": 7
+          },
+          {
+            "node": "a1-d8-c1",
+            "kind": "boss",
+            "act": 1,
+            "depth": 8
+          },
+          {
+            "node": "a2-d1-c2",
+            "kind": "normal",
+            "act": 2,
+            "depth": 1
+          },
+          {
+            "node": "a2-d2-c2",
+            "kind": "discovery",
+            "act": 2,
+            "depth": 2
+          },
+          {
+            "node": "a2-d3-c2",
+            "kind": "shop",
+            "act": 2,
+            "depth": 3
+          },
+          {
+            "node": "a2-d4-c2",
+            "kind": "elite",
+            "act": 2,
+            "depth": 4
+          }
+        ],
+        "finalCreatures": [
+          {
+            "name": "닫히지 않는 방화문",
+            "id": "e8",
+            "tokens": 2,
+            "maxTokens": 2,
+            "floor": null,
+            "upgraded": false
+          },
+          {
+            "name": "따라오는 발자국",
+            "id": "e10",
+            "tokens": 1,
+            "maxTokens": 1,
+            "floor": null,
+            "upgraded": false
+          }
+        ]
+      },
+      {
+        "file": "campaign-conservative-31001.json",
+        "seed": 31001,
+        "policy": "conservative",
+        "phase": "lost",
+        "reason": "배치된 괴이가 모두 파괴되어 호텔이 무너졌습니다.",
+        "act": 2,
+        "completed": [
+          8,
+          3,
+          0
+        ],
+        "turns": 66,
+        "kills": 15,
+        "escaped": 0,
+        "skipped": 0,
+        "earned": 34,
+        "spent": 7,
+        "destroyed": 7,
+        "visits": 11,
+        "combats": 6,
+        "expansions": 0,
+        "expansionSpent": 0,
+        "eventRemoved": 0,
+        "recoveries": 2,
+        "healedTokens": 3,
+        "recoveryWasted": 1,
+        "upgrades": 0,
+        "souls": 31,
+        "floorCount": 6,
+        "equipped": [
+          "long",
+          "anxiety",
+          "anxiety"
+        ],
+        "specialChoices": 51,
+        "elapsedSeconds": 6,
+        "perAct": [
+          {
+            "act": 1,
+            "visits": 8,
+            "turns": 28,
+            "kills": 10
+          },
+          {
+            "act": 2,
+            "visits": 3,
+            "turns": 38,
+            "kills": 5
+          },
+          {
+            "act": 3,
+            "visits": 0,
+            "turns": 0,
+            "kills": 0
+          }
+        ],
+        "path": [
+          {
+            "node": "a1-d1-c2",
+            "kind": "normal",
+            "act": 1,
+            "depth": 1
+          },
+          {
+            "node": "a1-d2-c2",
+            "kind": "discovery",
+            "act": 1,
+            "depth": 2
+          },
+          {
+            "node": "a1-d3-c2",
+            "kind": "shop",
+            "act": 1,
+            "depth": 3
+          },
+          {
+            "node": "a1-d4-c1",
+            "kind": "normal",
+            "act": 1,
+            "depth": 4
+          },
+          {
+            "node": "a1-d5-c0",
+            "kind": "discovery",
+            "act": 1,
+            "depth": 5
+          },
+          {
+            "node": "a1-d6-c1",
+            "kind": "normal",
+            "act": 1,
+            "depth": 6
+          },
+          {
+            "node": "a1-d7-c1",
+            "kind": "recovery",
+            "act": 1,
+            "depth": 7
+          },
+          {
+            "node": "a1-d8-c1",
+            "kind": "boss",
+            "act": 1,
+            "depth": 8
+          },
+          {
+            "node": "a2-d1-c1",
+            "kind": "normal",
+            "act": 2,
+            "depth": 1
+          },
+          {
+            "node": "a2-d2-c2",
+            "kind": "discovery",
+            "act": 2,
+            "depth": 2
+          },
+          {
+            "node": "a2-d3-c2",
+            "kind": "recovery",
+            "act": 2,
+            "depth": 3
+          },
+          {
+            "node": "a2-d4-c1",
+            "kind": "normal",
+            "act": 2,
+            "depth": 4
+          }
+        ],
+        "finalCreatures": [
+          {
+            "name": "빈 프런트의 호출벨",
+            "id": "e4",
+            "tokens": 1,
+            "maxTokens": 1,
+            "floor": null,
+            "upgraded": false
+          },
+          {
+            "name": "벽을 꿰매는 그림자",
+            "id": "e5",
+            "tokens": 2,
+            "maxTokens": 2,
+            "floor": null,
+            "upgraded": false
+          },
+          {
+            "name": "닫히지 않는 방화문",
+            "id": "e9",
+            "tokens": 2,
+            "maxTokens": 2,
+            "floor": null,
+            "upgraded": false
+          },
+          {
+            "name": "닫히지 않는 방화문",
+            "id": "e10",
+            "tokens": 2,
+            "maxTokens": 2,
+            "floor": null,
+            "upgraded": false
+          }
+        ]
+      },
+      {
+        "file": "campaign-conservative-31002.json",
+        "seed": 31002,
+        "policy": "conservative",
+        "phase": "lost",
+        "reason": "배치된 괴이가 모두 파괴되어 호텔이 무너졌습니다.",
+        "act": 3,
+        "completed": [
+          8,
+          8,
+          0
+        ],
+        "turns": 67,
+        "kills": 15,
+        "escaped": 0,
+        "skipped": 0,
+        "earned": 40,
+        "spent": 17,
+        "destroyed": 10,
+        "visits": 16,
+        "combats": 7,
+        "expansions": 2,
+        "expansionSpent": 10,
+        "eventRemoved": 0,
+        "recoveries": 1,
+        "healedTokens": 2,
+        "recoveryWasted": 0,
+        "upgrades": 3,
+        "souls": 27,
+        "floorCount": 8,
+        "equipped": [
+          "even",
+          "long",
+          "long"
+        ],
+        "specialChoices": 58,
+        "elapsedSeconds": 9,
+        "perAct": [
+          {
+            "act": 1,
+            "visits": 8,
+            "turns": 15,
+            "kills": 7
+          },
+          {
+            "act": 2,
+            "visits": 8,
+            "turns": 36,
+            "kills": 7
+          },
+          {
+            "act": 3,
+            "visits": 0,
+            "turns": 16,
+            "kills": 1
+          }
+        ],
+        "path": [
+          {
+            "node": "a1-d1-c0",
+            "kind": "normal",
+            "act": 1,
+            "depth": 1
+          },
+          {
+            "node": "a1-d2-c0",
+            "kind": "discovery",
+            "act": 1,
+            "depth": 2
+          },
+          {
+            "node": "a1-d3-c0",
+            "kind": "recovery",
+            "act": 1,
+            "depth": 3
+          },
+          {
+            "node": "a1-d4-c0",
+            "kind": "event",
+            "act": 1,
+            "depth": 4
+          },
+          {
+            "node": "a1-d5-c0",
+            "kind": "discovery",
+            "act": 1,
+            "depth": 5
+          },
+          {
+            "node": "a1-d6-c1",
+            "kind": "normal",
+            "act": 1,
+            "depth": 6
+          },
+          {
+            "node": "a1-d7-c1",
+            "kind": "recovery",
+            "act": 1,
+            "depth": 7
+          },
+          {
+            "node": "a1-d8-c1",
+            "kind": "boss",
+            "act": 1,
+            "depth": 8
+          },
+          {
+            "node": "a2-d1-c0",
+            "kind": "normal",
+            "act": 2,
+            "depth": 1
+          },
+          {
+            "node": "a2-d2-c0",
+            "kind": "discovery",
+            "act": 2,
+            "depth": 2
+          },
+          {
+            "node": "a2-d3-c0",
+            "kind": "shop",
+            "act": 2,
+            "depth": 3
+          },
+          {
+            "node": "a2-d4-c1",
+            "kind": "normal",
+            "act": 2,
+            "depth": 4
+          },
+          {
+            "node": "a2-d5-c2",
+            "kind": "shop",
+            "act": 2,
+            "depth": 5
+          },
+          {
+            "node": "a2-d6-c2",
+            "kind": "recovery",
+            "act": 2,
+            "depth": 6
+          },
+          {
+            "node": "a2-d7-c1",
+            "kind": "recovery",
+            "act": 2,
+            "depth": 7
+          },
+          {
+            "node": "a2-d8-c1",
+            "kind": "boss",
+            "act": 2,
+            "depth": 8
+          },
+          {
+            "node": "a3-d1-c2",
+            "kind": "normal",
+            "act": 3,
+            "depth": 1
+          }
+        ],
+        "finalCreatures": [
+          {
+            "name": "빈 프런트의 호출벨",
+            "id": "e4",
+            "tokens": 1,
+            "maxTokens": 1,
+            "floor": null,
+            "upgraded": false
+          },
+          {
+            "name": "이름을 부르는 객실",
+            "id": "e7",
+            "tokens": 2,
+            "maxTokens": 2,
+            "floor": null,
+            "upgraded": false
+          }
+        ]
+      },
+      {
+        "file": "campaign-conservative-31003.json",
+        "seed": 31003,
+        "policy": "conservative",
+        "phase": "lost",
+        "reason": "배치된 괴이가 모두 파괴되어 호텔이 무너졌습니다.",
+        "act": 3,
+        "completed": [
+          8,
+          8,
+          0
+        ],
+        "turns": 77,
+        "kills": 16,
+        "escaped": 0,
+        "skipped": 0,
+        "earned": 42,
+        "spent": 14,
+        "destroyed": 10,
+        "visits": 16,
+        "combats": 7,
+        "expansions": 2,
+        "expansionSpent": 10,
+        "eventRemoved": 0,
+        "recoveries": 1,
+        "healedTokens": 2,
+        "recoveryWasted": 0,
+        "upgrades": 4,
+        "souls": 32,
+        "floorCount": 8,
+        "equipped": [
+          "anxiety",
+          "even",
+          "long"
+        ],
+        "specialChoices": 64,
+        "elapsedSeconds": 7,
+        "perAct": [
+          {
+            "act": 1,
+            "visits": 8,
+            "turns": 15,
+            "kills": 7
+          },
+          {
+            "act": 2,
+            "visits": 8,
+            "turns": 29,
+            "kills": 7
+          },
+          {
+            "act": 3,
+            "visits": 0,
+            "turns": 33,
+            "kills": 2
+          }
+        ],
+        "path": [
+          {
+            "node": "a1-d1-c0",
+            "kind": "normal",
+            "act": 1,
+            "depth": 1
+          },
+          {
+            "node": "a1-d2-c0",
+            "kind": "discovery",
+            "act": 1,
+            "depth": 2
+          },
+          {
+            "node": "a1-d3-c0",
+            "kind": "recovery",
+            "act": 1,
+            "depth": 3
+          },
+          {
+            "node": "a1-d4-c1",
+            "kind": "normal",
+            "act": 1,
+            "depth": 4
+          },
+          {
+            "node": "a1-d5-c0",
+            "kind": "discovery",
+            "act": 1,
+            "depth": 5
+          },
+          {
+            "node": "a1-d6-c0",
+            "kind": "recovery",
+            "act": 1,
+            "depth": 6
+          },
+          {
+            "node": "a1-d7-c1",
+            "kind": "recovery",
+            "act": 1,
+            "depth": 7
+          },
+          {
+            "node": "a1-d8-c1",
+            "kind": "boss",
+            "act": 1,
+            "depth": 8
+          },
+          {
+            "node": "a2-d1-c2",
+            "kind": "normal",
+            "act": 2,
+            "depth": 1
+          },
+          {
+            "node": "a2-d2-c2",
+            "kind": "discovery",
+            "act": 2,
+            "depth": 2
+          },
+          {
+            "node": "a2-d3-c2",
+            "kind": "shop",
+            "act": 2,
+            "depth": 3
+          },
+          {
+            "node": "a2-d4-c1",
+            "kind": "normal",
+            "act": 2,
+            "depth": 4
+          },
+          {
+            "node": "a2-d5-c0",
+            "kind": "shop",
+            "act": 2,
+            "depth": 5
+          },
+          {
+            "node": "a2-d6-c0",
+            "kind": "recovery",
+            "act": 2,
+            "depth": 6
+          },
+          {
+            "node": "a2-d7-c1",
+            "kind": "recovery",
+            "act": 2,
+            "depth": 7
+          },
+          {
+            "node": "a2-d8-c1",
+            "kind": "boss",
+            "act": 2,
+            "depth": 8
+          },
+          {
+            "node": "a3-d1-c2",
+            "kind": "normal",
+            "act": 3,
+            "depth": 1
+          }
+        ],
+        "finalCreatures": [
+          {
+            "name": "이름을 부르는 객실",
+            "id": "e10",
+            "tokens": 2,
+            "maxTokens": 2,
+            "floor": null,
+            "upgraded": false
+          }
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "All six automatic runs lost; no normal-play campaign victory demonstrated.",
+    "Two conservative runs cleared act 2 and reached act 3.",
+    "Synthetic final-boss/reward/restart tests validate final transitions but do not establish balance or enjoyment.",
+    "Browser verification was unavailable; offline view checks do not establish layout or animation quality."
+  ],
+  "runtimeChecks": {
+    "javascriptSyntax": "passed",
+    "offlineStaticHandler": "5 assets returned 200 with correct MIME: index.html, app.js, engine.js, combat-base.mjs, styles.css",
+    "loopbackHttp": "passed: index.html, app.js, engine.js and styles.css returned HTTP 200 using approved localhost smoke command; server terminated after check",
+    "browserVisual": "not performed: browser origin access unavailable"
+  },
+  "compactUiRevision": {
+    "reference": [
+      "ui/prepare.md",
+      "ui/battle.md"
+    ],
+    "baselineViewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "floorHeight": 44,
+    "maxFloors": 10,
+    "minLayoutWidth": 1080,
+    "calculatedHeight": {
+      "battle": 695,
+      "preparation": 662
+    },
+    "features": [
+      "Fixed full hotel and basement without vertical hotel scrolling",
+      "Hotel floor targeting replaces minimap",
+      "Ordered straight, circular and repeat-visit arrows with actual per-visit effects",
+      "No camera movement during preview, targeting, movement or purchase",
+      "Readonly information and target cancellation preserve game state"
+    ],
+    "verification": "85 rule/offline UI tests pass; layout height is source-derived, not browser pixel measurement"
+  }
+}

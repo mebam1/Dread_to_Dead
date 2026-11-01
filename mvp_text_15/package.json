@@ -1,0 +1,12 @@
+{
+  "name": "dread-to-dead-text-15",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "사용자 설정 3의 증설 가치를 비교하는 텍스트 실험 도구",
+  "scripts": {
+    "test": "node --test",
+    "play": "node cli.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

@@ -1,0 +1,192 @@
+{
+  "classification": "posthoc-direct-control-play",
+  "source": "runs/checkpoints/normal_31001-a1-expansion-before.json",
+  "sourceSHA256": "e136d44a464f7938d88dc0ee5f66c49d5b89bd063266e0404ec405dfbb433b80",
+  "comparison": "same expansion-node visit; fixed next normal7 + boss; source normal record unchanged",
+  "blindnessLimit": "Branches were played sequentially paid then skip then rearranged; not independently blinded. Explicit decisions use each current public preview; future-state reads and roll lookahead were not used.",
+  "rows": [
+    {
+      "label": "paid_empty",
+      "path": "runs\\controls\\seed31001\\geometry\\paid.json",
+      "fileSHA256": "27c99dd1dc4ccddb1044db6a8f5f95c314a1decd1e04c0647c4e7deea179fb5b",
+      "end": {
+        "act": 2,
+        "phase": "map",
+        "floors": 7,
+        "souls": 23,
+        "owned": 11
+      },
+      "nodes": [
+        {
+          "node": "a1-d7-c1",
+          "turns": 9,
+          "kills": 3,
+          "fear": 48,
+          "tokenLoss": 0,
+          "destroyed": 0,
+          "damage": 42,
+          "absorbed": 24,
+          "hits": 11,
+          "misses": 1,
+          "repairs": 0,
+          "repairedAmount": 0,
+          "floor7Contacts": 3,
+          "penalties": 0
+        },
+        {
+          "node": "a1-d8-c1",
+          "turns": 5,
+          "kills": 1,
+          "fear": 48,
+          "tokenLoss": 0,
+          "destroyed": 0,
+          "damage": 38,
+          "absorbed": 18,
+          "hits": 7,
+          "misses": 1,
+          "repairs": 0,
+          "repairedAmount": 0,
+          "floor7Contacts": 2,
+          "penalties": 0
+        }
+      ],
+      "totals": {
+        "turns": 14,
+        "kills": 4,
+        "fear": 96,
+        "tokenLoss": 0,
+        "destroyed": 0,
+        "damage": 80,
+        "absorbed": 42,
+        "hits": 18,
+        "misses": 2,
+        "repairs": 0,
+        "repairedAmount": 0,
+        "floor7Contacts": 5,
+        "penalties": 0
+      }
+    },
+    {
+      "label": "skip_same_layout",
+      "path": "runs\\controls\\seed31001\\geometry\\skip.json",
+      "fileSHA256": "c9cce53c2a75eb9f2a0fa21166fe5abe1fa02efed2fd45db94ff7374e8350a24",
+      "end": {
+        "act": 2,
+        "phase": "map",
+        "floors": 6,
+        "souls": 27,
+        "owned": 11
+      },
+      "nodes": [
+        {
+          "node": "a1-d7-c1",
+          "turns": 8,
+          "kills": 3,
+          "fear": 48,
+          "tokenLoss": 0,
+          "destroyed": 0,
+          "damage": 42,
+          "absorbed": 18,
+          "hits": 10,
+          "misses": 0,
+          "repairs": 0,
+          "repairedAmount": 0,
+          "floor7Contacts": 0,
+          "penalties": 0
+        },
+        {
+          "node": "a1-d8-c1",
+          "turns": 6,
+          "kills": 1,
+          "fear": 48,
+          "tokenLoss": 1,
+          "destroyed": 0,
+          "damage": 56,
+          "absorbed": 24,
+          "hits": 10,
+          "misses": 0,
+          "repairs": 0,
+          "repairedAmount": 0,
+          "floor7Contacts": 0,
+          "penalties": 0
+        }
+      ],
+      "totals": {
+        "turns": 14,
+        "kills": 4,
+        "fear": 96,
+        "tokenLoss": 1,
+        "destroyed": 0,
+        "damage": 98,
+        "absorbed": 42,
+        "hits": 20,
+        "misses": 0,
+        "repairs": 0,
+        "repairedAmount": 0,
+        "floor7Contacts": 0,
+        "penalties": 0
+      }
+    },
+    {
+      "label": "skip_rearranged",
+      "path": "runs\\controls\\seed31001\\rearranged\\skip.json",
+      "fileSHA256": "1131f6f1f478596b8f68bb41b50880a86451478272410182163331166820751f",
+      "end": {
+        "act": 2,
+        "phase": "map",
+        "floors": 6,
+        "souls": 27,
+        "owned": 11
+      },
+      "nodes": [
+        {
+          "node": "a1-d7-c1",
+          "turns": 7,
+          "kills": 3,
+          "fear": 48,
+          "tokenLoss": 0,
+          "destroyed": 0,
+          "damage": 42,
+          "absorbed": 6,
+          "hits": 8,
+          "misses": 0,
+          "repairs": 1,
+          "repairedAmount": 6,
+          "floor7Contacts": 0,
+          "penalties": 0
+        },
+        {
+          "node": "a1-d8-c1",
+          "turns": 6,
+          "kills": 1,
+          "fear": 48,
+          "tokenLoss": 0,
+          "destroyed": 0,
+          "damage": 62,
+          "absorbed": 18,
+          "hits": 10,
+          "misses": 0,
+          "repairs": 3,
+          "repairedAmount": 16,
+          "floor7Contacts": 0,
+          "penalties": 0
+        }
+      ],
+      "totals": {
+        "turns": 13,
+        "kills": 4,
+        "fear": 96,
+        "tokenLoss": 0,
+        "destroyed": 0,
+        "damage": 104,
+        "absorbed": 24,
+        "hits": 18,
+        "misses": 0,
+        "repairs": 4,
+        "repairedAmount": 22,
+        "floor7Contacts": 0,
+        "penalties": 0
+      }
+    }
+  ]
+}

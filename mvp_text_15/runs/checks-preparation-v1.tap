@@ -1,0 +1,250 @@
+TAP version 13
+# Subtest: CLI labels smoke runs, refuses overwrite, and prints current public state without hidden maps
+ok 1 - CLI labels smoke runs, refuses overwrite, and prints current public state without hidden maps
+  ---
+  duration_ms: 277.2561
+  type: 'test'
+  ...
+# Subtest: CLI choice reason is required and consumed once; failed actions do not alter saved state
+ok 2 - CLI choice reason is required and consumed once; failed actions do not alter saved state
+  ---
+  duration_ms: 578.1741
+  type: 'test'
+  ...
+# Subtest: CLI previews leave the save unchanged and omit referee state; a legal turn persists its reason
+ok 3 - CLI previews leave the save unchanged and omit referee state; a legal turn persists its reason
+  ---
+  duration_ms: 570.682
+  type: 'test'
+  ...
+# Subtest: CLI checkpoint copies the state as a control source and never overwrites a label
+ok 4 - CLI checkpoint copies the state as a control source and never overwrites a label
+  ---
+  duration_ms: 282.0933
+  type: 'test'
+  ...
+# Subtest: CLI recovers an interrupted replacement only from a valid complete session copy
+ok 5 - CLI recovers an interrupted replacement only from a valid complete session copy
+  ---
+  duration_ms: 364.7896
+  type: 'test'
+  ...
+# Subtest: CLI catalog and revealed reward/shop cards expose known effects without unseen tables
+ok 6 - CLI catalog and revealed reward/shop cards expose known effects without unseen tables
+  ---
+  duration_ms: 342.1678
+  type: 'test'
+  ...
+# Subtest: initial assets, 3x22 map generation, all graph nodes reachable and every path has 8 visits
+ok 7 - initial assets, 3x22 map generation, all graph nodes reachable and every path has 8 visits
+  ---
+  duration_ms: 5.979
+  type: 'test'
+  ...
+# Subtest: route lock rejects skipping depth, revisiting, or choosing another node before completion
+ok 8 - route lock rejects skipping depth, revisiting, or choosing another node before completion
+  ---
+  duration_ms: 1.8632
+  type: 'test'
+  ...
+# Subtest: public views reveal current-act enemy info but no sealed future contents
+ok 9 - public views reveal current-act enemy info but no sealed future contents
+  ---
+  duration_ms: 1.1968
+  type: 'test'
+  ...
+# Subtest: expansion is paid only at its node; current entities and states remain unchanged; cap10
+ok 10 - expansion is paid only at its node; current entities and states remain unchanged; cap10
+  ---
+  duration_ms: 2.4119
+  type: 'test'
+  ...
+# Subtest: insufficient expansion and skipped expansion do not mutate assets
+ok 11 - insufficient expansion and skipped expansion do not mutate assets
+  ---
+  duration_ms: 1.2853
+  type: 'test'
+  ...
+# Subtest: restoration occurs at combat preparation entry, not start, noncombat visit, or rearrangement
+ok 12 - restoration occurs at combat preparation entry, not start, noncombat visit, or rearrangement
+  ---
+  duration_ms: 0.9456
+  type: 'test'
+  ...
+# Subtest: normal node awards souls per guest and one creature set after all three, with auto entry
+ok 13 - normal node awards souls per guest and one creature set after all three, with auto entry
+  ---
+  duration_ms: 2.0604
+  type: 'test'
+  ...
+# Subtest: same node inter-guest transition keeps remaining P and active uses
+ok 14 - same node inter-guest transition keeps remaining P and active uses
+  ---
+  duration_ms: 0.6667
+  type: 'test'
+  ...
+# Subtest: elite grants one creature followed by one optional free die, never two rewards
+ok 15 - elite grants one creature followed by one optional free die, never two rewards
+  ---
+  duration_ms: 0.7144
+  type: 'test'
+  ...
+# Subtest: all bosses require creature selection, never award a die, and only final then wins
+ok 16 - all bosses require creature selection, never award a die, and only final then wins
+  ---
+  duration_ms: 1.4301
+  type: 'test'
+  ...
+# Subtest: discovery preserves money for both replacement and rejection; multiple special dice allowed
+ok 17 - discovery preserves money for both replacement and rejection; multiple special dice allowed
+  ---
+  duration_ms: 0.986
+  type: 'test'
+  ...
+# Subtest: shop has 8 independently purchasable slots with duplicate kinds and no reset
+ok 18 - shop has 8 independently purchasable slots with duplicate kinds and no reset
+  ---
+  duration_ms: 0.6491
+  type: 'test'
+  ...
+# Subtest: shop rejects insufficient funds atomically and allows no-purchase departure
+ok 19 - shop rejects insufficient funds atomically and allows no-purchase departure
+  ---
+  duration_ms: 0.7561
+  type: 'test'
+  ...
+# Subtest: luggage event choices are mutually exclusive and die candidate stays fixed under viewing
+ok 20 - luggage event choices are mutually exclusive and die candidate stays fixed under viewing
+  ---
+  duration_ms: 1.6739
+  type: 'test'
+  ...
+# Subtest: sealed event has one fixed paid creature; sacrifice preserves at least one owned survivor
+ok 21 - sealed event has one fixed paid creature; sacrifice preserves at least one owned survivor
+  ---
+  duration_ms: 1.0123
+  type: 'test'
+  ...
+# Subtest: normal escape retains earlier souls, skips others and gives no completion reward
+ok 22 - normal escape retains earlier souls, skips others and gives no completion reward
+  ---
+  duration_ms: 0.8423
+  type: 'test'
+  ...
+# Subtest: every boss escape preview and actual execution agree on immediate defeat
+ok 23 - every boss escape preview and actual execution agree on immediate defeat
+  ---
+  duration_ms: 3.8249
+  type: 'test'
+  ...
+# Subtest: each attack is a separate threshold event and destruction ends battle even with stored assets
+ok 24 - each attack is a separate threshold event and destruction ends battle even with stored assets
+  ---
+  duration_ms: 0.4372
+  type: 'test'
+  ...
+# Subtest: pass/arrival and anxiety die differentiate same value; preview is repeatable and nonmutating
+ok 25 - pass/arrival and anxiety die differentiate same value; preview is repeatable and nonmutating
+  ---
+  duration_ms: 24.5054
+  type: 'test'
+  ...
+# Subtest: expansion changes circular path and long route hits preserve repeated visits
+ok 26 - expansion changes circular path and long route hits preserve repeated visits
+  ---
+  duration_ms: 3.0683
+  type: 'test'
+  ...
+# Subtest: protection is shared across hits, new charge waits until next turn, repair never restores P
+ok 27 - protection is shared across hits, new charge waits until next turn, repair never restores P
+  ---
+  duration_ms: 0.7583
+  type: 'test'
+  ...
+# Subtest: inactivity previews list uncertainty without selecting a hidden penalty target
+ok 28 - inactivity previews list uncertainty without selecting a hidden penalty target
+  ---
+  duration_ms: 1.5522
+  type: 'test'
+  ...
+# Subtest: normal act3 attack and elite/boss powers match actual public numbers
+ok 29 - normal act3 attack and elite/boss powers match actual public numbers
+  ---
+  duration_ms: 0.7276
+  type: 'test'
+  ...
+# Subtest: node-keyed dice remain identical after unrelated views/notes and preserve slot face indices
+ok 30 - node-keyed dice remain identical after unrelated views/notes and preserve slot face indices
+  ---
+  duration_ms: 4.4237
+  type: 'test'
+  ...
+# Subtest: synthetic full campaign keeps 24 node completions and 66 guest rewards distinct
+ok 31 - synthetic full campaign keeps 24 node completions and 66 guest rewards distinct
+  ---
+  duration_ms: 4.9123
+  type: 'test'
+  ...
+# Subtest: 216 face-index outcomes have exact unit mass, deterministic result and no state mutation
+ok 32 - 216 face-index outcomes have exact unit mass, deterministic result and no state mutation
+  ---
+  duration_ms: 927.9145
+  type: 'test'
+  ...
+# Subtest: a paid extra slot can improve immediate output using an anomaly already owned in both branches
+ok 33 - a paid extra slot can improve immediate output using an anomaly already owned in both branches
+  ---
+  duration_ms: 866.7263
+  type: 'test'
+  ...
+# Subtest: an odd hotel size can break a particular even-die harvesting alignment
+ok 34 - an odd hotel size can break a particular even-die harvesting alignment
+  ---
+  duration_ms: 804.4267
+  type: 'test'
+  ...
+# Subtest: explicit common protection actions record real absorbed damage separately
+ok 35 - explicit common protection actions record real absorbed damage separately
+  ---
+  duration_ms: 771.2061
+  type: 'test'
+  ...
+# Subtest: diagnostic reports remain explicitly synthetic and refuse overwrite
+ok 36 - diagnostic reports remain explicitly synthetic and refuse overwrite
+  ---
+  duration_ms: 10794.4405
+  type: 'test'
+  ...
+# Subtest: paid/skip branch utility charges actual price, preserves source/assets and labels counterfactual saves
+ok 37 - paid/skip branch utility charges actual price, preserves source/assets and labels counterfactual saves
+  ---
+  duration_ms: 15.0474
+  type: 'test'
+  ...
+# Subtest: branch creation rejects wrong phase and unaffordable purchase
+ok 38 - branch creation rejects wrong phase and unaffordable purchase
+  ---
+  duration_ms: 4.7707
+  type: 'test'
+  ...
+# Subtest: matched checkpoint comparison records confounders without printing hidden facilitator state or changing inputs
+ok 39 - matched checkpoint comparison records confounders without printing hidden facilitator state or changing inputs
+  ---
+  duration_ms: 768.4796
+  type: 'test'
+  ...
+# Subtest: checkpoint comparator rejects unrelated nodes and guest turns
+ok 40 - checkpoint comparator rejects unrelated nodes and guest turns
+  ---
+  duration_ms: 8.5394
+  type: 'test'
+  ...
+1..40
+# tests 40
+# suites 0
+# pass 40
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 15120.5295

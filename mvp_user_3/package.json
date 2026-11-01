@@ -1,0 +1,12 @@
+{
+  "name": "dread-to-dead-user-prototype-3",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dread-to-Dead 사용자 설정 3 — 3막 모험·영혼·회복·개체 강화 웹 게임",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test engine.test.js app-view.test.js",
+    "verify:campaign": "node verify-campaign.mjs"
+  }
+}

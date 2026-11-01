@@ -1,0 +1,451 @@
+{
+  "seed": 31002,
+  "source": "runs/normal_31002.json",
+  "sourceSha256Before": "e412c32b97b4ac93a94d521081fa3bed00dba4db2ee50056e1177261f35988e4",
+  "sourceSha256After": "e412c32b97b4ac93a94d521081fa3bed00dba4db2ee50056e1177261f35988e4",
+  "passed": true,
+  "checks": {
+    "normal_classification": true,
+    "seed_and_new": true,
+    "all_commands_legal": true,
+    "journal_sequence": true,
+    "decision_reasons": true,
+    "every_before_after_marker": true,
+    "every_recorded_event": true,
+    "exact_final_state": true,
+    "money_equation": true,
+    "earned_spent_stats": true,
+    "all_prices": true,
+    "expansion_count_cost_floors": true,
+    "asset_equation": true,
+    "asset_identity_flow": true,
+    "destroy_sacrifice_stats": true,
+    "one_roll_per_chosen_turn": true,
+    "guest_turn_sequences": true,
+    "per_node_turn_sum": true,
+    "progress_24_nodes": true,
+    "combat_and_outcome_counts": true,
+    "won_after_final_reward": true,
+    "source_unchanged": true
+  },
+  "failures": [],
+  "replay": {
+    "commands": 289,
+    "totalCommands": 289,
+    "markerMismatches": 0,
+    "eventMismatches": 0,
+    "forcedDiceOrStateAssignmentsUsed": false,
+    "method": "new Game(seed), journal commands via legal APIs only; canonical JSON comparison, no source state injected"
+  },
+  "money": {
+    "initial": 4,
+    "killRewards": 66,
+    "eventSouls": 4,
+    "sacrificeSouls": 0,
+    "earned": 70,
+    "shopSpent": 17,
+    "eventSpent": 0,
+    "expansionSpent": 28,
+    "spent": 45,
+    "computed": 29,
+    "ending": 29
+  },
+  "assets": {
+    "initial": 4,
+    "rewards": 10,
+    "buys": 5,
+    "eventBuys": 0,
+    "destroyed": 1,
+    "sacrificed": 0,
+    "computed": 18,
+    "ending": 18
+  },
+  "totals": {
+    "turns": 99,
+    "nodes": 24,
+    "combatNodes": 10,
+    "kills": 22,
+    "escaped": 0,
+    "endingFloors": 10
+  },
+  "perAct": [
+    {
+      "act": 1,
+      "nodes": 8,
+      "completed": 8,
+      "combatNodes": 4,
+      "turns": 25,
+      "kills": 10,
+      "escaped": 0
+    },
+    {
+      "act": 2,
+      "nodes": 8,
+      "completed": 8,
+      "combatNodes": 3,
+      "turns": 41,
+      "kills": 7,
+      "escaped": 0
+    },
+    {
+      "act": 3,
+      "nodes": 8,
+      "completed": 8,
+      "combatNodes": 3,
+      "turns": 33,
+      "kills": 5,
+      "escaped": 0
+    }
+  ],
+  "perNode": [
+    {
+      "node": "a1-d1-c0",
+      "act": 1,
+      "depth": 1,
+      "kind": "normal",
+      "turns": 7,
+      "rolls": 7,
+      "guests": 3,
+      "kills": 3,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a1-d2-c0",
+      "act": 1,
+      "depth": 2,
+      "kind": "discovery",
+      "turns": 0,
+      "rolls": 0,
+      "guests": 0,
+      "kills": 0,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a1-d3-c0",
+      "act": 1,
+      "depth": 3,
+      "kind": "expansion",
+      "turns": 0,
+      "rolls": 0,
+      "guests": 0,
+      "kills": 0,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a1-d4-c1",
+      "act": 1,
+      "depth": 4,
+      "kind": "normal",
+      "turns": 8,
+      "rolls": 8,
+      "guests": 3,
+      "kills": 3,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a1-d5-c2",
+      "act": 1,
+      "depth": 5,
+      "kind": "shop",
+      "turns": 0,
+      "rolls": 0,
+      "guests": 0,
+      "kills": 0,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a1-d6-c2",
+      "act": 1,
+      "depth": 6,
+      "kind": "expansion",
+      "turns": 0,
+      "rolls": 0,
+      "guests": 0,
+      "kills": 0,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a1-d7-c1",
+      "act": 1,
+      "depth": 7,
+      "kind": "normal",
+      "turns": 4,
+      "rolls": 4,
+      "guests": 3,
+      "kills": 3,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a1-d8-c1",
+      "act": 1,
+      "depth": 8,
+      "kind": "boss",
+      "turns": 6,
+      "rolls": 6,
+      "guests": 1,
+      "kills": 1,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a2-d1-c1",
+      "act": 2,
+      "depth": 1,
+      "kind": "normal",
+      "turns": 15,
+      "rolls": 15,
+      "guests": 3,
+      "kills": 3,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a2-d2-c2",
+      "act": 2,
+      "depth": 2,
+      "kind": "event",
+      "turns": 0,
+      "rolls": 0,
+      "guests": 0,
+      "kills": 0,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a2-d3-c2",
+      "act": 2,
+      "depth": 3,
+      "kind": "expansion",
+      "turns": 0,
+      "rolls": 0,
+      "guests": 0,
+      "kills": 0,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a2-d4-c2",
+      "act": 2,
+      "depth": 4,
+      "kind": "event",
+      "turns": 0,
+      "rolls": 0,
+      "guests": 0,
+      "kills": 0,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a2-d5-c2",
+      "act": 2,
+      "depth": 5,
+      "kind": "shop",
+      "turns": 0,
+      "rolls": 0,
+      "guests": 0,
+      "kills": 0,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a2-d6-c2",
+      "act": 2,
+      "depth": 6,
+      "kind": "expansion",
+      "turns": 0,
+      "rolls": 0,
+      "guests": 0,
+      "kills": 0,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a2-d7-c1",
+      "act": 2,
+      "depth": 7,
+      "kind": "normal",
+      "turns": 14,
+      "rolls": 14,
+      "guests": 3,
+      "kills": 3,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a2-d8-c1",
+      "act": 2,
+      "depth": 8,
+      "kind": "boss",
+      "turns": 12,
+      "rolls": 12,
+      "guests": 1,
+      "kills": 1,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a3-d1-c2",
+      "act": 3,
+      "depth": 1,
+      "kind": "normal",
+      "turns": 19,
+      "rolls": 19,
+      "guests": 3,
+      "kills": 3,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a3-d2-c2",
+      "act": 3,
+      "depth": 2,
+      "kind": "discovery",
+      "turns": 0,
+      "rolls": 0,
+      "guests": 0,
+      "kills": 0,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a3-d3-c2",
+      "act": 3,
+      "depth": 3,
+      "kind": "expansion",
+      "turns": 0,
+      "rolls": 0,
+      "guests": 0,
+      "kills": 0,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a3-d4-c2",
+      "act": 3,
+      "depth": 4,
+      "kind": "event",
+      "turns": 0,
+      "rolls": 0,
+      "guests": 0,
+      "kills": 0,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a3-d5-c2",
+      "act": 3,
+      "depth": 5,
+      "kind": "shop",
+      "turns": 0,
+      "rolls": 0,
+      "guests": 0,
+      "kills": 0,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a3-d6-c2",
+      "act": 3,
+      "depth": 6,
+      "kind": "elite",
+      "turns": 7,
+      "rolls": 7,
+      "guests": 1,
+      "kills": 1,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a3-d7-c2",
+      "act": 3,
+      "depth": 7,
+      "kind": "discovery",
+      "turns": 0,
+      "rolls": 0,
+      "guests": 0,
+      "kills": 0,
+      "escaped": 0,
+      "completed": 1
+    },
+    {
+      "node": "a3-d8-c1",
+      "act": 3,
+      "depth": 8,
+      "kind": "boss",
+      "turns": 7,
+      "rolls": 7,
+      "guests": 1,
+      "kills": 1,
+      "escaped": 0,
+      "completed": 1
+    }
+  ],
+  "prices": {
+    "shop": [
+      {
+        "nodeId": "a1-d5-c2",
+        "type": "U",
+        "price": 3,
+        "entityId": "e7"
+      },
+      {
+        "nodeId": "a1-d5-c2",
+        "type": "Q",
+        "price": 4,
+        "entityId": "e8"
+      },
+      {
+        "nodeId": "a2-d5-c2",
+        "type": "E",
+        "price": 3,
+        "entityId": "e12"
+      },
+      {
+        "nodeId": "a3-d5-c2",
+        "type": "G",
+        "price": 4,
+        "entityId": "e16"
+      },
+      {
+        "nodeId": "a3-d5-c2",
+        "type": "U",
+        "price": 3,
+        "entityId": "e17"
+      }
+    ],
+    "events": [],
+    "expansion": [
+      {
+        "nodeId": "a1-d6-c2",
+        "before": 6,
+        "after": 7,
+        "cost": 4
+      },
+      {
+        "nodeId": "a2-d3-c2",
+        "before": 7,
+        "after": 8,
+        "cost": 6
+      },
+      {
+        "nodeId": "a2-d6-c2",
+        "before": 8,
+        "after": 9,
+        "cost": 8
+      },
+      {
+        "nodeId": "a3-d3-c2",
+        "before": 9,
+        "after": 10,
+        "cost": 10
+      }
+    ]
+  }
+}

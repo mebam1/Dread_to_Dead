@@ -1,0 +1,794 @@
+{
+  "classification": "posthoc-direct-control-play-analysis",
+  "seed": 31001,
+  "limits": [
+    "Branches were played sequentially, not independently blinded. Each command reason refers to its current public view; no raw future tables or lookahead rolls informed choices.",
+    "A and B condition on the same expansion-node visit; they do not price an alternative node.",
+    "Route C also changes battle count, rewards and replacement purchases; it is a combined route outcome, not a pure floor intervention.",
+    "All control continuations stop at act2 map. Future spending and persistent floor value after act1 were not measured."
+  ],
+  "rows": [
+    {
+      "label": "normal_paid_R",
+      "file": "runs\\normal_31001.json",
+      "fileSHA256": "a8f9103b4bf344d701a21723ee49197c7d5b2934344a86889953e49ad90ee8b8",
+      "end": {
+        "act": 2,
+        "phase": "map",
+        "floors": 7,
+        "souls": 23,
+        "owned": 11,
+        "totalKills": 13,
+        "totalEarned": 30,
+        "totalSpent": 11,
+        "totalDestroyed": 0
+      },
+      "act1": {
+        "turns": 32,
+        "kills": 13,
+        "damage": 148,
+        "absorbed": 30,
+        "tokens": 1,
+        "destroyed": 0,
+        "repairs": 7,
+        "repaired": 42,
+        "hits": 28,
+        "misses": 8,
+        "floor7Contacts": 5
+      },
+      "normal7": {
+        "turns": 9,
+        "kills": 3,
+        "damage": 54,
+        "absorbed": 18,
+        "tokens": 0,
+        "destroyed": 0,
+        "repairs": 5,
+        "repaired": 30,
+        "hits": 12,
+        "misses": 0,
+        "floor7Contacts": 3
+      },
+      "boss": {
+        "turns": 5,
+        "kills": 1,
+        "damage": 58,
+        "absorbed": 6,
+        "tokens": 0,
+        "destroyed": 0,
+        "repairs": 2,
+        "repaired": 12,
+        "hits": 8,
+        "misses": 0,
+        "floor7Contacts": 2
+      },
+      "nextAndBoss": {
+        "turns": 14,
+        "kills": 4,
+        "damage": 112,
+        "absorbed": 24,
+        "tokens": 0,
+        "destroyed": 0,
+        "repairs": 7,
+        "repaired": 42,
+        "hits": 20,
+        "misses": 0,
+        "floor7Contacts": 5
+      },
+      "finalAct1Inventory": [
+        {
+          "id": "e1",
+          "type": "U",
+          "floor": 1,
+          "c": 10,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e2",
+          "type": "Q",
+          "floor": 3,
+          "c": 8,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e3",
+          "type": "Q",
+          "floor": 5,
+          "c": 10,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e4",
+          "type": "B",
+          "floor": null,
+          "c": 0,
+          "p": 1,
+          "uses": 2
+        },
+        {
+          "id": "e5",
+          "type": "B",
+          "floor": null,
+          "c": 0,
+          "p": 1,
+          "uses": 2
+        },
+        {
+          "id": "e6",
+          "type": "E",
+          "floor": 2,
+          "c": 2,
+          "p": 1,
+          "uses": 0
+        },
+        {
+          "id": "e7",
+          "type": "G",
+          "floor": 4,
+          "c": 0,
+          "p": 2,
+          "uses": 2
+        },
+        {
+          "id": "e8",
+          "type": "U",
+          "floor": 6,
+          "c": 8,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e9",
+          "type": "R",
+          "floor": 7,
+          "c": 8,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e10",
+          "type": "G",
+          "floor": null,
+          "c": 0,
+          "p": 2,
+          "uses": 2
+        },
+        {
+          "id": "e11",
+          "type": "Q",
+          "floor": null,
+          "c": 0,
+          "p": 2,
+          "uses": 0
+        }
+      ]
+    },
+    {
+      "label": "paid_empty",
+      "file": "runs\\controls\\seed31001\\geometry\\paid.json",
+      "fileSHA256": "27c99dd1dc4ccddb1044db6a8f5f95c314a1decd1e04c0647c4e7deea179fb5b",
+      "end": {
+        "act": 2,
+        "phase": "map",
+        "floors": 7,
+        "souls": 23,
+        "owned": 11,
+        "totalKills": 13,
+        "totalEarned": 30,
+        "totalSpent": 11,
+        "totalDestroyed": 0
+      },
+      "act1": {
+        "turns": 32,
+        "kills": 13,
+        "damage": 116,
+        "absorbed": 48,
+        "tokens": 1,
+        "destroyed": 0,
+        "repairs": 0,
+        "repaired": 0,
+        "hits": 26,
+        "misses": 10,
+        "floor7Contacts": 5
+      },
+      "normal7": {
+        "turns": 9,
+        "kills": 3,
+        "damage": 42,
+        "absorbed": 24,
+        "tokens": 0,
+        "destroyed": 0,
+        "repairs": 0,
+        "repaired": 0,
+        "hits": 11,
+        "misses": 1,
+        "floor7Contacts": 3
+      },
+      "boss": {
+        "turns": 5,
+        "kills": 1,
+        "damage": 38,
+        "absorbed": 18,
+        "tokens": 0,
+        "destroyed": 0,
+        "repairs": 0,
+        "repaired": 0,
+        "hits": 7,
+        "misses": 1,
+        "floor7Contacts": 2
+      },
+      "nextAndBoss": {
+        "turns": 14,
+        "kills": 4,
+        "damage": 80,
+        "absorbed": 42,
+        "tokens": 0,
+        "destroyed": 0,
+        "repairs": 0,
+        "repaired": 0,
+        "hits": 18,
+        "misses": 2,
+        "floor7Contacts": 5
+      },
+      "finalAct1Inventory": [
+        {
+          "id": "e1",
+          "type": "U",
+          "floor": 1,
+          "c": 10,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e2",
+          "type": "Q",
+          "floor": 3,
+          "c": 8,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e3",
+          "type": "Q",
+          "floor": 5,
+          "c": 10,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e4",
+          "type": "B",
+          "floor": null,
+          "c": 0,
+          "p": 1,
+          "uses": 2
+        },
+        {
+          "id": "e5",
+          "type": "B",
+          "floor": null,
+          "c": 0,
+          "p": 1,
+          "uses": 2
+        },
+        {
+          "id": "e6",
+          "type": "E",
+          "floor": 2,
+          "c": 2,
+          "p": 1,
+          "uses": 0
+        },
+        {
+          "id": "e7",
+          "type": "G",
+          "floor": 4,
+          "c": 0,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e8",
+          "type": "U",
+          "floor": 6,
+          "c": 8,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e9",
+          "type": "R",
+          "floor": null,
+          "c": 0,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e10",
+          "type": "G",
+          "floor": null,
+          "c": 0,
+          "p": 2,
+          "uses": 2
+        },
+        {
+          "id": "e11",
+          "type": "Q",
+          "floor": null,
+          "c": 0,
+          "p": 2,
+          "uses": 0
+        }
+      ]
+    },
+    {
+      "label": "skip_same_layout",
+      "file": "runs\\controls\\seed31001\\geometry\\skip.json",
+      "fileSHA256": "c9cce53c2a75eb9f2a0fa21166fe5abe1fa02efed2fd45db94ff7374e8350a24",
+      "end": {
+        "act": 2,
+        "phase": "map",
+        "floors": 6,
+        "souls": 27,
+        "owned": 11,
+        "totalKills": 13,
+        "totalEarned": 30,
+        "totalSpent": 7,
+        "totalDestroyed": 0
+      },
+      "act1": {
+        "turns": 32,
+        "kills": 13,
+        "damage": 134,
+        "absorbed": 48,
+        "tokens": 2,
+        "destroyed": 0,
+        "repairs": 0,
+        "repaired": 0,
+        "hits": 28,
+        "misses": 8,
+        "floor7Contacts": 0
+      },
+      "normal7": {
+        "turns": 8,
+        "kills": 3,
+        "damage": 42,
+        "absorbed": 18,
+        "tokens": 0,
+        "destroyed": 0,
+        "repairs": 0,
+        "repaired": 0,
+        "hits": 10,
+        "misses": 0,
+        "floor7Contacts": 0
+      },
+      "boss": {
+        "turns": 6,
+        "kills": 1,
+        "damage": 56,
+        "absorbed": 24,
+        "tokens": 1,
+        "destroyed": 0,
+        "repairs": 0,
+        "repaired": 0,
+        "hits": 10,
+        "misses": 0,
+        "floor7Contacts": 0
+      },
+      "nextAndBoss": {
+        "turns": 14,
+        "kills": 4,
+        "damage": 98,
+        "absorbed": 42,
+        "tokens": 1,
+        "destroyed": 0,
+        "repairs": 0,
+        "repaired": 0,
+        "hits": 20,
+        "misses": 0,
+        "floor7Contacts": 0
+      },
+      "finalAct1Inventory": [
+        {
+          "id": "e1",
+          "type": "U",
+          "floor": 1,
+          "c": 0,
+          "p": 1,
+          "uses": 0
+        },
+        {
+          "id": "e2",
+          "type": "Q",
+          "floor": 3,
+          "c": 8,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e3",
+          "type": "Q",
+          "floor": 5,
+          "c": 10,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e4",
+          "type": "B",
+          "floor": null,
+          "c": 0,
+          "p": 1,
+          "uses": 2
+        },
+        {
+          "id": "e5",
+          "type": "B",
+          "floor": null,
+          "c": 0,
+          "p": 1,
+          "uses": 2
+        },
+        {
+          "id": "e6",
+          "type": "E",
+          "floor": 2,
+          "c": 10,
+          "p": 1,
+          "uses": 0
+        },
+        {
+          "id": "e7",
+          "type": "G",
+          "floor": 4,
+          "c": 0,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e8",
+          "type": "U",
+          "floor": 6,
+          "c": 10,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e9",
+          "type": "R",
+          "floor": null,
+          "c": 0,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e10",
+          "type": "G",
+          "floor": null,
+          "c": 0,
+          "p": 2,
+          "uses": 2
+        },
+        {
+          "id": "e11",
+          "type": "Q",
+          "floor": null,
+          "c": 0,
+          "p": 2,
+          "uses": 0
+        }
+      ]
+    },
+    {
+      "label": "skip_rearranged",
+      "file": "runs\\controls\\seed31001\\rearranged\\skip.json",
+      "fileSHA256": "1131f6f1f478596b8f68bb41b50880a86451478272410182163331166820751f",
+      "end": {
+        "act": 2,
+        "phase": "map",
+        "floors": 6,
+        "souls": 27,
+        "owned": 11,
+        "totalKills": 13,
+        "totalEarned": 30,
+        "totalSpent": 7,
+        "totalDestroyed": 0
+      },
+      "act1": {
+        "turns": 31,
+        "kills": 13,
+        "damage": 140,
+        "absorbed": 30,
+        "tokens": 1,
+        "destroyed": 0,
+        "repairs": 4,
+        "repaired": 22,
+        "hits": 26,
+        "misses": 8,
+        "floor7Contacts": 0
+      },
+      "normal7": {
+        "turns": 7,
+        "kills": 3,
+        "damage": 42,
+        "absorbed": 6,
+        "tokens": 0,
+        "destroyed": 0,
+        "repairs": 1,
+        "repaired": 6,
+        "hits": 8,
+        "misses": 0,
+        "floor7Contacts": 0
+      },
+      "boss": {
+        "turns": 6,
+        "kills": 1,
+        "damage": 62,
+        "absorbed": 18,
+        "tokens": 0,
+        "destroyed": 0,
+        "repairs": 3,
+        "repaired": 16,
+        "hits": 10,
+        "misses": 0,
+        "floor7Contacts": 0
+      },
+      "nextAndBoss": {
+        "turns": 13,
+        "kills": 4,
+        "damage": 104,
+        "absorbed": 24,
+        "tokens": 0,
+        "destroyed": 0,
+        "repairs": 4,
+        "repaired": 22,
+        "hits": 18,
+        "misses": 0,
+        "floor7Contacts": 0
+      },
+      "finalAct1Inventory": [
+        {
+          "id": "e1",
+          "type": "U",
+          "floor": 1,
+          "c": 8,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e2",
+          "type": "Q",
+          "floor": 3,
+          "c": 8,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e3",
+          "type": "Q",
+          "floor": 5,
+          "c": 10,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e4",
+          "type": "B",
+          "floor": null,
+          "c": 0,
+          "p": 1,
+          "uses": 2
+        },
+        {
+          "id": "e5",
+          "type": "B",
+          "floor": null,
+          "c": 0,
+          "p": 1,
+          "uses": 2
+        },
+        {
+          "id": "e6",
+          "type": "E",
+          "floor": 2,
+          "c": 10,
+          "p": 1,
+          "uses": 0
+        },
+        {
+          "id": "e7",
+          "type": "G",
+          "floor": 4,
+          "c": 0,
+          "p": 2,
+          "uses": 1
+        },
+        {
+          "id": "e8",
+          "type": "U",
+          "floor": null,
+          "c": 0,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e9",
+          "type": "R",
+          "floor": 6,
+          "c": 10,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e10",
+          "type": "G",
+          "floor": null,
+          "c": 0,
+          "p": 2,
+          "uses": 2
+        },
+        {
+          "id": "e11",
+          "type": "Q",
+          "floor": null,
+          "c": 0,
+          "p": 2,
+          "uses": 0
+        }
+      ]
+    },
+    {
+      "label": "early_route_paid",
+      "file": "runs\\controls\\seed31001\\route_early_expansion\\early.json",
+      "fileSHA256": "0b79543bd8c15b9cca9f592869ff3e47aafb718ac66087d5b62974b7545ac4b2",
+      "end": {
+        "act": 2,
+        "phase": "map",
+        "floors": 7,
+        "souls": 14,
+        "owned": 10,
+        "totalKills": 10,
+        "totalEarned": 24,
+        "totalSpent": 14,
+        "totalDestroyed": 1
+      },
+      "act1": {
+        "turns": 30,
+        "kills": 10,
+        "damage": 164,
+        "absorbed": 18,
+        "tokens": 3,
+        "destroyed": 1,
+        "repairs": 6,
+        "repaired": 36,
+        "hits": 28,
+        "misses": 10,
+        "floor7Contacts": 6
+      },
+      "normal7": {
+        "turns": 9,
+        "kills": 3,
+        "damage": 60,
+        "absorbed": 12,
+        "tokens": 0,
+        "destroyed": 0,
+        "repairs": 4,
+        "repaired": 24,
+        "hits": 12,
+        "misses": 0,
+        "floor7Contacts": 3
+      },
+      "boss": {
+        "turns": 5,
+        "kills": 1,
+        "damage": 58,
+        "absorbed": 6,
+        "tokens": 0,
+        "destroyed": 0,
+        "repairs": 2,
+        "repaired": 12,
+        "hits": 8,
+        "misses": 0,
+        "floor7Contacts": 2
+      },
+      "nextAndBoss": {
+        "turns": 14,
+        "kills": 4,
+        "damage": 118,
+        "absorbed": 18,
+        "tokens": 0,
+        "destroyed": 0,
+        "repairs": 6,
+        "repaired": 36,
+        "hits": 20,
+        "misses": 0,
+        "floor7Contacts": 5
+      },
+      "finalAct1Inventory": [
+        {
+          "id": "e1",
+          "type": "U",
+          "floor": 1,
+          "c": 10,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e2",
+          "type": "Q",
+          "floor": 3,
+          "c": 8,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e3",
+          "type": "Q",
+          "floor": 5,
+          "c": 10,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e4",
+          "type": "B",
+          "floor": null,
+          "c": 0,
+          "p": 1,
+          "uses": 2
+        },
+        {
+          "id": "e6",
+          "type": "E",
+          "floor": 2,
+          "c": 2,
+          "p": 1,
+          "uses": 0
+        },
+        {
+          "id": "e7",
+          "type": "G",
+          "floor": 4,
+          "c": 0,
+          "p": 2,
+          "uses": 2
+        },
+        {
+          "id": "e8",
+          "type": "R",
+          "floor": 7,
+          "c": 8,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e9",
+          "type": "U",
+          "floor": 6,
+          "c": 8,
+          "p": 2,
+          "uses": 0
+        },
+        {
+          "id": "e10",
+          "type": "G",
+          "floor": null,
+          "c": 0,
+          "p": 2,
+          "uses": 2
+        },
+        {
+          "id": "e11",
+          "type": "Q",
+          "floor": null,
+          "c": 0,
+          "p": 2,
+          "uses": 0
+        }
+      ]
+    }
+  ]
+}

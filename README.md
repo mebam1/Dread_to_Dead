@@ -8,9 +8,13 @@
 | [terms.md](terms.md) | 층·괴이·공포·액티브·블러드 웹 용어 |
 | [arts.md](arts.md) | 층과 엘리베이터 루프의 표현·정보 전달 원칙 |
 | [ability_checklist.md](ability_checklist.md) | 괴이 능력·구매·배치의 설계·검토 기준 |
+| [괴이·손님 설계 후보](designs/README.md) | 괴이72종·손님 행동72종·보스12종·조합24종의 사용자 검증용 발상안 |
 | [undecided.md](undecided.md) | 미확정 수치·예외·콘텐츠·실험 후보 |
 | [mvps/mvp.md](mvps/mvp.md) | 현행 검증 계획과 구분된 과거 시연 기록 |
-| [mvps/mvp-config-14.md](mvps/mvp-config-14.md) | 비활동 패널티·탈출구·G 도착 충전의 실험 절차와 실행 시 시험안 |
+| [mvps/mvp-config-user-3.md](mvps/mvp-config-user-3.md) | user-3 v1.1: 상점 증설·공통 회복·파훼 토큰 이월·개체 강화 |
+| [mvps/mvp-config-15.md](mvps/mvp-config-15.md) | user-3 v1.0에서 증설의 실질 이익을 판단한 텍스트 실험 절차 |
+| [설정 15 텍스트 실험](mvp_text_15/README.md) | 직접 AI 플레이3판·증설/미증설·재배치·경로 비교와 실질 이익 분석 |
+| [mvps/mvp-config-14.md](mvps/mvp-config-14.md) | 과거 비활동 패널티·탈출구·G 도착 충전의 실험 절차와 실행 시 시험안 |
 | [설정 14 텍스트 MVP](mvp_text_14/README.md) | 보호·충전과 실제 후속 공격의 AI 플레이·통제 비교·개선점 |
 | [mvps/mvp-config-13.md](mvps/mvp-config-13.md) | 공급·수확·수비 도착지 경쟁의 당시 시험안 |
 | [설정 13 텍스트 MVP](mvp_text_13/README.md) | 도착지 경쟁의 AI 진행 기록·통제 비교 |

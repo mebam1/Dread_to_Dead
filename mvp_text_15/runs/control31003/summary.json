@@ -1,0 +1,355 @@
+{
+  "seed": 31003,
+  "classification": "normal-plus-retrospective-control-analysis",
+  "limits": [
+    "paid control fixed-replays normal decisions; skip control replans from revealed state",
+    "controls stop at act1 end; later expansion net value not paired",
+    "alternative-node opportunity is recorded but not counterfactually replayed"
+  ],
+  "normal": {
+    "source": "runs/normal_31003.json",
+    "endPhase": "won",
+    "floorCount": 9,
+    "souls": 56,
+    "stats": {
+      "kills": 27,
+      "escaped": 0,
+      "skipped": 0,
+      "earned": 80,
+      "spent": 28,
+      "destroyed": 4,
+      "visits": 24,
+      "combats": 11,
+      "expansions": 3,
+      "expansionSpent": 18,
+      "eventRemoved": 0
+    },
+    "recordedSegmentTurns": 92,
+    "nodes": {
+      "a1-d1-c0": {
+        "turns": 6,
+        "kills": 3,
+        "damage": 32,
+        "tokens": 2,
+        "destroyed": 1,
+        "fear": 45,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a1-d2-c1": {
+        "turns": 6,
+        "kills": 3,
+        "damage": 6,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 40,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a1-d3-c2": {
+        "turns": 0,
+        "kills": 0,
+        "damage": 0,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 0,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a1-d4-c1": {
+        "turns": 6,
+        "kills": 3,
+        "damage": 36,
+        "tokens": 2,
+        "destroyed": 0,
+        "fear": 60,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a1-d5-c0": {
+        "turns": 0,
+        "kills": 0,
+        "damage": 0,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 0,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a1-d6-c0": {
+        "turns": 0,
+        "kills": 0,
+        "damage": 0,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 0,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a1-d7-c1": {
+        "turns": 4,
+        "kills": 3,
+        "damage": 12,
+        "tokens": 1,
+        "destroyed": 0,
+        "fear": 36,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a1-d8-c1": {
+        "turns": 5,
+        "kills": 1,
+        "damage": 52,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 45,
+        "absorbed": 12,
+        "repairs": 0
+      },
+      "a2-d1-c2": {
+        "turns": 9,
+        "kills": 3,
+        "damage": 68,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 90,
+        "absorbed": 16,
+        "repairs": 0
+      },
+      "a2-d2-c2": {
+        "turns": 0,
+        "kills": 0,
+        "damage": 0,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 0,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a2-d3-c2": {
+        "turns": 0,
+        "kills": 0,
+        "damage": 0,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 0,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a2-d4-c1": {
+        "turns": 15,
+        "kills": 3,
+        "damage": 110,
+        "tokens": 1,
+        "destroyed": 0,
+        "fear": 117,
+        "absorbed": 18,
+        "repairs": 0
+      },
+      "a2-d5-c0": {
+        "turns": 0,
+        "kills": 0,
+        "damage": 0,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 0,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a2-d6-c0": {
+        "turns": 0,
+        "kills": 0,
+        "damage": 0,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 0,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a2-d7-c0": {
+        "turns": 0,
+        "kills": 0,
+        "damage": 0,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 0,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a2-d8-c1": {
+        "turns": 6,
+        "kills": 1,
+        "damage": 56,
+        "tokens": 1,
+        "destroyed": 0,
+        "fear": 72,
+        "absorbed": 12,
+        "repairs": 0
+      },
+      "a3-d1-c1": {
+        "turns": 15,
+        "kills": 3,
+        "damage": 142,
+        "tokens": 3,
+        "destroyed": 2,
+        "fear": 132,
+        "absorbed": 12,
+        "repairs": 0
+      },
+      "a3-d2-c0": {
+        "turns": 0,
+        "kills": 0,
+        "damage": 0,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 0,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a3-d3-c0": {
+        "turns": 0,
+        "kills": 0,
+        "damage": 0,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 0,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a3-d4-c0": {
+        "turns": 0,
+        "kills": 0,
+        "damage": 0,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 0,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a3-d5-c0": {
+        "turns": 0,
+        "kills": 0,
+        "damage": 0,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 0,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a3-d6-c0": {
+        "turns": 0,
+        "kills": 0,
+        "damage": 0,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 0,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a3-d7-c1": {
+        "turns": 12,
+        "kills": 3,
+        "damage": 90,
+        "tokens": 2,
+        "destroyed": 0,
+        "fear": 103,
+        "absorbed": 30,
+        "repairs": 0
+      },
+      "a3-d8-c1": {
+        "turns": 8,
+        "kills": 1,
+        "damage": 104,
+        "tokens": 3,
+        "destroyed": 1,
+        "fear": 78,
+        "absorbed": 12,
+        "repairs": 0
+      }
+    }
+  },
+  "paid": {
+    "source": "runs/control31003/first-expansion/paid.json",
+    "endPhase": "map",
+    "floorCount": 7,
+    "souls": 23,
+    "stats": {
+      "kills": 13,
+      "escaped": 0,
+      "skipped": 0,
+      "earned": 30,
+      "spent": 11,
+      "destroyed": 1,
+      "visits": 8,
+      "combats": 5,
+      "expansions": 1,
+      "expansionSpent": 4,
+      "eventRemoved": 0
+    },
+    "recordedSegmentTurns": 9,
+    "nodes": {
+      "a1-d7-c1": {
+        "turns": 4,
+        "kills": 3,
+        "damage": 12,
+        "tokens": 1,
+        "destroyed": 0,
+        "fear": 36,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a1-d8-c1": {
+        "turns": 5,
+        "kills": 1,
+        "damage": 52,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 45,
+        "absorbed": 12,
+        "repairs": 0
+      }
+    }
+  },
+  "skip": {
+    "source": "runs/control31003/first-expansion/skip.json",
+    "endPhase": "map",
+    "floorCount": 6,
+    "souls": 27,
+    "stats": {
+      "kills": 13,
+      "escaped": 0,
+      "skipped": 0,
+      "earned": 30,
+      "spent": 7,
+      "destroyed": 1,
+      "visits": 8,
+      "combats": 5,
+      "expansions": 0,
+      "expansionSpent": 0,
+      "eventRemoved": 0
+    },
+    "recordedSegmentTurns": 7,
+    "nodes": {
+      "a1-d7-c1": {
+        "turns": 3,
+        "kills": 3,
+        "damage": 0,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 38,
+        "absorbed": 0,
+        "repairs": 0
+      },
+      "a1-d8-c1": {
+        "turns": 4,
+        "kills": 1,
+        "damage": 42,
+        "tokens": 0,
+        "destroyed": 0,
+        "fear": 45,
+        "absorbed": 6,
+        "repairs": 0
+      }
+    }
+  }
+}

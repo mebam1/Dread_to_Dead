@@ -1,0 +1,215 @@
+{
+  "classification": "retrospective-manual-control",
+  "source": "runs\\checkpoints\\normal_31001-a3-tenth-floor-before.json",
+  "sourceSHA256": "010df66ca6fc25e5abafbbd1e1c1351c1c4e04a3a14fa8d02e9b667c6fa86427",
+  "paidObservedRun": "runs/normal_31001.json",
+  "paidStaticPreparationOnly": "runs\\controls\\root31001-late10\\paid.json",
+  "skipObservedRun": "runs\\controls\\root31001-late10\\skip.json",
+  "skipDecisionPolicy": "Manual current-public-information decisions; free G9 to Q9 substitution; no future-roll search, policy script, money or creature injection.",
+  "cost": 10,
+  "nodes": {
+    "a3-d7-c0": {
+      "paid": {
+        "turns": 10,
+        "fearGenerated": 77,
+        "heartsRemoved": 3,
+        "tokenLoss": 3,
+        "destroyed": [],
+        "shieldUses": 3,
+        "shieldAbsorbed": 16,
+        "repairCount": 1,
+        "repairAmount": 6,
+        "lastQFear": [
+          {
+            "turn": 3,
+            "floor": 10,
+            "amount": 8
+          },
+          {
+            "turn": 10,
+            "floor": 10,
+            "amount": 12
+          }
+        ]
+      },
+      "skip": {
+        "turns": 11,
+        "fearGenerated": 75,
+        "heartsRemoved": 3,
+        "tokenLoss": 5,
+        "destroyed": [
+          "e14"
+        ],
+        "shieldUses": 3,
+        "shieldAbsorbed": 18,
+        "repairCount": 5,
+        "repairAmount": 28,
+        "lastQFear": []
+      }
+    },
+    "a3-d8-c1": {
+      "paid": {
+        "turns": 9,
+        "fearGenerated": 78,
+        "heartsRemoved": 3,
+        "tokenLoss": 3,
+        "destroyed": [],
+        "shieldUses": 3,
+        "shieldAbsorbed": 18,
+        "repairCount": 0,
+        "repairAmount": 0,
+        "lastQFear": [
+          {
+            "turn": 4,
+            "floor": 10,
+            "amount": 12
+          },
+          {
+            "turn": 7,
+            "floor": 10,
+            "amount": 12
+          }
+        ]
+      },
+      "skip": {
+        "turns": 13,
+        "fearGenerated": 76,
+        "heartsRemoved": 3,
+        "tokenLoss": 5,
+        "destroyed": [
+          "e4"
+        ],
+        "shieldUses": 4,
+        "shieldAbsorbed": 24,
+        "repairCount": 6,
+        "repairAmount": 32,
+        "lastQFear": [
+          {
+            "turn": 2,
+            "floor": 9,
+            "amount": 4
+          },
+          {
+            "turn": 10,
+            "floor": 9,
+            "amount": 12
+          }
+        ]
+      }
+    }
+  },
+  "bossFloor1to8EqualIgnoringEntityId": true,
+  "bossFloor1to8Setup": [
+    {
+      "type": "U",
+      "floor": 1,
+      "c": 0,
+      "p": 2,
+      "uses": 0,
+      "shield": 0
+    },
+    {
+      "type": "U",
+      "floor": 2,
+      "c": 0,
+      "p": 2,
+      "uses": 0,
+      "shield": 0
+    },
+    {
+      "type": "Q",
+      "floor": 3,
+      "c": 0,
+      "p": 2,
+      "uses": 0,
+      "shield": 0
+    },
+    {
+      "type": "G",
+      "floor": 4,
+      "c": 0,
+      "p": 2,
+      "uses": 2,
+      "shield": 0
+    },
+    {
+      "type": "Q",
+      "floor": 5,
+      "c": 0,
+      "p": 2,
+      "uses": 0,
+      "shield": 0
+    },
+    {
+      "type": "R",
+      "floor": 6,
+      "c": 0,
+      "p": 2,
+      "uses": 0,
+      "shield": 0
+    },
+    {
+      "type": "B",
+      "floor": 7,
+      "c": 0,
+      "p": 1,
+      "uses": 2,
+      "shield": 0
+    },
+    {
+      "type": "B",
+      "floor": 8,
+      "c": 0,
+      "p": 1,
+      "uses": 2,
+      "shield": 0
+    }
+  ],
+  "rewardDifference": "Paid chose E and stored it. Skip chose B and placed it on 8 after elite destroyed the original B. At boss prep the deployed B8 has identical c0,p1,uses2,shield0; the entity ID differs.",
+  "final": {
+    "paid": {
+      "phase": "won",
+      "souls": 42,
+      "floors": 10,
+      "stats": {
+        "kills": 23,
+        "escaped": 1,
+        "skipped": 0,
+        "earned": 76,
+        "spent": 38,
+        "destroyed": 5,
+        "visits": 24,
+        "combats": 12,
+        "expansions": 4,
+        "expansionSpent": 28,
+        "eventRemoved": 0
+      }
+    },
+    "skip": {
+      "phase": "won",
+      "souls": 52,
+      "floors": 9,
+      "stats": {
+        "kills": 23,
+        "escaped": 1,
+        "skipped": 0,
+        "earned": 76,
+        "spent": 28,
+        "destroyed": 7,
+        "visits": 24,
+        "combats": 12,
+        "expansions": 3,
+        "expansionSpent": 18,
+        "eventRemoved": 0
+      }
+    }
+  },
+  "limitations": [
+    "One retrospective paired branch; not a repeated randomized estimate or optimal policy proof.",
+    "Manual controllers and decisions differ.",
+    "Floor count changes movement wrap and remote-target geometry together with available slots.",
+    "Reward choices differ after elite, but effective deployed floor 1-8 boss assets match.",
+    "Branch conditions on already visiting expansion node; route opportunity cost is not measured.",
+    "Money saved has no downstream shop in this suffix, so final cash is not realized utility."
+  ]
+}
