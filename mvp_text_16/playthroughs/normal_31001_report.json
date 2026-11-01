@@ -1,0 +1,6925 @@
+{
+  "rules": "text-16-v1.0",
+  "classification": "normal",
+  "evidenceOnly": true,
+  "phase": "won",
+  "seed": 31001,
+  "completed": [
+    8,
+    8,
+    8
+  ],
+  "goals": {
+    "expansion": {
+      "purchases": [
+        {
+          "index": 608,
+          "nodeId": "a2-d3-c0",
+          "before": 6,
+          "after": 7,
+          "cost": 4,
+          "moneyAfter": 11,
+          "placementsInNewSpace": []
+        },
+        {
+          "index": 609,
+          "nodeId": "a2-d3-c0",
+          "before": 7,
+          "after": 8,
+          "cost": 6,
+          "moneyAfter": 5,
+          "placementsInNewSpace": [
+            {
+              "entityId": "e12",
+              "floor": 8,
+              "nodeId": "a2-d3-c0"
+            }
+          ]
+        },
+        {
+          "index": 1247,
+          "nodeId": "a3-d5-c0",
+          "before": 8,
+          "after": 9,
+          "cost": 8,
+          "moneyAfter": 15,
+          "placementsInNewSpace": []
+        },
+        {
+          "index": 1248,
+          "nodeId": "a3-d5-c0",
+          "before": 9,
+          "after": 10,
+          "cost": 10,
+          "moneyAfter": 5,
+          "placementsInNewSpace": [
+            {
+              "entityId": "e18",
+              "floor": 10,
+              "nodeId": "a3-d5-c0"
+            }
+          ]
+        }
+      ],
+      "verdict": "Compare actual alternatives and free rearrangement; purchase count alone is not value."
+    },
+    "shop": {
+      "acquired": [
+        {
+          "id": "e6",
+          "type": "roulette",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 3,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 63,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 25,
+            "damageTaken": 103,
+            "hitsTaken": 18,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d3-c2",
+            "floor": 4
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "name": "이름이 새겨진 룰렛",
+          "remaining": {
+            "id": "e6",
+            "type": "roulette",
+            "floor": 4,
+            "c": 6,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a1-d3-c2",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e7",
+          "type": "roulette",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 3,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 56,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 13,
+            "damageTaken": 95,
+            "hitsTaken": 15,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d3-c2",
+            "floor": 6
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 2,
+            "kind": "resource"
+          },
+          "upgraded": true,
+          "name": "이름이 새겨진 룰렛",
+          "remaining": {
+            "id": "e7",
+            "type": "roulette",
+            "floor": 6,
+            "c": 10,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": true,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a1-d3-c2",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e8",
+          "type": "prophet",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 4,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 4,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d3-c2",
+            "floor": 3
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "name": "횡설수설하는 예언가",
+          "remaining": null
+        },
+        {
+          "id": "e10",
+          "type": "samara",
+          "origin": "shop",
+          "nodeId": "a1-d5-c2",
+          "price": 4,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 3,
+            "damageTaken": 39,
+            "hitsTaken": 7,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": null,
+            "floor": 5
+          },
+          "firstEffect": {
+            "nodeId": "a1-d8-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "name": "사마라의 약속",
+          "remaining": {
+            "id": "e10",
+            "type": "samara",
+            "floor": null,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a1-d5-c2",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e13",
+          "type": "runes",
+          "origin": "shop",
+          "nodeId": "a2-d3-c0",
+          "price": 3,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 5,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 36,
+            "hitsTaken": 5,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a2-d8-c1",
+            "floor": 3
+          },
+          "firstEffect": {
+            "nodeId": "a2-d8-c1",
+            "turn": 4,
+            "kind": "resource"
+          },
+          "destroyed": true,
+          "name": "룬 문자 벽",
+          "remaining": null
+        },
+        {
+          "id": "e14",
+          "type": "nepenthes",
+          "origin": "shop",
+          "nodeId": "a2-d5-c0",
+          "price": 5,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 6,
+            "damageTaken": 98,
+            "hitsTaken": 14,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 3,
+            "redirectedHitsTaken": 4,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a2-d5-c0",
+            "floor": 5
+          },
+          "firstEffect": {
+            "nodeId": "a2-d6-c0",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "name": "보석박힌 네펜데스",
+          "remaining": {
+            "id": "e14",
+            "type": "nepenthes",
+            "floor": null,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a2-d5-c0",
+              "act": 2
+            }
+          }
+        },
+        {
+          "id": "e19",
+          "type": "collector",
+          "origin": "shop",
+          "nodeId": "a3-d5-c0",
+          "price": 3,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 1,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 10,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a3-d5-c0",
+            "floor": 9
+          },
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 4,
+            "kind": "body_hit"
+          },
+          "name": "수집가",
+          "remaining": {
+            "id": "e19",
+            "type": "collector",
+            "floor": 9,
+            "c": 10,
+            "p": 1,
+            "uses": 1,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a3-d5-c0",
+              "act": 3
+            }
+          }
+        },
+        {
+          "id": "e20",
+          "type": "prophet",
+          "origin": "shop",
+          "nodeId": "a3-d5-c0",
+          "price": 4,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 10,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a3-d5-c0",
+            "floor": 2
+          },
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "name": "횡설수설하는 예언가",
+          "remaining": {
+            "id": "e20",
+            "type": "prophet",
+            "floor": 2,
+            "c": 10,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a3-d5-c0",
+              "act": 3
+            }
+          }
+        }
+      ],
+      "unobservedContribution": [],
+      "verdict": "Acquisition and effects are evidence; waiting/free-reward and soul-cost alternatives need review."
+    },
+    "freeReward": {
+      "acquired": [
+        {
+          "id": "e5",
+          "type": "roulette",
+          "origin": "free_reward",
+          "nodeId": "a1-d1-c1",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "mouse",
+            "roulette",
+            "barnacle"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 33,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 15,
+            "damageTaken": 79,
+            "hitsTaken": 15,
+            "tokensLost": 4,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": null,
+            "floor": 2
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "destroyed": true,
+          "name": "이름이 새겨진 룰렛",
+          "remaining": null
+        },
+        {
+          "id": "e9",
+          "type": "runes",
+          "origin": "free_reward",
+          "nodeId": "a1-d4-c1",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "runes",
+            "mouse",
+            "safe"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 16,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 3,
+            "damageTaken": 79,
+            "hitsTaken": 12,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a3-d4-c0",
+            "floor": 3
+          },
+          "firstEffect": {
+            "nodeId": "a1-d8-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "name": "룬 문자 벽",
+          "remaining": {
+            "id": "e9",
+            "type": "runes",
+            "floor": 3,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a1-d4-c1",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e11",
+          "type": "barnacle",
+          "origin": "free_reward",
+          "nodeId": "a1-d8-c1",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "owner",
+            "barnacle",
+            "roulette"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 118,
+            "shieldAbsorbedOnBody": 10,
+            "damageTaken": 106,
+            "hitsTaken": 17,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 9,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": null,
+            "floor": 1
+          },
+          "firstEffect": {
+            "nodeId": "a2-d1-c1",
+            "turn": 1,
+            "kind": "shield"
+          },
+          "name": "보석 따개비",
+          "remaining": {
+            "id": "e11",
+            "type": "barnacle",
+            "floor": 1,
+            "c": 10,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a1-d8-c1",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e12",
+          "type": "roulette",
+          "origin": "free_reward",
+          "nodeId": "a2-d1-c1",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "roulette",
+            "samara",
+            "owner"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 21,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 46,
+            "hitsTaken": 6,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a2-d3-c0",
+            "floor": 8
+          },
+          "firstEffect": {
+            "nodeId": "a2-d6-c0",
+            "turn": 2,
+            "kind": "resource"
+          },
+          "name": "이름이 새겨진 룰렛",
+          "remaining": {
+            "id": "e12",
+            "type": "roulette",
+            "floor": 8,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a2-d1-c1",
+              "act": 2
+            }
+          }
+        },
+        {
+          "id": "e15",
+          "type": "collector",
+          "origin": "free_reward",
+          "nodeId": "a2-d6-c0",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "collector",
+            "footsteps",
+            "mouse"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 9,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 26,
+            "hitsTaken": 3,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 4,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a2-d8-c1",
+            "floor": 7
+          },
+          "firstEffect": {
+            "nodeId": "a2-d8-c1",
+            "turn": 1,
+            "kind": "status"
+          },
+          "name": "수집가",
+          "remaining": {
+            "id": "e15",
+            "type": "collector",
+            "floor": 7,
+            "c": 10,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a2-d6-c0",
+              "act": 2
+            }
+          }
+        },
+        {
+          "id": "e16",
+          "type": "nepenthes",
+          "origin": "free_reward",
+          "nodeId": "a2-d8-c1",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "gaze",
+            "nepenthes",
+            "safe"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 3,
+            "damageTaken": 29,
+            "hitsTaken": 4,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 1,
+            "redirectedHitsTaken": 2,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a3-d5-c0",
+            "floor": 5
+          },
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 1,
+            "kind": "guard"
+          },
+          "name": "보석박힌 네펜데스",
+          "remaining": {
+            "id": "e16",
+            "type": "nepenthes",
+            "floor": 5,
+            "c": 8,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a2-d8-c1",
+              "act": 2
+            }
+          }
+        },
+        {
+          "id": "e17",
+          "type": "prophet",
+          "origin": "free_reward",
+          "nodeId": "a3-d1-c0",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "footsteps",
+            "samara",
+            "prophet"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 30,
+            "hitsTaken": 3,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 1,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 1
+          },
+          "lastPlacement": {
+            "nodeId": "a3-d4-c0",
+            "floor": 2
+          },
+          "firstEffect": {
+            "nodeId": "a3-d4-c0",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "name": "횡설수설하는 예언가",
+          "remaining": {
+            "id": "e17",
+            "type": "prophet",
+            "floor": null,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a3-d1-c0",
+              "act": 3
+            }
+          }
+        },
+        {
+          "id": "e18",
+          "type": "nepenthes",
+          "origin": "free_reward",
+          "nodeId": "a3-d4-c0",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "prophet",
+            "nepenthes",
+            "gaze"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 26,
+            "hitsTaken": 3,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 1,
+            "redirectedHitsTaken": 1,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a3-d5-c0",
+            "floor": 10
+          },
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 3,
+            "kind": "body_hit"
+          },
+          "name": "보석박힌 네펜데스",
+          "remaining": {
+            "id": "e18",
+            "type": "nepenthes",
+            "floor": 10,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a3-d4-c0",
+              "act": 3
+            }
+          }
+        },
+        {
+          "id": "e21",
+          "type": "gaze",
+          "origin": "free_reward",
+          "nodeId": "a3-d8-c1",
+          "price": 0,
+          "finalReward": true,
+          "candidates": [
+            "gaze",
+            "collector",
+            "prophet"
+          ],
+          "name": "문틈의 시선",
+          "remaining": {
+            "id": "e21",
+            "type": "gaze",
+            "floor": null,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a3-d8-c1",
+              "act": 3
+            }
+          }
+        }
+      ],
+      "combatEligible": 8,
+      "unobservedContribution": [],
+      "verdict": "Final-boss reward is excluded from later combat value."
+    },
+    "distinctClears": {
+      "clearCase": true,
+      "actualFear": {
+        "anxietyHarvest": 18,
+        "automaticProphecy": 652
+      },
+      "usedEntities": [
+        {
+          "id": "e1",
+          "type": "gaze",
+          "origin": "start",
+          "initialFloor": 1,
+          "effects": {
+            "fear": 0,
+            "anxiety": 24,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 34,
+            "hitsTaken": 6,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "firstEffect": {
+            "nodeId": "a1-d1-c1",
+            "turn": 1,
+            "kind": "anxiety"
+          },
+          "destroyed": true,
+          "name": "문틈의 시선",
+          "remaining": null
+        },
+        {
+          "id": "e2",
+          "type": "owner",
+          "origin": "start",
+          "initialFloor": 3,
+          "effects": {
+            "fear": 18,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 16,
+            "hitsTaken": 3,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "firstEffect": {
+            "nodeId": "a1-d1-c1",
+            "turn": 2,
+            "kind": "fear"
+          },
+          "name": "시선의 주인",
+          "remaining": null
+        },
+        {
+          "id": "e3",
+          "type": "runes",
+          "origin": "start",
+          "initialFloor": 5,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 18,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 34,
+            "hitsTaken": 6,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": null,
+            "floor": 2
+          },
+          "firstEffect": {
+            "nodeId": "a1-d1-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "destroyed": true,
+          "name": "룬 문자 벽",
+          "remaining": null
+        },
+        {
+          "id": "e4",
+          "type": "safe",
+          "origin": "start",
+          "initialFloor": 6,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 3,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 58,
+            "hitsTaken": 9,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a2-d3-c0",
+            "floor": 7
+          },
+          "firstEffect": {
+            "nodeId": "a1-d1-c1",
+            "turn": 6,
+            "kind": "resource"
+          },
+          "name": "유혹하는 금고",
+          "remaining": {
+            "id": "e4",
+            "type": "safe",
+            "floor": null,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "start",
+              "nodeId": null,
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e5",
+          "type": "roulette",
+          "origin": "free_reward",
+          "nodeId": "a1-d1-c1",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "mouse",
+            "roulette",
+            "barnacle"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 33,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 15,
+            "damageTaken": 79,
+            "hitsTaken": 15,
+            "tokensLost": 4,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": null,
+            "floor": 2
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "destroyed": true,
+          "name": "이름이 새겨진 룰렛",
+          "remaining": null
+        },
+        {
+          "id": "e6",
+          "type": "roulette",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 3,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 63,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 25,
+            "damageTaken": 103,
+            "hitsTaken": 18,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d3-c2",
+            "floor": 4
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "name": "이름이 새겨진 룰렛",
+          "remaining": {
+            "id": "e6",
+            "type": "roulette",
+            "floor": 4,
+            "c": 6,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a1-d3-c2",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e7",
+          "type": "roulette",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 3,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 56,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 13,
+            "damageTaken": 95,
+            "hitsTaken": 15,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d3-c2",
+            "floor": 6
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 2,
+            "kind": "resource"
+          },
+          "upgraded": true,
+          "name": "이름이 새겨진 룰렛",
+          "remaining": {
+            "id": "e7",
+            "type": "roulette",
+            "floor": 6,
+            "c": 10,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": true,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a1-d3-c2",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e8",
+          "type": "prophet",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 4,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 4,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d3-c2",
+            "floor": 3
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "name": "횡설수설하는 예언가",
+          "remaining": null
+        },
+        {
+          "id": "e9",
+          "type": "runes",
+          "origin": "free_reward",
+          "nodeId": "a1-d4-c1",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "runes",
+            "mouse",
+            "safe"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 16,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 3,
+            "damageTaken": 79,
+            "hitsTaken": 12,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a3-d4-c0",
+            "floor": 3
+          },
+          "firstEffect": {
+            "nodeId": "a1-d8-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "name": "룬 문자 벽",
+          "remaining": {
+            "id": "e9",
+            "type": "runes",
+            "floor": 3,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a1-d4-c1",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e10",
+          "type": "samara",
+          "origin": "shop",
+          "nodeId": "a1-d5-c2",
+          "price": 4,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 3,
+            "damageTaken": 39,
+            "hitsTaken": 7,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": null,
+            "floor": 5
+          },
+          "firstEffect": {
+            "nodeId": "a1-d8-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "name": "사마라의 약속",
+          "remaining": {
+            "id": "e10",
+            "type": "samara",
+            "floor": null,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a1-d5-c2",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e11",
+          "type": "barnacle",
+          "origin": "free_reward",
+          "nodeId": "a1-d8-c1",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "owner",
+            "barnacle",
+            "roulette"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 118,
+            "shieldAbsorbedOnBody": 10,
+            "damageTaken": 106,
+            "hitsTaken": 17,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 9,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": null,
+            "floor": 1
+          },
+          "firstEffect": {
+            "nodeId": "a2-d1-c1",
+            "turn": 1,
+            "kind": "shield"
+          },
+          "name": "보석 따개비",
+          "remaining": {
+            "id": "e11",
+            "type": "barnacle",
+            "floor": 1,
+            "c": 10,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a1-d8-c1",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e12",
+          "type": "roulette",
+          "origin": "free_reward",
+          "nodeId": "a2-d1-c1",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "roulette",
+            "samara",
+            "owner"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 21,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 46,
+            "hitsTaken": 6,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a2-d3-c0",
+            "floor": 8
+          },
+          "firstEffect": {
+            "nodeId": "a2-d6-c0",
+            "turn": 2,
+            "kind": "resource"
+          },
+          "name": "이름이 새겨진 룰렛",
+          "remaining": {
+            "id": "e12",
+            "type": "roulette",
+            "floor": 8,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a2-d1-c1",
+              "act": 2
+            }
+          }
+        },
+        {
+          "id": "e13",
+          "type": "runes",
+          "origin": "shop",
+          "nodeId": "a2-d3-c0",
+          "price": 3,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 5,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 36,
+            "hitsTaken": 5,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a2-d8-c1",
+            "floor": 3
+          },
+          "firstEffect": {
+            "nodeId": "a2-d8-c1",
+            "turn": 4,
+            "kind": "resource"
+          },
+          "destroyed": true,
+          "name": "룬 문자 벽",
+          "remaining": null
+        },
+        {
+          "id": "e14",
+          "type": "nepenthes",
+          "origin": "shop",
+          "nodeId": "a2-d5-c0",
+          "price": 5,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 6,
+            "damageTaken": 98,
+            "hitsTaken": 14,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 3,
+            "redirectedHitsTaken": 4,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a2-d5-c0",
+            "floor": 5
+          },
+          "firstEffect": {
+            "nodeId": "a2-d6-c0",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "name": "보석박힌 네펜데스",
+          "remaining": {
+            "id": "e14",
+            "type": "nepenthes",
+            "floor": null,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a2-d5-c0",
+              "act": 2
+            }
+          }
+        },
+        {
+          "id": "e15",
+          "type": "collector",
+          "origin": "free_reward",
+          "nodeId": "a2-d6-c0",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "collector",
+            "footsteps",
+            "mouse"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 9,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 26,
+            "hitsTaken": 3,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 4,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a2-d8-c1",
+            "floor": 7
+          },
+          "firstEffect": {
+            "nodeId": "a2-d8-c1",
+            "turn": 1,
+            "kind": "status"
+          },
+          "name": "수집가",
+          "remaining": {
+            "id": "e15",
+            "type": "collector",
+            "floor": 7,
+            "c": 10,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a2-d6-c0",
+              "act": 2
+            }
+          }
+        },
+        {
+          "id": "e16",
+          "type": "nepenthes",
+          "origin": "free_reward",
+          "nodeId": "a2-d8-c1",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "gaze",
+            "nepenthes",
+            "safe"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 3,
+            "damageTaken": 29,
+            "hitsTaken": 4,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 1,
+            "redirectedHitsTaken": 2,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a3-d5-c0",
+            "floor": 5
+          },
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 1,
+            "kind": "guard"
+          },
+          "name": "보석박힌 네펜데스",
+          "remaining": {
+            "id": "e16",
+            "type": "nepenthes",
+            "floor": 5,
+            "c": 8,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a2-d8-c1",
+              "act": 2
+            }
+          }
+        },
+        {
+          "id": "e17",
+          "type": "prophet",
+          "origin": "free_reward",
+          "nodeId": "a3-d1-c0",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "footsteps",
+            "samara",
+            "prophet"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 30,
+            "hitsTaken": 3,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 1,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 1
+          },
+          "lastPlacement": {
+            "nodeId": "a3-d4-c0",
+            "floor": 2
+          },
+          "firstEffect": {
+            "nodeId": "a3-d4-c0",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "name": "횡설수설하는 예언가",
+          "remaining": {
+            "id": "e17",
+            "type": "prophet",
+            "floor": null,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a3-d1-c0",
+              "act": 3
+            }
+          }
+        },
+        {
+          "id": "e18",
+          "type": "nepenthes",
+          "origin": "free_reward",
+          "nodeId": "a3-d4-c0",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "prophet",
+            "nepenthes",
+            "gaze"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 26,
+            "hitsTaken": 3,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 1,
+            "redirectedHitsTaken": 1,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a3-d5-c0",
+            "floor": 10
+          },
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 3,
+            "kind": "body_hit"
+          },
+          "name": "보석박힌 네펜데스",
+          "remaining": {
+            "id": "e18",
+            "type": "nepenthes",
+            "floor": 10,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a3-d4-c0",
+              "act": 3
+            }
+          }
+        },
+        {
+          "id": "e19",
+          "type": "collector",
+          "origin": "shop",
+          "nodeId": "a3-d5-c0",
+          "price": 3,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 1,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 10,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a3-d5-c0",
+            "floor": 9
+          },
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 4,
+            "kind": "body_hit"
+          },
+          "name": "수집가",
+          "remaining": {
+            "id": "e19",
+            "type": "collector",
+            "floor": 9,
+            "c": 10,
+            "p": 1,
+            "uses": 1,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a3-d5-c0",
+              "act": 3
+            }
+          }
+        },
+        {
+          "id": "e20",
+          "type": "prophet",
+          "origin": "shop",
+          "nodeId": "a3-d5-c0",
+          "price": 4,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 10,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a3-d5-c0",
+            "floor": 2
+          },
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "name": "횡설수설하는 예언가",
+          "remaining": {
+            "id": "e20",
+            "type": "prophet",
+            "floor": 2,
+            "c": 10,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a3-d5-c0",
+              "act": 3
+            }
+          }
+        }
+      ],
+      "verdict": "One run cannot establish two different clearing combinations."
+    }
+  },
+  "decisions": [
+    {
+      "sequence": 2,
+      "command": "place",
+      "args": [
+        "e3",
+        2
+      ],
+      "reason": "작은 눈에서 시선 통과·룬 도착을 함께 얻도록 룬을 2층에 둔다",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 4,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 4,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 3,
+      "command": "place",
+      "args": [
+        "e4",
+        4
+      ],
+      "reason": "금고를 4층 몸빵으로 두고 룬2층·수확3층을 인접시킨다",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 4,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 4,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 4,
+      "command": "visit",
+      "args": [
+        "a1-d1-c1"
+      ],
+      "reason": "공개된 첫 일반 전투에서 예언·불안의 혼합 초반 전력을 확인한다",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 4,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "management",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 5,
+      "command": "start",
+      "args": [],
+      "reason": "1시선 2룬 3수확 4금고로 시작한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "management",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 0,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 7,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "초반 룬 도착으로 예언4를 쌓고 이후 자동공포를 확보한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 0,
+        "turn": 1
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 0,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 9,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "수확2와 자동예언3으로 공포9까지 올리고 경로를 최소화한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 0,
+        "turn": 2
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 0,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 11,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "현재 공개 예고에서 반격 없이 처치하는 경로를 선택한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 0,
+        "turn": 3
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 1,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 13,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "룬에 도착해 예언4를 쌓고 즉시 반격 두 타격을 분산한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 1,
+        "turn": 1
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 1,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 15,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "빈6층 인접공격을 유도해 피해 없이 자동공포3을 누적한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 1,
+        "turn": 2
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 1,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 17,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "빈6층에서 반격을 비우고 불안을4로 늘리며 예언2를 적용한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 1,
+        "turn": 3
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 1,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 19,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "불안수확6과 자동공포2로 즉시 처치해 공급자 토큰손실을 막는다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 1,
+        "turn": 4
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 21,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "빈5층 도착으로 반격을 비우고 불안2를 남긴다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 1
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 23,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "6칸 순환으로 빈5층을 유지하며 불안을4로 늘려 손실 없는 수확 준비를 한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 2
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 25,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "수확보다 불안8을 남겨 룬과 큰 수확을 연계할 위치1을 선택한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 3
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 27,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "세 눈 모두2이므로 룬 통과와 불안8 수확을 실행하고 수확자 토큰1 손실을 감수한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 4
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 5
+      }
+    },
+    {
+      "sequence": 29,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "공격 재료가 없으므로 빈6층에서 다음 시선·룬 경로를 준비한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 5
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 6
+      }
+    },
+    {
+      "sequence": 31,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "세 눈 모두4이므로 금고의 높은 내구로 반격을 받고 불안2를 공급한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 6
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 7
+      }
+    },
+    {
+      "sequence": 33,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "룬 토큰 손실과 큰눈의 공급부재를 피하며 빈5층에서 작은 눈 재방문을 기다린다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 7
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 8
+      }
+    },
+    {
+      "sequence": 35,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "둘 중 한 핵심이 파괴되는 강제눈에서 시선을 희생하고 불안6·룬2토큰·수확자를 남긴다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 8
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 9
+      }
+    },
+    {
+      "sequence": 37,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "금고 토큰 손실 대신 빈6층으로 돌아가 룬 도착을 기다린다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 9
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 10
+      }
+    },
+    {
+      "sequence": 39,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "룬 도착으로 첫 심장을 제거하고 예언3을 남긴다. 마지막심장이 아니므로 룬 토큰1 손실을 감수한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 10
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 11
+      }
+    },
+    {
+      "sequence": 41,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "룬 파괴와 금고 손失を避け 빈1층에서 자동공포3을 적용한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 11
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 12
+      }
+    },
+    {
+      "sequence": 43,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "룬을 희생해 예언6을 적립하면 다음 자동공포로 전투를 끝낼 수 있다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 12
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 13
+      }
+    },
+    {
+      "sequence": 45,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "남은 예언5로 마지막심장을 제거하고 첫 무료 보상까지 전투를 완승한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 2,
+        "turn": 13
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "anomaly_reward",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 2,
+        "turn": 13
+      }
+    },
+    {
+      "sequence": 47,
+      "command": "reward",
+      "args": [
+        1
+      ],
+      "reason": "공격 공급이 모두 파괴되었으므로 무료 룰렛으로 처치 수단을 복구한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d1-c1",
+        "phase": "anomaly_reward",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 2,
+        "turn": 13
+      },
+      "after": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 2,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 48,
+      "command": "place",
+      "args": [
+        "e5",
+        2
+      ],
+      "reason": "짝수2의 도착 공급과 긴짝수 통과를 사용할 수 있게 한다",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 2,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 2,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 49,
+      "command": "visit",
+      "args": [
+        "a1-d2-c2"
+      ],
+      "reason": "상점으로 가는 발견 경로에서 룰렛과 맞는 짝수 주사위를 노린다",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 2,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d2-c2",
+        "phase": "discovery",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 50,
+      "command": "die",
+      "args": [
+        0
+      ],
+      "reason": "8칸 이동은6층에서 룰렛2층 재도착을 만들어 짝수 공급을 늘린다",
+      "before": {
+        "act": 1,
+        "node": "a1-d2-c2",
+        "phase": "discovery",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 51,
+      "command": "visit",
+      "args": [
+        "a1-d3-c2"
+      ],
+      "reason": "두 공급자가 파괴된 전력을 상점에서 복구한다",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 53,
+      "command": "buy",
+      "args": [
+        1
+      ],
+      "reason": "짝수4 도착에서도 공급할 두 번째 룰렛을 산다",
+      "before": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 7,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 54,
+      "command": "buy",
+      "args": [
+        2
+      ],
+      "reason": "2·4·6 도착을 모두 예언공급으로 만들 세 번째 룰렛을 산다",
+      "before": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 7,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 55,
+      "command": "buy",
+      "args": [
+        3
+      ],
+      "reason": "셋 모두 홀수인 턴을 예언으로 다시 굴릴 수 있도록 예언가를 산다",
+      "before": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 56,
+      "command": "place",
+      "args": [
+        "e6",
+        4
+      ],
+      "reason": "짝수4 도착 공급을 마련한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 57,
+      "command": "place",
+      "args": [
+        "e7",
+        6
+      ],
+      "reason": "짝수6과8 순환의 통과 공급을 마련한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 58,
+      "command": "place",
+      "args": [
+        "e8",
+        3
+      ],
+      "reason": "불안공급이 없어져 수확자 대신 예언가를 배치한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 59,
+      "command": "place",
+      "args": [
+        "e4",
+        5
+      ],
+      "reason": "금고는 홀수5 도착의 몸빵으로 둔다",
+      "before": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 60,
+      "command": "leave",
+      "args": [],
+      "reason": "남는 슬롯과 수확자 교체로 충분하여 증설 대신10영혼을 공격·리롤에 쓴다",
+      "before": {
+        "act": 1,
+        "node": "a1-d3-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 61,
+      "command": "visit",
+      "args": [
+        "a1-d4-c1"
+      ],
+      "reason": "룰렛3개와 리롤 조합으로 일반 전투를 진행한다",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "management",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 62,
+      "command": "start",
+      "args": [],
+      "reason": "2·4·6 룰렛과3층 예언가를 가동한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "management",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 64,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "짝수4로 룰렛 통과1+도착4의 예언5를 쌓는다",
+      "before": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 1
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 66,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "룰렛6 통과와 룰렛2 도착의 예언5를 더해 즉시 무피해 처치한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 2
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 1,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 68,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "짝수6에서 룰렛2·4 통과와6 도착으로 예언6을 적립한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 1,
+        "turn": 1
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 1,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 70,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "룰렛通過1+到着4を足して最大予言10で即時撃破する",
+      "before": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 1,
+        "turn": 2
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 2,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 72,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "8칸 순환으로 룰렛 세 번 통과와 도착을 묶어 예언7을 쌓는다",
+      "before": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 2,
+        "turn": 1
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 2,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 74,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "예언10으로 첫심장을 지우고 잔량9를 남겨 다음 마무리를 준비한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 2,
+        "turn": 2
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 2,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 76,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "세 눈이 모두1이지만 예언9를 유지하면 두 턴 안에 끝나므로 리롤 비용을 쓰지 않고 금고로 받는다",
+      "before": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 2,
+        "turn": 3
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 2,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 78,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "자동예언8로 마지막심장을 제거해 새 룰렛 조합의 전투를 완승한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 4,
+        "guestIndex": 2,
+        "turn": 4
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "anomaly_reward",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 2,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 79,
+      "command": "reward",
+      "args": [
+        0
+      ],
+      "reason": "무료 룬으로 홀수 작은눈의 공격도 확보해 룰렛 편중을 보완한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d4-c1",
+        "phase": "anomaly_reward",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 2,
+        "turn": 4
+      },
+      "after": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 2,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 80,
+      "command": "place",
+      "args": [
+        "e9",
+        1
+      ],
+      "reason": "1층 룬과2·4·6 룰렛으로 조건별 도착을 넓힌다",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 2,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 2,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 81,
+      "command": "visit",
+      "args": [
+        "a1-d5-c2"
+      ],
+      "reason": "회복 전 상점에서 추가 보호 수단과 증설 대안을 살핀다",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 2,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 83,
+      "command": "buy",
+      "args": [
+        7
+      ],
+      "reason": "예언4 리롤보다 비용2로 눈을1줄이는 정밀조작을 확보한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 84,
+      "command": "place",
+      "args": [
+        "e10",
+        3
+      ],
+      "reason": "같은 슬롯의 예언가를 보관하고 사마라를 가동한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 85,
+      "command": "leave",
+      "args": [],
+      "reason": "7층보다 기존슬롯 교체로 조작역할을 확보하고2영혼을 남긴다",
+      "before": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 86,
+      "command": "visit",
+      "args": [
+        "a1-d6-c2"
+      ],
+      "reason": "보스 전에 룰렛 토큰을 복구한다",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d6-c2",
+        "phase": "recovery",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 87,
+      "command": "recover",
+      "args": [
+        {
+          "e5": 1,
+          "e6": 1
+        }
+      ],
+      "reason": "토큰1인 룰렛2개를 각각1회복한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d6-c2",
+        "phase": "recovery",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 88,
+      "command": "visit",
+      "args": [
+        "a1-d7-c1"
+      ],
+      "reason": "필수회복에서 룰렛을 강화한다",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d7-c1",
+        "phase": "recovery",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 89,
+      "command": "upgrade",
+      "args": [
+        "e7"
+      ],
+      "reason": "6층 룰렛의 도착공급을5로 늘린다",
+      "before": {
+        "act": 1,
+        "node": "a1-d7-c1",
+        "phase": "recovery",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 90,
+      "command": "visit",
+      "args": [
+        "a1-d8-c1"
+      ],
+      "reason": "6층 유지·정밀조작 예언 조합으로 보스를 상대한다",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "management",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 91,
+      "command": "start",
+      "args": [],
+      "reason": "룬1 룰렛2·4·6 사마라3 금고5 배치로 시작한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "management",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 93,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "홀수1에서는 무료 룬의 도착4로 자동공포를 시작한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": 1
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 95,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "8칸으로 룰렛 통과4회를 얻어 공포7을 더하고 사마라 토큰손실을 피한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": 2
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 97,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "첫심장을 지우면서 금고와 룬의 추가토큰 손실을 피한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": 3
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 99,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "강화 룰렛에 도착해 예언10을 쌓고 다음 자동공포로 마무리한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": 4
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": 5
+      }
+    },
+    {
+      "sequence": 101,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "예언 자동공포가 남은심장을 제거하므로 추가 액티브 없이 마무리한다",
+      "before": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 2,
+        "guestIndex": 0,
+        "turn": 5
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "anomaly_reward",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": 5
+      }
+    },
+    {
+      "sequence": 102,
+      "command": "reward",
+      "args": [
+        1
+      ],
+      "reason": "무료 따개비의 통과 방어로 룰렛 도착의 토큰 손실을 줄인다",
+      "before": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "anomaly_reward",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": 5
+      },
+      "after": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 103,
+      "command": "place",
+      "args": [
+        "e11",
+        1
+      ],
+      "reason": "입장 통과에서 방어3을 전달하도록 한다",
+      "before": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 104,
+      "command": "place",
+      "args": [
+        "e9",
+        3
+      ],
+      "reason": "룬은 작은눈3의 도착으로 옮긴다",
+      "before": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 105,
+      "command": "place",
+      "args": [
+        "e10",
+        5
+      ],
+      "reason": "사마라를5층 원격조작 담당으로 남긴다",
+      "before": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 106,
+      "command": "visit",
+      "args": [
+        "a2-d1-c1"
+      ],
+      "reason": "공개 묶음 중 총심장이5개인 가운데 일반전투를 선택한다",
+      "before": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "management",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 107,
+      "command": "start",
+      "args": [],
+      "reason": "따개비1·룬3·세 룰렛·사마라로 두 번째막을 시작한다",
+      "before": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "management",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 109,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "짝수 도착으로 예언 5를 만들고 따개비 방어로 도착층 피해를 줄인다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": 1
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 111,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "짝수 룰렛 도착으로 예언을 9까지 올려 다음 턴 처치를 준비한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": 2
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 113,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "어느 눈도 처치 가능하므로 보급 조건에 맞는 긴 주사위를 소비한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": 3
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 1,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 115,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "홀수 선택지 중 룬 도착만 예언을 쌓으므로 3을 택한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 1,
+        "turn": 1
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 1,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 117,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "長い4で予言を積みながら補給を得て、サマラのトークン損失を回避する。",
+      "before": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 1,
+        "turn": 2
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 1,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 119,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "사마라 사용은 짝수 조건을 깨므로 그대로 4를 선택해 예언 피해를 유지한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 1,
+        "turn": 3
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 1,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 121,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "사마라의 남은 내구도 안에서 피해를 받아 핵심 룬과 따개비의 토큰을 보존한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 1,
+        "turn": 4
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 1,
+        "turn": 5
+      }
+    },
+    {
+      "sequence": 123,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "지속 예언으로 마지막 심장을 제거한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 10,
+        "guestIndex": 1,
+        "turn": 5
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 12,
+        "guestIndex": 2,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 125,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "초기 경로 피해를 감수하고 예언 7로 처치 시간을 줄인다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 12,
+        "guestIndex": 2,
+        "turn": 1
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 12,
+        "guestIndex": 2,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 127,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "같은 심장 제거 결과에서 2가 가장 적은 층을 피격시킨다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 12,
+        "guestIndex": 2,
+        "turn": 2
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 12,
+        "guestIndex": 2,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 129,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "작은 눈에도 예언 10이 발동하므로 경로 피해를 최소화한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 12,
+        "guestIndex": 2,
+        "turn": 3
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 12,
+        "guestIndex": 2,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 131,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "예언으로 세 번째 손님의 마지막 심장을 제거한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 12,
+        "guestIndex": 2,
+        "turn": 4
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "anomaly_reward",
+        "floors": 6,
+        "souls": 14,
+        "guestIndex": 2,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 132,
+      "command": "reward",
+      "args": [
+        0
+      ],
+      "reason": "무료 룰렛으로 사마라보다 직접 예언 공급 능력을 늘린다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d1-c1",
+        "phase": "anomaly_reward",
+        "floors": 6,
+        "souls": 14,
+        "guestIndex": 2,
+        "turn": 4
+      },
+      "after": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 14,
+        "guestIndex": 2,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 133,
+      "command": "visit",
+      "args": [
+        "a2-d2-c0"
+      ],
+      "reason": "전투를 피하고 다음 상점으로 연결되는 이벤트를 택한다.",
+      "before": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 14,
+        "guestIndex": 2,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d2-c0",
+        "phase": "event",
+        "floors": 6,
+        "souls": 14,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 134,
+      "command": "event",
+      "args": [
+        "sacrifice",
+        "e8"
+      ],
+      "reason": "사용하지 않은 예언가를 계약에 내어 주고 상점 예산을 확보한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d2-c0",
+        "phase": "event",
+        "floors": 6,
+        "souls": 14,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 18,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 135,
+      "command": "visit",
+      "args": [
+        "a2-d3-c0"
+      ],
+      "reason": "증설과 추가 공급 괴이를 비교할 상점을 방문한다.",
+      "before": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 18,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d3-c0",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 18,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 137,
+      "command": "buy",
+      "args": [
+        1
+      ],
+      "reason": "작은 홀수 눈에서도 예언을 공급할 두 번째 룬을 구매한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d3-c0",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 18,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d3-c0",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 15,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 138,
+      "command": "expand",
+      "args": [],
+      "reason": "무료 룰렛을 기존 공격 시설과 함께 배치할 일곱 번째 층을 산다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d3-c0",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 15,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d3-c0",
+        "phase": "shop",
+        "floors": 7,
+        "souls": 11,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 139,
+      "command": "expand",
+      "args": [],
+      "reason": "여덟 층으로 짝수 이동의 착지 구조를 유지하며 금고와 네 번째 룰렛을 함께 쓴다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d3-c0",
+        "phase": "shop",
+        "floors": 7,
+        "souls": 11,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d3-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 140,
+      "command": "place",
+      "args": [
+        "e13",
+        5
+      ],
+      "reason": "사마라 대신 룬 공급을 늘린다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d3-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d3-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 141,
+      "command": "place",
+      "args": [
+        "e4",
+        7
+      ],
+      "reason": "새 층에 금고를 두어 탐욕 충전 기회를 만든다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d3-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d3-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 142,
+      "command": "place",
+      "args": [
+        "e12",
+        8
+      ],
+      "reason": "추가 층에 무료 룰렛을 배치한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d3-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d3-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 143,
+      "command": "leave",
+      "args": [],
+      "reason": "총 13영혼을 성장에 투자하고 다음 이벤트로 간다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d3-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 144,
+      "command": "visit",
+      "args": [
+        "a2-d4-c0"
+      ],
+      "reason": "전투를 피하는 이벤트 경로를 유지한다.",
+      "before": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d4-c0",
+        "phase": "event",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 145,
+      "command": "event",
+      "args": [
+        "leave"
+      ],
+      "reason": "두 번째 따개비보다 다음 상점의 선택지를 우선해 영혼을 보존한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d4-c0",
+        "phase": "event",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 146,
+      "command": "visit",
+      "args": [
+        "a2-d5-c0"
+      ],
+      "reason": "다음 전투 전에 보호 괴이 구매를 검토한다.",
+      "before": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d5-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 147,
+      "command": "buy",
+      "args": [
+        5
+      ],
+      "reason": "빠른 예언 공격은 갖췄으므로 네펜데스를 사서 핵심 룰렛의 토큰을 보호한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d5-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d5-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 148,
+      "command": "place",
+      "args": [
+        "e14",
+        5
+      ],
+      "reason": "두 번째 룬 대신 새 보호 괴이를 배치한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d5-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d5-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 149,
+      "command": "leave",
+      "args": [],
+      "reason": "다음 전투의 공개 난도를 확인한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d5-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 150,
+      "command": "visit",
+      "args": [
+        "a2-d6-c0"
+      ],
+      "reason": "일반 손님 세 명보다 정예 한 명을 상대해 전투 횟수를 줄이고 보상을 노린다.",
+      "before": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "management",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 151,
+      "command": "start",
+      "args": [],
+      "reason": "8층 네 룰렛과 금고·따개비·네펜데스 조합으로 진행한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "management",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 153,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "짝수 룰렛 도착으로 예언 5를 쌓으며 정예 전투를 연다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 1
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 155,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "8층의 새 룰렛에 도착해 피해를 분산하며 예언 9를 적립한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 2
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 157,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "짧은 짝수 이동으로 예언 10을 유지하고 첫 심장을 제거한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 3
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 159,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "현재 예언만으로 피해 상한에 도달하므로 최소 이동으로 토큰 손실을 줄인다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 4
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 5
+      }
+    },
+    {
+      "sequence": 161,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "한 턴 더 쓰더라도 한 층만 피격시켜 정예의 광역 경로 공격을 줄인다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 5
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 6
+      }
+    },
+    {
+      "sequence": 163,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "금고에 도착해 첫 탐욕을 얻고 토큰을 소모하지 않으며 두 번째 심장을 제거한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 6
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 7
+      }
+    },
+    {
+      "sequence": 165,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "따개비 도착으로 방어 충전을 얻고 다음 턴 파괴 방지를 준비한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 7
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 8
+      }
+    },
+    {
+      "sequence": 167,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "따개비 충전으로 룰렛의 토큰 손실을 막고 짧은 이동에서 예언 10을 유지한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 8
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 9
+      }
+    },
+    {
+      "sequence": 169,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "自動予言で精鋭の最後の心臓を落とす。",
+      "before": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 0,
+        "guestIndex": 0,
+        "turn": 9
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "anomaly_reward",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 9
+      }
+    },
+    {
+      "sequence": 170,
+      "command": "reward",
+      "args": [
+        0
+      ],
+      "reason": "수집가로 탐욕의 즉시 공급과 보호 선택권을 얻는다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "anomaly_reward",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 9
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "die_reward",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 9
+      }
+    },
+    {
+      "sequence": 171,
+      "command": "die",
+      "args": [
+        "skip"
+      ],
+      "reason": "장거리 주사위 하나만 유지해 6 눈 선택지를 보존한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d6-c0",
+        "phase": "die_reward",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 9
+      },
+      "after": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 172,
+      "command": "visit",
+      "args": [
+        "a2-d7-c1"
+      ],
+      "reason": "보스 전에 소모한 핵심 자산의 토큰을 회복한다.",
+      "before": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d7-c1",
+        "phase": "recovery",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 173,
+      "command": "recover",
+      "args": [
+        {
+          "e7": 1,
+          "e11": 1
+        }
+      ],
+      "reason": "강화 룰렛과 따개비의 마지막 토큰을 회복한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d7-c1",
+        "phase": "recovery",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 174,
+      "command": "visit",
+      "args": [
+        "a2-d8-c1"
+      ],
+      "reason": "8층 예언 조합으로 두 번째 보스에 도전한다.",
+      "before": {
+        "act": 2,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "management",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 175,
+      "command": "place",
+      "args": [
+        "e13",
+        3
+      ],
+      "reason": "무료 수집가와 함께 쓸 온전한 룬으로 낡은 룬을 교체한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "management",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "management",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 176,
+      "command": "place",
+      "args": [
+        "e15",
+        7
+      ],
+      "reason": "금고 대신 즉시 탐욕을 공급하는 수집가를 배치한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "management",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "management",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 178,
+      "command": "start",
+      "args": [],
+      "reason": "보스에게 네 룰렛과 수집가·네펜데스 보호를 시험한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "management",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 180,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "무료 수집가로 탐욕을 만들고 네펜데스로 첫 룰렛을 보호한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 1
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 182,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "짝수 룰렛에 도착해 예언 9를 만들고 현재 토큰 손실을 피한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 2
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 184,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "따개비 충전을 얻으며 룰렛 토큰을 보존한 채 첫 심장을 제거한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 3
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 186,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "루트 변경으로 룰렛 8층 파괴를 피하고 양쪽 룰렛에 피해를 분산한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 4
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 5
+      }
+    },
+    {
+      "sequence": 188,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "따개비 방어로 강화 룰렛의 토큰을 지키면서 예언 10을 가한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 5
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 6
+      }
+    },
+    {
+      "sequence": 190,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "보호 괴이들의 토큰을 소모하고 탐욕을 얻어 공격 룰렛들을 보존한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 6
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 7
+      }
+    },
+    {
+      "sequence": 192,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "네펜데스의 남은 공략도 여유로 공격을 받아 예언 10을 유지한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 7
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 8
+      }
+    },
+    {
+      "sequence": 194,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "예언 10으로 보스의 마지막 심장을 제거한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 6,
+        "guestIndex": 0,
+        "turn": 8
+      },
+      "after": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "anomaly_reward",
+        "floors": 8,
+        "souls": 14,
+        "guestIndex": 0,
+        "turn": 8
+      }
+    },
+    {
+      "sequence": 195,
+      "command": "reward",
+      "args": [
+        1
+      ],
+      "reason": "보호 괴이를 예비 자산으로 확보해 기존 네펜데스 파괴에 대비한다.",
+      "before": {
+        "act": 2,
+        "node": "a2-d8-c1",
+        "phase": "anomaly_reward",
+        "floors": 8,
+        "souls": 14,
+        "guestIndex": 0,
+        "turn": 8
+      },
+      "after": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 14,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 196,
+      "command": "visit",
+      "args": [
+        "a3-d1-c0"
+      ],
+      "reason": "손님 총 심장 수가 적은 공개 경로를 택한다.",
+      "before": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 14,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "management",
+        "floors": 8,
+        "souls": 14,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 197,
+      "command": "start",
+      "args": [],
+      "reason": "마지막 막에서 네 룰렛과 보호 조합을 유지한다.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "management",
+        "floors": 8,
+        "souls": 14,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 14,
+        "guestIndex": 0,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 199,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "짝수 룰렛 도착으로 예언 5를 쌓는다.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 14,
+        "guestIndex": 0,
+        "turn": 1
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 14,
+        "guestIndex": 0,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 201,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "수집가와 네펜데스로 룬을 보호하며 긴 짝수 주사위로 예언 10을 만든다.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 14,
+        "guestIndex": 0,
+        "turn": 2
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 14,
+        "guestIndex": 0,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 203,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "予言10で最初の客を処置する。",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 14,
+        "guestIndex": 0,
+        "turn": 3
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 16,
+        "guestIndex": 1,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 205,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Only five is available; use the durable Nepenthes as the receiver.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 16,
+        "guestIndex": 1,
+        "turn": 1
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 16,
+        "guestIndex": 1,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 207,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "Switch to an even floor so future even rolls can trigger roulette arrivals.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 16,
+        "guestIndex": 1,
+        "turn": 2
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 16,
+        "guestIndex": 1,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 209,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "Use the even roll to start building prophecy.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 16,
+        "guestIndex": 1,
+        "turn": 3
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 16,
+        "guestIndex": 1,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 211,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "Build prophecy nine to shorten the remaining double-attack exposure.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 16,
+        "guestIndex": 1,
+        "turn": 4
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 16,
+        "guestIndex": 1,
+        "turn": 5
+      }
+    },
+    {
+      "sequence": 213,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "Spend a barnacle token instead of destroying an attacking roulette or the collector.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 16,
+        "guestIndex": 1,
+        "turn": 5
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 16,
+        "guestIndex": 1,
+        "turn": 6
+      }
+    },
+    {
+      "sequence": 215,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Use the rune token to keep both the collector and upgraded roulette alive.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 16,
+        "guestIndex": 1,
+        "turn": 6
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 16,
+        "guestIndex": 1,
+        "turn": 7
+      }
+    },
+    {
+      "sequence": 217,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Finish the second visitor with automatic prophecy.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 16,
+        "guestIndex": 1,
+        "turn": 7
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 18,
+        "guestIndex": 2,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 219,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "Start the route visitor with a five-point prophecy tick.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 18,
+        "guestIndex": 2,
+        "turn": 1
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 18,
+        "guestIndex": 2,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 221,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "Choose the shorter equal-damage path to reduce route exposure.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 18,
+        "guestIndex": 2,
+        "turn": 2
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 18,
+        "guestIndex": 2,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 223,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "Remove the first heart while avoiding the damaged lower floors.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 18,
+        "guestIndex": 2,
+        "turn": 3
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 18,
+        "guestIndex": 2,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 225,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Use the shortest route to preserve the damaged attacking floors.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 18,
+        "guestIndex": 2,
+        "turn": 4
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 18,
+        "guestIndex": 2,
+        "turn": 5
+      }
+    },
+    {
+      "sequence": 227,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "Accept two destroyed lower attackers to avoid the much larger full-loop losses and finish next turn.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 18,
+        "guestIndex": 2,
+        "turn": 5
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 18,
+        "guestIndex": 2,
+        "turn": 6
+      }
+    },
+    {
+      "sequence": 229,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Finish the route visitor before any more buildings are damaged.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 18,
+        "guestIndex": 2,
+        "turn": 6
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "anomaly_reward",
+        "floors": 8,
+        "souls": 20,
+        "guestIndex": 2,
+        "turn": 6
+      }
+    },
+    {
+      "sequence": 230,
+      "command": "reward",
+      "args": [
+        2
+      ],
+      "reason": "Take a fresh two-token prophet and a reroll option for future bad dice.",
+      "before": {
+        "act": 3,
+        "node": "a3-d1-c0",
+        "phase": "anomaly_reward",
+        "floors": 8,
+        "souls": 20,
+        "guestIndex": 2,
+        "turn": 6
+      },
+      "after": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 20,
+        "guestIndex": 2,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 231,
+      "command": "visit",
+      "args": [
+        "a3-d2-c0"
+      ],
+      "reason": "Avoid another battle before recovering core attackers.",
+      "before": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 20,
+        "guestIndex": 2,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d2-c0",
+        "phase": "event",
+        "floors": 8,
+        "souls": 20,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 232,
+      "command": "event",
+      "args": [
+        "sacrifice",
+        "e2"
+      ],
+      "reason": "Trade the unused owner for money to rebuild the prophecy formation.",
+      "before": {
+        "act": 3,
+        "node": "a3-d2-c0",
+        "phase": "event",
+        "floors": 8,
+        "souls": 20,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 233,
+      "command": "visit",
+      "args": [
+        "a3-d3-c0"
+      ],
+      "reason": "Recover the two damaged roulette attackers.",
+      "before": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d3-c0",
+        "phase": "recovery",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 234,
+      "command": "recover",
+      "args": [
+        {
+          "e6": 1,
+          "e7": 1
+        }
+      ],
+      "reason": "Restore the fourth- and sixth-floor roulettes to two tokens.",
+      "before": {
+        "act": 3,
+        "node": "a3-d3-c0",
+        "phase": "recovery",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 235,
+      "command": "visit",
+      "args": [
+        "a3-d4-c0"
+      ],
+      "reason": "Take the elite on the route to the shop.",
+      "before": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "management",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 236,
+      "command": "place",
+      "args": [
+        "e9",
+        3
+      ],
+      "reason": "Fill the destroyed rune slot with the reserve rune.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "management",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "management",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 237,
+      "command": "place",
+      "args": [
+        "e17",
+        2
+      ],
+      "reason": "Fill the destroyed roulette slot with the free prophet and enable rerolls.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "management",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "management",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 238,
+      "command": "start",
+      "args": [],
+      "reason": "Use the remaining three roulettes with a fresh rune and prophet.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "management",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 240,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "Build six prophecy on the upgraded roulette and establish greed for protection.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 1
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 242,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "Choose the equal-damage route that does not spend roulette tokens.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 2
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 244,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Remove the first heart and charge the barnacle for a later critical shield.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 3
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 246,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "Take the ten-damage rune route without losing any token this turn.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 4
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 5
+      }
+    },
+    {
+      "sequence": 248,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Use the charged shield to prevent barnacle destruction while retaining maximum prophecy.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 5
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 6
+      }
+    },
+    {
+      "sequence": 250,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Guard the upgraded roulette and spend a prophet token instead of losing a support building.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 6
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 7
+      }
+    },
+    {
+      "sequence": 252,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Keep the same damage while spending only one attacking token.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 7
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 8
+      }
+    },
+    {
+      "sequence": 254,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Spend prophecy on a reroll because every current roll destroys one or two support buildings.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 8
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 8
+      }
+    },
+    {
+      "sequence": 256,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "After rerolling, choose a path that spends two roulette tokens but destroys no building.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 8
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "roll",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 9
+      }
+    },
+    {
+      "sequence": 258,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "Use the six to finish the elite without another casualty.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "choose",
+        "floors": 8,
+        "souls": 24,
+        "guestIndex": 0,
+        "turn": 9
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "anomaly_reward",
+        "floors": 8,
+        "souls": 30,
+        "guestIndex": 0,
+        "turn": 9
+      }
+    },
+    {
+      "sequence": 259,
+      "command": "reward",
+      "args": [
+        1
+      ],
+      "reason": "Add another fresh guard so late-game damage can be absorbed by multiple durable bodies.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "anomaly_reward",
+        "floors": 8,
+        "souls": 30,
+        "guestIndex": 0,
+        "turn": 9
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "die_reward",
+        "floors": 8,
+        "souls": 30,
+        "guestIndex": 0,
+        "turn": 9
+      }
+    },
+    {
+      "sequence": 260,
+      "command": "die",
+      "args": [
+        "skip"
+      ],
+      "reason": "Keep two normal dice so six remains available.",
+      "before": {
+        "act": 3,
+        "node": "a3-d4-c0",
+        "phase": "die_reward",
+        "floors": 8,
+        "souls": 30,
+        "guestIndex": 0,
+        "turn": 9
+      },
+      "after": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 30,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 261,
+      "command": "visit",
+      "args": [
+        "a3-d5-c0"
+      ],
+      "reason": "Use the last shop to rebuild and deploy the saved free bodies.",
+      "before": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 8,
+        "souls": 30,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 30,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 263,
+      "command": "buy",
+      "args": [
+        2
+      ],
+      "reason": "Buy a second collector so protective guards can receive more immediate greed supply.",
+      "before": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 30,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 27,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 264,
+      "command": "buy",
+      "args": [
+        5
+      ],
+      "reason": "Replace the damaged prophet with a fresh two-token reroll support.",
+      "before": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 27,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 23,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 265,
+      "command": "expand",
+      "args": [],
+      "reason": "Deploy another free guard without removing an attacking roulette.",
+      "before": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 8,
+        "souls": 23,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 9,
+        "souls": 15,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 266,
+      "command": "expand",
+      "args": [],
+      "reason": "Use ten floors to keep both collectors, both fresh guards, and the full attack core.",
+      "before": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 9,
+        "souls": 15,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 267,
+      "command": "place",
+      "args": [
+        "e20",
+        2
+      ],
+      "reason": "Replace the exhausted prophet.",
+      "before": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 268,
+      "command": "place",
+      "args": [
+        "e16",
+        5
+      ],
+      "reason": "Replace the damaged guard with a fresh free guard.",
+      "before": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 269,
+      "command": "place",
+      "args": [
+        "e19",
+        9
+      ],
+      "reason": "Put the additional collector on the added ninth floor.",
+      "before": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 270,
+      "command": "place",
+      "args": [
+        "e18",
+        10
+      ],
+      "reason": "Put the second fresh guard on the added tenth floor.",
+      "before": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 271,
+      "command": "leave",
+      "args": [],
+      "reason": "Finish rebuilding while retaining the three roulette attackers.",
+      "before": {
+        "act": 3,
+        "node": "a3-d5-c0",
+        "phase": "shop",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 272,
+      "command": "visit",
+      "args": [
+        "a3-d6-c0"
+      ],
+      "reason": "Use recovery instead of more combat.",
+      "before": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d6-c0",
+        "phase": "recovery",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 273,
+      "command": "recover",
+      "args": [
+        {
+          "e6": 1,
+          "e7": 1
+        }
+      ],
+      "reason": "Restore two core roulette attackers.",
+      "before": {
+        "act": 3,
+        "node": "a3-d6-c0",
+        "phase": "recovery",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 274,
+      "command": "visit",
+      "args": [
+        "a3-d7-c1"
+      ],
+      "reason": "Use the final recovery before the boss.",
+      "before": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d7-c1",
+        "phase": "recovery",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 275,
+      "command": "recover",
+      "args": [
+        {
+          "e12": 1,
+          "e11": 1
+        }
+      ],
+      "reason": "Restore the third roulette and the barnacle to two tokens.",
+      "before": {
+        "act": 3,
+        "node": "a3-d7-c1",
+        "phase": "recovery",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 276,
+      "command": "visit",
+      "args": [
+        "a3-d8-c1"
+      ],
+      "reason": "Challenge the final boss after rebuilding.",
+      "before": {
+        "act": 3,
+        "node": null,
+        "phase": "map",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "management",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 278,
+      "command": "start",
+      "args": [],
+      "reason": "Use ten floors, three roulettes, one rune, two collectors, two guards, a barnacle, and a prophet.",
+      "before": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "management",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "roll",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 280,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Use collector supply and a fresh guard to protect the eighth-floor roulette on the opening hit.",
+      "before": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "choose",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 1
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "roll",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 282,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "Use the sixth-step route to add prophecy without spending tokens.",
+      "before": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "choose",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 2
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "roll",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 284,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "The added tenth-floor guard can absorb the opening double attack without losing a token.",
+      "before": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "choose",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 3
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "roll",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 286,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Charge the barnacle and preserve all tokens on this mirror turn.",
+      "before": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "choose",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 4
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "roll",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 5
+      }
+    },
+    {
+      "sequence": 288,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Use the barnacle shield to keep the fourth-floor roulette at two tokens.",
+      "before": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "choose",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 5
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "roll",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 6
+      }
+    },
+    {
+      "sequence": 290,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Gain greed and avoid token loss while removing the second heart.",
+      "before": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "choose",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 6
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "roll",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 7
+      }
+    },
+    {
+      "sequence": 292,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "Let the durable guard spend a token rather than weaken an attacking roulette.",
+      "before": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "choose",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 7
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "roll",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 8
+      }
+    },
+    {
+      "sequence": 294,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "Guard the second collector so no building is destroyed while prophecy reaches the final threshold.",
+      "before": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "choose",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 8
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "roll",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 9
+      }
+    },
+    {
+      "sequence": 296,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Existing prophecy now finishes the final heart regardless of the next roll.",
+      "before": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "choose",
+        "floors": 10,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 9
+      },
+      "after": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "anomaly_reward",
+        "floors": 10,
+        "souls": 15,
+        "guestIndex": 0,
+        "turn": 9
+      }
+    },
+    {
+      "sequence": 297,
+      "command": "reward",
+      "args": [
+        0
+      ],
+      "reason": "Finish the mandatory final reward and close the completed normal campaign.",
+      "before": {
+        "act": 3,
+        "node": "a3-d8-c1",
+        "phase": "anomaly_reward",
+        "floors": 10,
+        "souls": 15,
+        "guestIndex": 0,
+        "turn": 9
+      },
+      "after": {
+        "act": 3,
+        "node": null,
+        "phase": "won",
+        "floors": 10,
+        "souls": 15,
+        "guestIndex": 0,
+        "turn": null
+      }
+    }
+  ],
+  "stats": {
+    "kills": 17,
+    "escaped": 0,
+    "skipped": 0,
+    "earned": 68,
+    "spent": 57,
+    "destroyed": 4,
+    "visits": 24,
+    "combats": 9,
+    "expansions": 4,
+    "expansionSpent": 28,
+    "eventRemoved": 2,
+    "recoveries": 5,
+    "healedTokens": 10,
+    "recoveryWasted": 0,
+    "upgrades": 1
+  },
+  "notice": "Granted shielding is not attributed as actual absorption by its provider. Effects and clear cases do not establish human enjoyment or causal value by themselves."
+}

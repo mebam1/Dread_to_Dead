@@ -1,6 +1,6 @@
 # Dread-to-Dead: Fears Go Round — MVP 제작·검증 계획
 
-> 2026-11-01 · 현재 제작·검증 대상은 [mvp_user_3](../mvp_user_3/README.md)다. 채택 판정은 [rules.md](../rules.md), 실행 설정은 [사용자 설정 3](mvp-config-user-3.md)을 따른다. 실행 규칙은 `user-3-v1.1-act-reset`이며, 후속 후보와 과거 시험값은 [undecided.md](../undecided.md)에서 구분한다.
+> 2026-11-01 · 현재 제작·검증 대상은 [mvp_user_3](../mvp_user_3/README.md)다. 채택 판정은 [rules.md](../rules.md), 실행 설정은 [사용자 설정 3](mvp-config-user-3.md)을 따른다. 실행 규칙은 `user-3-v1.2`이며, 후속 후보와 과거 시험값은 [undecided.md](../undecided.md)에서 구분한다.
 
 ## 1. 목표와 관찰 기준
 

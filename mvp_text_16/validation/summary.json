@@ -1,0 +1,68 @@
+{
+  "ruleVersion": "text-16-v1.0",
+  "date": "2026-11-02",
+  "testCommand": "node --test --test-reporter=tap",
+  "testCounts": {
+    "engine": 36,
+    "cli": 8,
+    "total": 44,
+    "passed": 44,
+    "failed": 0
+  },
+  "scope": [
+    "12 creatures and upgrades",
+    "individual durability and token maxima",
+    "anxiety/greed/prophecy caps and timings",
+    "seal/fire suppression and decay",
+    "safe movement interruption and actual arrival",
+    "redirected damage and receiver shielding",
+    "barnacle banking and arrival shielding",
+    "post-confirmation reroll, fresh batches and hidden future dice",
+    "samara final-value adjustment",
+    "pure previews and deterministic resume",
+    "shop/free/event origins and expansion comparison",
+    "recovery, rewards, act resets, escape and final victory",
+    "real Node CLI persistence, atomic failed commands, checkpoints and control branches",
+    "public-information boundary and evidence-only goal reports"
+  ],
+  "syntheticCampaign": {
+    "classification": "synthetic boundary fixture, not normal play",
+    "modifiedConditions": "visitor thresholds/hearts reduced; prophecy injected before movement",
+    "completedVisits": [
+      8,
+      8,
+      8
+    ],
+    "kills": 57,
+    "finalPhase": "won"
+  },
+  "normalCampaignRuns": 3,
+  "goals": {
+    "expansionValue": "Conditional: real added capacity and body use observed; one first-boss control matched seven floors with six floors and saved four souls.",
+    "shopValue": "Attack and defense contributions observed; skipping the last prophet purchase and rearranging an already-owned Samara matched the final fight and saved four souls.",
+    "freeRewardValue": "All eighteen pre-final rewards had ability or body-hit evidence; three final rewards excluded from combat value.",
+    "differentClearingCombinations": "Roulette-focused and rune-focused prophecy formations cleared. Anxiety-to-rune transition cleared; an anxiety engine maintained through the final boss was not demonstrated."
+  },
+  "implementationDefaults": "See mvps/mvp-config-16.md §3; user-4 unspecified values are frozen for this experiment.",
+  "limitations": [
+    "Three manually chosen normal seeds are not a general win-rate estimate or human enjoyment test.",
+    "One normal run used four escapes and changed its main engine; it is not a pure-anxiety final clear.",
+    "Two controls are local post-hoc comparisons, not exhaustive best-play searches or campaign-wide causal estimates.",
+    "Granted defense is separate from actual body absorption.",
+    "Fire has no normal enemy source in this catalogue; resistance from expansion remains untested.",
+    "Engine and CLI test counts above are prior implementation checks; synthetic results are not included in the three normal wins."
+  ],
+  "normalCampaignWins": 3,
+  "controls": 2,
+  "normalPlayReport": "mvp_text_16/PLAYTHROUGH.md",
+  "normalPlayData": "mvp_text_16/validation/play-summary.json",
+  "replayAudit": {
+    "command": "node audit-playthroughs.mjs",
+    "normalDecisions": 907,
+    "totalDecisions": 962,
+    "normalRuns": 3,
+    "controlBranches": 2,
+    "passed": true,
+    "comparison": "Every journal marker and complete final game state including history and random state"
+  }
+}

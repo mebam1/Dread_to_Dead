@@ -1,10 +1,11 @@
 /** Local combat primitives. engine.js supplies user-3 campaign and per-instance definitions. */
+export const ANXIETY_CAP = 20;
 export const CREATURES = Object.freeze({
-  U: {name:'문틈의 속삭임',role:'불안 공급',passText:'손님 불안 2 증가 (상한 9)',arrivalText:'손님 불안 4 증가 (상한 9)',activeText:'효과 없음',price:3,maxP:2,maxUses:0,color:'#d4af75',shape:'triangle',summary:'통과: 불안 +2 · 도착: 불안 +4'},
-  Q: {name:'이름을 부르는 객실',role:'불안 수확',passText:'효과 없음',arrivalText:'불안 최대 3 소비 → 소비한 불안 1당 공포 4. 최대 공포 12를 한 번에 부여',activeText:'효과 없음',price:4,maxP:2,maxUses:0,color:'#b192d1',shape:'diamond',summary:'도착: 불안 최대 3 → 공포 최대 12'},
+  U: {name:'문틈의 속삭임',role:'불안 공급',passText:`손님 불안 2 증가 (상한 ${ANXIETY_CAP})`,arrivalText:`손님 불안 4 증가 (상한 ${ANXIETY_CAP})`,activeText:'효과 없음',price:3,maxP:2,maxUses:0,color:'#d4af75',shape:'triangle',summary:'통과: 불안 +2 · 도착: 불안 +4'},
+  Q: {name:'이름을 부르는 객실',role:'불안 수확',passText:'효과 없음',arrivalText:'불안 전부 소비 → 소비한 불안 1당 공포 1을 한 번에 부여',activeText:'효과 없음',price:4,maxP:2,maxUses:0,color:'#b192d1',shape:'diamond',summary:'도착: 불안 전부 → 공포 1배'},
   B: {name:'빈 프런트의 호출벨',role:'즉시 공격',passText:'효과 없음',arrivalText:'손님 공포 +3.',activeText:'손님 공포 +3.',price:3,maxP:1,maxUses:2,color:'#d88378',shape:'circle',summary:'도착: 공포 +3 · 직접 사용: 공포 +3',activeLabel:'공포 3 주기'},
   G: {name:'닫히지 않는 방화문',role:'보호·충전',passText:'효과 없음',arrivalText:'방어 1회 충전. 최대 2회, 다음 턴부터 사용.',activeText:'살아 있는 배치 괴이 하나에 이번 턴 보호 6. 자신도 선택 가능.',price:4,maxP:2,maxUses:2,color:'#77ad9b',shape:'square',summary:'도착: 방어 1회 충전 · 직접 사용: 보호 6',activeLabel:'보호하기'},
-  E: {name:'따라오는 발자국',role:'불안 증폭',passText:'현재 불안만큼 추가. 불안 0이면 증가 없음, 불안 상한 9.',arrivalText:'손님 불안 +1.',activeText:'효과 없음',price:3,maxP:1,maxUses:0,color:'#8caccb',shape:'hexagon',summary:'통과: 현재 불안만큼 추가 · 도착: 불안 +1'},
+  E: {name:'따라오는 발자국',role:'불안 증폭',passText:`현재 불안만큼 추가. 불안 0이면 증가 없음, 불안 상한 ${ANXIETY_CAP}.`,arrivalText:'손님 불안 +1.',activeText:'효과 없음',price:3,maxP:1,maxUses:0,color:'#8caccb',shape:'hexagon',summary:'통과: 현재 불안만큼 추가 · 도착: 불안 +1'},
   R: {name:'벽을 꿰매는 그림자',role:'공략도 수리',passText:'효과 없음',arrivalText:'효과 없음',activeText:'이동 전에 손님 불안 2 소비 → 살아 있는 배치 괴이 하나의 공략도 최대 6 감소. 공략도가 1 이상인 대상 필요, 자신도 가능. 파훼 토큰은 복구하지 않음',price:4,maxP:2,maxUses:0,color:'#c6b98d',shape:'cross',summary:'직접 사용: 불안 2 → 공략도 최대 −6',activeLabel:'공략도 줄이기'}
 });
 
@@ -12,7 +13,7 @@ export const DICE = Object.freeze({
   normal: Object.freeze({name:'일반 주사위',faces:Object.freeze([1,2,3,4,5,6]),effectText:'추가 효과 없음'}),
   long: Object.freeze({name:'장거리 주사위',faces:Object.freeze([1,2,3,4,5,8]),effectText:'추가 효과 없음 · 8칸 이동 가능'}),
   even: Object.freeze({name:'짝수 주사위',faces:Object.freeze([2,2,4,4,6,6]),effectText:'추가 효과 없음 · 2·4·6만 나옴'}),
-  anxiety: Object.freeze({name:'불안 주사위',faces:Object.freeze([1,1,3,3,5,5]),effectText:'눈 3을 선택하면 이동 전에 불안 +1 (상한 9)'})
+  anxiety: Object.freeze({name:'불안 주사위',faces:Object.freeze([1,1,3,3,5,5]),effectText:`눈 3을 선택하면 이동 전에 불안 +1 (상한 ${ANXIETY_CAP})`})
 });
 export const EXPANSION_COSTS = Object.freeze([4,6,8,10]);
 
@@ -225,7 +226,7 @@ export class Game {
     this._require(this.s.floorCount < 10,'최대 10층입니다.');
     this._require(Number.isInteger(position)&&position>=0&&position<=this.s.floorCount,'기준 위치를 선택하세요.');
     this._require(Number.isInteger(slot)&&slot>=0&&slot<3&&Number.isInteger(face)&&face>=0&&face<6,'비교할 주사위와 면을 선택하세요.');
-    this._require(Number.isInteger(anxiety)&&anxiety>=0&&anxiety<=9&&Number.isFinite(fear)&&fear>=0,'기준 불안은 0~9, 공포는 0 이상이어야 합니다.');
+    this._require(Number.isInteger(anxiety)&&anxiety>=0&&anxiety<=ANXIETY_CAP&&Number.isFinite(fear)&&fear>=0,`기준 불안은 0~${ANXIETY_CAP}, 공포는 0 이상이어야 합니다.`);
     const type=this.s.equipped[slot], value=DICE[type].faces[face], bonus=type==='anxiety'&&value===3?1:0;
     const die={slot,type,face,value,bonus};
     const simulate=count=>{
@@ -415,7 +416,7 @@ export class Game {
 
   _anxiety(amount,source,floor) {
     const before = this.s.visitor.a;
-    this.s.visitor.a = Math.min(9,before+amount);
+    this.s.visitor.a = Math.min(ANXIETY_CAP,before+amount);
     if (this.s.visitor.a > before) this.s.activity = true;
     this._emit('anxiety',(floor==null?'':floor+'층 ')+source+' · 불안 '+before+' → '+this.s.visitor.a,{floor,source,before,after:this.s.visitor.a,requested:amount,amount:this.s.visitor.a-before,wasted:amount-(this.s.visitor.a-before)});
   }
@@ -537,10 +538,10 @@ export class Game {
       if (entity.type === 'U') this._anxiety(arrival ? 4 : 2,source,floor);
       if (entity.type === 'E') this._anxiety(arrival ? 1 : this.s.visitor.a,source,floor);
       if (entity.type === 'Q' && arrival) {
-        const spent = Math.min(3,this.s.visitor.a);
+        const spent = this.s.visitor.a;
         this.s.visitor.a -= spent;
         this._emit('harvest',floor+'층 '+this._name(entity)+' 도착 · 불안 '+spent+' 소비',{floor,source:this._name(entity),amount:spent,before:this.s.visitor.a+spent,after:this.s.visitor.a});
-        this._fear(spent*4,source,floor);
+        this._fear(spent,source,floor);
       }
       if (entity.type === 'B' && arrival) this._fear(3,source,floor);
       if (entity.type === 'G' && arrival) {

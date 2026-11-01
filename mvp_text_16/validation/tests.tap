@@ -1,0 +1,274 @@
+TAP version 13
+# Subtest: CLI exposes twelve named creatures and public state but no future maps or offers
+ok 1 - CLI exposes twelve named creatures and public state but no future maps or offers
+  ---
+  duration_ms: 282.9906
+  type: 'test'
+  ...
+# Subtest: new refuses overwrite; reasons and failed actions preserve the full save
+ok 2 - new refuses overwrite; reasons and failed actions preserve the full save
+  ---
+  duration_ms: 574.7885
+  type: 'test'
+  ...
+# Subtest: CLI preview is readonly and omits referee clones; legal play persists choice and origin
+ok 3 - CLI preview is readonly and omits referee clones; legal play persists choice and origin
+  ---
+  duration_ms: 584.5295
+  type: 'test'
+  ...
+# Subtest: CLI rejects actives before confirmation and invalid compound plans atomically
+ok 4 - CLI rejects actives before confirmation and invalid compound plans atomically
+  ---
+  duration_ms: 530.1327
+  type: 'test'
+  ...
+# Subtest: checkpoint forks use a new control file and preserve original and source
+ok 5 - checkpoint forks use a new control file and preserve original and source
+  ---
+  duration_ms: 446.5873
+  type: 'test'
+  ...
+# Subtest: normal sessions cannot inject fire; diagnostic sessions label the operation
+ok 6 - normal sessions cannot inject fire; diagnostic sessions label the operation
+  ---
+  duration_ms: 354.5155
+  type: 'test'
+  ...
+# Subtest: report is readonly and lists four goals as evidence rather than proven value
+ok 7 - report is readonly and lists four goals as evidence rather than proven value
+  ---
+  duration_ms: 535.2282
+  type: 'test'
+  ...
+# Subtest: saved protocol and state versions reject old or incompatible sessions without mutation
+ok 8 - saved protocol and state versions reject old or incompatible sessions without mutation
+  ---
+  duration_ms: 176.008
+  type: 'test'
+  ...
+# Subtest: catalogue has the exact twelve creatures and per-instance durability
+ok 9 - catalogue has the exact twelve creatures and per-instance durability
+  ---
+  duration_ms: 1.6338
+  type: 'test'
+  ...
+# Subtest: new campaign has four distinct starters, twenty-node maps and stable public contents
+ok 10 - new campaign has four distinct starters, twenty-node maps and stable public contents
+  ---
+  duration_ms: 1.8131
+  type: 'test'
+  ...
+# Subtest: all upgrades are individual; footsteps gain a token and samara gains limit, without resetting other damage
+ok 11 - all upgrades are individual; footsteps gain a token and samara gains limit, without resetting other damage
+  ---
+  duration_ms: 5.0009
+  type: 'test'
+  ...
+# Subtest: free placement swaps occupied floors and preserves damaged upgraded entities
+ok 12 - free placement swaps occupied floors and preserves damaged upgraded entities
+  ---
+  duration_ms: 0.576
+  type: 'test'
+  ...
+# Subtest: gaze distinguishes pass and arrival; footsteps doubles only on pass and clamps at twenty
+ok 13 - gaze distinguishes pass and arrival; footsteps doubles only on pass and clamps at twenty
+  ---
+  duration_ms: 2.351
+  type: 'test'
+  ...
+# Subtest: owner harvests all anxiety one-for-one; upgrade supplies one even from zero
+ok 14 - owner harvests all anxiety one-for-one; upgrade supplies one even from zero
+  ---
+  duration_ms: 9.5744
+  type: 'test'
+  ...
+# Subtest: one harvest removes one heart; lethal harvest cancels supply and starts a fresh visitor
+ok 15 - one harvest removes one heart; lethal harvest cancels supply and starts a fresh visitor
+  ---
+  duration_ms: 0.6132
+  type: 'test'
+  ...
+# Subtest: mouse pays anxiety, repairs progress only, can repair itself, and respects seal
+ok 16 - mouse pays anxiety, repairs progress only, can repair itself, and respects seal
+  ---
+  duration_ms: 2.7679
+  type: 'test'
+  ...
+# Subtest: safe toggles only after confirmation and redirects the actual route and attack destination
+ok 17 - safe toggles only after confirmation and redirects the actual route and attack destination
+  ---
+  duration_ms: 1.5784
+  type: 'test'
+  ...
+# Subtest: fire stops safe income but not attraction; seal suppresses attraction without deleting its setting
+ok 18 - fire stops safe income but not attraction; seal suppresses attraction without deleting its setting
+  ---
+  duration_ms: 2.0441
+  type: 'test'
+  ...
+# Subtest: free lure toggles do not reset inactivity; penalty uses actual twenty-point limit
+ok 19 - free lure toggles do not reset inactivity; penalty uses actual twenty-point limit
+  ---
+  duration_ms: 1.4401
+  type: 'test'
+  ...
+# Subtest: barnacle attachments follow an actual safe stop and stack per pass
+ok 20 - barnacle attachments follow an actual safe stop and stack per pass
+  ---
+  duration_ms: 1.8933
+  type: 'test'
+  ...
+# Subtest: barnacle banks greed on arrival, cannot spend it until next preparation and does not charge at cap
+ok 21 - barnacle banks greed on arrival, cannot spend it until next preparation and does not charge at cap
+  ---
+  duration_ms: 0.6283
+  type: 'test'
+  ...
+# Subtest: upgraded barnacle gives fifteen defense and fire does not block its active
+ok 22 - upgraded barnacle gives fifteen defense and fire does not block its active
+  ---
+  duration_ms: 0.4497
+  type: 'test'
+  ...
+# Subtest: nepenthes leaves movement intact; receiver defense absorbs redirected hits
+ok 23 - nepenthes leaves movement intact; receiver defense absorbs redirected hits
+  ---
+  duration_ms: 1.2119
+  type: 'test'
+  ...
+# Subtest: guard cycles and self-targets are rejected before payment
+ok 24 - guard cycles and self-targets are rejected before payment
+  ---
+  duration_ms: 1.0678
+  type: 'test'
+  ...
+# Subtest: destroyed guard stops receiving later hits, which return to the original target
+ok 25 - destroyed guard stops receiving later hits, which return to the original target
+  ---
+  duration_ms: 0.4678
+  type: 'test'
+  ...
+# Subtest: collector pays one use, caps greed and seals for three or upgraded two including this turn
+ok 26 - collector pays one use, caps greed and seals for three or upgraded two including this turn
+  ---
+  duration_ms: 0.8213
+  type: 'test'
+  ...
+# Subtest: collector cannot seal itself; existing seals extend to nine and seal blocks later actives
+ok 27 - collector cannot seal itself; existing seals extend to nine and seal blocks later actives
+  ---
+  duration_ms: 0.6886
+  type: 'test'
+  ...
+# Subtest: fire permits rune pass supply while seal blocks it; both decay once per completed turn
+ok 28 - fire permits rune pass supply while seal blocks it; both decay once per completed turn
+  ---
+  duration_ms: 0.6441
+  type: 'test'
+  ...
+# Subtest: prophet returns to rolling after confirmation, preserves costs/effects and uses a fresh roll batch
+ok 29 - prophet returns to rolling after confirmation, preserves costs/effects and uses a fresh roll batch
+  ---
+  duration_ms: 0.6991
+  type: 'test'
+  ...
+# Subtest: reroll previews disclose no new dice and forbid planning after unknown outcomes
+ok 30 - reroll previews disclose no new dice and forbid planning after unknown outcomes
+  ---
+  duration_ms: 1.6859
+  type: 'test'
+  ...
+# Subtest: selection bonus occurs once per batch, survives reroll, and samara does not apply it again
+ok 31 - selection bonus occurs once per batch, survives reroll, and samara does not apply it again
+  ---
+  duration_ms: 0.6538
+  type: 'test'
+  ...
+# Subtest: samara changes the final rune condition and path, but its upgrade changes only durability
+ok 32 - samara changes the final rune condition and path, but its upgrade changes only durability
+  ---
+  duration_ms: 3.0946
+  type: 'test'
+  ...
+# Subtest: rune and roulette upgraded arrival both give five; final parity and threshold govern supply
+ok 33 - rune and roulette upgraded arrival both give five; final parity and threshold govern supply
+  ---
+  duration_ms: 2.0068
+  type: 'test'
+  ...
+# Subtest: automatic prophecy is one effect before attack and kills cancel retaliation and carryover
+ok 34 - automatic prophecy is one effect before attack and kills cancel retaliation and carryover
+  ---
+  duration_ms: 0.5271
+  type: 'test'
+  ...
+# Subtest: shop, reward and event pools cover twelve species; purchases and free awards retain origin
+ok 35 - shop, reward and event pools cover twelve species; purchases and free awards retain origin
+  ---
+  duration_ms: 15.9059
+  type: 'test'
+  ...
+# Subtest: expansion is shop-only; geometry comparison is repeatable and excludes automatic combat
+ok 36 - expansion is shop-only; geometry comparison is repeatable and excludes automatic combat
+  ---
+  duration_ms: 4.563
+  type: 'test'
+  ...
+# Subtest: recovery allocates two tokens globally; upgrades and skips are mutually exclusive
+ok 37 - recovery allocates two tokens globally; upgrades and skips are mutually exclusive
+  ---
+  duration_ms: 0.5173
+  type: 'test'
+  ...
+# Subtest: combat preparation resets charges and statuses once, but preserves token damage
+ok 38 - combat preparation resets charges and statuses once, but preserves token damage
+  ---
+  duration_ms: 0.5895
+  type: 'test'
+  ...
+# Subtest: boss boundaries restore surviving upgraded maxima and final victory stays locked through reward
+ok 39 - boss boundaries restore surviving upgraded maxima and final victory stays locked through reward
+  ---
+  duration_ms: 1.3478
+  type: 'test'
+  ...
+# Subtest: boss escape is defeat; previews and execution stop at contact
+ok 40 - boss escape is defeat; previews and execution stop at contact
+  ---
+  duration_ms: 1.3347
+  type: 'test'
+  ...
+# Subtest: preview is pure across repeats and clone continuation matches real rolled dice
+ok 41 - preview is pure across repeats and clone continuation matches real rolled dice
+  ---
+  duration_ms: 50.3894
+  type: 'test'
+  ...
+# Subtest: analysis links real fear and acquisitions to origin without declaring growth goals achieved
+ok 42 - analysis links real fear and acquisitions to origin without declaring growth goals achieved
+  ---
+  duration_ms: 1.4459
+  type: 'test'
+  ...
+# Subtest: synthetic campaign traverses all twenty-four visits, rewards, mandatory recoveries and final victory
+ok 43 - synthetic campaign traverses all twenty-four visits, rewards, mandatory recoveries and final victory
+  ---
+  duration_ms: 13.3953
+  type: 'test'
+  ...
+# Subtest: analysis retains body-only contributions even when resource supply was capped
+ok 44 - analysis retains body-only contributions even when resource supply was capped
+  ---
+  duration_ms: 0.5591
+  type: 'test'
+  ...
+1..44
+# tests 44
+# suites 0
+# pass 44
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3596.7908

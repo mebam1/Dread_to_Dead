@@ -1,9 +1,9 @@
 {
-  "config": "mvp-config-user-3.md v1.1 + act-boundary surviving-token reset",
+  "config": "mvp-config-user-3.md v1.2: anxiety cap 20, full 1:1 harvest, independent upgraded post-harvest anxiety +1",
   "testCounts": {
-    "engine": 52,
+    "engine": 54,
     "offlineView": 36,
-    "total": 88
+    "total": 90
   },
   "testsScope": "Synthetic rule boundaries and offline HTML/action tests; not browser layout or real input-device verification.",
   "normalPlay": {
@@ -1032,5 +1032,15 @@
     "behavior": "On boss reward completion at act 1→2 and 2→3, restore every surviving placed/stored entity to maxP once. No within-act or final-victory restoration; destroyed/removed entities stay absent.",
     "campaignRerun": false,
     "validation": "52 engine and 36 offline UI tests passed; both act boundaries restore placed/stored survivors once, same-act damage persists, destroyed/removed entities remain absent, final victory does not restore."
+  },
+  "balanceRevision": {
+    "version": "user-3-v1.2",
+    "date": "2026-11-01",
+    "anxietyCap": {"before": 9, "after": 20},
+    "harvest": "Consume all current anxiety; apply one fear per consumed anxiety in a single effect, with no separate harvest cap.",
+    "upgradedArrival": "After harvest, independently add one anxiety even when harvest consumed zero. A lethal harvest cancels subsequent effects; no anxiety carries to the next visitor.",
+    "validation": "54 engine and 36 offline UI tests passed: supply/doubling/die overflow, full harvest, independent zero-input supply, lethal cancellation, preview parity, twenty-cell anxiety meter, and expansion input through twenty.",
+    "campaignRerun": false,
+    "browserVisualRerun": false
   }
 }

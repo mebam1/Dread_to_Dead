@@ -1,7 +1,7 @@
 /** Synthetic boundary fixtures. None of these are normal-play/expansion ROI evidence. */
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {Game,CREATURES,DICE,generateMap,creatureDef,creatureName} from './engine.js';
+import {Game,CREATURES,DICE,generateMap,creatureDef,creatureName,ANXIETY_CAP} from './engine.js';
 
 function atNode(kind,act=1,depth=null) {
   const g=new Game(31001);g.s.act=act;
@@ -217,17 +217,46 @@ test('each attack is a separate threshold event and destruction ends battle even
 });
 
 test('pass/arrival and anxiety die differentiate same value; preview is repeatable and nonmutating',()=>{
-  const normal=combat();Object.assign(normal.s.visitor,{t:12,h:1,pattern:'none'});forceDice(normal,3);
-  const before=structuredClone(normal.s),p=normal.preview(0);assert.equal(p.summary.fear,8);assert.equal(p.summary.hearts,0);
+  const normal=combat();Object.assign(normal.s.visitor,{t:3,h:1,pattern:'none'});forceDice(normal,3);
+  const before=structuredClone(normal.s),p=normal.preview(0);assert.equal(p.summary.fear,2);assert.equal(p.summary.hearts,0);
   for(let i=0;i<30;i++)assert.deepEqual(normal.preview(0),p);assert.deepEqual(normal.s,before);
-  const special=combat();Object.assign(special.s.visitor,{t:12,h:1,pattern:'none'});forceDice(special,3,'anxiety');
-  const q=special.preview(0);assert.equal(q.summary.fear,12);assert.equal(q.summary.hearts,1);assert.equal(q.summary.retaliation,false);
+  const special=combat();Object.assign(special.s.visitor,{t:3,h:1,pattern:'none'});forceDice(special,3,'anxiety');
+  const q=special.preview(0);assert.equal(q.summary.fear,3);assert.equal(q.summary.hearts,1);assert.equal(q.summary.retaliation,false);
   special.choose(0);assert.equal(special.s.visitor.a,1);special.preview();assert.equal(special.s.visitor.a,1);
+});
+
+test('supply and doubling can build twenty anxiety, with die bonuses and overflow applied once',()=>{
+  assert.equal(ANXIETY_CAP,20);
+  for(const [type,initial,increases] of [['normal',8,[2,10]],['anxiety',18,[1,1,0]]]){
+    const g=combat();g.s.entities=g.s.entities.filter(e=>e.type==='U');g._add('E',2);
+    Object.assign(g.s.visitor,{pos:0,a:initial,pattern:'none'});forceDice(g,3,type);
+    const before=structuredClone(g.s),p=g.preview(0);
+    assert.equal(p.state.visitor.a,20);assert.deepEqual(g.s,before);
+    assert.deepEqual(p.events.filter(e=>e.kind==='anxiety').map(e=>e.amount),increases);
+    g.choose(0);g.move();assert.equal(g.s.visitor.a,20);assert.equal(g.s.inactive,0);
+    const overflow=g.events.filter(e=>e.kind==='anxiety');
+    if(type==='anxiety'){assert.equal(overflow[0].wasted,1);assert.equal(overflow[1].wasted,20);}
+  }
+});
+
+test('harvest spends all anxiety at one fear each, then upgraded arrival independently adds one even from zero',()=>{
+  for(const upgraded of [false,true])for(const anxiety of [0,2,9,20]){
+    const g=combat(),q=g.entityAt(3);q.upgraded=upgraded;
+    Object.assign(g.s.visitor,{pos:2,a:anxiety,f:0,t:999,h:2,pattern:'none'});forceDice(g,1);
+    const before=structuredClone(g.s),p=g.preview(0);
+    assert.equal(p.summary.fear,anxiety);assert.equal(p.state.visitor.a,upgraded?1:0);assert.deepEqual(g.s,before);
+    const effects=p.events.filter(e=>['harvest','fear','anxiety'].includes(e.kind));
+    assert.deepEqual(effects.map(e=>e.kind),['harvest',...(anxiety?['fear']:[]),...(upgraded?['anxiety']:[])]);
+    assert.equal(effects[0].amount,anxiety);assert.equal(effects[0].after,0);
+    g.choose(0);g.move();assert.equal(g.s.visitor.f,anxiety);assert.equal(g.s.visitor.a,upgraded?1:0);
+  }
 });
 
 test('expansion changes circular path and long route hits preserve repeated visits',()=>{
   const g=atNode('shop');const before=structuredClone(g.s),p=g.expansionPreview({position:5,slot:0,face:1});
   assert.deepEqual(p.before.path,[6,1]);assert.deepEqual(p.after.path,[6,7]);assert.deepEqual(g.s,before);
+  const high=g.expansionPreview({anxiety:20});assert.equal(high.before.state.visitor.a,20);assert.equal(high.after.state.visitor.a,20);
+  assert.throws(()=>g.expansionPreview({anxiety:21}),/0~20/);assert.deepEqual(g.s,before);
   const h=combat();h.s.visitor.pos=4;h.s.visitor.pattern='route';forceDice(h,8,'long');h.choose(0);
   assert.deepEqual(h.path(),[5,6,1,2,3,4,5,6]);const attacks=h.attackList(h.path());
   assert.equal(attacks.filter(a=>a.floor===5).length,2);assert.equal(attacks.filter(a=>a.floor===6).length,2);
@@ -353,7 +382,7 @@ test('all six upgrades change only the designated runtime effect and keep token 
     if(type==='G'){g.active(e.id,e.id);assert.equal(e.shield,8);assert.equal(e.uses,1);}
     else if(type==='R'){e.c=11;g.active(e.id,e.id);assert.equal(e.c,1);assert.equal(g.s.visitor.a,0);}
     else if(type==='B'){assert.equal(e.uses,3);g.active(e.id);assert.equal(g.s.visitor.f,3);assert.equal(e.uses,2);g.move();assert.equal(g.s.visitor.f,6);}
-    else {g.move();if(type==='U')assert.equal(g.s.visitor.a,3);if(type==='Q'){assert.equal(g.s.visitor.a,5);assert.equal(g.s.visitor.f,16);}if(type==='E')assert.equal(g.s.visitor.a,3);}
+    else {g.move();if(type==='U')assert.equal(g.s.visitor.a,3);if(type==='Q'){assert.equal(g.s.visitor.a,1);assert.equal(g.s.visitor.f,9);}if(type==='E')assert.equal(g.s.visitor.a,3);}
     assert.equal(creatureDef(e).maxP,CREATURES[type].maxP);assert.equal(e.p,CREATURES[type].maxP);
   }
 });
@@ -361,14 +390,18 @@ test('all six upgrades change only the designated runtime effect and keep token 
 test('an upgraded harvest is still one fear effect and removes at most one heart',()=>{
   const g=combat(),q=g.s.entities.find(e=>e.type==='Q');q.upgraded=true;
   Object.assign(g.s.visitor,{pos:2,a:9,f:0,t:4,h:3,pattern:'none'});forceDice(g,1);g.choose(0);g.move();
-  assert.equal(g.s.visitor.h,2);assert.equal(g.s.visitor.f,0);assert.equal(g.s.visitor.a,5);
+  assert.equal(g.s.visitor.h,2);assert.equal(g.s.visitor.f,0);assert.equal(g.s.visitor.a,1);
+  const lethal=combat();lethal.entityAt(3).upgraded=true;
+  Object.assign(lethal.s.visitor,{pos:2,a:20,t:4,h:1,pattern:'none'});forceDice(lethal,1);lethal.choose(0);
+  const preview=lethal.preview();assert.equal(preview.summary.killed,true);assert.ok(!preview.events.some(e=>e.kind==='anxiety'));
+  lethal.move();assert.equal(lethal.s.guestIndex,1);assert.equal(lethal.s.visitor.a,0);
 });
 
 test('upgraded pass and arrival use the same effective rules in real play and preview',()=>{
   const g=combat();g.s.entities.find(e=>e.type==='U').upgraded=true;g.s.entities.find(e=>e.floor===3).upgraded=true;
   Object.assign(g.s.visitor,{a:1,t:99,h:2,pattern:'none'});forceDice(g,3);
-  const before=structuredClone(g.s),p=g.preview(0);assert.equal(p.summary.fear,16);assert.deepEqual(g.s,before);
-  g.choose(0);g.move();assert.equal(g.s.visitor.f,16);assert.equal(g.s.visitor.a,0);
+  const before=structuredClone(g.s),p=g.preview(0);assert.equal(p.summary.fear,4);assert.deepEqual(g.s,before);
+  g.choose(0);g.move();assert.equal(g.s.visitor.f,4);assert.equal(g.s.visitor.a,1);
 });
 
 test('upgraded guard charges one to a maximum of two and repair keeps the anxiety cost of two',()=>{
@@ -526,7 +559,7 @@ test('inactivity penalties begin after three idle turns, then two, bypass protec
 
 test('zero actual anxiety increase is idle, but legal direct protection counts as activity',()=>{
   const g=combat();g.s.entities=g.s.entities.filter(e=>e.type==='U');
-  Object.assign(g.s.visitor,{a:9,pattern:'none'});forceDice(g,1);g.choose(0);g.move();
+  Object.assign(g.s.visitor,{a:ANXIETY_CAP,pattern:'none'});forceDice(g,1);g.choose(0);g.move();
   assert.equal(g.s.inactive,1);
   const h=combat(),guard=h._add('G',2);h.s.inactive=2;
   Object.assign(h.s.visitor,{pattern:'none'});forceDice(h,2);h.choose(0);h.active(guard.id,guard.id);h.move();

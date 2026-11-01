@@ -1,0 +1,6595 @@
+{
+  "ruleVersion": "text-16-v1.0",
+  "date": "2026-11-02",
+  "method": "Manual choices from public CLI information; no injected state, automated policy, hidden future inspection, or normal-run reload. Control is post-hoc and ends after one boss.",
+  "normalRuns": 3,
+  "wins": 3,
+  "replayAudit": {
+    "passed": true,
+    "decisions": 962
+  },
+  "expansionControl": {
+    "source": "playthroughs/checkpoints/normal_31002-shop-a1-second.json",
+    "savedSouls": 4,
+    "normalSeven": {
+      "floors": 7,
+      "outcome": "clear",
+      "turns": [
+        5
+      ],
+      "tokensLost": 2,
+      "destroyed": 0,
+      "rawDamage": 64,
+      "absorbed": 0,
+      "formation": [
+        {
+          "id": "e7",
+          "type": "barnacle",
+          "floor": 1,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e5",
+          "type": "runes",
+          "floor": 2,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e9",
+          "type": "runes",
+          "floor": 3,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e6",
+          "type": "roulette",
+          "floor": 4,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e4",
+          "type": "safe",
+          "floor": 5,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e10",
+          "type": "roulette",
+          "floor": 6,
+          "p": 2,
+          "upgraded": true
+        },
+        {
+          "id": "e8",
+          "type": "nepenthes",
+          "floor": 7,
+          "p": 2,
+          "upgraded": false
+        }
+      ],
+      "chosenDice": [
+        {
+          "turn": 1,
+          "value": 6,
+          "slot": 2
+        },
+        {
+          "turn": 2,
+          "value": 3,
+          "slot": 2
+        },
+        {
+          "turn": 3,
+          "value": 4,
+          "slot": 0
+        },
+        {
+          "turn": 4,
+          "value": 6,
+          "slot": 2
+        },
+        {
+          "turn": 5,
+          "value": 6,
+          "slot": 0
+        }
+      ]
+    },
+    "controlSix": {
+      "floors": 6,
+      "outcome": "clear",
+      "turns": [
+        5
+      ],
+      "tokensLost": 2,
+      "destroyed": 0,
+      "rawDamage": 64,
+      "absorbed": 0,
+      "formation": [
+        {
+          "id": "e7",
+          "type": "barnacle",
+          "floor": 1,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e5",
+          "type": "runes",
+          "floor": 2,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e8",
+          "type": "nepenthes",
+          "floor": 3,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e6",
+          "type": "roulette",
+          "floor": 4,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e4",
+          "type": "safe",
+          "floor": 5,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e10",
+          "type": "roulette",
+          "floor": 6,
+          "p": 2,
+          "upgraded": true
+        }
+      ],
+      "chosenDice": [
+        {
+          "turn": 1,
+          "value": 6,
+          "slot": 2
+        },
+        {
+          "turn": 2,
+          "value": 2,
+          "slot": 1
+        },
+        {
+          "turn": 3,
+          "value": 4,
+          "slot": 0
+        },
+        {
+          "turn": 4,
+          "value": 3,
+          "slot": 1
+        },
+        {
+          "turn": 5,
+          "value": 6,
+          "slot": 0
+        }
+      ]
+    },
+    "limit": "One boss; different legal layouts and manual choices. Not a campaign-wide causal estimate or exhaustive best-play search."
+  },
+  "shopSubstitutionControl": {
+    "source": "playthroughs/checkpoints/normal_31001-shop-a3-last.json",
+    "savedSouls": 4,
+    "change": "Skip the last four-soul prophet purchase; freely rearrange the already-owned act-1 shop Samara into its floor. Same recovery and boss actions. Samara is not a free reward.",
+    "normal": {
+      "floors": 10,
+      "outcome": "clear",
+      "turns": [
+        9
+      ],
+      "tokensLost": 3,
+      "destroyed": 0,
+      "rawDamage": 144,
+      "absorbed": 13,
+      "formation": [
+        {
+          "id": "e11",
+          "type": "barnacle",
+          "floor": 1,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e20",
+          "type": "prophet",
+          "floor": 2,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e9",
+          "type": "runes",
+          "floor": 3,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e6",
+          "type": "roulette",
+          "floor": 4,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e16",
+          "type": "nepenthes",
+          "floor": 5,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e7",
+          "type": "roulette",
+          "floor": 6,
+          "p": 2,
+          "upgraded": true
+        },
+        {
+          "id": "e15",
+          "type": "collector",
+          "floor": 7,
+          "p": 1,
+          "upgraded": false
+        },
+        {
+          "id": "e12",
+          "type": "roulette",
+          "floor": 8,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e19",
+          "type": "collector",
+          "floor": 9,
+          "p": 1,
+          "upgraded": false
+        },
+        {
+          "id": "e18",
+          "type": "nepenthes",
+          "floor": 10,
+          "p": 2,
+          "upgraded": false
+        }
+      ],
+      "chosenDice": [
+        {
+          "turn": 1,
+          "value": 8,
+          "slot": 0
+        },
+        {
+          "turn": 2,
+          "value": 6,
+          "slot": 2
+        },
+        {
+          "turn": 3,
+          "value": 6,
+          "slot": 1
+        },
+        {
+          "turn": 4,
+          "value": 1,
+          "slot": 0
+        },
+        {
+          "turn": 5,
+          "value": 3,
+          "slot": 0
+        },
+        {
+          "turn": 6,
+          "value": 5,
+          "slot": 0
+        },
+        {
+          "turn": 7,
+          "value": 6,
+          "slot": 1
+        },
+        {
+          "turn": 8,
+          "value": 6,
+          "slot": 2
+        },
+        {
+          "turn": 9,
+          "value": 5,
+          "slot": 0
+        }
+      ]
+    },
+    "alternate": {
+      "floors": 10,
+      "outcome": "clear",
+      "turns": [
+        9
+      ],
+      "tokensLost": 3,
+      "destroyed": 0,
+      "rawDamage": 144,
+      "absorbed": 13,
+      "formation": [
+        {
+          "id": "e11",
+          "type": "barnacle",
+          "floor": 1,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e10",
+          "type": "samara",
+          "floor": 2,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e9",
+          "type": "runes",
+          "floor": 3,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e6",
+          "type": "roulette",
+          "floor": 4,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e16",
+          "type": "nepenthes",
+          "floor": 5,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e7",
+          "type": "roulette",
+          "floor": 6,
+          "p": 2,
+          "upgraded": true
+        },
+        {
+          "id": "e15",
+          "type": "collector",
+          "floor": 7,
+          "p": 1,
+          "upgraded": false
+        },
+        {
+          "id": "e12",
+          "type": "roulette",
+          "floor": 8,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e19",
+          "type": "collector",
+          "floor": 9,
+          "p": 1,
+          "upgraded": false
+        },
+        {
+          "id": "e18",
+          "type": "nepenthes",
+          "floor": 10,
+          "p": 2,
+          "upgraded": false
+        }
+      ],
+      "chosenDice": [
+        {
+          "turn": 1,
+          "value": 8,
+          "slot": 0
+        },
+        {
+          "turn": 2,
+          "value": 6,
+          "slot": 2
+        },
+        {
+          "turn": 3,
+          "value": 6,
+          "slot": 1
+        },
+        {
+          "turn": 4,
+          "value": 1,
+          "slot": 0
+        },
+        {
+          "turn": 5,
+          "value": 3,
+          "slot": 0
+        },
+        {
+          "turn": 6,
+          "value": 5,
+          "slot": 0
+        },
+        {
+          "turn": 7,
+          "value": 6,
+          "slot": 1
+        },
+        {
+          "turn": 8,
+          "value": 6,
+          "slot": 2
+        },
+        {
+          "turn": 9,
+          "value": 5,
+          "slot": 0
+        }
+      ]
+    },
+    "limit": "One observed dice sequence and unused prophet active; no claim that reroll insurance is always worthless."
+  },
+  "runs": [
+    {
+      "file": "playthroughs/normal_31001.json",
+      "seed": 31001,
+      "phase": "won",
+      "completed": [
+        8,
+        8,
+        8
+      ],
+      "floors": 10,
+      "souls": 15,
+      "stats": {
+        "kills": 17,
+        "escaped": 0,
+        "skipped": 0,
+        "earned": 68,
+        "spent": 57,
+        "destroyed": 4,
+        "visits": 24,
+        "combats": 9,
+        "expansions": 4,
+        "expansionSpent": 28,
+        "eventRemoved": 2,
+        "recoveries": 5,
+        "healedTokens": 10,
+        "recoveryWasted": 0,
+        "upgrades": 1
+      },
+      "fear": {
+        "harvest": 18,
+        "prophecy": 652,
+        "effectiveFear": 564,
+        "overflow": 106
+      },
+      "fearByAct": [
+        {
+          "act": 1,
+          "harvest": 18,
+          "prophecy": 140,
+          "effectiveFear": 136,
+          "overflow": 22
+        },
+        {
+          "act": 2,
+          "harvest": 0,
+          "prophecy": 237,
+          "effectiveFear": 192,
+          "overflow": 45
+        },
+        {
+          "act": 3,
+          "harvest": 0,
+          "prophecy": 275,
+          "effectiveFear": 236,
+          "overflow": 39
+        }
+      ],
+      "hits": {
+        "raw": 1036,
+        "absorbed": 78,
+        "damage": 958,
+        "redirected": 7,
+        "tokensLost": 30
+      },
+      "expansions": [
+        {
+          "nodeId": "a2-d3-c0",
+          "before": 6,
+          "after": 7,
+          "cost": 4
+        },
+        {
+          "nodeId": "a2-d3-c0",
+          "before": 7,
+          "after": 8,
+          "cost": 6
+        },
+        {
+          "nodeId": "a3-d5-c0",
+          "before": 8,
+          "after": 9,
+          "cost": 8
+        },
+        {
+          "nodeId": "a3-d5-c0",
+          "before": 9,
+          "after": 10,
+          "cost": 10
+        }
+      ],
+      "acquisitions": [
+        {
+          "id": "e6",
+          "type": "roulette",
+          "name": "이름이 새겨진 룰렛",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 63,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 25,
+            "damageTaken": 103,
+            "hitsTaken": 18,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e7",
+          "type": "roulette",
+          "name": "이름이 새겨진 룰렛",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 2,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 56,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 13,
+            "damageTaken": 95,
+            "hitsTaken": 15,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e8",
+          "type": "prophet",
+          "name": "횡설수설하는 예언가",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 4,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 4,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e10",
+          "type": "samara",
+          "name": "사마라의 약속",
+          "origin": "shop",
+          "nodeId": "a1-d5-c2",
+          "price": 4,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d8-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 3,
+            "damageTaken": 39,
+            "hitsTaken": 7,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e13",
+          "type": "runes",
+          "name": "룬 문자 벽",
+          "origin": "shop",
+          "nodeId": "a2-d3-c0",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d8-c1",
+            "turn": 4,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 5,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 36,
+            "hitsTaken": 5,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e14",
+          "type": "nepenthes",
+          "name": "보석박힌 네펜데스",
+          "origin": "shop",
+          "nodeId": "a2-d5-c0",
+          "price": 5,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d6-c0",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 6,
+            "damageTaken": 98,
+            "hitsTaken": 14,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 3,
+            "redirectedHitsTaken": 4,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e19",
+          "type": "collector",
+          "name": "수집가",
+          "origin": "shop",
+          "nodeId": "a3-d5-c0",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 4,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 1,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 10,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e20",
+          "type": "prophet",
+          "name": "횡설수설하는 예언가",
+          "origin": "shop",
+          "nodeId": "a3-d5-c0",
+          "price": 4,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 10,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e5",
+          "type": "roulette",
+          "name": "이름이 새겨진 룰렛",
+          "origin": "free_reward",
+          "nodeId": "a1-d1-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 33,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 15,
+            "damageTaken": 79,
+            "hitsTaken": 15,
+            "tokensLost": 4,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e9",
+          "type": "runes",
+          "name": "룬 문자 벽",
+          "origin": "free_reward",
+          "nodeId": "a1-d4-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d8-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 16,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 3,
+            "damageTaken": 79,
+            "hitsTaken": 12,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e11",
+          "type": "barnacle",
+          "name": "보석 따개비",
+          "origin": "free_reward",
+          "nodeId": "a1-d8-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d1-c1",
+            "turn": 1,
+            "kind": "shield"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 118,
+            "shieldAbsorbedOnBody": 10,
+            "damageTaken": 106,
+            "hitsTaken": 17,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 9,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e12",
+          "type": "roulette",
+          "name": "이름이 새겨진 룰렛",
+          "origin": "free_reward",
+          "nodeId": "a2-d1-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d6-c0",
+            "turn": 2,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 21,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 46,
+            "hitsTaken": 6,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e15",
+          "type": "collector",
+          "name": "수집가",
+          "origin": "free_reward",
+          "nodeId": "a2-d6-c0",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d8-c1",
+            "turn": 1,
+            "kind": "status"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 9,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 26,
+            "hitsTaken": 3,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 4,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e16",
+          "type": "nepenthes",
+          "name": "보석박힌 네펜데스",
+          "origin": "free_reward",
+          "nodeId": "a2-d8-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 1,
+            "kind": "guard"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 3,
+            "damageTaken": 29,
+            "hitsTaken": 4,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 1,
+            "redirectedHitsTaken": 2,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e17",
+          "type": "prophet",
+          "name": "횡설수설하는 예언가",
+          "origin": "free_reward",
+          "nodeId": "a3-d1-c0",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d4-c0",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 30,
+            "hitsTaken": 3,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 1,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 1
+          },
+          "survived": true
+        },
+        {
+          "id": "e18",
+          "type": "nepenthes",
+          "name": "보석박힌 네펜데스",
+          "origin": "free_reward",
+          "nodeId": "a3-d4-c0",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 3,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 26,
+            "hitsTaken": 3,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 1,
+            "redirectedHitsTaken": 1,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e21",
+          "type": "gaze",
+          "name": "문틈의 시선",
+          "origin": "free_reward",
+          "nodeId": "a3-d8-c1",
+          "price": 0,
+          "finalReward": true,
+          "survived": true
+        }
+      ],
+      "combats": [
+        {
+          "nodeId": "a1-d1-c1",
+          "kind": "normal",
+          "outcome": "clear",
+          "kills": 3,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 2,
+          "floors": 6,
+          "formation": [
+            {
+              "id": "e1",
+              "type": "gaze",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e3",
+              "type": "runes",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e2",
+              "type": "owner",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e4",
+              "type": "safe",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            3,
+            4,
+            13
+          ],
+          "fear": {
+            "harvest": 18,
+            "prophecy": 39,
+            "effectiveFear": 52,
+            "overflow": 5
+          },
+          "tokensLost": 5,
+          "absorbed": 0,
+          "rawDamage": 96,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 1,
+              "slot": 2
+            },
+            {
+              "turn": 3,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 1,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 4,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 5,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 6,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 4,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 6,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 7,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 8,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 9,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 10,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 11,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 12,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 13,
+              "value": 3,
+              "slot": 0
+            }
+          ]
+        },
+        {
+          "nodeId": "a1-d4-c1",
+          "kind": "normal",
+          "outcome": "clear",
+          "kills": 3,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 0,
+          "floors": 6,
+          "formation": [
+            {
+              "id": "e5",
+              "type": "roulette",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e8",
+              "type": "prophet",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e4",
+              "type": "safe",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e7",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            2,
+            2,
+            4
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 64,
+            "effectiveFear": 52,
+            "overflow": 12
+          },
+          "tokensLost": 2,
+          "absorbed": 0,
+          "rawDamage": 60,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 4,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 4,
+              "slot": 1
+            },
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 2,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 8,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 3,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 1,
+              "slot": 0
+            }
+          ]
+        },
+        {
+          "nodeId": "a1-d8-c1",
+          "kind": "boss",
+          "outcome": "clear",
+          "kills": 1,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 0,
+          "floors": 6,
+          "formation": [
+            {
+              "id": "e9",
+              "type": "runes",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e5",
+              "type": "roulette",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "samara",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e4",
+              "type": "safe",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e7",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            }
+          ],
+          "turns": [
+            5
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 37,
+            "effectiveFear": 32,
+            "overflow": 5
+          },
+          "tokensLost": 1,
+          "absorbed": 0,
+          "rawDamage": 64,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 8,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 5,
+              "value": 3,
+              "slot": 0
+            }
+          ]
+        },
+        {
+          "nodeId": "a2-d1-c1",
+          "kind": "normal",
+          "outcome": "clear",
+          "kills": 3,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 0,
+          "floors": 6,
+          "formation": [
+            {
+              "id": "e11",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e5",
+              "type": "roulette",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e9",
+              "type": "runes",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "samara",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e7",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            }
+          ],
+          "turns": [
+            3,
+            5,
+            4
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 89,
+            "effectiveFear": 72,
+            "overflow": 17
+          },
+          "tokensLost": 1,
+          "absorbed": 15,
+          "rawDamage": 108,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 4,
+              "slot": 2
+            },
+            {
+              "turn": 2,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 3,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 3,
+              "slot": 2
+            },
+            {
+              "turn": 2,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 5,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 2,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 1,
+              "slot": 1
+            },
+            {
+              "turn": 4,
+              "value": 8,
+              "slot": 0
+            }
+          ]
+        },
+        {
+          "nodeId": "a2-d6-c0",
+          "kind": "elite",
+          "outcome": "clear",
+          "kills": 1,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 0,
+          "floors": 8,
+          "formation": [
+            {
+              "id": "e11",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e5",
+              "type": "roulette",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e9",
+              "type": "runes",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e14",
+              "type": "nepenthes",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e7",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e4",
+              "type": "safe",
+              "floor": 7,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e12",
+              "type": "roulette",
+              "floor": 8,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            9
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 79,
+            "effectiveFear": 60,
+            "overflow": 19
+          },
+          "tokensLost": 4,
+          "absorbed": 12,
+          "rawDamage": 114,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 1,
+              "slot": 1
+            },
+            {
+              "turn": 6,
+              "value": 1,
+              "slot": 1
+            },
+            {
+              "turn": 7,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 8,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 9,
+              "value": 8,
+              "slot": 0
+            }
+          ]
+        },
+        {
+          "nodeId": "a2-d8-c1",
+          "kind": "boss",
+          "outcome": "clear",
+          "kills": 1,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 8,
+          "destroyed": 0,
+          "floors": 8,
+          "formation": [
+            {
+              "id": "e11",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e5",
+              "type": "roulette",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e13",
+              "type": "runes",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e14",
+              "type": "nepenthes",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e7",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e15",
+              "type": "collector",
+              "floor": 7,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e12",
+              "type": "roulette",
+              "floor": 8,
+              "p": 1,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            8
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 69,
+            "effectiveFear": 60,
+            "overflow": 9
+          },
+          "tokensLost": 2,
+          "absorbed": 13,
+          "rawDamage": 96,
+          "redirected": 2,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 6,
+              "value": 1,
+              "slot": 1
+            },
+            {
+              "turn": 7,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 8,
+              "value": 4,
+              "slot": 2
+            }
+          ]
+        },
+        {
+          "nodeId": "a3-d1-c0",
+          "kind": "normal",
+          "outcome": "clear",
+          "kills": 3,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 2,
+          "floors": 8,
+          "formation": [
+            {
+              "id": "e11",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e5",
+              "type": "roulette",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e13",
+              "type": "runes",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e14",
+              "type": "nepenthes",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e7",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e15",
+              "type": "collector",
+              "floor": 7,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e12",
+              "type": "roulette",
+              "floor": 8,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            3,
+            7,
+            6
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 120,
+            "effectiveFear": 92,
+            "overflow": 28
+          },
+          "tokensLost": 7,
+          "absorbed": 15,
+          "rawDamage": 194,
+          "redirected": 1,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 8,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 5,
+              "slot": 2
+            },
+            {
+              "turn": 3,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 4,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 5,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 6,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 7,
+              "value": 8,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 4,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 3,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 4,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 6,
+              "value": 2,
+              "slot": 0
+            }
+          ]
+        },
+        {
+          "nodeId": "a3-d4-c0",
+          "kind": "elite",
+          "outcome": "clear",
+          "kills": 1,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 0,
+          "floors": 8,
+          "formation": [
+            {
+              "id": "e11",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e17",
+              "type": "prophet",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e9",
+              "type": "runes",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e14",
+              "type": "nepenthes",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e7",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e15",
+              "type": "collector",
+              "floor": 7,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e12",
+              "type": "roulette",
+              "floor": 8,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            9
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 79,
+            "effectiveFear": 72,
+            "overflow": 7
+          },
+          "tokensLost": 5,
+          "absorbed": 10,
+          "rawDamage": 160,
+          "redirected": 1,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 2,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 3,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 5,
+              "value": 8,
+              "slot": 0
+            },
+            {
+              "turn": 6,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 7,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 8,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 8,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 9,
+              "value": 6,
+              "slot": 2
+            }
+          ]
+        },
+        {
+          "nodeId": "a3-d8-c1",
+          "kind": "boss",
+          "outcome": "clear",
+          "kills": 1,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 10,
+          "destroyed": 0,
+          "floors": 10,
+          "formation": [
+            {
+              "id": "e11",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e20",
+              "type": "prophet",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e9",
+              "type": "runes",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e16",
+              "type": "nepenthes",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e7",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e15",
+              "type": "collector",
+              "floor": 7,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e12",
+              "type": "roulette",
+              "floor": 8,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e19",
+              "type": "collector",
+              "floor": 9,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e18",
+              "type": "nepenthes",
+              "floor": 10,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            9
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 76,
+            "effectiveFear": 72,
+            "overflow": 4
+          },
+          "tokensLost": 3,
+          "absorbed": 13,
+          "rawDamage": 144,
+          "redirected": 3,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 8,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 3,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 4,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 6,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 7,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 8,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 9,
+              "value": 5,
+              "slot": 0
+            }
+          ]
+        }
+      ],
+      "escapes": [],
+      "rerolls": [
+        {
+          "nodeId": "a3-d4-c0",
+          "turn": 8,
+          "sourceId": "e17"
+        }
+      ],
+      "adjustments": 0,
+      "maxHarvest": 8,
+      "shopSpent": 29,
+      "eligibleFree": 8,
+      "freeWithObservedEffect": 8,
+      "freeWithoutObservedEffect": [],
+      "finalReward": [
+        "e21"
+      ],
+      "classification": "normal",
+      "replay": {
+        "passed": true,
+        "decisions": 297
+      }
+    },
+    {
+      "file": "playthroughs/normal_31002.json",
+      "seed": 31002,
+      "phase": "won",
+      "completed": [
+        8,
+        8,
+        8
+      ],
+      "floors": 10,
+      "souls": 17,
+      "stats": {
+        "kills": 16,
+        "escaped": 0,
+        "skipped": 0,
+        "earned": 66,
+        "spent": 53,
+        "destroyed": 4,
+        "visits": 24,
+        "combats": 8,
+        "expansions": 4,
+        "expansionSpent": 28,
+        "eventRemoved": 1,
+        "recoveries": 4,
+        "healedTokens": 7,
+        "recoveryWasted": 1,
+        "upgrades": 3
+      },
+      "fear": {
+        "harvest": 0,
+        "prophecy": 624,
+        "effectiveFear": 528,
+        "overflow": 96
+      },
+      "fearByAct": [
+        {
+          "act": 1,
+          "harvest": 0,
+          "prophecy": 153,
+          "effectiveFear": 124,
+          "overflow": 29
+        },
+        {
+          "act": 2,
+          "harvest": 0,
+          "prophecy": 167,
+          "effectiveFear": 148,
+          "overflow": 19
+        },
+        {
+          "act": 3,
+          "harvest": 0,
+          "prophecy": 304,
+          "effectiveFear": 256,
+          "overflow": 48
+        }
+      ],
+      "hits": {
+        "raw": 1108,
+        "absorbed": 134,
+        "damage": 974,
+        "redirected": 11,
+        "tokensLost": 27
+      },
+      "expansions": [
+        {
+          "nodeId": "a1-d5-c2",
+          "before": 6,
+          "after": 7,
+          "cost": 4
+        },
+        {
+          "nodeId": "a2-d5-c2",
+          "before": 7,
+          "after": 8,
+          "cost": 6
+        },
+        {
+          "nodeId": "a3-d5-c2",
+          "before": 8,
+          "after": 9,
+          "cost": 8
+        },
+        {
+          "nodeId": "a3-d5-c2",
+          "before": 9,
+          "after": 10,
+          "cost": 10
+        }
+      ],
+      "acquisitions": [
+        {
+          "id": "e6",
+          "type": "roulette",
+          "name": "이름이 새겨진 룰렛",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 51,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 19,
+            "damageTaken": 121,
+            "hitsTaken": 20,
+            "tokensLost": 4,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e7",
+          "type": "barnacle",
+          "name": "보석 따개비",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 4,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "shield"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 139,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 116,
+            "hitsTaken": 18,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 8,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e8",
+          "type": "nepenthes",
+          "name": "보석박힌 네펜데스",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 5,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 134,
+            "hitsTaken": 22,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 6,
+            "redirectedHitsTaken": 11,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e10",
+          "type": "roulette",
+          "name": "이름이 새겨진 룰렛",
+          "origin": "shop",
+          "nodeId": "a1-d5-c2",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d8-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 56,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 37,
+            "damageTaken": 87,
+            "hitsTaken": 16,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e13",
+          "type": "barnacle",
+          "name": "보석 따개비",
+          "origin": "shop",
+          "nodeId": "a2-d5-c2",
+          "price": 4,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d8-c1",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 28,
+            "shieldAbsorbedOnBody": 6,
+            "damageTaken": 56,
+            "hitsTaken": 8,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 2,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e14",
+          "type": "roulette",
+          "name": "이름이 새겨진 룰렛",
+          "origin": "shop",
+          "nodeId": "a2-d5-c2",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d8-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 20,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 19,
+            "damageTaken": 45,
+            "hitsTaken": 8,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e17",
+          "type": "roulette",
+          "name": "이름이 새겨진 룰렛",
+          "origin": "shop",
+          "nodeId": "a3-d5-c2",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d6-c2",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 2,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 3,
+            "damageTaken": 33,
+            "hitsTaken": 4,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e5",
+          "type": "runes",
+          "name": "룬 문자 벽",
+          "origin": "free_reward",
+          "nodeId": "a1-d1-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 29,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 29,
+            "damageTaken": 75,
+            "hitsTaken": 17,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e9",
+          "type": "runes",
+          "name": "룬 문자 벽",
+          "origin": "free_reward",
+          "nodeId": "a1-d4-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d8-c1",
+            "turn": 4,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 9,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 12,
+            "damageTaken": 68,
+            "hitsTaken": 12,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e11",
+          "type": "collector",
+          "name": "수집가",
+          "origin": "free_reward",
+          "nodeId": "a1-d8-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d1-c2",
+            "turn": 1,
+            "kind": "status"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 20,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 42,
+            "hitsTaken": 6,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 5,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e12",
+          "type": "runes",
+          "name": "룬 문자 벽",
+          "origin": "free_reward",
+          "nodeId": "a2-d1-c2",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d8-c1",
+            "turn": 4,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 8,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 9,
+            "damageTaken": 37,
+            "hitsTaken": 6,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e15",
+          "type": "barnacle",
+          "name": "보석 따개비",
+          "origin": "free_reward",
+          "nodeId": "a2-d8-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d1-c2",
+            "turn": 3,
+            "kind": "shield"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 41,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 42,
+            "hitsTaken": 5,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 4,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e16",
+          "type": "samara",
+          "name": "사마라의 약속",
+          "origin": "free_reward",
+          "nodeId": "a3-d1-c2",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d6-c2",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 30,
+            "hitsTaken": 3,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e18",
+          "type": "barnacle",
+          "name": "보석 따개비",
+          "origin": "free_reward",
+          "nodeId": "a3-d6-c2",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 1,
+            "kind": "shield"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 15,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 10,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e19",
+          "type": "runes",
+          "name": "룬 문자 벽",
+          "origin": "free_reward",
+          "nodeId": "a3-d8-c1",
+          "price": 0,
+          "finalReward": true,
+          "survived": true
+        }
+      ],
+      "combats": [
+        {
+          "nodeId": "a1-d1-c1",
+          "kind": "normal",
+          "outcome": "clear",
+          "kills": 3,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 1,
+          "floors": 6,
+          "formation": [
+            {
+              "id": "e1",
+              "type": "gaze",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e3",
+              "type": "runes",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e2",
+              "type": "owner",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e4",
+              "type": "safe",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            3,
+            4,
+            5
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 44,
+            "effectiveFear": 40,
+            "overflow": 4
+          },
+          "tokensLost": 3,
+          "absorbed": 0,
+          "rawDamage": 68,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 2,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 3,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 2,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 2,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 3,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 4,
+              "slot": 1
+            }
+          ]
+        },
+        {
+          "nodeId": "a1-d4-c1",
+          "kind": "normal",
+          "outcome": "clear",
+          "kills": 3,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 0,
+          "floors": 6,
+          "formation": [
+            {
+              "id": "e7",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e5",
+              "type": "runes",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e4",
+              "type": "safe",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e8",
+              "type": "nepenthes",
+              "floor": 6,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            3,
+            4,
+            7
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 64,
+            "effectiveFear": 52,
+            "overflow": 12
+          },
+          "tokensLost": 1,
+          "absorbed": 15,
+          "rawDamage": 116,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 4,
+              "slot": 2
+            },
+            {
+              "turn": 2,
+              "value": 6,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 5,
+              "slot": 1
+            },
+            {
+              "turn": 1,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 2,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 4,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 1,
+              "slot": 2
+            },
+            {
+              "turn": 3,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 5,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 6,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 7,
+              "value": 2,
+              "slot": 2
+            }
+          ]
+        },
+        {
+          "nodeId": "a1-d8-c1",
+          "kind": "boss",
+          "outcome": "clear",
+          "kills": 1,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 0,
+          "floors": 7,
+          "formation": [
+            {
+              "id": "e7",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e5",
+              "type": "runes",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e9",
+              "type": "runes",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e4",
+              "type": "safe",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e8",
+              "type": "nepenthes",
+              "floor": 7,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            5
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 45,
+            "effectiveFear": 32,
+            "overflow": 13
+          },
+          "tokensLost": 2,
+          "absorbed": 0,
+          "rawDamage": 64,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 2,
+              "value": 3,
+              "slot": 2
+            },
+            {
+              "turn": 3,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 5,
+              "value": 6,
+              "slot": 0
+            }
+          ]
+        },
+        {
+          "nodeId": "a2-d1-c2",
+          "kind": "normal",
+          "outcome": "clear",
+          "kills": 3,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 0,
+          "floors": 7,
+          "formation": [
+            {
+              "id": "e7",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e5",
+              "type": "runes",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e9",
+              "type": "runes",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e11",
+              "type": "collector",
+              "floor": 5,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e8",
+              "type": "nepenthes",
+              "floor": 7,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            7,
+            8,
+            5
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 101,
+            "effectiveFear": 88,
+            "overflow": 13
+          },
+          "tokensLost": 3,
+          "absorbed": 19,
+          "rawDamage": 188,
+          "redirected": 6,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 4,
+              "slot": 2
+            },
+            {
+              "turn": 3,
+              "value": 4,
+              "slot": 2
+            },
+            {
+              "turn": 4,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 1,
+              "slot": 1
+            },
+            {
+              "turn": 6,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 7,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 6,
+              "value": 3,
+              "slot": 2
+            },
+            {
+              "turn": 7,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 8,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 3,
+              "slot": 2
+            },
+            {
+              "turn": 3,
+              "value": 6,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 5,
+              "slot": 0
+            }
+          ]
+        },
+        {
+          "nodeId": "a2-d8-c1",
+          "kind": "boss",
+          "outcome": "clear",
+          "kills": 1,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 8,
+          "destroyed": 1,
+          "floors": 8,
+          "formation": [
+            {
+              "id": "e7",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e14",
+              "type": "roulette",
+              "floor": 2,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e12",
+              "type": "runes",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e11",
+              "type": "collector",
+              "floor": 5,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e8",
+              "type": "nepenthes",
+              "floor": 7,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e13",
+              "type": "barnacle",
+              "floor": 8,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            7
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 66,
+            "effectiveFear": 60,
+            "overflow": 6
+          },
+          "tokensLost": 2,
+          "absorbed": 6,
+          "rawDamage": 76,
+          "redirected": 5,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 4,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 3,
+              "value": 4,
+              "slot": 1
+            },
+            {
+              "turn": 4,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 6,
+              "slot": 0
+            },
+            {
+              "turn": 6,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 7,
+              "value": 2,
+              "slot": 2
+            }
+          ]
+        },
+        {
+          "nodeId": "a3-d1-c2",
+          "kind": "normal",
+          "outcome": "clear",
+          "kills": 3,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 1,
+          "floors": 8,
+          "formation": [
+            {
+              "id": "e7",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e14",
+              "type": "roulette",
+              "floor": 2,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e12",
+              "type": "runes",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e11",
+              "type": "collector",
+              "floor": 5,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e15",
+              "type": "barnacle",
+              "floor": 7,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e13",
+              "type": "barnacle",
+              "floor": 8,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            8,
+            6,
+            8
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 131,
+            "effectiveFear": 112,
+            "overflow": 19
+          },
+          "tokensLost": 8,
+          "absorbed": 52,
+          "rawDamage": 272,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 1,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 3,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 5,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 6,
+              "value": 5,
+              "slot": 1
+            },
+            {
+              "turn": 7,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 8,
+              "value": 4,
+              "slot": 1
+            },
+            {
+              "turn": 1,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 3,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 6,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 1,
+              "slot": 2
+            },
+            {
+              "turn": 3,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 5,
+              "value": 3,
+              "slot": 2
+            },
+            {
+              "turn": 6,
+              "value": 1,
+              "slot": 2
+            },
+            {
+              "turn": 7,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 8,
+              "value": 2,
+              "slot": 1
+            }
+          ]
+        },
+        {
+          "nodeId": "a3-d6-c2",
+          "kind": "elite",
+          "outcome": "clear",
+          "kills": 1,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 1,
+          "floors": 10,
+          "formation": [
+            {
+              "id": "e7",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e14",
+              "type": "roulette",
+              "floor": 2,
+              "p": 1,
+              "upgraded": true
+            },
+            {
+              "id": "e5",
+              "type": "runes",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e11",
+              "type": "collector",
+              "floor": 5,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e15",
+              "type": "barnacle",
+              "floor": 7,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e17",
+              "type": "roulette",
+              "floor": 8,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e16",
+              "type": "samara",
+              "floor": 9,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e9",
+              "type": "runes",
+              "floor": 10,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            10
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 87,
+            "effectiveFear": 72,
+            "overflow": 15
+          },
+          "tokensLost": 5,
+          "absorbed": 20,
+          "rawDamage": 180,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 1,
+              "slot": 1
+            },
+            {
+              "turn": 3,
+              "value": 1,
+              "slot": 1
+            },
+            {
+              "turn": 4,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 5,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 6,
+              "value": 1,
+              "slot": 2
+            },
+            {
+              "turn": 7,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 8,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 9,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 10,
+              "value": 6,
+              "slot": 0
+            }
+          ]
+        },
+        {
+          "nodeId": "a3-d8-c1",
+          "kind": "boss",
+          "outcome": "clear",
+          "kills": 1,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 10,
+          "destroyed": 0,
+          "floors": 10,
+          "formation": [
+            {
+              "id": "e18",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e14",
+              "type": "roulette",
+              "floor": 2,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e5",
+              "type": "runes",
+              "floor": 3,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e11",
+              "type": "collector",
+              "floor": 5,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e7",
+              "type": "barnacle",
+              "floor": 7,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e17",
+              "type": "roulette",
+              "floor": 8,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e16",
+              "type": "samara",
+              "floor": 9,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e9",
+              "type": "runes",
+              "floor": 10,
+              "p": 1,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            9
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 86,
+            "effectiveFear": 72,
+            "overflow": 14
+          },
+          "tokensLost": 3,
+          "absorbed": 22,
+          "rawDamage": 144,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 2,
+              "value": 6,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 4,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 5,
+              "value": 4,
+              "slot": 1
+            },
+            {
+              "turn": 6,
+              "value": 3,
+              "slot": 2
+            },
+            {
+              "turn": 7,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 8,
+              "value": 6,
+              "slot": 0
+            },
+            {
+              "turn": 9,
+              "value": 6,
+              "slot": 0
+            }
+          ]
+        }
+      ],
+      "escapes": [],
+      "rerolls": [],
+      "adjustments": 0,
+      "maxHarvest": 0,
+      "shopSpent": 25,
+      "eligibleFree": 7,
+      "freeWithObservedEffect": 7,
+      "freeWithoutObservedEffect": [],
+      "finalReward": [
+        "e19"
+      ],
+      "classification": "normal",
+      "replay": {
+        "passed": true,
+        "decisions": 300
+      }
+    },
+    {
+      "file": "playthroughs/normal_31003.json",
+      "seed": 31003,
+      "phase": "won",
+      "completed": [
+        8,
+        8,
+        8
+      ],
+      "floors": 7,
+      "souls": 13,
+      "stats": {
+        "kills": 12,
+        "escaped": 4,
+        "skipped": 2,
+        "earned": 46,
+        "spent": 37,
+        "destroyed": 11,
+        "visits": 24,
+        "combats": 8,
+        "expansions": 1,
+        "expansionSpent": 4,
+        "eventRemoved": 0,
+        "recoveries": 2,
+        "healedTokens": 4,
+        "recoveryWasted": 0,
+        "upgrades": 3
+      },
+      "fear": {
+        "harvest": 288,
+        "prophecy": 197,
+        "effectiveFear": 360,
+        "overflow": 125
+      },
+      "fearByAct": [
+        {
+          "act": 1,
+          "harvest": 108,
+          "prophecy": 45,
+          "effectiveFear": 116,
+          "overflow": 37
+        },
+        {
+          "act": 2,
+          "harvest": 180,
+          "prophecy": 34,
+          "effectiveFear": 140,
+          "overflow": 74
+        },
+        {
+          "act": 3,
+          "harvest": 0,
+          "prophecy": 118,
+          "effectiveFear": 104,
+          "overflow": 14
+        }
+      ],
+      "hits": {
+        "raw": 992,
+        "absorbed": 34,
+        "damage": 958,
+        "redirected": 13,
+        "tokensLost": 37
+      },
+      "expansions": [
+        {
+          "nodeId": "a2-d3-c2",
+          "before": 6,
+          "after": 7,
+          "cost": 4
+        }
+      ],
+      "acquisitions": [
+        {
+          "id": "e6",
+          "type": "gaze",
+          "name": "문틈의 시선",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d6-c1",
+            "turn": 1,
+            "kind": "anxiety"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 54,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 58,
+            "hitsTaken": 10,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e7",
+          "type": "footsteps",
+          "name": "따라오는 발소리",
+          "origin": "shop",
+          "nodeId": "a1-d5-c2",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d6-c1",
+            "turn": 1,
+            "kind": "anxiety"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 94,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 16,
+            "hitsTaken": 4,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e8",
+          "type": "runes",
+          "name": "룬 문자 벽",
+          "origin": "shop",
+          "nodeId": "a1-d5-c2",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d6-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 34,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 92,
+            "hitsTaken": 13,
+            "tokensLost": 5,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e11",
+          "type": "gaze",
+          "name": "문틈의 시선",
+          "origin": "shop",
+          "nodeId": "a2-d3-c2",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d4-c1",
+            "turn": 1,
+            "kind": "anxiety"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 42,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 48,
+            "hitsTaken": 8,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e12",
+          "type": "barnacle",
+          "name": "보석 따개비",
+          "origin": "shop",
+          "nodeId": "a2-d3-c2",
+          "price": 4,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d4-c1",
+            "turn": 1,
+            "kind": "shield"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 55,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 56,
+            "hitsTaken": 9,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 2,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e13",
+          "type": "nepenthes",
+          "name": "보석박힌 네펜데스",
+          "origin": "shop",
+          "nodeId": "a2-d3-c2",
+          "price": 5,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d4-c1",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 6,
+            "damageTaken": 62,
+            "hitsTaken": 12,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 4,
+            "redirectedHitsTaken": 5,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e16",
+          "type": "runes",
+          "name": "룬 문자 벽",
+          "origin": "shop",
+          "nodeId": "a3-d3-c0",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 5,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 26,
+            "hitsTaken": 3,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e17",
+          "type": "runes",
+          "name": "룬 문자 벽",
+          "origin": "shop",
+          "nodeId": "a3-d3-c0",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 2,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 4,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 20,
+            "hitsTaken": 2,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e9",
+          "type": "nepenthes",
+          "name": "보석박힌 네펜데스",
+          "origin": "free_reward",
+          "nodeId": "a1-d6-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d8-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 108,
+            "hitsTaken": 18,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 6,
+            "redirectedHitsTaken": 8,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e10",
+          "type": "footsteps",
+          "name": "따라오는 발소리",
+          "origin": "free_reward",
+          "nodeId": "a1-d8-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d1-c2",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 98,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 46,
+            "hitsTaken": 8,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e14",
+          "type": "runes",
+          "name": "룬 문자 벽",
+          "origin": "free_reward",
+          "nodeId": "a2-d8-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d1-c1",
+            "turn": 3,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 6,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 26,
+            "hitsTaken": 3,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e18",
+          "type": "nepenthes",
+          "name": "보석박힌 네펜데스",
+          "origin": "free_reward",
+          "nodeId": "a3-d8-c1",
+          "price": 0,
+          "finalReward": true,
+          "survived": true
+        }
+      ],
+      "combats": [
+        {
+          "nodeId": "a1-d1-c1",
+          "kind": "normal",
+          "outcome": "escape",
+          "kills": 2,
+          "escaped": 1,
+          "skipped": 0,
+          "earned": 4,
+          "destroyed": 1,
+          "floors": 6,
+          "formation": [
+            {
+              "id": "e1",
+              "type": "gaze",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e3",
+              "type": "runes",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e2",
+              "type": "owner",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e4",
+              "type": "safe",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            3,
+            9,
+            3
+          ],
+          "fear": {
+            "harvest": 14,
+            "prophecy": 19,
+            "effectiveFear": 32,
+            "overflow": 1
+          },
+          "tokensLost": 3,
+          "absorbed": 0,
+          "rawDamage": 64,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 3,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 3,
+              "slot": 2
+            },
+            {
+              "turn": 6,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 7,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 8,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 9,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 3,
+              "value": 3,
+              "slot": 0
+            }
+          ]
+        },
+        {
+          "nodeId": "a1-d6-c1",
+          "kind": "normal",
+          "outcome": "clear",
+          "kills": 3,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 1,
+          "floors": 6,
+          "formation": [
+            {
+              "id": "e1",
+              "type": "gaze",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e8",
+              "type": "runes",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "gaze",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e7",
+              "type": "footsteps",
+              "floor": 4,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e5",
+              "type": "owner",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e4",
+              "type": "safe",
+              "floor": 6,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            2,
+            2,
+            9
+          ],
+          "fear": {
+            "harvest": 68,
+            "prophecy": 14,
+            "effectiveFear": 52,
+            "overflow": 30
+          },
+          "tokensLost": 4,
+          "absorbed": 0,
+          "rawDamage": 92,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 3,
+              "slot": 2
+            },
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 1,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 5,
+              "slot": 2
+            },
+            {
+              "turn": 3,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 6,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 7,
+              "value": 6,
+              "slot": 0
+            },
+            {
+              "turn": 8,
+              "value": 6,
+              "slot": 0
+            },
+            {
+              "turn": 9,
+              "value": 4,
+              "slot": 2
+            }
+          ]
+        },
+        {
+          "nodeId": "a1-d8-c1",
+          "kind": "boss",
+          "outcome": "clear",
+          "kills": 1,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 0,
+          "floors": 6,
+          "formation": [
+            {
+              "id": "e6",
+              "type": "gaze",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e9",
+              "type": "nepenthes",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e7",
+              "type": "footsteps",
+              "floor": 3,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e4",
+              "type": "safe",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e5",
+              "type": "owner",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e8",
+              "type": "runes",
+              "floor": 6,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            8
+          ],
+          "fear": {
+            "harvest": 26,
+            "prophecy": 12,
+            "effectiveFear": 32,
+            "overflow": 6
+          },
+          "tokensLost": 4,
+          "absorbed": 0,
+          "rawDamage": 112,
+          "redirected": 2,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 6,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 6,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 7,
+              "value": 6,
+              "slot": 0
+            },
+            {
+              "turn": 8,
+              "value": 3,
+              "slot": 1
+            }
+          ]
+        },
+        {
+          "nodeId": "a2-d1-c2",
+          "kind": "normal",
+          "outcome": "escape",
+          "kills": 2,
+          "escaped": 1,
+          "skipped": 0,
+          "earned": 4,
+          "destroyed": 2,
+          "floors": 6,
+          "formation": [
+            {
+              "id": "e6",
+              "type": "gaze",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e9",
+              "type": "nepenthes",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e7",
+              "type": "footsteps",
+              "floor": 3,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e4",
+              "type": "safe",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e5",
+              "type": "owner",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "footsteps",
+              "floor": 6,
+              "p": 1,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            4,
+            8,
+            7
+          ],
+          "fear": {
+            "harvest": 80,
+            "prophecy": 0,
+            "effectiveFear": 56,
+            "overflow": 24
+          },
+          "tokensLost": 6,
+          "absorbed": 0,
+          "rawDamage": 188,
+          "redirected": 6,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 4,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 4,
+              "slot": 2
+            },
+            {
+              "turn": 2,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 3,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 5,
+              "value": 3,
+              "slot": 2
+            },
+            {
+              "turn": 6,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 7,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 8,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 4,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 6,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 7,
+              "value": 3,
+              "slot": 0
+            }
+          ]
+        },
+        {
+          "nodeId": "a2-d4-c1",
+          "kind": "normal",
+          "outcome": "escape",
+          "kills": 1,
+          "escaped": 1,
+          "skipped": 1,
+          "earned": 2,
+          "destroyed": 1,
+          "floors": 7,
+          "formation": [
+            {
+              "id": "e11",
+              "type": "gaze",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "gaze",
+              "floor": 2,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "footsteps",
+              "floor": 3,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e12",
+              "type": "barnacle",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e2",
+              "type": "owner",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e13",
+              "type": "nepenthes",
+              "floor": 6,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e4",
+              "type": "safe",
+              "floor": 7,
+              "p": 1,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            8,
+            6
+          ],
+          "fear": {
+            "harvest": 48,
+            "prophecy": 0,
+            "effectiveFear": 24,
+            "overflow": 24
+          },
+          "tokensLost": 2,
+          "absorbed": 22,
+          "rawDamage": 144,
+          "redirected": 2,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 5,
+              "slot": 2
+            },
+            {
+              "turn": 4,
+              "value": 4,
+              "slot": 1
+            },
+            {
+              "turn": 5,
+              "value": 1,
+              "slot": 1
+            },
+            {
+              "turn": 6,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 7,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 8,
+              "value": 5,
+              "slot": 1
+            },
+            {
+              "turn": 1,
+              "value": 4,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 3,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 6,
+              "value": 5,
+              "slot": 0
+            }
+          ]
+        },
+        {
+          "nodeId": "a2-d8-c1",
+          "kind": "boss",
+          "outcome": "clear",
+          "kills": 1,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 8,
+          "destroyed": 4,
+          "floors": 7,
+          "formation": [
+            {
+              "id": "e11",
+              "type": "gaze",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e8",
+              "type": "runes",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "footsteps",
+              "floor": 3,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e12",
+              "type": "barnacle",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e2",
+              "type": "owner",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e13",
+              "type": "nepenthes",
+              "floor": 6,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e4",
+              "type": "safe",
+              "floor": 7,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            18
+          ],
+          "fear": {
+            "harvest": 52,
+            "prophecy": 34,
+            "effectiveFear": 60,
+            "overflow": 26
+          },
+          "tokensLost": 10,
+          "absorbed": 12,
+          "rawDamage": 216,
+          "redirected": 3,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 4,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 6,
+              "value": 8,
+              "slot": 0
+            },
+            {
+              "turn": 7,
+              "value": 8,
+              "slot": 0
+            },
+            {
+              "turn": 8,
+              "value": 1,
+              "slot": 2
+            },
+            {
+              "turn": 9,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 10,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 11,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 12,
+              "value": 5,
+              "slot": 1
+            },
+            {
+              "turn": 13,
+              "value": 8,
+              "slot": 0
+            },
+            {
+              "turn": 14,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 15,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 16,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 17,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 18,
+              "value": 3,
+              "slot": 0
+            }
+          ]
+        },
+        {
+          "nodeId": "a3-d1-c1",
+          "kind": "normal",
+          "outcome": "escape",
+          "kills": 1,
+          "escaped": 1,
+          "skipped": 1,
+          "earned": 2,
+          "destroyed": 1,
+          "floors": 7,
+          "formation": [
+            {
+              "id": "e14",
+              "type": "runes",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e8",
+              "type": "runes",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "footsteps",
+              "floor": 3,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e2",
+              "type": "owner",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            8,
+            1
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 35,
+            "effectiveFear": 32,
+            "overflow": 3
+          },
+          "tokensLost": 2,
+          "absorbed": 0,
+          "rawDamage": 32,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 1,
+              "slot": 1
+            },
+            {
+              "turn": 3,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 6,
+              "value": 2,
+              "slot": 2
+            },
+            {
+              "turn": 7,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 8,
+              "value": 8,
+              "slot": 0
+            },
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 1
+            }
+          ]
+        },
+        {
+          "nodeId": "a3-d8-c1",
+          "kind": "boss",
+          "outcome": "clear",
+          "kills": 1,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 10,
+          "destroyed": 1,
+          "floors": 7,
+          "formation": [
+            {
+              "id": "e14",
+              "type": "runes",
+              "floor": 1,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e15",
+              "type": "roulette",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e16",
+              "type": "runes",
+              "floor": 3,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e2",
+              "type": "owner",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e17",
+              "type": "runes",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "footsteps",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e5",
+              "type": "owner",
+              "floor": 7,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            9
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 83,
+            "effectiveFear": 72,
+            "overflow": 11
+          },
+          "tokensLost": 6,
+          "absorbed": 0,
+          "rawDamage": 144,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 2,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 3,
+              "value": 3,
+              "slot": 2
+            },
+            {
+              "turn": 4,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 5,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 6,
+              "value": 6,
+              "slot": 0
+            },
+            {
+              "turn": 7,
+              "value": 4,
+              "slot": 1
+            },
+            {
+              "turn": 8,
+              "value": 2,
+              "slot": 0
+            },
+            {
+              "turn": 9,
+              "value": 4,
+              "slot": 0
+            }
+          ]
+        }
+      ],
+      "escapes": [
+        {
+          "nodeId": "a1-d1-c1",
+          "turn": 3,
+          "skipped": 0
+        },
+        {
+          "nodeId": "a2-d1-c2",
+          "turn": 7,
+          "skipped": 0
+        },
+        {
+          "nodeId": "a2-d4-c1",
+          "turn": 6,
+          "skipped": 1
+        },
+        {
+          "nodeId": "a3-d1-c1",
+          "turn": 1,
+          "skipped": 1
+        }
+      ],
+      "rerolls": [],
+      "adjustments": 0,
+      "maxHarvest": 20,
+      "shopSpent": 27,
+      "eligibleFree": 3,
+      "freeWithObservedEffect": 3,
+      "freeWithoutObservedEffect": [],
+      "finalReward": [
+        "e18"
+      ],
+      "classification": "normal",
+      "replay": {
+        "passed": true,
+        "decisions": 310
+      }
+    },
+    {
+      "file": "playthroughs/control_31002_no_expand_a1.json",
+      "seed": 31002,
+      "phase": "anomaly_reward",
+      "completed": [
+        7,
+        0,
+        0
+      ],
+      "floors": 6,
+      "souls": 11,
+      "stats": {
+        "kills": 7,
+        "escaped": 0,
+        "skipped": 0,
+        "earned": 22,
+        "spent": 15,
+        "destroyed": 1,
+        "visits": 7,
+        "combats": 3,
+        "expansions": 0,
+        "expansionSpent": 0,
+        "eventRemoved": 1,
+        "recoveries": 1,
+        "healedTokens": 1,
+        "recoveryWasted": 1,
+        "upgrades": 1
+      },
+      "fear": {
+        "harvest": 0,
+        "prophecy": 153,
+        "effectiveFear": 124,
+        "overflow": 29
+      },
+      "fearByAct": [
+        {
+          "act": 1,
+          "harvest": 0,
+          "prophecy": 153,
+          "effectiveFear": 124,
+          "overflow": 29
+        },
+        {
+          "act": 2,
+          "harvest": 0,
+          "prophecy": 0,
+          "effectiveFear": 0,
+          "overflow": 0
+        },
+        {
+          "act": 3,
+          "harvest": 0,
+          "prophecy": 0,
+          "effectiveFear": 0,
+          "overflow": 0
+        }
+      ],
+      "hits": {
+        "raw": 248,
+        "absorbed": 15,
+        "damage": 233,
+        "redirected": 0,
+        "tokensLost": 6
+      },
+      "expansions": [],
+      "acquisitions": [
+        {
+          "id": "e6",
+          "type": "roulette",
+          "name": "이름이 새겨진 룰렛",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 17,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 6,
+            "damageTaken": 26,
+            "hitsTaken": 5,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e7",
+          "type": "barnacle",
+          "name": "보석 따개비",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 4,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "shield"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 27,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 40,
+            "hitsTaken": 7,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e8",
+          "type": "nepenthes",
+          "name": "보석박힌 네펜데스",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 5,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 22,
+            "hitsTaken": 4,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e10",
+          "type": "roulette",
+          "name": "이름이 새겨진 룰렛",
+          "origin": "shop",
+          "nodeId": "a1-d5-c2",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d8-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 6,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 8,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e5",
+          "type": "runes",
+          "name": "룬 문자 벽",
+          "origin": "free_reward",
+          "nodeId": "a1-d1-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 22,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 9,
+            "damageTaken": 51,
+            "hitsTaken": 10,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e9",
+          "type": "runes",
+          "name": "룬 문자 벽",
+          "origin": "free_reward",
+          "nodeId": "a1-d4-c1",
+          "price": 0,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 0,
+            "hitsTaken": 0,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        }
+      ],
+      "combats": [
+        {
+          "nodeId": "a1-d8-c1",
+          "kind": "boss",
+          "outcome": "clear",
+          "kills": 1,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 6,
+          "destroyed": 0,
+          "floors": 6,
+          "formation": [
+            {
+              "id": "e7",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e5",
+              "type": "runes",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e8",
+              "type": "nepenthes",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e4",
+              "type": "safe",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            }
+          ],
+          "turns": [
+            5
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 45,
+            "effectiveFear": 32,
+            "overflow": 13
+          },
+          "tokensLost": 2,
+          "absorbed": 0,
+          "rawDamage": 64,
+          "redirected": 0,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 2,
+              "value": 2,
+              "slot": 1
+            },
+            {
+              "turn": 3,
+              "value": 4,
+              "slot": 0
+            },
+            {
+              "turn": 4,
+              "value": 3,
+              "slot": 1
+            },
+            {
+              "turn": 5,
+              "value": 6,
+              "slot": 0
+            }
+          ]
+        }
+      ],
+      "escapes": [],
+      "rerolls": [],
+      "adjustments": 0,
+      "maxHarvest": 0,
+      "shopSpent": 15,
+      "eligibleFree": 2,
+      "freeWithObservedEffect": 1,
+      "freeWithoutObservedEffect": [
+        "e9"
+      ],
+      "finalReward": [],
+      "classification": "control",
+      "replay": {
+        "passed": true,
+        "decisions": 21
+      }
+    },
+    {
+      "file": "playthroughs/control_31001_free_substitute_a3.json",
+      "seed": 31001,
+      "phase": "anomaly_reward",
+      "completed": [
+        8,
+        8,
+        7
+      ],
+      "floors": 10,
+      "souls": 19,
+      "stats": {
+        "kills": 17,
+        "escaped": 0,
+        "skipped": 0,
+        "earned": 68,
+        "spent": 53,
+        "destroyed": 4,
+        "visits": 23,
+        "combats": 9,
+        "expansions": 4,
+        "expansionSpent": 28,
+        "eventRemoved": 2,
+        "recoveries": 5,
+        "healedTokens": 10,
+        "recoveryWasted": 0,
+        "upgrades": 1
+      },
+      "fear": {
+        "harvest": 18,
+        "prophecy": 652,
+        "effectiveFear": 564,
+        "overflow": 106
+      },
+      "fearByAct": [
+        {
+          "act": 1,
+          "harvest": 18,
+          "prophecy": 140,
+          "effectiveFear": 136,
+          "overflow": 22
+        },
+        {
+          "act": 2,
+          "harvest": 0,
+          "prophecy": 237,
+          "effectiveFear": 192,
+          "overflow": 45
+        },
+        {
+          "act": 3,
+          "harvest": 0,
+          "prophecy": 275,
+          "effectiveFear": 236,
+          "overflow": 39
+        }
+      ],
+      "hits": {
+        "raw": 1036,
+        "absorbed": 78,
+        "damage": 958,
+        "redirected": 7,
+        "tokensLost": 30
+      },
+      "expansions": [
+        {
+          "nodeId": "a2-d3-c0",
+          "before": 6,
+          "after": 7,
+          "cost": 4
+        },
+        {
+          "nodeId": "a2-d3-c0",
+          "before": 7,
+          "after": 8,
+          "cost": 6
+        },
+        {
+          "nodeId": "a3-d5-c0",
+          "before": 8,
+          "after": 9,
+          "cost": 8
+        },
+        {
+          "nodeId": "a3-d5-c0",
+          "before": 9,
+          "after": 10,
+          "cost": 10
+        }
+      ],
+      "acquisitions": [
+        {
+          "id": "e6",
+          "type": "roulette",
+          "name": "이름이 새겨진 룰렛",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 63,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 25,
+            "damageTaken": 103,
+            "hitsTaken": 18,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e7",
+          "type": "roulette",
+          "name": "이름이 새겨진 룰렛",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 2,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 56,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 13,
+            "damageTaken": 95,
+            "hitsTaken": 15,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e8",
+          "type": "prophet",
+          "name": "횡설수설하는 예언가",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 4,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 4,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e10",
+          "type": "samara",
+          "name": "사마라의 약속",
+          "origin": "shop",
+          "nodeId": "a1-d5-c2",
+          "price": 4,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d8-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 3,
+            "damageTaken": 49,
+            "hitsTaken": 8,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e13",
+          "type": "runes",
+          "name": "룬 문자 벽",
+          "origin": "shop",
+          "nodeId": "a2-d3-c0",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d8-c1",
+            "turn": 4,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 5,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 36,
+            "hitsTaken": 5,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e14",
+          "type": "nepenthes",
+          "name": "보석박힌 네펜데스",
+          "origin": "shop",
+          "nodeId": "a2-d5-c0",
+          "price": 5,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d6-c0",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 6,
+            "damageTaken": 98,
+            "hitsTaken": 14,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 3,
+            "redirectedHitsTaken": 4,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e19",
+          "type": "collector",
+          "name": "수집가",
+          "origin": "shop",
+          "nodeId": "a3-d5-c0",
+          "price": 3,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 4,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 1,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 10,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e5",
+          "type": "roulette",
+          "name": "이름이 새겨진 룰렛",
+          "origin": "free_reward",
+          "nodeId": "a1-d1-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 33,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 15,
+            "damageTaken": 79,
+            "hitsTaken": 15,
+            "tokensLost": 4,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": false
+        },
+        {
+          "id": "e9",
+          "type": "runes",
+          "name": "룬 문자 벽",
+          "origin": "free_reward",
+          "nodeId": "a1-d4-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a1-d8-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 16,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 3,
+            "damageTaken": 79,
+            "hitsTaken": 12,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e11",
+          "type": "barnacle",
+          "name": "보석 따개비",
+          "origin": "free_reward",
+          "nodeId": "a1-d8-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d1-c1",
+            "turn": 1,
+            "kind": "shield"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 118,
+            "shieldAbsorbedOnBody": 10,
+            "damageTaken": 106,
+            "hitsTaken": 17,
+            "tokensLost": 3,
+            "repaired": 0,
+            "paidActives": 9,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e12",
+          "type": "roulette",
+          "name": "이름이 새겨진 룰렛",
+          "origin": "free_reward",
+          "nodeId": "a2-d1-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d6-c0",
+            "turn": 2,
+            "kind": "resource"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 21,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 46,
+            "hitsTaken": 6,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e15",
+          "type": "collector",
+          "name": "수집가",
+          "origin": "free_reward",
+          "nodeId": "a2-d6-c0",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a2-d8-c1",
+            "turn": 1,
+            "kind": "status"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 9,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 26,
+            "hitsTaken": 3,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 4,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e16",
+          "type": "nepenthes",
+          "name": "보석박힌 네펜데스",
+          "origin": "free_reward",
+          "nodeId": "a2-d8-c1",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 1,
+            "kind": "guard"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 3,
+            "damageTaken": 29,
+            "hitsTaken": 4,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 1,
+            "redirectedHitsTaken": 2,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        },
+        {
+          "id": "e17",
+          "type": "prophet",
+          "name": "횡설수설하는 예언가",
+          "origin": "free_reward",
+          "nodeId": "a3-d1-c0",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d4-c0",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 30,
+            "hitsTaken": 3,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 1,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 1
+          },
+          "survived": true
+        },
+        {
+          "id": "e18",
+          "type": "nepenthes",
+          "name": "보석박힌 네펜데스",
+          "origin": "free_reward",
+          "nodeId": "a3-d4-c0",
+          "price": 0,
+          "finalReward": false,
+          "firstEffect": {
+            "nodeId": "a3-d8-c1",
+            "turn": 3,
+            "kind": "body_hit"
+          },
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 26,
+            "hitsTaken": 3,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 1,
+            "redirectedHitsTaken": 1,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "survived": true
+        }
+      ],
+      "combats": [
+        {
+          "nodeId": "a3-d8-c1",
+          "kind": "boss",
+          "outcome": "clear",
+          "kills": 1,
+          "escaped": 0,
+          "skipped": 0,
+          "earned": 10,
+          "destroyed": 0,
+          "floors": 10,
+          "formation": [
+            {
+              "id": "e11",
+              "type": "barnacle",
+              "floor": 1,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e10",
+              "type": "samara",
+              "floor": 2,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e9",
+              "type": "runes",
+              "floor": 3,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e6",
+              "type": "roulette",
+              "floor": 4,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e16",
+              "type": "nepenthes",
+              "floor": 5,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e7",
+              "type": "roulette",
+              "floor": 6,
+              "p": 2,
+              "upgraded": true
+            },
+            {
+              "id": "e15",
+              "type": "collector",
+              "floor": 7,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e12",
+              "type": "roulette",
+              "floor": 8,
+              "p": 2,
+              "upgraded": false
+            },
+            {
+              "id": "e19",
+              "type": "collector",
+              "floor": 9,
+              "p": 1,
+              "upgraded": false
+            },
+            {
+              "id": "e18",
+              "type": "nepenthes",
+              "floor": 10,
+              "p": 2,
+              "upgraded": false
+            }
+          ],
+          "turns": [
+            9
+          ],
+          "fear": {
+            "harvest": 0,
+            "prophecy": 76,
+            "effectiveFear": 72,
+            "overflow": 4
+          },
+          "tokensLost": 3,
+          "absorbed": 13,
+          "rawDamage": 144,
+          "redirected": 3,
+          "chosenDice": [
+            {
+              "turn": 1,
+              "value": 8,
+              "slot": 0
+            },
+            {
+              "turn": 2,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 3,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 4,
+              "value": 1,
+              "slot": 0
+            },
+            {
+              "turn": 5,
+              "value": 3,
+              "slot": 0
+            },
+            {
+              "turn": 6,
+              "value": 5,
+              "slot": 0
+            },
+            {
+              "turn": 7,
+              "value": 6,
+              "slot": 1
+            },
+            {
+              "turn": 8,
+              "value": 6,
+              "slot": 2
+            },
+            {
+              "turn": 9,
+              "value": 5,
+              "slot": 0
+            }
+          ]
+        }
+      ],
+      "escapes": [],
+      "rerolls": [
+        {
+          "nodeId": "a3-d4-c0",
+          "turn": 8,
+          "sourceId": "e17"
+        }
+      ],
+      "adjustments": 0,
+      "maxHarvest": 8,
+      "shopSpent": 25,
+      "eligibleFree": 8,
+      "freeWithObservedEffect": 8,
+      "freeWithoutObservedEffect": [],
+      "finalReward": [],
+      "classification": "control",
+      "replay": {
+        "passed": true,
+        "decisions": 34
+      }
+    }
+  ]
+}

@@ -1,17 +1,17 @@
-/** User-3 v1.1 rules with full surviving-token restoration at act boundaries. */
-import {Game as CombatGame, CREATURES, DICE, EXPANSION_COSTS, GUESTS} from './combat-base.mjs';
-export {CREATURES,DICE,EXPANSION_COSTS};
+/** User-3 v1.2: anxiety cap 20, uncapped 1:1 harvest, then upgraded arrival supply. */
+import {Game as CombatGame, CREATURES, DICE, EXPANSION_COSTS, GUESTS, ANXIETY_CAP} from './combat-base.mjs';
+export {CREATURES,DICE,EXPANSION_COSTS,ANXIETY_CAP};
 export const NODE_TYPES=Object.freeze({normal:'일반 손님 전투',elite:'엘리트 전투',boss:'보스 전투',shop:'상점',recovery:'회복',discovery:'주사위 발견',event:'이벤트'});
-export const UPGRADE_TEXT=Object.freeze({U:'통과 불안 2 → 3',Q:'수확 불안 상한 3 → 4 · 최대 공포 12 → 16',B:'전투당 직접 사용 초기 횟수 2 → 3',G:'직접 사용 보호 6 → 8',E:'도착 불안 1 → 3',R:'직접 사용 공략도 감소량 6 → 10'});
+export const UPGRADE_TEXT=Object.freeze({U:'통과 불안 2 → 3',Q:'수확 효과 뒤 불안 +1',B:'전투당 직접 사용 초기 횟수 2 → 3',G:'직접 사용 보호 6 → 8',E:'도착 불안 1 → 3',R:'직접 사용 공략도 감소량 6 → 10'});
 export function creatureDef(entityOrType){
   const entity=typeof entityOrType==='string'?{type:entityOrType}:entityOrType;
   if(!entity||!CREATURES[entity.type])throw new Error('알 수 없는 괴이입니다.');
   const {type}=entity,upgraded=!!entity.upgraded,base=CREATURES[type];
   const def={...base,type,upgraded,name:base.name+(upgraded?'+':''),maxUses:type==='B'&&upgraded?3:base.maxUses,
-    passAnxiety:type==='U'?(upgraded?3:2):0,arrivalAnxiety:type==='U'?4:type==='E'?(upgraded?3:1):0,
-    harvestCap:upgraded&&type==='Q'?4:3,shieldPower:upgraded&&type==='G'?8:6,repairPower:upgraded&&type==='R'?10:6,upgradeText:UPGRADE_TEXT[type]};
+    passAnxiety:type==='U'?(upgraded?3:2):0,arrivalAnxiety:type==='U'?4:type==='E'?(upgraded?3:1):type==='Q'&&upgraded?1:0,
+    shieldPower:upgraded&&type==='G'?8:6,repairPower:upgraded&&type==='R'?10:6,upgradeText:UPGRADE_TEXT[type]};
   if(type==='U'){def.passText='손님 불안 +'+def.passAnxiety+'.';def.summary='통과: 불안 +'+def.passAnxiety+' · 도착: 불안 +4';}
-  if(type==='Q'){def.arrivalText='불안 최대 '+def.harvestCap+' 수확 → 소비 1당 공포 4. 최대 공포 '+def.harvestCap*4+'를 한 번에 부여.';def.summary='도착: 불안 최대 '+def.harvestCap+' → 공포 최대 '+def.harvestCap*4;}
+  if(type==='Q'){def.arrivalText='불안 전부 수확 → 소비 1당 공포 1을 한 번에 부여.'+(def.arrivalAnxiety?' 수확 효과 뒤 불안 +1. 불안 0에서도 +1.':'');def.summary='도착: 불안 전부 → 공포 1배'+(def.arrivalAnxiety?' · 그 뒤 불안 +1':'');}
   if(type==='B')def.activeText='손님 공포 +3. 비용: 사용 1회. 전투 준비 최초 진입 시 '+def.maxUses+'회로 복구.';
   if(type==='G'){def.activeText='생존 배치 괴이 하나에 이번 턴 보호 '+def.shieldPower+'. 자신도 가능. 비용: 사용 1회.';def.summary='도착: 방어 1회 충전 · 직접 사용: 보호 '+def.shieldPower;}
   if(type==='E'){def.arrivalText='손님 불안 +'+def.arrivalAnxiety+'.';def.summary='통과: 현재 불안만큼 추가 · 도착: 불안 +'+def.arrivalAnxiety;}
@@ -68,7 +68,7 @@ export class Game extends CombatGame {
   constructor(seed=31001){
     super(seed);
     delete this.s.web;delete this.s.resets;delete this.s.rewardPending;
-    Object.assign(this.s,{version:'user-3-v1.1-act-reset',act:1,maps:[1,2,3].map(a=>generateMap(seed,a)),currentNode:null,completed:[0,0,0],lastNodes:[null,null,null],phase:'map',reward:null,finalVictory:false,history:[],logs:[],round:0});
+    Object.assign(this.s,{version:'user-3-v1.2',act:1,maps:[1,2,3].map(a=>generateMap(seed,a)),currentNode:null,completed:[0,0,0],lastNodes:[null,null,null],phase:'map',reward:null,finalVictory:false,history:[],logs:[],round:0});
     Object.assign(this.s.stats,{visits:0,combats:0,expansions:0,expansionSpent:0,eventRemoved:0,recoveries:0,healedTokens:0,recoveryWasted:0,upgrades:0});
     this.events=[];this._emit('start','새 모험 · 1막 · 6층 · 영혼 4 · 일반 주사위 3개');
   }
@@ -297,7 +297,12 @@ export class Game extends CombatGame {
       const e=this.entityAt(floor);if(!e)continue;const source=this._name(e)+(arrival?' 도착':' 통과'),def=creatureDef(e);
       if(e.type==='U')this._anxiety(arrival?def.arrivalAnxiety:def.passAnxiety,source,floor);
       if(e.type==='E')this._anxiety(arrival?def.arrivalAnxiety:this.s.visitor.a,source,floor);
-      if(e.type==='Q'&&arrival){const spent=Math.min(def.harvestCap,this.s.visitor.a);this.s.visitor.a-=spent;this._emit('harvest',`${floor}층 ${this._name(e)} 불안 ${spent} 소비`,{floor,source:this._name(e),amount:spent,before:this.s.visitor.a+spent,after:this.s.visitor.a});this._fear(spent*4,source,floor);}
+      if(e.type==='Q'&&arrival){
+        const spent=this.s.visitor.a;this.s.visitor.a=0;
+        this._emit('harvest',`${floor}층 ${this._name(e)} 불안 ${spent} 전부 소비`,{floor,source:this._name(e),amount:spent,before:spent,after:0});
+        this._fear(spent,source,floor);
+        if(def.arrivalAnxiety&&!ENDED.has(this.s.phase))this._anxiety(def.arrivalAnxiety,this._name(e)+' 수확 뒤 공급',floor);
+      }
       if(e.type==='B'&&arrival)this._fear(3,source,floor);
       if(e.type==='G'&&arrival){const before=e.uses;e.uses=Math.min(2,e.uses+1);this._emit('charge',`${floor}층 방어 ${before} → ${e.uses} · 다음 턴부터`,{floor,entityId:e.id,name:this._name(e),before,after:e.uses,amount:e.uses-before,wasted:1-(e.uses-before)});}
       if(ENDED.has(this.s.phase)){this._settle();return this.events;}

@@ -1,0 +1,9 @@
+{
+  "name": "dread-to-dead-text-16",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "user-4 괴이 12종과 네 가지 성장 목표의 텍스트 실험",
+  "scripts": {"test": "node --test", "play": "node cli.mjs"},
+  "engines": {"node": ">=20"}
+}

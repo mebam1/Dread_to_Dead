@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import {readFileSync} from 'node:fs';
-import {Game,CREATURES,DICE,creatureDef,creatureName,UPGRADE_TEXT,NODE_TYPES} from './engine.js';
+import {Game,CREATURES,DICE,creatureDef,creatureName,UPGRADE_TEXT,NODE_TYPES,ANXIETY_CAP} from './engine.js';
 
 // Offline HTML/action contract checks. These do not claim browser layout, focus,
 // accessibility-tree, animation timing, or real mouse/touch coverage.
@@ -14,7 +14,7 @@ function harness(){
   for(const key of ['#app','#tooltip','#modal-root'])nodes.set(key,element());
   const document={activeElement:null,querySelector:s=>nodes.get(s)||null,querySelectorAll:()=>[],createElement:element,body:{classList:classes(),append(node){nodes.set('.toast',node);}},addEventListener(name,fn){handlers[name]=fn;}};
   const saved=new Map([['dread-user3-options',JSON.stringify({tutorial:false,speed:'fast'})]]);
-  const context=vm.createContext({Game,CREATURES,DICE,creatureDef,creatureName,UPGRADE_TEXT,NODE_TYPES,document,localStorage:{getItem:k=>saved.get(k)??null,setItem:(k,v)=>saved.set(k,v)},crypto:{getRandomValues(a){a[0]=31001;return a;}},Uint32Array,structuredClone,innerWidth:1280,innerHeight:720,requestAnimationFrame(){},cancelAnimationFrame(){},setTimeout(fn){timers.set(++timerId,fn);return timerId;},clearTimeout(id){timers.delete(id);},setInterval(){return 1;},clearInterval(){},addEventListener(){},console:{...console,error:error=>errors.push(error.message)}});
+  const context=vm.createContext({Game,CREATURES,DICE,creatureDef,creatureName,UPGRADE_TEXT,NODE_TYPES,ANXIETY_CAP,document,localStorage:{getItem:k=>saved.get(k)??null,setItem:(k,v)=>saved.set(k,v)},crypto:{getRandomValues(a){a[0]=31001;return a;}},Uint32Array,structuredClone,innerWidth:1280,innerHeight:720,requestAnimationFrame(){},cancelAnimationFrame(){},setTimeout(fn){timers.set(++timerId,fn);return timerId;},clearTimeout(id){timers.delete(id);},setInterval(){return 1;},clearInterval(){},addEventListener(){},console:{...console,error:error=>errors.push(error.message)}});
   vm.runInContext(source,context,{filename:'app.js'});
   vm.runInContext('animationEnabled=false',context);
   return {run:code=>vm.runInContext(code,context),action:name=>vm.runInContext(`action(${JSON.stringify(name)})`,context),html:()=>nodes.get('#app').innerHTML,modalHtml:()=>nodes.get('#modal-root').innerHTML,saved,handlers,errors,scrollRequests,node(selector){if(!nodes.has(selector))nodes.set(selector,{...element(),testSelector:selector});return nodes.get(selector);},flushTimers(){const jobs=[...timers.values()];timers.clear();for(const fn of jobs)fn();}};
@@ -69,6 +69,9 @@ test('preparation reopening its map and starting never heals tokens or reapplies
 test('shop exposes eight separate products and expansion cancellation costs nothing',async()=>{
   const v=harness();fixture(v,'shop');assert.equal((v.html().match(/class="shop-item /g)||[]).length,8);
   const before=snapshot(v);await v.action('expand');assert.match(v.modalHtml(),/6 → 7층/);assert.match(v.modalHtml(),/영혼 4 사용/);
+  assert.match(v.modalHtml(),/data-expand="anxiety"[^>]*max="20"/);
+  v.handlers.change({target:{dataset:{expand:'anxiety'},value:'19'}});assert.equal(v.run('expansion.anxiety'),19);assert.match(v.modalHtml(),/불안 19 → 20/);
+  v.handlers.change({target:{dataset:{expand:'anxiety'},value:'21'}});assert.equal(v.run('expansion.anxiety'),20);assert.equal(snapshot(v),before);
   await v.action('closemodal');assert.equal(snapshot(v),before);assert.equal(v.run('game.s.phase'),'shop');
   await v.action('expand');await v.action('expandconfirm');assert.equal(v.run('game.s.floorCount'),7);assert.equal(v.run('game.s.money'),0);assert.equal(v.run('game.s.phase'),'shop');
   assert.equal(v.run('game._node().contents.stock.length'),8);await v.action('leave');assert.equal(v.run('game.s.phase'),'map');
@@ -151,8 +154,8 @@ test('contract review shows permanent loss but cancellation removes nothing',asy
 });
 
 test('same-value dice expose distinct chosen effects and reviewing applies no bonus',async()=>{
-  const v=harness();fixture(v);await v.action('start');v.run("game.s.equipped=['normal','anxiety','even'];game.s.phase='choose';game.s.dice=[{slot:0,type:'normal',face:2,value:3,bonus:0},{slot:1,type:'anxiety',face:2,value:3,bonus:1},{slot:2,type:'even',face:0,value:2,bonus:0}];Object.assign(game.s.visitor,{t:12,h:1,pattern:'none'});render()");
-  const before=snapshot(v);await v.action('die:0');assert.match(v.run('previewPanel(currentPreview())'),/공포 \+8/);await v.action('die:1');assert.match(v.run('previewPanel(currentPreview())'),/공포 \+12/);assert.match(v.run('previewPanel(currentPreview())'),/심장 1개 제거/);assert.equal(snapshot(v),before);
+  const v=harness();fixture(v);await v.action('start');v.run("game.s.equipped=['normal','anxiety','even'];game.s.phase='choose';game.s.dice=[{slot:0,type:'normal',face:2,value:3,bonus:0},{slot:1,type:'anxiety',face:2,value:3,bonus:1},{slot:2,type:'even',face:0,value:2,bonus:0}];Object.assign(game.s.visitor,{t:3,h:1,pattern:'none'});render()");
+  const before=snapshot(v);await v.action('die:0');assert.match(v.run('previewPanel(currentPreview())'),/공포 \+2/);await v.action('die:1');assert.match(v.run('previewPanel(currentPreview())'),/공포 \+3/);assert.match(v.run('previewPanel(currentPreview())'),/심장 1개 제거/);assert.equal(snapshot(v),before);
   await v.action('choose');assert.equal(v.run('game.s.visitor.a'),1);assert.match(v.html(),/선택 효과 적용 완료/);v.run('render()');assert.equal(v.run('game.s.visitor.a'),1);
 });
 
@@ -285,8 +288,8 @@ test('straight route arrows label actual pass supply and arrival harvest in visi
   const v=harness();fixture(v);await v.action('start');forceRoute(v);
   const before=snapshot(v),steps=routeSteps(v);assert.deepEqual(steps.map(s=>s.floor),[1,2,3]);
   assert.match(steps[0].label,/통과.*불안 \+2/);assert.doesNotMatch(steps[1].label,/불안 [+-]|공포 \+/);
-  assert.match(steps[2].label,/도착.*불안 [−-]2.*공포 \+8/);assert.ok(steps.every(s=>!s.wrap));
-  assert.equal(v.run('currentPreview().summary.fear'),8);assert.equal(snapshot(v),before);
+  assert.match(steps[2].label,/도착.*불안 [−-]2.*공포 \+2/);assert.ok(steps.every(s=>!s.wrap));
+  assert.equal(v.run('currentPreview().summary.fear'),2);assert.equal(snapshot(v),before);
   const html=v.run('hotelFloors(currentPreview(),true)');assert.match(html,/data-route-order="1"/);assert.match(html,/data-route-floor="3"/);assert.match(html,/data-route-kind="arrival"/);
 });
 
@@ -302,15 +305,19 @@ test('long routes retain separate revisit arrows and mark the top-to-first-floor
 test('route labels exclude pre-movement die bonus while arrival uses the bonus only once',async()=>{
   const v=harness();fixture(v);await v.action('start');forceRoute(v,{type:'anxiety',value:3});
   const before=snapshot(v),steps=routeSteps(v);assert.match(steps[0].label,/불안 \+2/);assert.doesNotMatch(steps[0].label,/불안 \+3|선택 효과/);
-  assert.match(steps[2].label,/불안 [−-]3.*공포 \+12/);assert.equal(v.run('currentPreview().summary.choiceBonus'),1);
+  assert.match(steps[2].label,/불안 [−-]3.*공포 \+3/);assert.equal(v.run('currentPreview().summary.choiceBonus'),1);
   for(let i=0;i<100;i++)routeSteps(v);assert.equal(snapshot(v),before);
   await v.action('choose');assert.equal(v.run('game.s.visitor.a'),1);assert.deepEqual(routeSteps(v).map(s=>s.label),steps.map(s=>s.label));assert.equal(v.run('game.s.visitor.a'),1);
 });
 
 test('route labels use effective upgrade, actual anxiety cap and actual next-turn guard charge',async()=>{
   const v=harness();fixture(v);await v.action('start');v.run("entity('e1').upgraded=true;entity('e2').upgraded=true");forceRoute(v,{anxiety:1});
-  let steps=routeSteps(v);assert.match(steps[0].label,/불안 \+3/);assert.match(steps[2].label,/불안 [−-]4.*공포 \+16/);
-  forceRoute(v,{anxiety:9});steps=routeSteps(v);assert.doesNotMatch(steps[0].label,/불안 \+3/);assert.match(steps[2].label,/불안 [−-]4.*공포 \+16/);
+  let steps=routeSteps(v);assert.match(steps[0].label,/불안 \+3/);assert.match(steps[2].label,/불안 [−-]4.*공포 \+4.*불안 \+1/);
+  forceRoute(v,{anxiety:19});steps=routeSteps(v);assert.match(steps[0].label,/불안 \+1/);assert.match(steps[2].label,/불안 [−-]20.*공포 \+20.*불안 \+1/);
+  assert.match(v.run("card(entity('e1'))"),/통과 \+1 · 도착 \+1/);
+  forceRoute(v,{anxiety:20});steps=routeSteps(v);assert.doesNotMatch(steps[0].label,/불안 \+3/);assert.match(steps[2].label,/불안 [−-]20.*공포 \+20.*불안 \+1/);
+  const status=v.run('visitorStatus(currentPreview())');assert.match(status,/불안 <strong>20 \/ 20<\/strong>/);
+  assert.equal((status.match(/class="segments anxiety"[^>]*>(.*?)<\/div>/)[1].match(/class="segment /g)||[]).length,20);
   v.run("game._add('G',2)");forceRoute(v,{value:2});let guard=v.run("game.s.entities.find(e=>e.type==='G').id");v.run(`entity('${guard}').uses=1`);
   steps=routeSteps(v);assert.match(steps[1].label,/방어.*\+1/);assert.match(steps[1].label,/다음 턴/);
   v.run(`entity('${guard}').uses=2`);steps=routeSteps(v);assert.doesNotMatch(steps[1].label,/방어.*\+1/);

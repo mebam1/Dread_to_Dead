@@ -1,7 +1,7 @@
 // Legal automatic-play smoke check. Uses current public map, offers and rolled dice.
 // No asset injection, forced dice, future roll() calls, or hidden-node contents.
 // This policy is fixed across 31001, 31002, 31003; a failure remains a failure.
-import {Game,CREATURES,DICE,creatureDef} from './engine.js';
+import {Game,CREATURES,DICE,creatureDef,ANXIETY_CAP} from './engine.js';
 import {writeFile,mkdir} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 
@@ -66,12 +66,12 @@ function takeDie(g,type,event=false){
 
 function expectedHarvest(s,v){
   const possible=s.equipped.map(type=>DICE[type].faces.map(d=>{
-    let a=Math.min(9,v.a+(type==='anxiety'&&d===3?1:0)),fear=0;
+    let a=Math.min(ANXIETY_CAP,v.a+(type==='anxiety'&&d===3?1:0)),fear=0;
     for(let step=1;step<=d;step++){
       const floor=(v.pos+step-1)%s.floorCount+1,e=s.entities.find(e=>e.floor===floor);if(!e)continue;const def=creatureDef(e);
-      if(e.type==='U')a=Math.min(9,a+(step===d?def.arrivalAnxiety:def.passAnxiety));
-      if(e.type==='E')a=Math.min(9,a+(step===d?def.arrivalAnxiety:a));
-      if(step===d&&e.type==='Q')fear=4*Math.min(def.harvestCap,a);
+      if(e.type==='U')a=Math.min(ANXIETY_CAP,a+(step===d?def.arrivalAnxiety:def.passAnxiety));
+      if(e.type==='E')a=Math.min(ANXIETY_CAP,a+(step===d?def.arrivalAnxiety:a));
+      if(step===d&&e.type==='Q')fear=a;
       if(step===d&&e.type==='B')fear=3;
     }
     return fear+(fear+v.f>=v.t?6:0);

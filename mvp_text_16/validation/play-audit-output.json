@@ -1,0 +1,453 @@
+{
+  "normalRuns": 3,
+  "wins": 3,
+  "audit": {
+    "passed": true,
+    "decisions": 962
+  },
+  "runs": [
+    {
+      "seed": 31001,
+      "classification": "normal",
+      "phase": "won",
+      "stats": {
+        "kills": 17,
+        "escaped": 0,
+        "skipped": 0,
+        "earned": 68,
+        "spent": 57,
+        "destroyed": 4,
+        "visits": 24,
+        "combats": 9,
+        "expansions": 4,
+        "expansionSpent": 28,
+        "eventRemoved": 2,
+        "recoveries": 5,
+        "healedTokens": 10,
+        "recoveryWasted": 0,
+        "upgrades": 1
+      },
+      "fear": {
+        "harvest": 18,
+        "prophecy": 652,
+        "effectiveFear": 564,
+        "overflow": 106
+      },
+      "fearByAct": [
+        {
+          "act": 1,
+          "harvest": 18,
+          "prophecy": 140,
+          "effectiveFear": 136,
+          "overflow": 22
+        },
+        {
+          "act": 2,
+          "harvest": 0,
+          "prophecy": 237,
+          "effectiveFear": 192,
+          "overflow": 45
+        },
+        {
+          "act": 3,
+          "harvest": 0,
+          "prophecy": 275,
+          "effectiveFear": 236,
+          "overflow": 39
+        }
+      ],
+      "shopSpent": 29,
+      "eligibleFree": 8,
+      "freeUsed": 8
+    },
+    {
+      "seed": 31002,
+      "classification": "normal",
+      "phase": "won",
+      "stats": {
+        "kills": 16,
+        "escaped": 0,
+        "skipped": 0,
+        "earned": 66,
+        "spent": 53,
+        "destroyed": 4,
+        "visits": 24,
+        "combats": 8,
+        "expansions": 4,
+        "expansionSpent": 28,
+        "eventRemoved": 1,
+        "recoveries": 4,
+        "healedTokens": 7,
+        "recoveryWasted": 1,
+        "upgrades": 3
+      },
+      "fear": {
+        "harvest": 0,
+        "prophecy": 624,
+        "effectiveFear": 528,
+        "overflow": 96
+      },
+      "fearByAct": [
+        {
+          "act": 1,
+          "harvest": 0,
+          "prophecy": 153,
+          "effectiveFear": 124,
+          "overflow": 29
+        },
+        {
+          "act": 2,
+          "harvest": 0,
+          "prophecy": 167,
+          "effectiveFear": 148,
+          "overflow": 19
+        },
+        {
+          "act": 3,
+          "harvest": 0,
+          "prophecy": 304,
+          "effectiveFear": 256,
+          "overflow": 48
+        }
+      ],
+      "shopSpent": 25,
+      "eligibleFree": 7,
+      "freeUsed": 7
+    },
+    {
+      "seed": 31003,
+      "classification": "normal",
+      "phase": "won",
+      "stats": {
+        "kills": 12,
+        "escaped": 4,
+        "skipped": 2,
+        "earned": 46,
+        "spent": 37,
+        "destroyed": 11,
+        "visits": 24,
+        "combats": 8,
+        "expansions": 1,
+        "expansionSpent": 4,
+        "eventRemoved": 0,
+        "recoveries": 2,
+        "healedTokens": 4,
+        "recoveryWasted": 0,
+        "upgrades": 3
+      },
+      "fear": {
+        "harvest": 288,
+        "prophecy": 197,
+        "effectiveFear": 360,
+        "overflow": 125
+      },
+      "fearByAct": [
+        {
+          "act": 1,
+          "harvest": 108,
+          "prophecy": 45,
+          "effectiveFear": 116,
+          "overflow": 37
+        },
+        {
+          "act": 2,
+          "harvest": 180,
+          "prophecy": 34,
+          "effectiveFear": 140,
+          "overflow": 74
+        },
+        {
+          "act": 3,
+          "harvest": 0,
+          "prophecy": 118,
+          "effectiveFear": 104,
+          "overflow": 14
+        }
+      ],
+      "shopSpent": 27,
+      "eligibleFree": 3,
+      "freeUsed": 3
+    },
+    {
+      "seed": 31002,
+      "classification": "control",
+      "phase": "anomaly_reward",
+      "stats": {
+        "kills": 7,
+        "escaped": 0,
+        "skipped": 0,
+        "earned": 22,
+        "spent": 15,
+        "destroyed": 1,
+        "visits": 7,
+        "combats": 3,
+        "expansions": 0,
+        "expansionSpent": 0,
+        "eventRemoved": 1,
+        "recoveries": 1,
+        "healedTokens": 1,
+        "recoveryWasted": 1,
+        "upgrades": 1
+      },
+      "fear": {
+        "harvest": 0,
+        "prophecy": 153,
+        "effectiveFear": 124,
+        "overflow": 29
+      },
+      "fearByAct": [
+        {
+          "act": 1,
+          "harvest": 0,
+          "prophecy": 153,
+          "effectiveFear": 124,
+          "overflow": 29
+        },
+        {
+          "act": 2,
+          "harvest": 0,
+          "prophecy": 0,
+          "effectiveFear": 0,
+          "overflow": 0
+        },
+        {
+          "act": 3,
+          "harvest": 0,
+          "prophecy": 0,
+          "effectiveFear": 0,
+          "overflow": 0
+        }
+      ],
+      "shopSpent": 15,
+      "eligibleFree": 2,
+      "freeUsed": 1
+    },
+    {
+      "seed": 31001,
+      "classification": "control",
+      "phase": "anomaly_reward",
+      "stats": {
+        "kills": 17,
+        "escaped": 0,
+        "skipped": 0,
+        "earned": 68,
+        "spent": 53,
+        "destroyed": 4,
+        "visits": 23,
+        "combats": 9,
+        "expansions": 4,
+        "expansionSpent": 28,
+        "eventRemoved": 2,
+        "recoveries": 5,
+        "healedTokens": 10,
+        "recoveryWasted": 0,
+        "upgrades": 1
+      },
+      "fear": {
+        "harvest": 18,
+        "prophecy": 652,
+        "effectiveFear": 564,
+        "overflow": 106
+      },
+      "fearByAct": [
+        {
+          "act": 1,
+          "harvest": 18,
+          "prophecy": 140,
+          "effectiveFear": 136,
+          "overflow": 22
+        },
+        {
+          "act": 2,
+          "harvest": 0,
+          "prophecy": 237,
+          "effectiveFear": 192,
+          "overflow": 45
+        },
+        {
+          "act": 3,
+          "harvest": 0,
+          "prophecy": 275,
+          "effectiveFear": 236,
+          "overflow": 39
+        }
+      ],
+      "shopSpent": 25,
+      "eligibleFree": 8,
+      "freeUsed": 8
+    }
+  ],
+  "control": {
+    "normal": {
+      "floors": 7,
+      "outcome": "clear",
+      "turns": [
+        5
+      ],
+      "tokensLost": 2,
+      "destroyed": 0,
+      "rawDamage": 64,
+      "absorbed": 0,
+      "formation": [
+        {
+          "id": "e7",
+          "type": "barnacle",
+          "floor": 1,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e5",
+          "type": "runes",
+          "floor": 2,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e9",
+          "type": "runes",
+          "floor": 3,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e6",
+          "type": "roulette",
+          "floor": 4,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e4",
+          "type": "safe",
+          "floor": 5,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e10",
+          "type": "roulette",
+          "floor": 6,
+          "p": 2,
+          "upgraded": true
+        },
+        {
+          "id": "e8",
+          "type": "nepenthes",
+          "floor": 7,
+          "p": 2,
+          "upgraded": false
+        }
+      ],
+      "chosenDice": [
+        {
+          "turn": 1,
+          "value": 6,
+          "slot": 2
+        },
+        {
+          "turn": 2,
+          "value": 3,
+          "slot": 2
+        },
+        {
+          "turn": 3,
+          "value": 4,
+          "slot": 0
+        },
+        {
+          "turn": 4,
+          "value": 6,
+          "slot": 2
+        },
+        {
+          "turn": 5,
+          "value": 6,
+          "slot": 0
+        }
+      ]
+    },
+    "alternate": {
+      "floors": 6,
+      "outcome": "clear",
+      "turns": [
+        5
+      ],
+      "tokensLost": 2,
+      "destroyed": 0,
+      "rawDamage": 64,
+      "absorbed": 0,
+      "formation": [
+        {
+          "id": "e7",
+          "type": "barnacle",
+          "floor": 1,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e5",
+          "type": "runes",
+          "floor": 2,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e8",
+          "type": "nepenthes",
+          "floor": 3,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e6",
+          "type": "roulette",
+          "floor": 4,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e4",
+          "type": "safe",
+          "floor": 5,
+          "p": 2,
+          "upgraded": false
+        },
+        {
+          "id": "e10",
+          "type": "roulette",
+          "floor": 6,
+          "p": 2,
+          "upgraded": true
+        }
+      ],
+      "chosenDice": [
+        {
+          "turn": 1,
+          "value": 6,
+          "slot": 2
+        },
+        {
+          "turn": 2,
+          "value": 2,
+          "slot": 1
+        },
+        {
+          "turn": 3,
+          "value": 4,
+          "slot": 0
+        },
+        {
+          "turn": 4,
+          "value": 3,
+          "slot": 1
+        },
+        {
+          "turn": 5,
+          "value": 6,
+          "slot": 0
+        }
+      ]
+    }
+  }
+}

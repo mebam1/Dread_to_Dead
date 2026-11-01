@@ -1,0 +1,1222 @@
+{
+  "rules": "text-16-v1.0",
+  "classification": "control",
+  "evidenceOnly": true,
+  "phase": "anomaly_reward",
+  "seed": 31002,
+  "completed": [
+    7,
+    0,
+    0
+  ],
+  "goals": {
+    "expansion": {
+      "purchases": [],
+      "verdict": "Compare actual alternatives and free rearrangement; purchase count alone is not value."
+    },
+    "shop": {
+      "acquired": [
+        {
+          "id": "e6",
+          "type": "roulette",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 3,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 17,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 6,
+            "damageTaken": 26,
+            "hitsTaken": 5,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d3-c2",
+            "floor": 4
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "name": "이름이 새겨진 룰렛",
+          "remaining": {
+            "id": "e6",
+            "type": "roulette",
+            "floor": 4,
+            "c": 8,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a1-d3-c2",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e7",
+          "type": "barnacle",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 4,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 27,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 40,
+            "hitsTaken": 7,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d3-c2",
+            "floor": 1
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "shield"
+          },
+          "name": "보석 따개비",
+          "remaining": {
+            "id": "e7",
+            "type": "barnacle",
+            "floor": 1,
+            "c": 8,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a1-d3-c2",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e8",
+          "type": "nepenthes",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 5,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 22,
+            "hitsTaken": 4,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d5-c2",
+            "floor": 3
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "name": "보석박힌 네펜데스",
+          "remaining": {
+            "id": "e8",
+            "type": "nepenthes",
+            "floor": 3,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a1-d3-c2",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e10",
+          "type": "roulette",
+          "origin": "shop",
+          "nodeId": "a1-d5-c2",
+          "price": 3,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 6,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 8,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d5-c2",
+            "floor": 6
+          },
+          "upgraded": true,
+          "firstEffect": {
+            "nodeId": "a1-d8-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "name": "이름이 새겨진 룰렛",
+          "remaining": {
+            "id": "e10",
+            "type": "roulette",
+            "floor": 6,
+            "c": 8,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": true,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a1-d5-c2",
+              "act": 1
+            }
+          }
+        }
+      ],
+      "unobservedContribution": [],
+      "verdict": "Acquisition and effects are evidence; waiting/free-reward and soul-cost alternatives need review."
+    },
+    "freeReward": {
+      "acquired": [
+        {
+          "id": "e5",
+          "type": "runes",
+          "origin": "free_reward",
+          "nodeId": "a1-d1-c1",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "owner",
+            "collector",
+            "runes"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 22,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 9,
+            "damageTaken": 51,
+            "hitsTaken": 10,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": null,
+            "floor": 2
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "name": "룬 문자 벽",
+          "remaining": {
+            "id": "e5",
+            "type": "runes",
+            "floor": 2,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a1-d1-c1",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e9",
+          "type": "runes",
+          "origin": "free_reward",
+          "nodeId": "a1-d4-c1",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "safe",
+            "barnacle",
+            "runes"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 0,
+            "hitsTaken": 0,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": null,
+            "floor": 3
+          },
+          "name": "룬 문자 벽",
+          "remaining": {
+            "id": "e9",
+            "type": "runes",
+            "floor": null,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a1-d4-c1",
+              "act": 1
+            }
+          }
+        }
+      ],
+      "combatEligible": 2,
+      "unobservedContribution": [
+        "e9"
+      ],
+      "verdict": "Final-boss reward is excluded from later combat value."
+    },
+    "distinctClears": {
+      "clearCase": false,
+      "actualFear": {
+        "anxietyHarvest": 0,
+        "automaticProphecy": 153
+      },
+      "usedEntities": [
+        {
+          "id": "e1",
+          "type": "gaze",
+          "origin": "start",
+          "initialFloor": 1,
+          "effects": {
+            "fear": 0,
+            "anxiety": 16,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 20,
+            "hitsTaken": 4,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "firstEffect": {
+            "nodeId": "a1-d1-c1",
+            "turn": 1,
+            "kind": "anxiety"
+          },
+          "name": "문틈의 시선",
+          "remaining": null
+        },
+        {
+          "id": "e2",
+          "type": "owner",
+          "origin": "start",
+          "initialFloor": 3,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 8,
+            "hitsTaken": 2,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "firstEffect": {
+            "nodeId": "a1-d1-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "name": "시선의 주인",
+          "remaining": {
+            "id": "e2",
+            "type": "owner",
+            "floor": null,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "start",
+              "nodeId": null,
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e3",
+          "type": "runes",
+          "origin": "start",
+          "initialFloor": 5,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 24,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 32,
+            "hitsTaken": 6,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": null,
+            "floor": 2
+          },
+          "firstEffect": {
+            "nodeId": "a1-d1-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "destroyed": true,
+          "name": "룬 문자 벽",
+          "remaining": null
+        },
+        {
+          "id": "e4",
+          "type": "safe",
+          "origin": "start",
+          "initialFloor": 6,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 26,
+            "hitsTaken": 5,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d3-c2",
+            "floor": 5
+          },
+          "firstEffect": {
+            "nodeId": "a1-d1-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "name": "유혹하는 금고",
+          "remaining": {
+            "id": "e4",
+            "type": "safe",
+            "floor": 5,
+            "c": 8,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "start",
+              "nodeId": null,
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e5",
+          "type": "runes",
+          "origin": "free_reward",
+          "nodeId": "a1-d1-c1",
+          "price": 0,
+          "finalReward": false,
+          "candidates": [
+            "owner",
+            "collector",
+            "runes"
+          ],
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 22,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 9,
+            "damageTaken": 51,
+            "hitsTaken": 10,
+            "tokensLost": 2,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": null,
+            "floor": 2
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "body_hit"
+          },
+          "name": "룬 문자 벽",
+          "remaining": {
+            "id": "e5",
+            "type": "runes",
+            "floor": 2,
+            "c": 0,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "free_reward",
+              "nodeId": "a1-d1-c1",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e6",
+          "type": "roulette",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 3,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 17,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 6,
+            "damageTaken": 26,
+            "hitsTaken": 5,
+            "tokensLost": 1,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d3-c2",
+            "floor": 4
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "name": "이름이 새겨진 룰렛",
+          "remaining": {
+            "id": "e6",
+            "type": "roulette",
+            "floor": 4,
+            "c": 8,
+            "p": 1,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a1-d3-c2",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e7",
+          "type": "barnacle",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 4,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 27,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 40,
+            "hitsTaken": 7,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d3-c2",
+            "floor": 1
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 1,
+            "kind": "shield"
+          },
+          "name": "보석 따개비",
+          "remaining": {
+            "id": "e7",
+            "type": "barnacle",
+            "floor": 1,
+            "c": 8,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a1-d3-c2",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e8",
+          "type": "nepenthes",
+          "origin": "shop",
+          "nodeId": "a1-d3-c2",
+          "price": 5,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 0,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 22,
+            "hitsTaken": 4,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d5-c2",
+            "floor": 3
+          },
+          "firstEffect": {
+            "nodeId": "a1-d4-c1",
+            "turn": 2,
+            "kind": "body_hit"
+          },
+          "name": "보석박힌 네펜데스",
+          "remaining": {
+            "id": "e8",
+            "type": "nepenthes",
+            "floor": 3,
+            "c": 0,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": false,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a1-d3-c2",
+              "act": 1
+            }
+          }
+        },
+        {
+          "id": "e10",
+          "type": "roulette",
+          "origin": "shop",
+          "nodeId": "a1-d5-c2",
+          "price": 3,
+          "finalReward": false,
+          "effects": {
+            "fear": 0,
+            "anxiety": 0,
+            "greed": 0,
+            "prophecy": 6,
+            "shieldGranted": 0,
+            "shieldAbsorbedOnBody": 0,
+            "damageTaken": 8,
+            "hitsTaken": 1,
+            "tokensLost": 0,
+            "repaired": 0,
+            "paidActives": 0,
+            "redirectedHitsTaken": 0,
+            "dieAdjustments": 0,
+            "rerolls": 0
+          },
+          "lastPlacement": {
+            "nodeId": "a1-d5-c2",
+            "floor": 6
+          },
+          "upgraded": true,
+          "firstEffect": {
+            "nodeId": "a1-d8-c1",
+            "turn": 1,
+            "kind": "resource"
+          },
+          "name": "이름이 새겨진 룰렛",
+          "remaining": {
+            "id": "e10",
+            "type": "roulette",
+            "floor": 6,
+            "c": 8,
+            "p": 2,
+            "uses": 0,
+            "shield": 0,
+            "seal": 0,
+            "fire": 0,
+            "lure": false,
+            "upgraded": true,
+            "origin": {
+              "kind": "shop",
+              "nodeId": "a1-d5-c2",
+              "act": 1
+            }
+          }
+        }
+      ],
+      "verdict": "One run cannot establish two different clearing combinations."
+    }
+  },
+  "decisions": [
+    {
+      "sequence": 1,
+      "command": "fork",
+      "args": [
+        "playthroughs/checkpoints/normal_31002-shop-a1-second.json"
+      ],
+      "reason": "Post-hoc comparison: same shop, skip expansion and use free rearrangement.",
+      "before": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 2,
+      "command": "buy",
+      "args": [
+        0
+      ],
+      "reason": "Keep the same roulette purchase as the normal seven-floor run.",
+      "before": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 8,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 3,
+      "command": "place",
+      "args": [
+        "e8",
+        3
+      ],
+      "reason": "Store the second rune and keep safe plus guard in six floors.",
+      "before": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 4,
+      "command": "place",
+      "args": [
+        "e10",
+        6
+      ],
+      "reason": "Use the same purchased roulette on the sixth floor.",
+      "before": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 5,
+      "command": "leave",
+      "args": [],
+      "reason": "Save the four souls that were used for expansion.",
+      "before": {
+        "act": 1,
+        "node": "a1-d5-c2",
+        "phase": "shop",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 6,
+      "command": "visit",
+      "args": [
+        "a1-d6-c2"
+      ],
+      "reason": "Use the same recovery route as the normal run.",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d6-c2",
+        "phase": "recovery",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 7,
+      "command": "recover",
+      "args": [
+        {
+          "e5": 1
+        }
+      ],
+      "reason": "Use the same rune recovery allocation.",
+      "before": {
+        "act": 1,
+        "node": "a1-d6-c2",
+        "phase": "recovery",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 8,
+      "command": "visit",
+      "args": [
+        "a1-d7-c1"
+      ],
+      "reason": "Use the same mandatory preparation node.",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d7-c1",
+        "phase": "recovery",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 9,
+      "command": "upgrade",
+      "args": [
+        "e10"
+      ],
+      "reason": "Apply the same roulette upgrade.",
+      "before": {
+        "act": 1,
+        "node": "a1-d7-c1",
+        "phase": "recovery",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 10,
+      "command": "visit",
+      "args": [
+        "a1-d8-c1"
+      ],
+      "reason": "Compare the same first boss with six floors.",
+      "before": {
+        "act": 1,
+        "node": null,
+        "phase": "map",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "management",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      }
+    },
+    {
+      "sequence": 11,
+      "command": "start",
+      "args": [],
+      "reason": "Use barnacle, rune, guard, roulette, safe, and upgraded roulette.",
+      "before": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "management",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": null
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 1
+      }
+    },
+    {
+      "sequence": 13,
+      "command": "play",
+      "args": [
+        2
+      ],
+      "reason": "Use the upgraded sixth-floor roulette for the strongest opening supply.",
+      "before": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 1
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 2
+      }
+    },
+    {
+      "sequence": 15,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "The rune arrival adds more prophecy even though one roulette token is spent.",
+      "before": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 2
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 3
+      }
+    },
+    {
+      "sequence": 17,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Only fours are rolled; remove the first heart and accept one rune token.",
+      "before": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 3
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 4
+      }
+    },
+    {
+      "sequence": 19,
+      "command": "play",
+      "args": [
+        1
+      ],
+      "reason": "Use the rune pass to sustain ten prophecy without another token loss.",
+      "before": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 4
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "roll",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 5
+      }
+    },
+    {
+      "sequence": 21,
+      "command": "play",
+      "args": [
+        0
+      ],
+      "reason": "Stored prophecy finishes the second heart before any attack.",
+      "before": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "choose",
+        "floors": 6,
+        "souls": 5,
+        "guestIndex": 0,
+        "turn": 5
+      },
+      "after": {
+        "act": 1,
+        "node": "a1-d8-c1",
+        "phase": "anomaly_reward",
+        "floors": 6,
+        "souls": 11,
+        "guestIndex": 0,
+        "turn": 5
+      }
+    }
+  ],
+  "stats": {
+    "kills": 7,
+    "escaped": 0,
+    "skipped": 0,
+    "earned": 22,
+    "spent": 15,
+    "destroyed": 1,
+    "visits": 7,
+    "combats": 3,
+    "expansions": 0,
+    "expansionSpent": 0,
+    "eventRemoved": 1,
+    "recoveries": 1,
+    "healedTokens": 1,
+    "recoveryWasted": 1,
+    "upgrades": 1
+  },
+  "notice": "Granted shielding is not attributed as actual absorption by its provider. Effects and clear cases do not establish human enjoyment or causal value by themselves."
+}
