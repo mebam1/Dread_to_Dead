@@ -1,4 +1,4 @@
-/** Browser-independent user-3 v1.1 campaign and combat rules. */
+/** User-3 v1.1 rules with full surviving-token restoration at act boundaries. */
 import {Game as CombatGame, CREATURES, DICE, EXPANSION_COSTS, GUESTS} from './combat-base.mjs';
 export {CREATURES,DICE,EXPANSION_COSTS};
 export const NODE_TYPES=Object.freeze({normal:'일반 손님 전투',elite:'엘리트 전투',boss:'보스 전투',shop:'상점',recovery:'회복',discovery:'주사위 발견',event:'이벤트'});
@@ -68,7 +68,7 @@ export class Game extends CombatGame {
   constructor(seed=31001){
     super(seed);
     delete this.s.web;delete this.s.resets;delete this.s.rewardPending;
-    Object.assign(this.s,{version:'user-3-v1.1',act:1,maps:[1,2,3].map(a=>generateMap(seed,a)),currentNode:null,completed:[0,0,0],lastNodes:[null,null,null],phase:'map',reward:null,finalVictory:false,history:[],logs:[],round:0});
+    Object.assign(this.s,{version:'user-3-v1.1-act-reset',act:1,maps:[1,2,3].map(a=>generateMap(seed,a)),currentNode:null,completed:[0,0,0],lastNodes:[null,null,null],phase:'map',reward:null,finalVictory:false,history:[],logs:[],round:0});
     Object.assign(this.s.stats,{visits:0,combats:0,expansions:0,expansionSpent:0,eventRemoved:0,recoveries:0,healedTokens:0,recoveryWasted:0,upgrades:0});
     this.events=[];this._emit('start','새 모험 · 1막 · 6층 · 영혼 4 · 일반 주사위 3개');
   }
@@ -182,7 +182,14 @@ export class Game extends CombatGame {
     this._clearShields();
     if(n.kind==='boss'){
       if(this.s.act===3){this.s.phase='won';this.s.reason='3막 보스 처치와 마지막 괴이 보상을 마쳤습니다.';this._emit('won',this.s.reason);return;}
-      this.s.act++;this._emit('act_start',`${this.s.act}막 시작 · 자산·남은 파훼 토큰·강화 유지`,{entities:copy(this.s.entities),equipped:copy(this.s.equipped),floorCount:this.s.floorCount});
+      const fromAct=this.s.act,beforeEntities=copy(this.s.entities);let restoredTokens=0;
+      for(const entity of this.s.entities){
+        if(entity.p<=0)continue;
+        const maximum=creatureDef(entity).maxP;
+        restoredTokens+=Math.max(0,maximum-entity.p);entity.p=maximum;
+      }
+      this.s.act++;
+      this._emit('act_start',`${this.s.act}막 시작 · 생존 괴이의 파훼 토큰 최대치 복구 (배치·보관 포함, +${restoredTokens}) · 자산·강화 유지`,{fromAct,beforeEntities,entities:copy(this.s.entities),restoredTokens,equipped:copy(this.s.equipped),floorCount:this.s.floorCount});
     }
     this.s.phase='map';
   }

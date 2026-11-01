@@ -405,11 +405,55 @@ test('full token and empty-target recovery can always be skipped without rewards
   assert.throws(()=>g.recover({[g.s.entities[0].id]:1}));g.skipRecovery();assert.deepEqual(g.s.entities,before);assert.equal(g.s.money,money);
 });
 
-test('boss transition carries damaged upgraded reserve state and never grants hidden restoration',()=>{
-  const g=atNode('boss'),q=g.s.entities.find(e=>e.type==='Q');q.p=1;q.upgraded=true;q.floor=null;
-  finishSyntheticCombat(g);q.c=7;const state=structuredClone(q);g.claimCreature(0);
-  assert.equal(g.s.act,2);assert.deepEqual(g.s.entities.find(e=>e.id===q.id),state);
-  assert.equal(g.s.entities.at(-1).upgraded,false);assert.equal(g.s.entities.at(-1).floor,null);
+test('both next-act transitions restore all living placed and stored tokens only after claiming the boss creature',()=>{
+  for(const act of [1,2]){
+    const g=atNode('boss',act),u=g.s.entities[0],q=g.s.entities[1],bell=g.s.entities.find(e=>e.type==='B');
+    const guard=g._add('G',2),repair=g._add('R'),echo=g._add('E');
+    g.s.floorCount=8;g.s.equipped=['long','anxiety','even'];
+    q.floor=null;u.upgraded=q.upgraded=guard.upgraded=repair.upgraded=true;
+    for(const e of [u,q,guard,repair])e.p=1;
+    finishSyntheticCombat(g);
+    for(const [index,e] of [u,q,guard,repair].entries()){e.c=index+5;e.uses=0;}bell.uses=0;
+    const before=structuredClone(g.s),existing=structuredClone(g.s.entities),money=g.s.money;
+    for(let i=0;i<100;i++)g.view();assert.deepEqual(g.s,before);
+    assert.equal(g.s.act,act);assert.equal(g.s.phase,'anomaly_reward');assert.equal(g.s.stats.visits,(act-1)*8+7);
+    assert.ok([u,q,guard,repair].every(e=>e.p===1));
+    g.claimCreature(0);
+    assert.equal(g.s.act,act+1);assert.equal(g.s.phase,'map');assert.equal(g.s.stats.visits,act*8);
+    for(const old of existing)assert.deepEqual(g.s.entities.find(e=>e.id===old.id),{...old,p:creatureDef(old).maxP});
+    assert.equal(echo.p,1);assert.equal(bell.p,1);assert.equal(g.s.money,money);assert.equal(g.s.floorCount,8);assert.deepEqual(g.s.equipped,before.equipped);
+    assert.equal(g.s.stats.recoveries,before.stats.recoveries);assert.equal(g.s.stats.healedTokens,before.stats.healedTokens);
+    const reward=g.s.entities.at(-1);assert.equal(reward.upgraded,false);assert.equal(reward.floor,null);assert.equal(reward.p,creatureDef(reward).maxP);
+    const boundary=g.s.history.filter(e=>e.kind==='act_start');assert.equal(boundary.length,1);assert.equal(boundary[0].act,act+1);assert.equal(boundary[0].restoredTokens,4);
+    for(const old of existing)assert.deepEqual(boundary[0].beforeEntities.find(e=>e.id===old.id),old);
+    assert.deepEqual(boundary[0].entities,g.s.entities);
+    const after=structuredClone(g.s);assert.throws(()=>g.claimCreature(0));assert.deepEqual(g.s,after);
+    // A later combat in the same newly started act must not repeat the refill.
+    u.p=q.p=1;g.visit(`a${act+1}-d1-c1`);assert.equal(u.p,1);assert.equal(q.p,1);assert.equal(u.c,0);assert.equal(bell.uses,2);
+    g.startService();Object.assign(g.s.visitor,{t:3,h:1,pattern:'none'});g.roll();g.choose(0);g.active(bell.id);
+    assert.equal(g.s.guestIndex,1);assert.equal(u.p,1);assert.equal(q.p,1);assert.equal(bell.uses,1);
+  }
+});
+
+test('act token restoration never resurrects destroyed or contract-removed creature instances',()=>{
+  const g=atNode('event'),removed=g.s.entities[1];removed.upgraded=true;
+  g._node().contents={event:'contract'};g.eventChoose('sacrifice',removed.id);
+  g.s.completed[0]=7;g.s.lastNodes[0]='a1-d7-c1';g.s.stats.visits=7;g.visit('a1-d8-c1');
+  const destroyed=g._add('G',2);destroyed.upgraded=true;destroyed.p=1;g._damage(destroyed,12);
+  const survivor=g.s.entities[0];survivor.p=1;finishSyntheticCombat(g);
+  const ids=g.s.entities.map(e=>e.id),destroyedCount=g.s.stats.destroyed,removedCount=g.s.stats.eventRemoved;
+  g.claimCreature(0);assert.equal(g.s.act,2);assert.equal(survivor.p,2);
+  assert.ok(!g.s.entities.some(e=>[removed.id,destroyed.id].includes(e.id)));
+  assert.deepEqual(g.s.entities.slice(0,-1).map(e=>e.id),ids);assert.equal(g.s.stats.destroyed,destroyedCount);assert.equal(g.s.stats.eventRemoved,removedCount);
+});
+
+test('final-act boss reward ends the run without restoring surviving tokens or other instance state',()=>{
+  const g=atNode('boss',3),placed=g.s.entities[0],reserve=g.s.entities[1];
+  placed.p=reserve.p=1;placed.upgraded=reserve.upgraded=true;reserve.floor=null;
+  finishSyntheticCombat(g);placed.c=5;reserve.c=7;const entities=structuredClone(g.s.entities),money=g.s.money;
+  assert.equal(g.s.finalVictory,true);assert.equal(g.s.phase,'anomaly_reward');assert.equal(placed.p,1);assert.equal(reserve.p,1);
+  g.claimCreature(0);assert.equal(g.s.phase,'won');assert.equal(g.s.act,3);assert.equal(g.s.money,money);
+  assert.deepEqual(g.s.entities.slice(0,-1),entities);assert.equal(g.s.history.filter(e=>e.kind==='act_start').length,0);
 });
 
 test('final win is locked after last boss death; the mandatory last creature completes visit twenty-four',()=>{

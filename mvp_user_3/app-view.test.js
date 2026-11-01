@@ -48,7 +48,7 @@ test('node review changes no game state; visit locks preparation and reveals all
   assert.equal(snapshot(v),before);assert.equal(v.run('selectedNode'),'a1-d1-c1');
   await v.action('visit');assert.equal(v.run('game.s.phase'),'management');
   assert.match(v.html(),/영업 시작/);assert.equal((v.html().match(/class="guest-thumb"/g)||[]).length,3);
-  assert.match(v.html(),/파훼 토큰과 강화는 이월/);assert.doesNotMatch(v.html(),/data-action="buy:|data-action="expand"|recovermode:/);
+  assert.match(v.html(),/파훼 토큰과 강화는 현재 상태를 표시/);assert.match(v.html(),/토큰은 새 막 시작 시 최대치로 복구/);assert.doesNotMatch(v.html(),/data-action="buy:|data-action="expand"|recovermode:/);
   const after=snapshot(v);await v.action('node:a1-d1-c0');await v.action('visit');assert.equal(snapshot(v),after);
 });
 
@@ -171,14 +171,30 @@ test('lethal direct use automatically enters the next guest and clears pending t
 });
 
 test('final boss reward removes surrender and final selection renders won then restart resets all assets',async()=>{
-  const v=harness();rewardFixture(v,'boss',3);assert.equal(v.run('game.s.finalVictory'),true);assert.doesNotMatch(v.html(),/data-action="surrender(?:confirm)?"|이번 판 포기/);assert.match(v.html(),/최종 보유 목록/);
+  const v=harness();rewardFixture(v,'boss',3);v.run("entity('e1').p=1;entity('e2').p=1;entity('e2').floor=null;render()");assert.equal(v.run('game.s.finalVictory'),true);assert.doesNotMatch(v.html(),/data-action="surrender(?:confirm)?"|이번 판 포기/);assert.match(v.html(),/최종 보유 목록/);assert.doesNotMatch(v.html(),/무료 새 개체를 획득한 뒤 다음 막으로 갑니다/);
   await v.action('rewardselect:0');await v.action('rewardconfirm');assert.equal(v.run('game.s.phase'),'won');assert.match(v.html(),/24 \/ 24/);assert.match(v.html(),/새 판 시작/);
+  assert.equal(v.run("entity('e1').p"),1);assert.equal(v.run("entity('e2').p"),1);assert.equal(v.run("game.s.history.filter(e=>e.kind==='act_start').length"),0);
   await v.action('new');assert.equal(v.run('game.s.phase'),'map');assert.equal(v.run('game.s.floorCount'),6);assert.equal(v.run('game.s.entities.length'),4);assert.equal(v.run('game.s.money'),4);assert.equal(v.run('game.s.stats.visits'),0);
+});
+
+test('first and second boss reward confirmation restores placed and reserve tokens and explains the new act',async()=>{
+  for(const act of [1,2]){
+    const v=harness();rewardFixture(v,'boss',act);v.run("Object.assign(entity('e1'),{p:1,c:7,upgraded:true});Object.assign(entity('e2'),{p:1,c:9,floor:null,upgraded:true});entity('e4').uses=0;render()");
+    assert.match(v.html(),/무료 새 개체를 획득한 뒤 다음 막으로 갑니다/);assert.match(v.html(),/파훼 토큰이 배치·보관 모두 최대치로 복구/);
+    const before=snapshot(v),money=v.run('game.s.money');await v.action('rewardselect:1');assert.equal(snapshot(v),before);assert.equal(v.run("entity('e1').p"),1);assert.equal(v.run("entity('e2').p"),1);
+    v.run('prefs.tutorial=true');await v.action('rewardconfirm');assert.equal(v.run('game.s.act'),act+1);assert.equal(v.run('game.s.phase'),'map');
+    assert.equal(v.run("entity('e1').p"),2);assert.equal(v.run("entity('e2').p"),2);assert.equal(v.run("entity('e2').floor"),null);assert.equal(v.run("entity('e1').upgraded&&entity('e2').upgraded"),true);
+    assert.equal(v.run("entity('e1').c"),7);assert.equal(v.run("entity('e2').c"),9);assert.equal(v.run("entity('e4').uses"),0);assert.equal(v.run('game.s.money'),money);
+    assert.match(v.node('.toast').textContent,new RegExp((act+1)+'막 시작'));assert.match(v.node('.toast').textContent,/파훼 토큰 최대치 복구/);
+    assert.equal(v.run('modal.key'),'actReset');assert.match(v.modalHtml(),/배치·보관 중인 모든 생존 괴이/);assert.match(v.modalHtml(),/제거한 괴이는 돌아오지 않습니다/);
+    const after=snapshot(v);await v.action('tutorialnext');assert.equal(snapshot(v),after);assert.equal(v.run('seen.actReset'),true);
+    assert.match(v.html(),/파훼 토큰은 같은 막에서 이월/);assert.match(v.html(),/새 막 시작 시 배치·보관 괴이 모두 최대치로 복구/);
+  }
 });
 
 test('options and term help do not mutate run state and persist tutorial preference',async()=>{
   const v=harness();await v.action('new');const before=snapshot(v);await v.action('options');assert.match(v.modalHtml(),/첫 등장 안내/);await v.action('closemodal');
-  await v.action('term:파훼 토큰');assert.match(v.modalHtml(),/전투와 막을 넘어 이월/);await v.action('closeterm');assert.equal(snapshot(v),before);
+  await v.action('term:파훼 토큰');assert.match(v.modalHtml(),/같은 막에서는 손님·전투 사이에 유지/);assert.match(v.modalHtml(),/다음 막이 시작되면 생존 괴이의 토큰이 최대치로 복구/);await v.action('closeterm');assert.equal(snapshot(v),before);
   v.run("prefs.tutorial=true;save()");assert.equal(JSON.parse(v.saved.get('dread-user3-options')).tutorial,true);
 });
 

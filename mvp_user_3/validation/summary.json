@@ -1,9 +1,9 @@
 {
-  "config": "mvp-config-user-3.md v1.1",
+  "config": "mvp-config-user-3.md v1.1 + act-boundary surviving-token reset",
   "testCounts": {
-    "engine": 50,
-    "offlineView": 35,
-    "total": 85
+    "engine": 52,
+    "offlineView": 36,
+    "total": 88
   },
   "testsScope": "Synthetic rule boundaries and offline HTML/action tests; not browser layout or real input-device verification.",
   "normalPlay": {
@@ -975,11 +975,14 @@
           }
         ]
       }
-    ]
+    ],
+    "ruleVersion": "user-3-v1.1 before act-boundary token reset",
+    "appliesToCurrentRules": false,
+    "note": "Historical runs retained unchanged; these are not a difficulty validation of the new act-boundary restoration rule."
   },
   "limitations": [
-    "All six automatic runs lost; no normal-play campaign victory demonstrated.",
-    "Two conservative runs cleared act 2 and reached act 3.",
+    "All six historical automatic runs under pre-reset rules lost; no current-rule full campaign run was performed.",
+    "Two historical conservative runs under pre-reset rules cleared act 2 and reached act 3.",
     "Synthetic final-boss/reward/restart tests validate final transitions but do not establish balance or enjoyment.",
     "Browser verification was unavailable; offline view checks do not establish layout or animation quality."
   ],
@@ -998,13 +1001,8 @@
       "width": 1280,
       "height": 720
     },
-    "floorHeight": 44,
     "maxFloors": 10,
     "minLayoutWidth": 1080,
-    "calculatedHeight": {
-      "battle": 695,
-      "preparation": 662
-    },
     "features": [
       "Fixed full hotel and basement without vertical hotel scrolling",
       "Hotel floor targeting replaces minimap",
@@ -1012,6 +1010,27 @@
       "No camera movement during preview, targeting, movement or purchase",
       "Readonly information and target cancellation preserve game state"
     ],
-    "verification": "85 rule/offline UI tests pass; layout height is source-derived, not browser pixel measurement"
+    "verification": "85 rule/offline UI tests pass; layout height is source-derived, not browser pixel measurement",
+    "floorSizing": {
+      "mode": "fill actual hotel panel height for ten floors plus basement",
+      "fallbackHeight": 44,
+      "sourceDerivedBaseline": {
+        "preparation": 49.8,
+        "battle": 46.5
+      },
+      "fewerFloors": "Same ten-floor unit size, bottom aligned; no unowned floors"
+    },
+    "durabilityDisplay": {
+      "progress": "12 cells, one per attack-progress point; current/max text",
+      "tokens": "Filled hearts for remaining tokens, hollow hearts for missing tokens; current/max text",
+      "checks": "Existing 85 tests passed; display samples 0/7/12 progress and 1/2 hearts checked without browser"
+    }
+  },
+  "ruleRevision": {
+    "version": "user-3-v1.1-act-reset",
+    "date": "2026-11-01",
+    "behavior": "On boss reward completion at act 1→2 and 2→3, restore every surviving placed/stored entity to maxP once. No within-act or final-victory restoration; destroyed/removed entities stay absent.",
+    "campaignRerun": false,
+    "validation": "52 engine and 36 offline UI tests passed; both act boundaries restore placed/stored survivors once, same-act damage persists, destroyed/removed entities remain absent, final victory does not restore."
   }
 }
