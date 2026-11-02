@@ -1,0 +1,145 @@
+{
+  "ruleVersion": "user-4-v1.1",
+  "classification": "fixed legal automatic policy; not human play or balance proof",
+  "policy": "Public map and offers; two-action preview beam; at most two paid rerolls per turn without looking ahead; all requested seeds retained.",
+  "results": [
+    {
+      "seed": 31001,
+      "phase": "lost",
+      "complete": true,
+      "stoppedByHarness": null,
+      "reason": "배치 괴이가 전멸했습니다.",
+      "act": 1,
+      "completed": [
+        0,
+        0,
+        0
+      ],
+      "turns": 28,
+      "rerolls": 0,
+      "kills": 0,
+      "escaped": 0,
+      "skipped": 0,
+      "earned": 0,
+      "spent": 0,
+      "destroyed": 4,
+      "visits": 0,
+      "combats": 1,
+      "expansions": 0,
+      "expansionSpent": 0,
+      "eventRemoved": 0,
+      "recoveries": 0,
+      "healedTokens": 0,
+      "recoveryWasted": 0,
+      "upgrades": 0,
+      "money": 4,
+      "floorCount": 6,
+      "equipped": [
+        "normal",
+        "normal",
+        "normal"
+      ],
+      "elapsedSeconds": 0,
+      "path": [
+        {
+          "id": "a1-d1-c0",
+          "act": 1,
+          "kind": "normal"
+        }
+      ],
+      "finalCreatures": []
+    },
+    {
+      "seed": 31002,
+      "phase": "lost",
+      "complete": true,
+      "stoppedByHarness": null,
+      "reason": "배치 괴이가 전멸했습니다.",
+      "act": 1,
+      "completed": [
+        0,
+        0,
+        0
+      ],
+      "turns": 29,
+      "rerolls": 0,
+      "kills": 1,
+      "escaped": 0,
+      "skipped": 0,
+      "earned": 2,
+      "spent": 0,
+      "destroyed": 4,
+      "visits": 0,
+      "combats": 1,
+      "expansions": 0,
+      "expansionSpent": 0,
+      "eventRemoved": 0,
+      "recoveries": 0,
+      "healedTokens": 0,
+      "recoveryWasted": 0,
+      "upgrades": 0,
+      "money": 6,
+      "floorCount": 6,
+      "equipped": [
+        "normal",
+        "normal",
+        "normal"
+      ],
+      "elapsedSeconds": 0,
+      "path": [
+        {
+          "id": "a1-d1-c0",
+          "act": 1,
+          "kind": "normal"
+        }
+      ],
+      "finalCreatures": []
+    },
+    {
+      "seed": 31003,
+      "phase": "lost",
+      "complete": true,
+      "stoppedByHarness": null,
+      "reason": "배치 괴이가 전멸했습니다.",
+      "act": 1,
+      "completed": [
+        0,
+        0,
+        0
+      ],
+      "turns": 34,
+      "rerolls": 0,
+      "kills": 1,
+      "escaped": 0,
+      "skipped": 0,
+      "earned": 2,
+      "spent": 0,
+      "destroyed": 4,
+      "visits": 0,
+      "combats": 1,
+      "expansions": 0,
+      "expansionSpent": 0,
+      "eventRemoved": 0,
+      "recoveries": 0,
+      "healedTokens": 0,
+      "recoveryWasted": 0,
+      "upgrades": 0,
+      "money": 6,
+      "floorCount": 6,
+      "equipped": [
+        "normal",
+        "normal",
+        "normal"
+      ],
+      "elapsedSeconds": 0,
+      "path": [
+        {
+          "id": "a1-d1-c0",
+          "act": 1,
+          "kind": "normal"
+        }
+      ],
+      "finalCreatures": []
+    }
+  ]
+}

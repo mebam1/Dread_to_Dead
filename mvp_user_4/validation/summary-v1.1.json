@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-02",
+  "ruleVersion": "user-4-v1.1",
+  "nodeVersion": "24.12.0",
+  "automatedTests": {
+    "command": "npm test",
+    "engine": 41,
+    "offlineUI": 18,
+    "passed": 59,
+    "failed": 0,
+    "classification": "Synthetic boundary and offline HTML/action checks; not balance evidence"
+  },
+  "http": {
+    "status": "passed",
+    "paths": ["/", "/app.js", "/styles.css", "/engine.js", "/catalog.mjs", "/core.mjs", "/campaign.mjs"],
+    "all200": true,
+    "moduleMime": "text/javascript"
+  },
+  "browser": {
+    "status": "limited smoke and layout checks passed",
+    "surface": "in-app browser, http://127.0.0.1:4175/",
+    "actions": ["new run", "map visit", "preparation", "start combat", "roll dice", "choose 3", "safe lure active", "move", "return to roll on turn 2"],
+    "verifiedEndState": {"turn": 2, "floor": 3, "fear": 2, "anxiety": 1, "gazeProgress": 4, "ownerProgress": 4},
+    "consoleErrors": [],
+    "tenFloorLayout": {
+      "classification": "synthetic static fixture; inactive controls",
+      "cssViewportApprox": [892, 712],
+      "allTenFloorBoxesInsideViewport": true,
+      "orderedLeftToRight": true,
+      "screenshot": "hotel-horizontal-10.jpg",
+      "generator": "../verify-layout.mjs"
+    },
+    "notVerified": ["full browser campaign", "all viewports", "mobile touch"]
+  },
+  "campaigns": {
+    "seeds": [31001, 31002, 31003],
+    "policies": ["compact", "spread", "aggressive", "survival"],
+    "runs": 12,
+    "wins": 0,
+    "losses": 12,
+    "furthest": {"seed": 31002, "policy": "survival", "completedVisits": 23, "lostAt": "act 3 final boss", "turns": 148},
+    "summaryFiles": ["campaign-summary.json", "campaign-spread-summary.json", "campaign-aggressive-summary.json", "campaign-survival-summary.json"],
+    "classification": "Legal fixed policies using public information. Not human play, proven winnability or balance validation. User creature stats preserved."
+  }
+}

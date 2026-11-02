@@ -14,6 +14,8 @@
 | [undecided.md](undecided.md) | 채택 완료 항목, 후속 검증·콘텐츠 후보, 구분된 과거 시험값 |
 | [mvps/mvp.md](mvps/mvp.md) | 현행 검증 계획과 구분된 과거 시연 기록 |
 | [mvp_user_3/README.md](mvp_user_3/README.md) | 현재 웹 프로토타입 실행·조작·검증 범위 |
+| [mvp_user_4/README.md](mvp_user_4/README.md) | 후속 실험: 13종 괴이·불안/탐욕/예언·속공·가로 호텔 웹 프로토타입 |
+| [mvps/mvp-config-user-4.md](mvps/mvp-config-user-4.md) | user-4 전용 설정·13종 기본/강화 수치·상태와 판정 순서 |
 | [mvps/mvp-config-user-3.md](mvps/mvp-config-user-3.md) | 현행 user-3 설정: 상점 증설·회복·강화·같은 막 손상 이월·새 막 토큰 복구 |
 | [모험](ui/adventure.md) · [준비](ui/prepare.md) · [전투](ui/battle.md) | 현행 화면·조작·예고·전체 호텔 표시 명세 |
 | 과거 사용자 설정 [1](mvps/mvp-config-user-1.md) · [2](mvps/mvp-config-user-2.md) | 8전투·블러드 웹을 사용한 이전 실험 조건 |

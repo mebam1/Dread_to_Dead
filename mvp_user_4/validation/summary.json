@@ -1,0 +1,191 @@
+{
+  "date": "2026-11-03",
+  "ruleVersion": "user-4-v1.2",
+  "nodeVersion": "24.12.0",
+  "automatedTests": {
+    "command": "npm test",
+    "engine": 44,
+    "offlineUI": 19,
+    "enemyBalance": 8,
+    "passed": 71,
+    "failed": 0,
+    "classification": "Rule, boundary, offline HTML/action and enemy tuning regression checks; not human balance evidence"
+  },
+  "statusCaps": {
+    "anxiety": 99,
+    "greed": 99,
+    "prophecy": 99,
+    "seal": 99,
+    "fire": 99,
+    "quickActionUses": 99
+  },
+  "openingComparison": {
+    "classification": "Fixed legal public-information policies, unchanged starting assets and layout, no escape; not human play",
+    "before": {
+      "source": "balance-v1.2/opening-before.json",
+      "clears": 1,
+      "runs": 120,
+      "averageTurnsRounded": 32.8,
+      "ruleVersion": "user-4-v1.1",
+      "label": "before",
+      "seeds": [
+        31001,
+        31020
+      ],
+      "columns": [
+        0,
+        1,
+        2
+      ],
+      "startingLayout": "unchanged",
+      "escape": false,
+      "policies": [
+        {
+          "policy": "simple",
+          "runs": 60,
+          "clears": 0,
+          "losses": 60,
+          "turnLimit": 0,
+          "averageTurns": 33.4,
+          "averageDestroyed": 4,
+          "minRemainingTokens": 0,
+          "averageRemainingTokens": 0
+        },
+        {
+          "policy": "cautious",
+          "runs": 60,
+          "clears": 1,
+          "losses": 59,
+          "turnLimit": 0,
+          "averageTurns": 32.2,
+          "averageDestroyed": 4,
+          "minRemainingTokens": 0,
+          "averageRemainingTokens": 0.1
+        }
+      ]
+    },
+    "final": {
+      "source": "balance-v1.2/opening-final-99.json",
+      "clears": 120,
+      "runs": 120,
+      "averageTurnsRounded": 13,
+      "destroyed": 0,
+      "breachTokensLost": 0,
+      "ruleVersion": "user-4-v1.2",
+      "label": "final-99",
+      "seeds": [
+        31001,
+        31020
+      ],
+      "columns": [
+        0,
+        1,
+        2
+      ],
+      "startingLayout": "unchanged",
+      "escape": false,
+      "policies": [
+        {
+          "policy": "simple",
+          "runs": 60,
+          "clears": 60,
+          "losses": 0,
+          "turnLimit": 0,
+          "averageTurns": 12.9,
+          "averageDestroyed": 0,
+          "minRemainingTokens": 8,
+          "averageRemainingTokens": 8
+        },
+        {
+          "policy": "cautious",
+          "runs": 60,
+          "clears": 60,
+          "losses": 0,
+          "turnLimit": 0,
+          "averageTurns": 13.1,
+          "averageDestroyed": 0,
+          "minRemainingTokens": 8,
+          "averageRemainingTokens": 8
+        }
+      ]
+    },
+    "intermediateOnly": [
+      "balance-v1.2/opening-after.json",
+      "balance-v1.2/enemies-only/",
+      "balance-v1.2/gentle-candidate/"
+    ]
+  },
+  "campaigns": {
+    "classification": "fixed legal automatic policy; not human play or balance proof",
+    "policy": "spread",
+    "summaryFile": "user-4-v1.2/campaign-spread-summary.json",
+    "runs": 3,
+    "wins": 2,
+    "losses": 1,
+    "results": [
+      {
+        "seed": 31001,
+        "result": "won",
+        "act": 3,
+        "completedVisits": 24,
+        "turns": 159,
+        "destroyed": 1,
+        "healedTokens": 6,
+        "escaped": 0,
+        "finalVisitedNode": "a3-d8-c1",
+        "reason": "3막 보스 처치와 마지막 괴이 보상을 마쳤습니다."
+      },
+      {
+        "seed": 31002,
+        "result": "lost",
+        "act": 3,
+        "completedVisits": 17,
+        "turns": 171,
+        "destroyed": 8,
+        "healedTokens": 2,
+        "escaped": 0,
+        "finalVisitedNode": "a3-d2-c1",
+        "reason": "배치 괴이가 전멸했습니다."
+      },
+      {
+        "seed": 31003,
+        "result": "won",
+        "act": 3,
+        "completedVisits": 24,
+        "turns": 132,
+        "destroyed": 0,
+        "healedTokens": 1,
+        "escaped": 0,
+        "finalVisitedNode": "a3-d8-c1",
+        "reason": "3막 보스 처치와 마지막 괴이 보상을 마쳤습니다."
+      }
+    ]
+  },
+  "browser": {
+    "status": "Limited display check; additional screen play omitted at user request",
+    "actions": [
+      "new run",
+      "first map visit",
+      "preparation",
+      "start combat",
+      "roll dice",
+      "choose 3"
+    ],
+    "verified": [
+      "opening guest fear limits 4 and 5",
+      "one guest heart",
+      "individual attack power 1",
+      "resource caps 99",
+      "attack forecast after dice selection"
+    ],
+    "movementExecuted": false,
+    "screenshot": "balance-v1.2/first-battle-99.jpg",
+    "notVerifiedThisVersion": [
+      "full browser campaign",
+      "all viewports",
+      "mobile touch",
+      "human difficulty and enjoyment"
+    ]
+  },
+  "historicalValidation": "summary-v1.1.json"
+}
