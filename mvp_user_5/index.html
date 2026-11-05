@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#202622">
+  <title>Dread to Dead · 괴이 호텔</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./decisions.css">
+  <link rel="stylesheet" href="./adventure-map.css">
+</head>
+<body>
+  <header class="mast"><div class="mast-inner">
+    <a class="wordmark" href="#table" data-home aria-label="Dread to Dead 모험 지도">
+      <svg viewBox="0 0 56 46" width="48" height="41" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m3 23 11-8 14-1 14 1 11 8-11 8-14 1-14-1Z"/><path d="M8 23q20-16 40 0-20 16-40 0Z"/><circle cx="28" cy="23" r="6"/><circle cx="28" cy="23" r="2" fill="currentColor"/><path d="m28 1 2 9-2 2-2-2Zm0 44 2-9-2-2-2 2ZM8 8l7 5m33-5-7 5M9 38l6-5m32 5-6-5M18 4l3 7m17-7-3 7"/></svg>
+      <span>Dread <i>to</i> Dead</span>
+    </a>
+    <nav aria-label="게임 메뉴">
+      <button type="button" data-view="map" class="current" aria-current="page"><i data-icon="map"></i>모험 지도</button>
+      <button type="button" data-view="hotel"><i data-icon="cards"></i>호텔 보기</button>
+      <button type="button" data-view="activity" hidden><i data-icon="key"></i><span></span></button>
+      <button data-panel="journal"><i data-icon="book"></i>영업 기록</button>
+    </nav>
+    <div class="tools"><button data-panel="guide" class="tool" aria-label="플레이 안내"><i data-icon="info"></i></button><button data-panel="settings" class="tool" aria-label="설정 및 새 판"><i data-icon="settings"></i></button></div>
+  </div></header>
+  <main id="table">
+    <header class="board-head"><div><div class="act-line" id="act-label">제 Ⅰ 막</div><h1>모험 지도</h1></div><div id="metrics" class="metrics"></div></header>
+    <div id="map-screen"></div>
+    <section id="hotel-screen" class="table-frame" aria-label="위 손님 카드 10장, 아래 층 카드 10장" hidden>
+      <div class="table-toolbar"><div class="board-caption"><i data-icon="layers"></i><h2>호텔 배치</h2><span>10층 순환</span></div>
+        <div class="deck-controls"><button id="zoom" class="text-button">카드 확대</button><button id="prev" class="square" aria-label="이전 층"><i data-icon="chevron-left"></i></button><span id="range"></span><button id="next" class="square" aria-label="다음 층"><i data-icon="chevron-right"></i></button></div></div>
+      <div class="board-body"><div class="axis" aria-hidden="true"><span>손님</span><span>괴이</span></div><div id="track" tabindex="0" aria-label="층별 카드 · 가로 스크롤"></div></div>
+      <div id="quick-prompt" hidden><span id="quick-instruction" role="status"></span><button type="button" data-cancel-quick>취소</button></div>
+      <div class="table-foot">
+        <div class="guest-readout">
+          <button type="button" id="arrival-portrait" data-panel="guest" aria-haspopup="dialog" aria-label="손님 상세" hidden></button>
+          <div><div class="guest-heading"><span id="location"></span><strong id="board-fear"></strong><span id="arrival-gains"></span></div>
+            <div id="arrival-history"></div></div>
+        </div>
+        <span class="reading-order">1층 <b>⟶</b> 10층 <b>↻</b> 1층</span>
+      </div>
+    </section>
+    <div id="notice" role="status" aria-live="polite"></div>
+    <section id="decisions" aria-label="현재 결정"></section>
+  </main>
+  <dialog id="modal"><div id="modal-body"></div></dialog>
+  <script type="module" src="./app.js"></script>
+</body></html>

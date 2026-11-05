@@ -1,0 +1,12 @@
+{
+  "name": "dread-to-dead-text-17",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node cli.mjs play",
+    "test": "node --test",
+    "verify": "node verify-campaign.mjs"
+  }
+}
