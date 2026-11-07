@@ -1,0 +1,203 @@
+{
+  "classification": "direct manual CLI play, partial expedition checkpoint",
+  "seed": 31001,
+  "decisions": 57,
+  "version": "text-18-v1.5",
+  "phase": "map",
+  "act": 1,
+  "coins": 3,
+  "companions": 6,
+  "visited": 5,
+  "rounds": {
+    "total": 19,
+    "max": 10,
+    "over15": 0
+  },
+  "battles": [
+    {
+      "rounds": 10,
+      "kills": 3,
+      "companionLosses": 1,
+      "hpDamageDealt": 6,
+      "hpDamageTaken": 8,
+      "healing": 1,
+      "firstKillRound": 1,
+      "secondKillRound": 6,
+      "emptyRowAssignments": 13,
+      "node": "1-1-중",
+      "act": 1,
+      "depth": 1,
+      "kind": "normal",
+      "outcome": "win",
+      "coins": 3,
+      "survivors": [
+        {
+          "id": "c2",
+          "hp": 3,
+          "maxHp": 4
+        },
+        {
+          "id": "c3",
+          "hp": 3,
+          "maxHp": 3
+        }
+      ]
+    },
+    {
+      "rounds": 4,
+      "kills": 3,
+      "companionLosses": 0,
+      "hpDamageDealt": 5,
+      "hpDamageTaken": 3,
+      "healing": 0,
+      "firstKillRound": 1,
+      "secondKillRound": 3,
+      "emptyRowAssignments": 2,
+      "node": "1-2-좌",
+      "act": 1,
+      "depth": 2,
+      "kind": "normal",
+      "outcome": "win",
+      "coins": 6,
+      "survivors": [
+        {
+          "id": "c2",
+          "hp": 3,
+          "maxHp": 4
+        },
+        {
+          "id": "c3",
+          "hp": 3,
+          "maxHp": 3
+        },
+        {
+          "id": "c4",
+          "hp": 3,
+          "maxHp": 6
+        }
+      ]
+    },
+    {
+      "rounds": 5,
+      "kills": 3,
+      "companionLosses": 0,
+      "hpDamageDealt": 6,
+      "hpDamageTaken": 4,
+      "healing": 0,
+      "firstKillRound": 1,
+      "secondKillRound": 4,
+      "emptyRowAssignments": 5,
+      "node": "1-4-중",
+      "act": 1,
+      "depth": 4,
+      "kind": "normal",
+      "outcome": "win",
+      "coins": 9,
+      "survivors": [
+        {
+          "id": "c5",
+          "hp": 2,
+          "maxHp": 3
+        },
+        {
+          "id": "c3",
+          "hp": 3,
+          "maxHp": 3
+        },
+        {
+          "id": "c4",
+          "hp": 3,
+          "maxHp": 6
+        },
+        {
+          "id": "c2",
+          "hp": 4,
+          "maxHp": 4
+        }
+      ]
+    }
+  ],
+  "purchases": [
+    {
+      "act": 1,
+      "node": "1-5-중",
+      "depth": 5,
+      "slot": 2,
+      "type": "warPriest",
+      "price": 6,
+      "coins": 3
+    }
+  ],
+  "acquired": [
+    {
+      "id": "c1",
+      "type": "paladin",
+      "source": "start",
+      "act": 1,
+      "node": null,
+      "position": 2
+    },
+    {
+      "id": "c2",
+      "type": "saint",
+      "source": "start",
+      "act": 1,
+      "node": null,
+      "position": 1
+    },
+    {
+      "id": "c3",
+      "type": "choir",
+      "source": "start",
+      "act": 1,
+      "node": null,
+      "position": 3
+    },
+    {
+      "id": "c4",
+      "type": "paladin",
+      "source": "reward",
+      "act": 1,
+      "node": "1-1-중",
+      "position": 2
+    },
+    {
+      "id": "c5",
+      "type": "sprayer",
+      "source": "reward",
+      "act": 1,
+      "node": "1-2-좌",
+      "position": 4
+    },
+    {
+      "id": "c6",
+      "type": "choir",
+      "source": "reward",
+      "act": 1,
+      "node": "1-4-중",
+      "position": 5
+    },
+    {
+      "id": "c7",
+      "type": "warPriest",
+      "source": "shop",
+      "act": 1,
+      "node": "1-5-중",
+      "position": 6
+    }
+  ],
+  "losses": [
+    {
+      "id": "c1",
+      "type": "paladin",
+      "act": 1,
+      "node": "1-1-중",
+      "round": 6,
+      "position": 2,
+      "cause": "counterattack"
+    }
+  ],
+  "fusions": [],
+  "upgrades": [],
+  "replayMatches": true
+}

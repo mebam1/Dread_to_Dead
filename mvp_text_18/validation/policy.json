@@ -1,0 +1,11 @@
+{
+  "information": "publicView only; actual current-round preview for each of six assignments. No RNG state, seed-conditioned choice, future rolls, unopened inventory, or save replay.",
+  "map": "Visible enemy HP, attack, pattern and available maintenance; middle column breaks otherwise equal choices.",
+  "arrangement": "Deterministic pair-swap hill climb on adjacency synergy, first-entry reach and path-attack exposure. No dice have been rolled during this choice.",
+  "assignment": "Weighted mean (80%) and worst (20%) of conditional public preview outcomes; death avoidance, enemy kills, friendly HP, damage and a uniform next-face geometric tie break.",
+  "acquisition": "Static role scores adjusted for current roster; buys useful visible stock, fills empty places, replaces only on a full board.",
+  "healing": "Use quick healing only for at least two actual HP recovery on a currently unpoisoned neighbor; accept one poison as the cost.",
+  "fusion": "At least six surviving bodies, preserve a durable A and favor damaged B; skip when lost HP or adjacency outweighs combined effects.",
+  "retreat": "Only when all complete current-round branches predict defeat, and a reachable empty tile exists; never retreat from bosses.",
+  "baseline": "Same deterministic policy except assignment is always D1/D2/D3. Later state and choices may diverge; this is a policy comparison, not a fully matched causal experiment."
+}

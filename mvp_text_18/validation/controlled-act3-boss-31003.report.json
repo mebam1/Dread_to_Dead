@@ -1,0 +1,280 @@
+{
+  "setup": {
+    "classification": "controlled fixture, not a normal campaign result",
+    "purpose": "Exercise actual act-3 elite/boss movement, protection/alternating counterattacks and end processing with all 11 companion effects.",
+    "modifications": "Ten full-health upgraded bodies are inserted; paladin A includes an upgraded crusader B. No normal reward/economy claim. Battle templates and combat rules are unchanged.",
+    "roster": [
+      {
+        "id": "c1",
+        "type": "paladin",
+        "upgraded": true,
+        "fusion": {
+          "bType": "crusader",
+          "bUpgraded": true,
+          "aId": "fixture-A",
+          "bId": "fixture-B"
+        },
+        "hp": 10,
+        "tokens": {
+          "quick": 0,
+          "poison": 0,
+          "exhaustion": 0,
+          "rage": 0
+        },
+        "defense": 0,
+        "guardUsed": {
+          "A": 0,
+          "B": 0
+        }
+      },
+      {
+        "id": "c2",
+        "type": "saint",
+        "upgraded": true,
+        "fusion": null,
+        "hp": 4,
+        "tokens": {
+          "quick": 0,
+          "poison": 0,
+          "exhaustion": 0,
+          "rage": 0
+        },
+        "defense": 0,
+        "guardUsed": {
+          "A": 0,
+          "B": 0
+        }
+      },
+      {
+        "id": "c3",
+        "type": "choir",
+        "upgraded": true,
+        "fusion": null,
+        "hp": 3,
+        "tokens": {
+          "quick": 0,
+          "poison": 0,
+          "exhaustion": 0,
+          "rage": 0
+        },
+        "defense": 0,
+        "guardUsed": {
+          "A": 0,
+          "B": 0
+        }
+      },
+      {
+        "id": "c4",
+        "type": "holyPriest",
+        "upgraded": true,
+        "fusion": null,
+        "hp": 3,
+        "tokens": {
+          "quick": 0,
+          "poison": 0,
+          "exhaustion": 0,
+          "rage": 0
+        },
+        "defense": 0,
+        "guardUsed": {
+          "A": 0,
+          "B": 0
+        }
+      },
+      {
+        "id": "c5",
+        "type": "warPriest",
+        "upgraded": true,
+        "fusion": null,
+        "hp": 4,
+        "tokens": {
+          "quick": 0,
+          "poison": 0,
+          "exhaustion": 0,
+          "rage": 0
+        },
+        "defense": 0,
+        "guardUsed": {
+          "A": 0,
+          "B": 0
+        }
+      },
+      {
+        "id": "c6",
+        "type": "squire",
+        "upgraded": true,
+        "fusion": null,
+        "hp": 5,
+        "tokens": {
+          "quick": 0,
+          "poison": 0,
+          "exhaustion": 0,
+          "rage": 0
+        },
+        "defense": 0,
+        "guardUsed": {
+          "A": 0,
+          "B": 0
+        }
+      },
+      {
+        "id": "c7",
+        "type": "cardinal",
+        "upgraded": true,
+        "fusion": null,
+        "hp": 4,
+        "tokens": {
+          "quick": 0,
+          "poison": 0,
+          "exhaustion": 0,
+          "rage": 0
+        },
+        "defense": 0,
+        "guardUsed": {
+          "A": 0,
+          "B": 0
+        }
+      },
+      {
+        "id": "c8",
+        "type": "sprayer",
+        "upgraded": true,
+        "fusion": null,
+        "hp": 3,
+        "tokens": {
+          "quick": 0,
+          "poison": 0,
+          "exhaustion": 0,
+          "rage": 0
+        },
+        "defense": 0,
+        "guardUsed": {
+          "A": 0,
+          "B": 0
+        }
+      },
+      {
+        "id": "c9",
+        "type": "gourmet",
+        "upgraded": true,
+        "fusion": null,
+        "hp": 3,
+        "tokens": {
+          "quick": 0,
+          "poison": 0,
+          "exhaustion": 0,
+          "rage": 0
+        },
+        "defense": 0,
+        "guardUsed": {
+          "A": 0,
+          "B": 0
+        }
+      },
+      {
+        "id": "c10",
+        "type": "toxicHealer",
+        "upgraded": true,
+        "fusion": null,
+        "hp": 4,
+        "tokens": {
+          "quick": 0,
+          "poison": 0,
+          "exhaustion": 0,
+          "rage": 0
+        },
+        "defense": 0,
+        "guardUsed": {
+          "A": 0,
+          "B": 0
+        }
+      }
+    ],
+    "enemyTemplate": [
+      {
+        "type": "boss-3",
+        "role": "attack",
+        "pattern": "alternate",
+        "attack": 4,
+        "maxHp": 24,
+        "protection": 0,
+        "rows": [
+          0,
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "seed": 31003,
+    "kind": "boss",
+    "classification": "controlled-fixture",
+    "status": "completed",
+    "stopReason": null,
+    "outcome": "win",
+    "rounds": 3,
+    "companionLosses": 3,
+    "hpDamageDealt": 24,
+    "hpDamageTaken": 20,
+    "healing": 0,
+    "survivors": 7,
+    "remainingHp": 23,
+    "commands": 12,
+    "randomTargets": 2
+  },
+  "battle": {
+    "rounds": 3,
+    "kills": 1,
+    "companionLosses": 3,
+    "hpDamageDealt": 24,
+    "hpDamageTaken": 20,
+    "healing": 0,
+    "firstKillRound": 3,
+    "secondKillRound": null,
+    "emptyRowAssignments": 0,
+    "node": "3-18-공통",
+    "act": 3,
+    "depth": 18,
+    "kind": "boss",
+    "outcome": "win",
+    "coins": 3,
+    "survivors": [
+      {
+        "id": "c8",
+        "hp": 3,
+        "maxHp": 3
+      },
+      {
+        "id": "c2",
+        "hp": 4,
+        "maxHp": 4
+      },
+      {
+        "id": "c3",
+        "hp": 3,
+        "maxHp": 3
+      },
+      {
+        "id": "c1",
+        "hp": 2,
+        "maxHp": 10
+      },
+      {
+        "id": "c5",
+        "hp": 4,
+        "maxHp": 4
+      },
+      {
+        "id": "c9",
+        "hp": 3,
+        "maxHp": 3
+      },
+      {
+        "id": "c10",
+        "hp": 4,
+        "maxHp": 4
+      }
+    ]
+  }
+}

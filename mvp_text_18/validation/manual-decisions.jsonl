@@ -1,0 +1,57 @@
+{"node":null,"round":null,"command":"visit","args":["1-1-중"],"reason":"중앙 경로를 선택해 다음 노드의 선택지를 세 개 유지한다."}
+{"node":"1-1-중","round":null,"command":"start","args":[],"reason":"첫 전투는 성녀-성기사-성가대원 기본 보호 배치의 실제 지속력을 확인한다."}
+{"node":"1-1-중","round":1,"command":"choose","args":["3"],"reason":"지원형을 3번으로 유도해 처치하고 성녀에게 들어오는 피해 1을 줄인다. A와 C는 같은 2번에 남겨 후속 광역 기회를 만든다."}
+{"node":"1-1-중","round":1,"command":"move","args":[],"reason":"미리보기에서 생존 3명과 지원형 처치를 확인했으므로 이동한다."}
+{"node":"1-1-중","round":2,"command":"choose","args":["4"],"reason":"빈 가운데 행에 작은 눈을 버리고 A 체력을 1로 깎는다. 3번 배분은 성기사가 사망하므로 피한다."}
+{"node":"1-1-중","round":2,"command":"move","args":[],"reason":"성기사 생존을 유지하는 배분으로 진행한다."}
+{"node":"1-1-중","round":3,"command":"choose","args":["4"],"reason":"이번 라운드의 모든 공격적 배분에서 성기사가 죽는다. A를 9번 C를 10번까지 보내 다음 순환에서 1~3번 도착 기회를 만든다."}
+{"node":"1-1-중","round":3,"command":"move","args":[],"reason":"피해 없이 적을 전장 끝까지 유도한다."}
+{"node":"1-1-중","round":4,"command":"choose","args":["6"],"reason":"C를 성녀 위치로 유도해 성기사 회복을 시도한다. A는 5번으로 보내 다음 순환을 앞당긴다."}
+{"node":"1-1-중","round":4,"command":"move","args":[],"reason":"추가 상실 없이 다음 공격 기회를 기다린다."}
+{"node":"1-1-중","round":5,"command":"choose","args":["3"],"reason":"6을 A에게 주면 도착 반격으로 성기사가 사망한다. A에게 4를 주어 생존을 유지한다."}
+{"node":"1-1-중","round":5,"command":"move","args":[],"reason":"손실을 피하고 순환 뒤의 결정타를 노린다."}
+{"node":"1-1-중","round":6,"command":"choose","args":["5"],"reason":"성기사 상실을 감수하고 A를 확실히 처치하며 C도 체력 1까지 줄인다. 회피만 반복하면 공격 기회가 계속 밀린다."}
+{"node":"1-1-중","round":6,"command":"move","args":[],"reason":"적을 한 명으로 줄여 성가대원의 마지막 일격을 노린다."}
+{"node":"1-1-중","round":7,"command":"choose","args":["1"],"reason":"남은 C에게 큰 눈 4를 주어 성가대원 옆 반격을 피하고 다음 순환을 앞당긴다. 작은 눈 둘은 처치된 행에 배분한다."}
+{"node":"1-1-중","round":7,"command":"move","args":[],"reason":"마지막 적의 다음 도착 기회를 준비한다."}
+{"node":"1-1-중","round":8,"command":"choose","args":["1"],"reason":"세 눈이 모두 1이므로 여섯 배분의 결과가 같다. 기본 배분을 사용한다."}
+{"node":"1-1-중","round":8,"command":"move","args":[],"reason":"선택에 차이가 없는 라운드를 진행한다."}
+{"node":"1-1-중","round":9,"command":"choose","args":["2"],"reason":"같은 체력 1 손실이라면 무작위 패널티보다 C를 2번으로 보내 다음 눈 1에 성가대원 결정타가 가능하도록 한다."}
+{"node":"1-1-중","round":9,"command":"move","args":[],"reason":"마지막 적을 공격 지점 직전에 둔다."}
+{"node":"1-1-중","round":10,"command":"choose","args":["2"],"reason":"C에게 눈 1을 주면 3번 성가대원에 도착해 확정 완승한다. 큰 눈 5는 빈 행에 배분한다."}
+{"node":"1-1-중","round":10,"command":"move","args":[],"reason":"최종 처치 뒤 라운드 종료와 체력 이월까지 확인한다."}
+{"node":"1-1-중","round":null,"command":"reward","args":["3"],"reason":"공격 독 공급이 없어 미식가는 기여하기 어렵다. 상실한 성기사를 보충해 남은 성가대원을 보호한다."}
+{"node":"1-1-중","round":null,"command":"place","args":["2"],"reason":"우선 빈 2번에 성기사를 배치해 현재 체력은 새 동료만 전량임을 확인한다."}
+{"node":"1-1-중","round":null,"command":"swap","args":["2","3"],"reason":"성가대원을 가운데에 놓아 성녀와 성기사의 두 도착 모두 반응 공격을 유발하도록 한다. 성기사가 성녀를 보호하지 못하는 대가를 감수한다."}
+{"node":"1-1-중","round":null,"command":"visit","args":["1-2-좌"],"reason":"보호형 C가 없는 AAB 편성으로 적 내구와 방어 제공 부담을 줄인다."}
+{"node":"1-2-좌","round":null,"command":"start","args":[],"reason":"회복 노드 전 두 번째 전투다. 성가대원 중앙 배치로 1~3번 모두 공격 기회를 갖는다."}
+{"node":"1-2-좌","round":1,"command":"choose","args":["2"],"reason":"지원형을 성가대원에 보내 처치하고 가운데 A는 성기사 방어를 발동하게 해 성기사 피해를 1로 줄인다."}
+{"node":"1-2-좌","round":1,"command":"move","args":[],"reason":"적 지원 제거와 생존을 함께 만족하는 배분을 실행한다."}
+{"node":"1-2-좌","round":2,"command":"choose","args":["5"],"reason":"현재 피해 결과는 여섯 배분 모두 같다. 큰 두 눈을 생존한 A들에게 주어 다음 순환 접근을 앞당긴다."}
+{"node":"1-2-좌","round":2,"command":"move","args":[],"reason":"공격 기회 없는 구간을 빠르게 통과한다."}
+{"node":"1-2-좌","round":3,"command":"choose","args":["4"],"reason":"성기사 체력 2를 써서 가운데 A를 처치하고 아래 A도 1체력으로 만든다. 다음 눈 1이면 성기사 도착 반응으로 마지막 적을 처치할 수 있다."}
+{"node":"1-2-좌","round":3,"command":"move","args":[],"reason":"회복 노드 직전이므로 사망 없는 체력 손실을 감수해 전투를 줄인다."}
+{"node":"1-2-좌","round":4,"command":"choose","args":["1"],"reason":"아래 A에게 눈 1을 주어 성기사 도착 반응으로 확정 처치한다."}
+{"node":"1-2-좌","round":4,"command":"move","args":[],"reason":"성가대원 중앙 배치가 만든 마지막 반응 공격을 실행한다."}
+{"node":"1-2-좌","round":null,"command":"reward","args":["3"],"reason":"도착 눈만 기다리는 공백을 줄이기 위해 통과 가스 공급원을 추가한다."}
+{"node":"1-2-좌","round":null,"command":"place","args":["4"],"reason":"새 동료를 빈 지점에 배치한 뒤 전투 전 재배치로 앞쪽 통과를 활용한다."}
+{"node":"1-2-좌","round":null,"command":"visit","args":["1-3-중"],"reason":"회복 노드에서 성녀 3/4와 성기사 3/6이 한 번에 전량 회복되는지 확인하고 다음 선택지를 세 개 유지한다."}
+{"node":"1-3-중","round":null,"command":"swap","args":["1","4"],"reason":"把 살포요원을 1번 통과 지점으로 옮기고 성녀를 4번으로 옮겨 성기사와 인접 회복을 복구한다."}
+{"node":"1-3-중","round":null,"command":"visit","args":["1-4-중"],"reason":"공격형이 두 명인 BCD보다 지원·보호 역할이 분리된 ABC를 선택한다. 동일한 중앙 첫 전투와 가스 추가 후를 관찰한다."}
+{"node":"1-4-중","round":null,"command":"start","args":[],"reason":"살포 통과와 뒤 행 가스 흡수가 공격 공백을 줄이는지 확인한다."}
+{"node":"1-4-중","round":1,"command":"choose","args":["1"],"reason":"아래 A가 먼저 1번을 통과해 가스를 만들고, B가 1번에 도착해 독을 흡수하도록 한다. 다른 배분보다 살포요원과 성기사 체력이 많이 남는다."}
+{"node":"1-4-중","round":1,"command":"move","args":[],"reason":"가스의 설치-후속 방문-종료 독 피해를 실제로 확인한다."}
+{"node":"1-4-중","round":2,"command":"choose","args":["3"],"reason":"A에게 눈 5를 주어 1번 살포요원 도착 사망을 피한다. 두 적을 10번에 모아 다음 라운드 같은 전선의 가스와 광역을 노린다."}
+{"node":"1-4-중","round":2,"command":"move","args":[],"reason":"살포요원을 보존하고 두 적을 경계 앞에 둔다."}
+{"node":"1-4-중","round":3,"command":"choose","args":["2"],"reason":"C는 가스로 체력 1까지 줄어드는 결과가 같다. 반격이 빈 지점에 떨어지는 배분으로 성기사 체력을 보존한다."}
+{"node":"1-4-중","round":3,"command":"move","args":[],"reason":"지속 독 공급으로 도착 공격 없이 진전한다."}
+{"node":"1-4-중","round":4,"command":"choose","args":["5"],"reason":"눈 6을 C에게 주어 성가대원 도착으로 처치한다. A는 10번으로 보내 다음 2·3번 도착을 노린다."}
+{"node":"1-4-중","round":4,"command":"move","args":[],"reason":"지원형 다음으로 보호형을 제거해 남은 A의 보호가 사라지는지 확인한다."}
+{"node":"1-4-중","round":5,"command":"choose","args":["1"],"reason":"A를 성기사에게 보내 반응 피해와 종료 독으로 완승한다. 성가대원에 직접 보내는 경우보다 성기사 체력 1을 더 보존한다."}
+{"node":"1-4-중","round":5,"command":"move","args":[],"reason":"가스가 도착 공격 부족분을 보완하는 최종 종료를 실행한다."}
+{"node":"1-4-중","round":null,"command":"reward","args":["1"],"reason":"성가대원을 추가해 두 인접 도착 반응을 더 만들고 공격 가능한 지점을 늘린다."}
+{"node":"1-4-중","round":null,"command":"place","args":["5"],"reason":"성녀 오른쪽에 새 성가대원을 놓아 성녀 도착도 공격 반응으로 전환한다."}
+{"node":"1-4-중","round":null,"command":"visit","args":["1-5-중"],"reason":"보유 재화 9로 동료 한 명을 구매할 수 있다. 공개 전 재고는 읽지 않고 중앙 상점 방문을 확정한다."}
+{"node":"1-5-중","round":null,"command":"buy","args":["2"],"reason":"성기사 주변의 체력 손실을 분노 공격으로 바꿀 전투사제를 구매한다. 동료 가격 6과 잔액 3을 확인한다."}
+{"node":"1-5-중","round":null,"command":"place","args":["6"],"reason":"빈 6번에 전투사제를 배치한다. 구매만으로 기존 성기사와 살포요원의 체력은 회복되지 않는다."}
+{"node":"1-5-중","round":null,"command":"leave","args":[],"reason":"추가 구매 재화가 부족하므로 상점을 완료한다. 세 전투와 회복·구매를 직접 검증한 상태를 이어하기용으로 남긴다."}

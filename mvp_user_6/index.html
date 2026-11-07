@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142723">
+  <title>Dread to Dead · 안개숲 원정</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./campaign.css">
+  <link rel="stylesheet" href="./battle.css">
+</head>
+<body>
+  <header class="mast">
+    <div class="mast-inner">
+      <a class="wordmark" href="#map" id="brand" aria-label="Dread to Dead 원정 지도">
+        <svg class="emblem" viewBox="0 0 48 48" aria-hidden="true"><path fill="none" stroke="currentColor" d="M24 2 45 24 24 46 3 24Z M24 6l17 18-17 18L7 24Z"/><path fill="currentColor" d="m24 8-7 12h4l-8 10h8v6h6v-6h8l-8-10h4Z"/><path stroke="#203a31" fill="none" d="M24 17v16m0-7-4-4m4 7 5-5"/></svg>
+        <span>Dread <i>to</i> Dead</span>
+      </a>
+      <nav id="navigation" class="main-nav" aria-label="게임 화면"></nav>
+      <div id="tools" class="mast-tools"></div>
+    </div>
+  </header>
+  <main id="main" class="shell">
+    <div id="stage" aria-label="진행 화면"><p class="loading">원정 기록을 펼치는 중…</p></div>
+    <section id="roster" class="roster" hidden aria-label="현재 동료"></section>
+  </main>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="dialog" aria-labelledby="dialog-title">
+    <div class="dialog-head"><h2 id="dialog-title"></h2><button type="button" class="icon-button" id="dialog-close" aria-label="닫기">×</button></div>
+    <div id="dialog-body"></div>
+  </dialog>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

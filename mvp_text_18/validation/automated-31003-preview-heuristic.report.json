@@ -1,0 +1,1936 @@
+{
+  "summary": {
+    "seed": 31003,
+    "policy": "preview-heuristic",
+    "version": "text-18-v1.5",
+    "status": "completed",
+    "stopReason": null,
+    "outcome": "lost",
+    "act": 3,
+    "depth": 13,
+    "visited": 48,
+    "decisions": 355,
+    "resolvedRounds": 73,
+    "battles": 25,
+    "wins": 18,
+    "defeats": 1,
+    "escapes": 6,
+    "roundsOver15": 0,
+    "maxBattleRounds": 8,
+    "companionsRemaining": 0,
+    "hpRemaining": 0,
+    "battleLosses": 19,
+    "replacements": 11,
+    "coinsEarned": 56,
+    "coinsRemaining": 2,
+    "rewardsPlaced": 18,
+    "purchases": 9,
+    "purchasedPlaced": 9,
+    "fusions": 0,
+    "upgrades": 7,
+    "recoveryVisits": 11,
+    "recoveryHp": 38,
+    "quickCasts": 0,
+    "randomTargetEvents": 14,
+    "inactivityPenalties": 0,
+    "assignments": 73,
+    "nonDefaultAssignments": 36,
+    "differingAssignmentStates": 61,
+    "incompletePreviews": 0,
+    "elapsedSeconds": 0.86
+  },
+  "report": {
+    "seed": 31003,
+    "version": "text-18-v1.5",
+    "phase": "lost",
+    "act": 3,
+    "coins": 2,
+    "companions": 0,
+    "visited": 48,
+    "rounds": {
+      "total": 73,
+      "max": 8,
+      "over15": 0
+    },
+    "battles": [
+      {
+        "rounds": 4,
+        "kills": 3,
+        "companionLosses": 0,
+        "hpDamageDealt": 5,
+        "hpDamageTaken": 3,
+        "healing": 0,
+        "firstKillRound": 1,
+        "secondKillRound": 3,
+        "emptyRowAssignments": 2,
+        "node": "1-1-중",
+        "act": 1,
+        "depth": 1,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 3,
+        "survivors": [
+          {
+            "id": "c1",
+            "hp": 3,
+            "maxHp": 6
+          },
+          {
+            "id": "c3",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c2",
+            "hp": 4,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 2,
+        "kills": 3,
+        "companionLosses": 0,
+        "hpDamageDealt": 5,
+        "hpDamageTaken": 0,
+        "healing": 0,
+        "firstKillRound": 1,
+        "secondKillRound": 1,
+        "emptyRowAssignments": 1,
+        "node": "1-2-중",
+        "act": 1,
+        "depth": 2,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 6,
+        "survivors": [
+          {
+            "id": "c2",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c3",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c4",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c1",
+            "hp": 3,
+            "maxHp": 6
+          }
+        ]
+      },
+      {
+        "rounds": 2,
+        "kills": 3,
+        "companionLosses": 0,
+        "hpDamageDealt": 5,
+        "hpDamageTaken": 0,
+        "healing": 0,
+        "firstKillRound": 1,
+        "secondKillRound": 1,
+        "emptyRowAssignments": 1,
+        "node": "1-4-우",
+        "act": 1,
+        "depth": 4,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 9,
+        "survivors": [
+          {
+            "id": "c5",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c4",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c3",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c1",
+            "hp": 6,
+            "maxHp": 6
+          },
+          {
+            "id": "c2",
+            "hp": 4,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 2,
+        "kills": 3,
+        "companionLosses": 0,
+        "hpDamageDealt": 5,
+        "hpDamageTaken": 0,
+        "healing": 0,
+        "firstKillRound": 1,
+        "secondKillRound": 2,
+        "emptyRowAssignments": 0,
+        "node": "1-6-우",
+        "act": 1,
+        "depth": 6,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 6,
+        "survivors": [
+          {
+            "id": "c5",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c4",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c3",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c7",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c1",
+            "hp": 6,
+            "maxHp": 6
+          },
+          {
+            "id": "c2",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c6",
+            "hp": 3,
+            "maxHp": 3
+          }
+        ]
+      },
+      {
+        "rounds": 2,
+        "kills": 3,
+        "companionLosses": 0,
+        "hpDamageDealt": 6,
+        "hpDamageTaken": 0,
+        "healing": 0,
+        "firstKillRound": 2,
+        "secondKillRound": 2,
+        "emptyRowAssignments": 0,
+        "node": "1-8-중",
+        "act": 1,
+        "depth": 8,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 9,
+        "survivors": [
+          {
+            "id": "c5",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c3",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c4",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c8",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c7",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c1",
+            "hp": 6,
+            "maxHp": 6
+          },
+          {
+            "id": "c2",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c6",
+            "hp": 3,
+            "maxHp": 3
+          }
+        ]
+      },
+      {
+        "rounds": 2,
+        "kills": 3,
+        "companionLosses": 0,
+        "hpDamageDealt": 5,
+        "hpDamageTaken": 2,
+        "healing": 0,
+        "firstKillRound": 1,
+        "secondKillRound": 2,
+        "emptyRowAssignments": 0,
+        "node": "1-11-중",
+        "act": 1,
+        "depth": 11,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 12,
+        "survivors": [
+          {
+            "id": "c6",
+            "hp": 1,
+            "maxHp": 3
+          },
+          {
+            "id": "c5",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c7",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c4",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c8",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c3",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c2",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c1",
+            "hp": 6,
+            "maxHp": 6
+          },
+          {
+            "id": "c9",
+            "hp": 4,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 1,
+        "kills": 3,
+        "companionLosses": 0,
+        "hpDamageDealt": 6,
+        "hpDamageTaken": 0,
+        "healing": 0,
+        "firstKillRound": 1,
+        "secondKillRound": 1,
+        "emptyRowAssignments": 0,
+        "node": "1-13-중",
+        "act": 1,
+        "depth": 13,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 15,
+        "survivors": [
+          {
+            "id": "c10",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c9",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c7",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c5",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c4",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c8",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c3",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c1",
+            "hp": 6,
+            "maxHp": 6
+          },
+          {
+            "id": "c2",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c6",
+            "hp": 3,
+            "maxHp": 3
+          }
+        ]
+      },
+      {
+        "rounds": 1,
+        "kills": 1,
+        "companionLosses": 1,
+        "hpDamageDealt": 5,
+        "hpDamageTaken": 3,
+        "healing": 0,
+        "firstKillRound": 1,
+        "secondKillRound": null,
+        "emptyRowAssignments": 0,
+        "node": "1-15-중",
+        "act": 1,
+        "depth": 15,
+        "kind": "elite",
+        "outcome": "win",
+        "coins": 18,
+        "survivors": [
+          {
+            "id": "c11",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c5",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c4",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c7",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c8",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c3",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c1",
+            "hp": 6,
+            "maxHp": 6
+          },
+          {
+            "id": "c2",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c10",
+            "hp": 3,
+            "maxHp": 3
+          }
+        ]
+      },
+      {
+        "rounds": 1,
+        "kills": 1,
+        "companionLosses": 0,
+        "hpDamageDealt": 5,
+        "hpDamageTaken": 0,
+        "healing": 0,
+        "firstKillRound": 1,
+        "secondKillRound": null,
+        "emptyRowAssignments": 0,
+        "node": "1-18-공통",
+        "act": 1,
+        "depth": 18,
+        "kind": "boss",
+        "outcome": "win",
+        "coins": 3,
+        "survivors": [
+          {
+            "id": "c11",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c15",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c4",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c5",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c7",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c8",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c3",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c14",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c2",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c13",
+            "hp": 4,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 2,
+        "kills": 3,
+        "companionLosses": 0,
+        "hpDamageDealt": 12,
+        "hpDamageTaken": 4,
+        "healing": 0,
+        "firstKillRound": 1,
+        "secondKillRound": 1,
+        "emptyRowAssignments": 2,
+        "node": "2-1-좌",
+        "act": 2,
+        "depth": 1,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 6,
+        "survivors": [
+          {
+            "id": "c11",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c14",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c4",
+            "hp": 1,
+            "maxHp": 3
+          },
+          {
+            "id": "c5",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c7",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c8",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c3",
+            "hp": 1,
+            "maxHp": 3
+          },
+          {
+            "id": "c16",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c2",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c13",
+            "hp": 4,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 3,
+        "kills": 3,
+        "companionLosses": 0,
+        "hpDamageDealt": 12,
+        "hpDamageTaken": 8,
+        "healing": 0,
+        "firstKillRound": 1,
+        "secondKillRound": 2,
+        "emptyRowAssignments": 2,
+        "node": "2-2-중",
+        "act": 2,
+        "depth": 2,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 9,
+        "survivors": [
+          {
+            "id": "c11",
+            "hp": 1,
+            "maxHp": 3
+          },
+          {
+            "id": "c14",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c17",
+            "hp": 1,
+            "maxHp": 3
+          },
+          {
+            "id": "c5",
+            "hp": 2,
+            "maxHp": 4
+          },
+          {
+            "id": "c7",
+            "hp": 1,
+            "maxHp": 3
+          },
+          {
+            "id": "c8",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c16",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c3",
+            "hp": 1,
+            "maxHp": 3
+          },
+          {
+            "id": "c2",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c13",
+            "hp": 4,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 2,
+        "kills": 3,
+        "companionLosses": 0,
+        "hpDamageDealt": 12,
+        "hpDamageTaken": 4,
+        "healing": 0,
+        "firstKillRound": 1,
+        "secondKillRound": 2,
+        "emptyRowAssignments": 1,
+        "node": "2-4-좌",
+        "act": 2,
+        "depth": 4,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 12,
+        "survivors": [
+          {
+            "id": "c11",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c14",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c3",
+            "hp": 1,
+            "maxHp": 3
+          },
+          {
+            "id": "c5",
+            "hp": 2,
+            "maxHp": 4
+          },
+          {
+            "id": "c7",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c8",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c16",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c18",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c2",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c13",
+            "hp": 4,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 3,
+        "kills": 3,
+        "companionLosses": 0,
+        "hpDamageDealt": 12,
+        "hpDamageTaken": 9,
+        "healing": 1,
+        "firstKillRound": 1,
+        "secondKillRound": 2,
+        "emptyRowAssignments": 3,
+        "node": "2-6-우",
+        "act": 2,
+        "depth": 6,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 3,
+        "survivors": [
+          {
+            "id": "c11",
+            "hp": 2,
+            "maxHp": 3
+          },
+          {
+            "id": "c21",
+            "hp": 3,
+            "maxHp": 4
+          },
+          {
+            "id": "c19",
+            "hp": 1,
+            "maxHp": 3
+          },
+          {
+            "id": "c8",
+            "hp": 2,
+            "maxHp": 4
+          },
+          {
+            "id": "c7",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c5",
+            "hp": 2,
+            "maxHp": 4
+          },
+          {
+            "id": "c16",
+            "hp": 1,
+            "maxHp": 3
+          },
+          {
+            "id": "c18",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c2",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c13",
+            "hp": 4,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 4,
+        "kills": 3,
+        "companionLosses": 3,
+        "hpDamageDealt": 14,
+        "hpDamageTaken": 11,
+        "healing": 2,
+        "firstKillRound": 2,
+        "secondKillRound": 2,
+        "emptyRowAssignments": 2,
+        "node": "2-8-우",
+        "act": 2,
+        "depth": 8,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 6,
+        "survivors": [
+          {
+            "id": "c22",
+            "hp": 1,
+            "maxHp": 3
+          },
+          {
+            "id": "c13",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c8",
+            "hp": 3,
+            "maxHp": 4
+          },
+          {
+            "id": "c5",
+            "hp": 2,
+            "maxHp": 4
+          },
+          {
+            "id": "c21",
+            "hp": 3,
+            "maxHp": 4
+          },
+          {
+            "id": "c11",
+            "hp": 2,
+            "maxHp": 3
+          },
+          {
+            "id": "c18",
+            "hp": 4,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 2,
+        "kills": 3,
+        "companionLosses": 0,
+        "hpDamageDealt": 12,
+        "hpDamageTaken": 2,
+        "healing": 0,
+        "firstKillRound": 1,
+        "secondKillRound": 1,
+        "emptyRowAssignments": 1,
+        "node": "2-11-좌",
+        "act": 2,
+        "depth": 11,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 9,
+        "survivors": [
+          {
+            "id": "c13",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c22",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c8",
+            "hp": 2,
+            "maxHp": 4
+          },
+          {
+            "id": "c23",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c5",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c21",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c11",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c18",
+            "hp": 4,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 5,
+        "kills": 3,
+        "companionLosses": 1,
+        "hpDamageDealt": 18,
+        "hpDamageTaken": 12,
+        "healing": 0,
+        "firstKillRound": 1,
+        "secondKillRound": 3,
+        "emptyRowAssignments": 5,
+        "node": "2-13-중",
+        "act": 2,
+        "depth": 13,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 12,
+        "survivors": [
+          {
+            "id": "c13",
+            "hp": 2,
+            "maxHp": 4
+          },
+          {
+            "id": "c22",
+            "hp": 1,
+            "maxHp": 3
+          },
+          {
+            "id": "c8",
+            "hp": 3,
+            "maxHp": 4
+          },
+          {
+            "id": "c23",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c21",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c24",
+            "hp": 3,
+            "maxHp": 6
+          },
+          {
+            "id": "c18",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c11",
+            "hp": 3,
+            "maxHp": 3
+          }
+        ]
+      },
+      {
+        "rounds": 1,
+        "kills": 0,
+        "companionLosses": 0,
+        "hpDamageDealt": 0,
+        "hpDamageTaken": 0,
+        "healing": 0,
+        "firstKillRound": null,
+        "secondKillRound": null,
+        "emptyRowAssignments": 0,
+        "node": "2-15-중",
+        "act": 2,
+        "depth": 15,
+        "kind": "elite",
+        "outcome": "escape",
+        "coins": 12,
+        "survivors": [
+          {
+            "id": "c18",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c24",
+            "hp": 3,
+            "maxHp": 6
+          },
+          {
+            "id": "c21",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c8",
+            "hp": 3,
+            "maxHp": 4
+          },
+          {
+            "id": "c23",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c25",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c11",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c13",
+            "hp": 2,
+            "maxHp": 4
+          },
+          {
+            "id": "c22",
+            "hp": 1,
+            "maxHp": 3
+          }
+        ]
+      },
+      {
+        "rounds": 3,
+        "kills": 1,
+        "companionLosses": 6,
+        "hpDamageDealt": 16,
+        "hpDamageTaken": 25,
+        "healing": 0,
+        "firstKillRound": 3,
+        "secondKillRound": null,
+        "emptyRowAssignments": 0,
+        "node": "2-18-공통",
+        "act": 2,
+        "depth": 18,
+        "kind": "boss",
+        "outcome": "win",
+        "coins": 9,
+        "survivors": [
+          {
+            "id": "c11",
+            "hp": 3,
+            "maxHp": 3
+          },
+          {
+            "id": "c23",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c25",
+            "hp": 4,
+            "maxHp": 4
+          },
+          {
+            "id": "c26",
+            "hp": 4,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 5,
+        "kills": 3,
+        "companionLosses": 3,
+        "hpDamageDealt": 18,
+        "hpDamageTaken": 15,
+        "healing": 0,
+        "firstKillRound": 2,
+        "secondKillRound": 2,
+        "emptyRowAssignments": 5,
+        "node": "3-1-중",
+        "act": 3,
+        "depth": 1,
+        "kind": "normal",
+        "outcome": "win",
+        "coins": 12,
+        "survivors": [
+          {
+            "id": "c25",
+            "hp": 1,
+            "maxHp": 4
+          },
+          {
+            "id": "c26",
+            "hp": 2,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 3,
+        "kills": 0,
+        "companionLosses": 1,
+        "hpDamageDealt": 6,
+        "hpDamageTaken": 4,
+        "healing": 0,
+        "firstKillRound": null,
+        "secondKillRound": null,
+        "emptyRowAssignments": 0,
+        "node": "3-2-중",
+        "act": 3,
+        "depth": 2,
+        "kind": "normal",
+        "outcome": "escape",
+        "coins": 12,
+        "survivors": [
+          {
+            "id": "c25",
+            "hp": 1,
+            "maxHp": 4
+          },
+          {
+            "id": "c26",
+            "hp": 2,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 8,
+        "kills": 2,
+        "companionLosses": 1,
+        "hpDamageDealt": 16,
+        "hpDamageTaken": 7,
+        "healing": 0,
+        "firstKillRound": 4,
+        "secondKillRound": 4,
+        "emptyRowAssignments": 6,
+        "node": "3-4-우",
+        "act": 3,
+        "depth": 4,
+        "kind": "normal",
+        "outcome": "escape",
+        "coins": 14,
+        "survivors": [
+          {
+            "id": "c26",
+            "hp": 1,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 5,
+        "kills": 0,
+        "companionLosses": 2,
+        "hpDamageDealt": 4,
+        "hpDamageTaken": 9,
+        "healing": 1,
+        "firstKillRound": null,
+        "secondKillRound": null,
+        "emptyRowAssignments": 0,
+        "node": "3-6-중",
+        "act": 3,
+        "depth": 6,
+        "kind": "normal",
+        "outcome": "escape",
+        "coins": 2,
+        "survivors": [
+          {
+            "id": "c29",
+            "hp": 1,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 5,
+        "kills": 0,
+        "companionLosses": 0,
+        "hpDamageDealt": 2,
+        "hpDamageTaken": 0,
+        "healing": 0,
+        "firstKillRound": null,
+        "secondKillRound": null,
+        "emptyRowAssignments": 0,
+        "node": "3-8-우",
+        "act": 3,
+        "depth": 8,
+        "kind": "normal",
+        "outcome": "escape",
+        "coins": 2,
+        "survivors": [
+          {
+            "id": "c29",
+            "hp": 1,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 2,
+        "kills": 0,
+        "companionLosses": 0,
+        "hpDamageDealt": 0,
+        "hpDamageTaken": 0,
+        "healing": 0,
+        "firstKillRound": null,
+        "secondKillRound": null,
+        "emptyRowAssignments": 0,
+        "node": "3-11-중",
+        "act": 3,
+        "depth": 11,
+        "kind": "normal",
+        "outcome": "escape",
+        "coins": 2,
+        "survivors": [
+          {
+            "id": "c29",
+            "hp": 4,
+            "maxHp": 4
+          }
+        ]
+      },
+      {
+        "rounds": 3,
+        "kills": 0,
+        "companionLosses": 1,
+        "hpDamageDealt": 8,
+        "hpDamageTaken": 4,
+        "healing": 0,
+        "firstKillRound": null,
+        "secondKillRound": null,
+        "emptyRowAssignments": 0,
+        "node": "3-13-우",
+        "act": 3,
+        "depth": 13,
+        "kind": "normal",
+        "outcome": "loss",
+        "coins": 2,
+        "survivors": []
+      }
+    ],
+    "purchases": [
+      {
+        "act": 1,
+        "node": "1-5-중",
+        "depth": 5,
+        "slot": 4,
+        "type": "choir",
+        "price": 6,
+        "coins": 3
+      },
+      {
+        "act": 1,
+        "node": "1-17-중",
+        "depth": 17,
+        "slot": 6,
+        "type": "warPriest",
+        "price": 6,
+        "coins": 12
+      },
+      {
+        "act": 1,
+        "node": "1-17-중",
+        "depth": 17,
+        "slot": 7,
+        "type": "warPriest",
+        "price": 6,
+        "coins": 6
+      },
+      {
+        "act": 1,
+        "node": "1-17-중",
+        "depth": 17,
+        "slot": 3,
+        "type": "saint",
+        "price": 6,
+        "coins": 0
+      },
+      {
+        "act": 2,
+        "node": "2-5-중",
+        "depth": 5,
+        "slot": 5,
+        "type": "paladin",
+        "price": 6,
+        "coins": 6
+      },
+      {
+        "act": 2,
+        "node": "2-5-중",
+        "depth": 5,
+        "slot": 4,
+        "type": "saint",
+        "price": 6,
+        "coins": 0
+      },
+      {
+        "act": 2,
+        "node": "2-17-중",
+        "depth": 17,
+        "slot": 1,
+        "type": "crusader",
+        "price": 6,
+        "coins": 6
+      },
+      {
+        "act": 3,
+        "node": "3-5-중",
+        "depth": 5,
+        "slot": 1,
+        "type": "warPriest",
+        "price": 6,
+        "coins": 8
+      },
+      {
+        "act": 3,
+        "node": "3-5-중",
+        "depth": 5,
+        "slot": 7,
+        "type": "saint",
+        "price": 6,
+        "coins": 2
+      }
+    ],
+    "acquired": [
+      {
+        "id": "c1",
+        "type": "paladin",
+        "source": "start",
+        "act": 1,
+        "node": null,
+        "position": 2
+      },
+      {
+        "id": "c2",
+        "type": "saint",
+        "source": "start",
+        "act": 1,
+        "node": null,
+        "position": 1
+      },
+      {
+        "id": "c3",
+        "type": "choir",
+        "source": "start",
+        "act": 1,
+        "node": null,
+        "position": 3
+      },
+      {
+        "id": "c4",
+        "type": "choir",
+        "source": "reward",
+        "act": 1,
+        "node": "1-1-중",
+        "position": 1
+      },
+      {
+        "id": "c5",
+        "type": "crusader",
+        "source": "reward",
+        "act": 1,
+        "node": "1-2-중",
+        "position": 1
+      },
+      {
+        "id": "c6",
+        "type": "holyPriest",
+        "source": "reward",
+        "act": 1,
+        "node": "1-4-우",
+        "position": 1
+      },
+      {
+        "id": "c7",
+        "type": "choir",
+        "source": "shop",
+        "act": 1,
+        "node": "1-5-중",
+        "position": 2
+      },
+      {
+        "id": "c8",
+        "type": "crusader",
+        "source": "reward",
+        "act": 1,
+        "node": "1-6-우",
+        "position": 1
+      },
+      {
+        "id": "c9",
+        "type": "saint",
+        "source": "reward",
+        "act": 1,
+        "node": "1-8-중",
+        "position": 1
+      },
+      {
+        "id": "c10",
+        "type": "squire",
+        "source": "reward",
+        "act": 1,
+        "node": "1-11-중",
+        "position": 1
+      },
+      {
+        "id": "c11",
+        "type": "holyPriest",
+        "source": "reward",
+        "act": 1,
+        "node": "1-13-중",
+        "position": 2
+      },
+      {
+        "id": "c12",
+        "type": "choir",
+        "source": "reward",
+        "act": 1,
+        "node": "1-15-중",
+        "position": 1
+      },
+      {
+        "id": "c13",
+        "type": "warPriest",
+        "source": "shop",
+        "act": 1,
+        "node": "1-17-중",
+        "position": 10
+      },
+      {
+        "id": "c14",
+        "type": "warPriest",
+        "source": "shop",
+        "act": 1,
+        "node": "1-17-중",
+        "position": 1
+      },
+      {
+        "id": "c15",
+        "type": "saint",
+        "source": "shop",
+        "act": 1,
+        "node": "1-17-중",
+        "position": 8
+      },
+      {
+        "id": "c16",
+        "type": "choir",
+        "source": "reward",
+        "act": 1,
+        "node": "1-18-공통",
+        "position": 2
+      },
+      {
+        "id": "c17",
+        "type": "choir",
+        "source": "reward",
+        "act": 2,
+        "node": "2-1-좌",
+        "position": 3
+      },
+      {
+        "id": "c18",
+        "type": "warPriest",
+        "source": "reward",
+        "act": 2,
+        "node": "2-2-중",
+        "position": 3
+      },
+      {
+        "id": "c19",
+        "type": "choir",
+        "source": "reward",
+        "act": 2,
+        "node": "2-4-좌",
+        "position": 3
+      },
+      {
+        "id": "c20",
+        "type": "paladin",
+        "source": "shop",
+        "act": 2,
+        "node": "2-5-중",
+        "position": 2
+      },
+      {
+        "id": "c21",
+        "type": "saint",
+        "source": "shop",
+        "act": 2,
+        "node": "2-5-중",
+        "position": 2
+      },
+      {
+        "id": "c22",
+        "type": "holyPriest",
+        "source": "reward",
+        "act": 2,
+        "node": "2-6-우",
+        "position": 3
+      },
+      {
+        "id": "c23",
+        "type": "crusader",
+        "source": "reward",
+        "act": 2,
+        "node": "2-8-우",
+        "position": 3
+      },
+      {
+        "id": "c24",
+        "type": "paladin",
+        "source": "reward",
+        "act": 2,
+        "node": "2-11-좌",
+        "position": 1
+      },
+      {
+        "id": "c25",
+        "type": "warPriest",
+        "source": "reward",
+        "act": 2,
+        "node": "2-13-중",
+        "position": 1
+      },
+      {
+        "id": "c26",
+        "type": "crusader",
+        "source": "shop",
+        "act": 2,
+        "node": "2-17-중",
+        "position": 1
+      },
+      {
+        "id": "c27",
+        "type": "choir",
+        "source": "reward",
+        "act": 2,
+        "node": "2-18-공통",
+        "position": 2
+      },
+      {
+        "id": "c28",
+        "type": "crusader",
+        "source": "reward",
+        "act": 3,
+        "node": "3-1-중",
+        "position": 1
+      },
+      {
+        "id": "c29",
+        "type": "warPriest",
+        "source": "shop",
+        "act": 3,
+        "node": "3-5-중",
+        "position": 1
+      },
+      {
+        "id": "c30",
+        "type": "saint",
+        "source": "shop",
+        "act": 3,
+        "node": "3-5-중",
+        "position": 2
+      }
+    ],
+    "losses": [
+      {
+        "id": "c9",
+        "type": "saint",
+        "act": 1,
+        "node": "1-13-중",
+        "position": 2,
+        "cause": "replacement"
+      },
+      {
+        "id": "c6",
+        "type": "holyPriest",
+        "act": 1,
+        "node": "1-15-중",
+        "round": 1,
+        "position": 1,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c10",
+        "type": "squire",
+        "act": 1,
+        "node": "1-17-중",
+        "position": 10,
+        "cause": "replacement"
+      },
+      {
+        "id": "c12",
+        "type": "choir",
+        "act": 1,
+        "node": "1-17-중",
+        "position": 1,
+        "cause": "replacement"
+      },
+      {
+        "id": "c1",
+        "type": "paladin",
+        "act": 1,
+        "node": "1-17-중",
+        "position": 8,
+        "cause": "replacement"
+      },
+      {
+        "id": "c15",
+        "type": "saint",
+        "act": 1,
+        "node": "1-18-공통",
+        "position": 2,
+        "cause": "replacement"
+      },
+      {
+        "id": "c4",
+        "type": "choir",
+        "act": 2,
+        "node": "2-1-좌",
+        "position": 3,
+        "cause": "replacement"
+      },
+      {
+        "id": "c17",
+        "type": "choir",
+        "act": 2,
+        "node": "2-2-중",
+        "position": 3,
+        "cause": "replacement"
+      },
+      {
+        "id": "c3",
+        "type": "choir",
+        "act": 2,
+        "node": "2-4-좌",
+        "position": 3,
+        "cause": "replacement"
+      },
+      {
+        "id": "c14",
+        "type": "warPriest",
+        "act": 2,
+        "node": "2-5-중",
+        "position": 2,
+        "cause": "replacement"
+      },
+      {
+        "id": "c20",
+        "type": "paladin",
+        "act": 2,
+        "node": "2-5-중",
+        "position": 2,
+        "cause": "replacement"
+      },
+      {
+        "id": "c19",
+        "type": "choir",
+        "act": 2,
+        "node": "2-6-우",
+        "position": 3,
+        "cause": "replacement"
+      },
+      {
+        "id": "c7",
+        "type": "choir",
+        "act": 2,
+        "node": "2-8-우",
+        "round": 1,
+        "position": 5,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c16",
+        "type": "choir",
+        "act": 2,
+        "node": "2-8-우",
+        "round": 2,
+        "position": 7,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c2",
+        "type": "saint",
+        "act": 2,
+        "node": "2-8-우",
+        "round": 3,
+        "position": 3,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c5",
+        "type": "crusader",
+        "act": 2,
+        "node": "2-13-중",
+        "round": 2,
+        "position": 6,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c8",
+        "type": "crusader",
+        "act": 2,
+        "node": "2-18-공통",
+        "round": 1,
+        "position": 5,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c22",
+        "type": "holyPriest",
+        "act": 2,
+        "node": "2-18-공통",
+        "round": 1,
+        "position": 9,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c24",
+        "type": "paladin",
+        "act": 2,
+        "node": "2-18-공통",
+        "round": 1,
+        "position": 3,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c21",
+        "type": "saint",
+        "act": 2,
+        "node": "2-18-공통",
+        "round": 2,
+        "position": 4,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c13",
+        "type": "warPriest",
+        "act": 2,
+        "node": "2-18-공통",
+        "round": 3,
+        "position": 10,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c18",
+        "type": "warPriest",
+        "act": 2,
+        "node": "2-18-공통",
+        "round": 3,
+        "position": 2,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c23",
+        "type": "crusader",
+        "act": 3,
+        "node": "3-1-중",
+        "round": 1,
+        "position": 6,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c27",
+        "type": "choir",
+        "act": 3,
+        "node": "3-1-중",
+        "round": 3,
+        "position": 5,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c11",
+        "type": "holyPriest",
+        "act": 3,
+        "node": "3-1-중",
+        "round": 4,
+        "position": 7,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c28",
+        "type": "crusader",
+        "act": 3,
+        "node": "3-2-중",
+        "round": 2,
+        "position": 4,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c25",
+        "type": "warPriest",
+        "act": 3,
+        "node": "3-4-우",
+        "round": 7,
+        "position": 5,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c30",
+        "type": "saint",
+        "act": 3,
+        "node": "3-6-중",
+        "round": 2,
+        "position": 5,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c26",
+        "type": "crusader",
+        "act": 3,
+        "node": "3-6-중",
+        "round": 2,
+        "position": 6,
+        "cause": "counterattack"
+      },
+      {
+        "id": "c29",
+        "type": "warPriest",
+        "act": 3,
+        "node": "3-13-우",
+        "round": 3,
+        "position": 6,
+        "cause": "counterattack"
+      }
+    ],
+    "fusions": [],
+    "upgrades": [
+      {
+        "act": 1,
+        "node": "1-7-우",
+        "id": "c8",
+        "type": "crusader",
+        "hp": 4,
+        "maxHpBefore": 4,
+        "maxHpAfter": 4,
+        "part": "A"
+      },
+      {
+        "act": 1,
+        "node": "1-10-우",
+        "id": "c5",
+        "type": "crusader",
+        "hp": 4,
+        "maxHpBefore": 4,
+        "maxHpAfter": 4,
+        "part": "A"
+      },
+      {
+        "act": 1,
+        "node": "1-14-좌",
+        "id": "c7",
+        "type": "choir",
+        "hp": 3,
+        "maxHpBefore": 3,
+        "maxHpAfter": 3,
+        "part": "A"
+      },
+      {
+        "act": 2,
+        "node": "2-7-우",
+        "id": "c21",
+        "type": "saint",
+        "hp": 3,
+        "maxHpBefore": 4,
+        "maxHpAfter": 4,
+        "part": "A"
+      },
+      {
+        "act": 2,
+        "node": "2-10-중",
+        "id": "c23",
+        "type": "crusader",
+        "hp": 4,
+        "maxHpBefore": 4,
+        "maxHpAfter": 4,
+        "part": "A"
+      },
+      {
+        "act": 2,
+        "node": "2-14-중",
+        "id": "c25",
+        "type": "warPriest",
+        "hp": 4,
+        "maxHpBefore": 4,
+        "maxHpAfter": 4,
+        "part": "A"
+      },
+      {
+        "act": 3,
+        "node": "3-7-우",
+        "id": "c29",
+        "type": "warPriest",
+        "hp": 1,
+        "maxHpBefore": 4,
+        "maxHpAfter": 4,
+        "part": "A"
+      }
+    ]
+  }
+}
