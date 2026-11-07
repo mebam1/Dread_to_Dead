@@ -1,8 +1,8 @@
 # Dread-to-Dead: Fears Go Round — 아트 및 표현 원칙
 
-> 2026-11-06 · 첫 화면은 **현재 막의 모험 지도**다. 호텔에서는 손님 행과 괴이 행에 종이 카드 열 장씩을 놓는다. [사용자 설정 5](mvps/mvp-config-user-5.md)의 화면과 [텍스트 설정 17](mvps/mvp-config-17.md)의 판정을 함께 따른다.
+> 그래픽 MVP 5의 호텔 화면·아트 기록(2026-11-06, 텍스트 설정 17). 현재 텍스트 MVP 21의 전장과 판정은 [핵심 규칙](rules.md), 이를 화면에 옮기는 설계는 [그래픽 MVP 8 제작 명세](mvps/mvp-config-user-8.md)에 있다.
 
-아래 **모험 지도**와 **종이 카드로 펼친 호텔**은 현재 제작 기준이다. 화면별 조작과 전환은 [모험 UI](ui/adventure.md), [준비 UI](ui/prepare.md), [전투 UI](ui/battle.md)를 따른다. 판정과 명칭은 [공식 룰](rules.md)과 [용어집](terms.md)에서 확인한다.
+아래 모험 지도와 종이 카드 호텔은 당시의 시각 기준을 보존한다. 당시 화면의 조작과 전환은 [모험 UI](ui/adventure.md), [준비 UI](ui/prepare.md), [전투 UI](ui/battle.md)에 있다.
 
 ## 모험 지도
 

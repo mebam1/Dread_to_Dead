@@ -1,0 +1,13 @@
+{
+  "name": "dread-to-dead-user-7",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test ../mvp_text_20/engine.test.mjs server.test.mjs",
+    "test:browser": "node browser-smoke.mjs"
+  }
+}

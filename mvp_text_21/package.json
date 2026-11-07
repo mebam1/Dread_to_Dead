@@ -1,0 +1,12 @@
+{
+  "name": "dread-to-dead-text-21",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node cli.mjs play",
+    "test": "node --test",
+    "verify:balance": "node verify-balance.mjs"
+  },
+  "engines": {"node": ">=22"}
+}
